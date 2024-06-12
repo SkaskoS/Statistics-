@@ -1,0 +1,170 @@
+---
+title: "SKS104_MIDTERM2"
+author: "Skasko_Stephen"
+date: "11/15/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+data <- read.csv("amazon.csv")
+data
+```
+1.
+
+```{r}
+# a) Roots are greater than 1, which does make it stationary. 
+coefficients_a <- c(1, -1.2, 0.85)
+roots_a <- polyroot(coefficients_a)
+roots_a
+
+# b) Roots are looking like they are greater than 1, which also makes it stationary but is a bit inconclusive based on the 0s in the output.  
+coefficients_b <- c(1, -11/6, 1, -1/6)
+roots_b <- polyroot(coefficients_b)
+roots_b
+
+# c) Like b, there is uncertainty but one root is above 1, which implies potential for invertibility issues or not able to do invertible for this equation. 
+coefficients_c <- c(1, -15/4, 0, 1/4)
+roots_c <- polyroot(coefficients_c)
+roots_c
+
+# d) The roots show greater than 1, which implies stationary and potential for invertibility. 
+coefficients_d <- c(1, -0.8, 0.15)
+roots_d <- polyroot(coefficients_d)
+
+coefficients_i_d <- c(1, 0.3)
+roots_i_d <- polyroot(coefficients_i_d)
+
+roots_d
+roots_i_d
+
+
+
+
+```
+
+2.
+```{r}
+library(forecast)
+
+# a)
+set.seed(1000)
+
+n <- 500
+Wt <- rnorm(n, mean = 0, sd = sqrt(4))
+Xt <- numeric(n)
+
+for (t in 3:n) {
+  Xt[t] <- 1.2 * Xt[t-1] - 0.85 * Xt[t-2] + Wt[t]
+}
+
+plot(Xt, type = "l", col = "blue", xlab = "Time", ylab = "Xt", main = "Simulated Time Series")
+
+# b) The sample ACF plot shows a quick up-and-down pattern, suggesting a dynamic time series with decreasing impact from past observations. The sample PACF plot indicates a strong influence from the first lag and a potential need for more complex modeling. The theoretical ACF plot has a gradual trend, hinting at decreasing influence over time. The theoretical PACF plot supports the sample PACF findings with similar functionality of the plot at the first two lags and consistent ones afterwards. 
+acf_ARMA11 <- ARMAacf(ar = c(1.2, -0.85), lag.max = 20)
+pacf_ARMA11 <- ARMAacf(ar = c(1.2, -0.85), lag.max = 20, pacf = TRUE)
+
+sample_acf_ARMA11 <- acf(Xt, lag.max = 20, plot = FALSE)
+sample_pacf_ARMA11 <- pacf(Xt, lag.max = 20, plot = FALSE)
+
+par(mfrow = c(2, 2))
+
+# Create sample ACF plot
+plot(sample_acf_ARMA11, main = "Sample ACF")
+
+plot(1:20, acf_ARMA11[-1], type = "b",  main = "Theoretical ACF")
+
+# Create sample PACF plot
+plot(sample_pacf_ARMA11, main = "Sample PACF")
+plot(1:20, pacf_ARMA11, type = "b", main = "Theoretical PACF")
+
+
+```
+
+3.
+```{r}
+# a)
+phi <- 0.5
+theta <- -0.3
+
+ma_coefs <- ARMAtoMA(ar = phi, ma = theta, lag.max = 25)
+ma_coefs
+
+# b) The shape of the plot shows a decay in coefficients rapidly and consistence with a consistent points at 0.0. Overall, the consistent and decreasing points could indicate a stationary process based on the observations. 
+
+plot(1:25, ma_coefs, pch = 19,type = "b",  xlab = "Lag", ylab = "MA Coefficients", main = "MA Coefficients vs Lags")
+abline(h = 0, col = "red", lty = 2)
+```
+
+
+4.
+```{r, echo = TRUE}
+# (a) 
+data <- read.csv("amazon.csv")
+sales_ts <- ts(data$Sales, start = c(data$Year[1], data$Quarter[1]), frequency = 4)
+
+# (b) 
+plot(sales_ts, type = "o", xlab = "Year", ylab = "Quarterly Amazon Sales", main = "Time Series Plot")
+
+# (c) The model appears to provide a close fit qdto the original data, with fitted values closely resembling the observed values with a few exceptions. 
+
+time <- 1:length(sales_ts)
+model <- lm(log(sales_ts) ~ time + as.factor(data$Quarter))
+summary(model)
+fitted_values <- exp(predict(model))
+plot(time, sales_ts, type = "o", xlab = "Year", ylab = "Quarterly Amazon Sales", main = "Fitted Values vs Observed Values")
+lines(time, fitted_values, col = "red")
+
+# (d) 
+rsquared <- summary(model)$r.squared
+aic <- AIC(model)
+bic <- BIC(model)
+cat("R-squared:", rsquared, "\nAIC:", aic, "\nBIC:", bic, "\n")
+
+# (e) The Ljung-Box test result (p-value = 2.049e-13) suggests that there is strong evidence of patterns or dependencies remaining in the model's errors or residuals. The first plot shows no trend in the model with random fluctuations over time. The second plot shows a large first 4 lags with a slow decay then starts to move towards 0 consistently. Plot 3 shows a normal distribution but with data anomalies at 5 and 1. Also, it is slightly skewed left. 
+residuals_check <- checkresiduals(model, test = "LB", LjungBox = TRUE)
+residuals_check
+
+# (f) 
+library(tseries)
+
+adf_test <- adf.test(residuals(model))
+cat("ADF Test p-value:", adf_test$p.value, "\n")
+
+# (g) The plot shows a large lag at 1 then a large drop with consistency overtime around 0, which can indicate a potential for non-stationary. 
+pacf_res <- pacf(residuals(model))
+plot(pacf_res, main = "Partial Autocorrelation Function for Residuals")
+
+# h) Sure, same model. 
+library(forecast)
+
+residuals_model <- residuals(model)
+auto.arima(residuals_model)
+#wont work after 7 horus sorry
+#armasubsets(residuals_model, nar = 2, nma = 2)
+
+# (i)
+arma_model <- arima(residuals(model), order = c(1, 0, 1))
+checkresiduals(arma_model)
+
+# (j) The model fits quite well with the model with some anomalies. 
+fitted_lm <- exp(predict(model))
+fitted_arma <- fitted(arma_model)
+plot(time, as.vector(sales_ts), type = "p", col = "blue", pch = 16, xlab = "Year", ylab = "Quarterly Amazon Sales", main = "Observed vs Fitted Values")
+lines(time, fitted_lm, col = "red", type = "l")
+lines(time, fitted_arma, col = "green", type = "l")
+legend("topright", legend = c("Observed", "Fitted (LM)", "Fitted (ARMA)"), col = c("blue", "red", "green"), lty = 1)
+
+# (k) Yes, very similar. 
+future_time <- max(time) + 1:2
+lm_future_data <- data.frame(time = future_time, Quarter = rep(1:4, times = 2))
+#lm_forecast <- exp(predict(model, newdata = lm_future_data))
+future_data <- data.frame(Quarter = rep(1:4, times = 2), Year = rep(max(data$Year) + 1, each = 4))
+future_predictors <- data.frame(time = rep(future_time, each = 4), Quarter = rep(1:4, times = 2))
+arma_forecast <- forecast(arma_model, h = 2)
+arma_forecast
+
+```
+
+
