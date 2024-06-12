@@ -1,0 +1,137 @@
+---
+title: "HW2_SKS104"
+author: "Skasko_Stephen"
+date: "10/3/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+library(readxl)
+library(plotly)
+library(fpp)
+library(astsa)
+library(latex2exp)
+library(ggplot2)
+library(forecast)
+library(Ecdat)
+library(TSstudio)
+library(stats)
+
+```
+
+#3
+
+```{r}
+set.seed(1000)
+
+# c) 
+n = 100
+wt = rnorm(n, 0, 1)
+
+x_t = numeric(n)
+for (i in 3:n) {
+  x_t[i] = wt[i-1] + 2*wt[i] + wt[i+1]
+}
+
+# b) 
+plot(x_t, type = "l", xlab = "Time/Date", ylab = "x_t", main = "Simulated Time Series")
+
+
+# d) 
+acf = acf(wt)
+acf
+plot(acf)
+
+```
+
+#4
+
+```{r}
+wine_sales = read.csv("wine_sales.csv")
+data(wine_sales)
+
+# a)
+timeserie_wine = ts(wine_sales$X7006, start = 1985, frequency = 12)
+timeserie_wine
+
+# b)
+b = ts_plot(timeserie_wine, line.mode = 'lines' , Xtitle = "Time", Ytitle = "Wine Sales", title= "Wine Sales Time Series Plot", slider = T)
+b
+
+# c)
+c = ma(timeserie_wine, order = 12, centre=TRUE)
+c
+
+
+# d)
+
+
+detrend_sales = timeserie_wine - c
+
+matrix_wine_add = t(matrix(data = detrend_sales, nrow = 12))
+seasonal_wine_add = colMeans(matrix_wine_add, na.rm = T)
+
+deseasonalize_sales = timeserie_wine - c - seasonal_wine_add
+
+# e)
+recomposed_wine_add = timeserie_wine + c
+
+wine = data.frame(Production = as.matrix(timeserie_wine), date = time(timeserie_wine))
+fig_wine = plot_ly(x=wine$date, y=wine$Production, type='scatter', mode='lines+markers') 
+
+fig_add = fig_wine %>% add_lines(x=wine$date, y=recomposed_wine_add, name= "Recomposed Signal (Additive)", showlegend=T)
+fig_add
+
+
+```
+
+#5
+
+```{r}
+# a) 
+set.seed(1000)
+
+list = list()
+par(mfrow = c(3, 3))
+fig_list = list()
+
+for (i in 1:9) {
+  
+  w = rnorm(500,0, 1)
+  xt = cumsum(w)
+  
+  fig_rw2 = plot_ly(x = c(0:500), y = c(0, xt), type = "scatter", mode = "lines+markers") %>%
+    layout( xaxis = list(title = "t"),yaxis = list (title = "S<sub>t</sub>"))
+  
+  # putting the 9 plots into a list to fix error 'list' object cannot be coerced to type 'double'
+  list[i] = fig_rw2 
+}
+
+subplot(list, nrows = 3, titleY = TRUE)
+
+
+# b) 
+list_1 = list()
+for (i in 1:9) {
+  
+  w = rbinom(500,1,.5)*2-1
+  xt = cumsum(w)
+
+  
+  fig_rw2 = plot_ly(x = c(0:500), y = c(0, xt), type = "scatter", mode = "lines+markers") %>%
+    layout( xaxis = list(title = "t"),yaxis = list (title = "S<sub>t</sub>"))
+  
+  # putting the 9 plots into a list to fix error 'list' object cannot be coerced to type 'double'
+  list_1[i] = fig_rw2 
+}
+
+subplot(list_1, nrows = 3, titleY = TRUE)
+
+# c)
+
+# In the first 9 plots, there tends to be more smooth plots since there are no sudden jumps or fluctuations in them, or are very small. But, in plot #7 and #8, there seems to be strange behavior where it jumps once and back up. On the other hand, plot #1 and #4 tend to behave in a very smooth way without any sudden drops. With this, #4 jumps out as a particularly smooth graph. 
+
+# In the second 9 plots, there tends to be more fluctuations in the plots and have more abrupt behavior in them. There seems to be a distinct looking jump and behavior in plots #1 and #5. In both plots, they have a sudden big jump change in the middle and end, while slowly going back to a slight trend. With this, the plots #2 and #3 show a very smooth looking behavior with barely any jumps or changes. These two graphs seem to follow a strict trend even if it jumps slightly. Plot #3 seems to show the smoothest graph since its looks highly correlated with slight movement. 
+
+```

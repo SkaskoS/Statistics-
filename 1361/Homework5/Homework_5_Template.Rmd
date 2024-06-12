@@ -1,0 +1,413 @@
+---
+title: "1361_Homework_5_Template"
+author: "Skasko_Stephen"
+date: "2023-03-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## 1. WOrk through all three labs given at the end of Chapter 6 of the ISLR textbook. **You do not need to turn anything in for this.**
+
+## 2. 
+### ISLR Chapter 6 Conceptual Exercise 2 (10 pts)
+
+### (a)
+
+iii) is the correct answer since it is less flexible model that can improve prediction accuracy when it decreases in variance and increase in bias based on the size of the regression coefficients. 
+
+
+### (b)
+
+Option iii) since ridge regression variance decreases as bias increases when the coefficients are close to 0, making it less flexible over least squares. 
+
+
+### (c)
+
+Option i) since non-linear methods are generally more flexible than least squares, and tend to have more bias with less variance 
+
+
+### ISLR Chapter 6 Conceptual Exercise 3 (10 pts)
+### (a)
+
+iv Steadily decrease since it becomes more flexible to fit the data. 
+
+### (b)
+
+ii. Decrease initially, and then eventually start increasing in a
+U shape since it becomes more flexible again as the data begins to overfit. 
+
+### (c)
+
+iii. Steadily increase since the flexibility will begin to increase. 
+
+### (d)
+
+iv. Steadily decrease since with squared bias, the model will become more flexible to fit the data, causing the decrease. 
+
+### (e)
+
+v. Remain constant since the irreducible error is independent in the model so it won't change between any kind of constraint or constant.
+
+### ISLR Chapter 6 Conceptual Exercise 4 (10 pts)
+### (a)
+
+iii. Steadily increase since the model becomes less flexible.
+
+### (b)
+
+ii. Decrease initially, and then eventually start increasing in a
+U shape since the model will underfit with its prediction accuracy. 
+
+### (c)
+
+iv. Steadily decrease since it becomes less flexible as beta moves towards 0.
+
+### (d)
+
+iii. Steadily increase since it becomes less flexible as beta moves towards 0 again. 
+
+### (e)
+
+v. Remain constant since the irreducible error is independent in the model so it won't change between any kind of constraint or constant.
+
+
+## 3.
+
+### ISLR Chapter 6 Applied Exercise 9 (14 pts)
+### (a)
+```{r}
+library(ISLR)
+library(caret)
+
+data(College)
+
+set.seed(1)
+training <- createDataPartition(College$Apps, p = 0.7, list = FALSE)
+
+
+trainset <- College[training,]
+testset <- College[-training,]
+
+```
+
+### (b)
+```{r}
+model <- lm(Apps ~ ., data = trainset)
+
+pd <- predict(model, testset, type = "response")
+
+test_error <- mean((testset$Apps - pd)^2)
+test_error
+```
+
+
+
+### (c)
+```{r}
+library(glmnet)
+
+train.mat <- model.matrix(Apps ~ ., data = trainset)
+test.mat <- model.matrix(Apps ~ ., data = testset)
+
+
+grid = 10^seq(10, -2, length = 100)
+
+ridge <- glmnet(train.mat, trainset$Apps, alpha = 0, lambda=grid)
+ridge.lambda <- ridge$lambda.min
+ridge.fit <- glmnet(train.mat, trainset$Apps, alpha = 0, lambda = ridge.lambda)
+ridge.pred <- predict(ridge, ridge.lambda, newx = test.mat)
+ridge.test_error <- mean((ridge.pred-testset$Apps)^2)
+ridge.test_error
+```
+
+
+
+### (d)
+```{r}
+
+train.mat <- model.matrix(Apps ~ ., data = trainset)
+test.mat <- model.matrix(Apps ~ ., data = testset)
+
+
+grid = 10^seq(10, -2, length = 100)
+
+ridge <- glmnet(train.mat, trainset$Apps, alpha = 1, lambda=grid)
+ridge.fit <- glmnet(train.mat, trainset$Apps, alpha = 1, lambda = ridge.lambda)
+ridge.lambda <- ridge$lambda.min
+ridge.pred <- predict(ridge, ridge.lambda, newx = test.mat)
+ridge.test_error <- mean((ridge.pred- testset$Apps)^2)
+ridge.test_error
+```
+
+
+
+### (e)
+```{r}
+library(pls)
+
+set.seed(1)
+pcr.cv <-  pcr(Apps ~ ., data = trainset, scale = TRUE, validation = "CV")
+validationplot(pcr.cv,val.type = "MSEP")
+pcr.pred <- predict(pcr.cv, testset, ncomp = 17)
+pcr.test_error <- mean((testset$Apps - pcr.pred)^2)
+pcr.test_error
+```
+
+
+### (f)
+```{r}
+
+set.seed(1)
+pls.cv <-  plsr(Apps ~ ., data = trainset, scale = TRUE, validation = "CV")
+validationplot(pls.cv,val.type = "MSEP")
+pls.pred <- predict(pls.cv, testset, ncomp = 12)
+pls.test_error <- mean((testset$Apps - pls.pred)^2)
+pls.test_error
+
+
+```
+
+
+### (g)
+
+All models seem to be very similar except the ridge function.
+
+### ISLR Chapter 6 Applied Exercise 10 (14 pts)
+### (a)
+```{r}
+set.seed(1)
+
+n <- 1000
+p <- 20
+
+x <- matrix(rnorm(n*p), n)
+beta <- rep(0, p)
+beta[1:5] <- runif(5, 1, 5)
+
+eps <- rnorm(n, sd = 0.5)
+
+y <- x %*% beta + eps
+
+newData <- data.frame(y, x)
+
+```
+
+
+### (b)
+```{r}
+library(caret)
+
+trainingNew <- sample(n, 100)
+
+newTrainX <- x[trainingNew, ]
+newTrainY <- y[trainingNew, ]
+
+newTestX <- x[-trainingNew, ]
+newTestY <- y[-trainingNew, ]
+
+df <- data.frame(newTrainY, newTestX)
+```
+
+### (c)
+```{r}
+library(leaps)
+
+
+model <- regsubsets(newTrainY ~ ., data = df, nvmax = p)
+test.mat <- model.matrix(newTrainY ~ ., data = df)
+val.errors <- rep (NA, p)
+
+for (i in 1:p) {
+ coefi <- coef (model , id = i)
+ pred <- test.mat[, names (coefi)] %*% coefi
+ val.errors[i] <- mean ((pred - newTrainY)^2)
+}
+plot(1:p, val.errors, type = "b", xlab = "Number of predictors", ylab = "Training MSE")
+```
+
+
+
+### (d)
+
+```{r}
+model <- regsubsets(newTestY ~ ., data = df, nvmax = p)
+test.mat <- model.matrix(newTestY ~ ., data = df)
+val.errors <- rep (NA, p)
+
+for (i in 1:p) {
+ coefi <- coef (model , id = i)
+ pred <- test.mat[, names (coefi)] %*% coefi
+ val.errors[i] <- mean ((pred - newTestY)^2)
+}
+plot(1:p, val.errors, type = "b", xlab = "Number of predictors", ylab = "Training MSE")
+```
+
+
+### (e)
+
+```{r}
+which.min(val.errors)
+
+```
+
+### (f)
+```{r}
+coef (model , p)
+```
+
+
+### (g)
+```{r}
+val.errors <- rep (NA, p)
+for (i in 1:p) {
+ coefi <- coef (model , id = i)
+ pred <- test.mat[, names (coefi)] %*% coefi
+val.errors[i] <- sqrt(sum(beta[val.errors %in% names(coefi)] - coefi[names(coefi) %in% val.errors])^2) 
+
+}
+                      
+                      
+plot(val.errors, type = "b", xlab = "Number of predictors", ylab = "Training MSE")
+```
+It seems the graph is straighten with the number being at 0, so I am unsure if this is the correct graphing. It seems that d) has a higher and potentially has the same coefficients as it drops to 0 too. 
+
+
+## 4. (14 pts)
+
+**Please see Homework 5 PDF for question details**
+### (a)
+```{r}
+set.seed(1)
+n <- 100
+p <- 10
+x <- matrix(rnorm(n * p), n, p)
+beta <- c(rep(1,5), rep(0,5))
+eps <- rnorm(n, mean = 0, sd = 0.5) 
+Y <- x %*% beta + eps
+
+
+data <- data.frame(Y, x)
+```
+
+
+### (b)
+```{r}
+test <- 10000
+newTest <- matrix(rnorm(test * p), test, p)
+epsTest <- rnorm(test, mean = 0, sd = 0.5)
+Y <- newTest[,1:5] %*% rep(1, 5) + rnorm(test)
+
+Ytest <- newTest %*% beta + epsTest
+
+```
+
+
+### (c)
+```{r}
+library(glmnet)
+data_test <- data.frame(Y = Ytest, newTest)
+
+
+modelFit <- glmnet(as.matrix(data[, -1]), data$Y, alpha = 1)
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+
+
+```
+
+
+
+### (d)
+```{r}
+
+#var <- coef(data_test, s = data_test$lambda.min != 0))
+#modelFit <- lm(data$Y ~  data$x[, var], alpha = 1)
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+```
+
+
+
+### (e)
+```{r}
+test <- 1000
+newTest <- matrix(rnorm(test * p), test, p)
+epsTest <- rnorm(test, mean = 0, sd = 0.5)
+Y <- newTest[,1:5] %*% rep(1, 5) + rnorm(test)
+
+Ytest <- newTest %*% beta + epsTest
+
+library(glmnet)
+data_test <- data.frame(Y = Ytest, newTest)
+
+
+modelFit <- glmnet(as.matrix(data[, -1]), data$Y, alpha = 1)
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+
+
+ErrlassoAverage <- mean(Errlasso)
+ErrlassoAverage
+#ErrOLSAverage <- mean(ErrOLS)
+#ErrOLSAverage
+```
+
+
+### (f)
+```{r}
+test <- 1000
+newTest <- matrix(rnorm(test * p), test, p)
+epsTest <- rnorm(test, mean = 0, sd = 0.5)
+Y <- newTest[,1:5] %*% rep(1, 5) + rnorm(test)
+
+Ytest <- newTest %*% beta + epsTest
+
+library(glmnet)
+data_test <- data.frame(Y = Ytest, newTest)
+
+
+modelFit <- glmnet(as.matrix(data[, -1]), data$Y, alpha = 1)
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+
+lambda.min <- modelFit$lambda.min
+pred <- predict(modelFit, as.matrix(data_test[, -1]))
+lasso <- predict(modelFit, s = lambda.min, newx = newTest) 
+Errlasso <- mean(pred - data_test$Y^2)
+Errlasso
+
+
+ErrlassoAverage <- mean(Errlasso)
+ErrlassoAverage
+#ErrOLSAverage <- mean(ErrOLS)
+#ErrOLSAverage
+
+plot(test, Errlasso, type = "l", col = "blue", xlab = "sigma", ylab = "Mean Squared Error")
+
+```
+
+
+### (g)
+Although I was unable to produce a plot in enough time, I see that the error term may end up around the average point between -4 and -6.

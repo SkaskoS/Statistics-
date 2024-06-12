@@ -1,0 +1,223 @@
+---
+title: "1361_Homework_6"
+author: "Skasko_Stephen"
+date: "2023-03-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaps)
+library(ISLR)
+library(splines)
+library(ISLR2)
+library(ISLR)
+library(boot)
+library(gam)
+library(carat)
+
+
+Stephen
+
+nehpets
+```
+
+### 1. 
+
+Work through the labs given at the end of Chapter 7 of the ISLR textbook.**You do not need to turn anything in for this.**
+
+## 2. 
+### ISLR Chapter 7 Conceptual Exercise 5 (9 pts)
+
+### (a)
+
+g2 will have have a smaller training RSS 
+
+### (b)
+
+g1 will have have a smaller test RSS 
+
+### (c)
+
+g1 and g2 will have equal training and test RSS
+
+## 3.
+
+### ISLR Chapter 7 Applied Exercise 8 (10 pts)
+Yes there is plenty of evidence that there are many nonlinear lines in these groups. We can see on the plot below that there is a lot of curves in the data. We also see that the points are a little spread out compared to others. 
+```{r}
+
+attach(Auto)
+data(Auto)
+
+# Fit nonlinear models
+lm.fit <- lm(mpg ~ horsepower, data = Auto)
+quad.fit <- lm(mpg ~ horsepower + I(horsepower^2), data = Auto)
+log.fit <- lm(mpg ~ log(horsepower), data = Auto)
+exp.fit <- lm(mpg ~ exp(horsepower), data = Auto)
+spline.fit <- lm(mpg ~ bs(horsepower, df = 4), data = Auto)
+
+
+rse.lm <- sqrt(mean(lm.fit$residuals^2))
+rse.quad <- sqrt(mean(quad.fit$residuals^2))
+rse.log <- sqrt(mean(log.fit$residuals^2))
+rse.exp <- sqrt(mean(exp.fit$residuals^2))
+rse.spline <- sqrt(mean(spline.fit$residuals^2))
+
+
+plot(Auto$horsepower, Auto$mpg, pch = 20, xlab = "Horsepower", ylab = "MPG")
+lm_preds <- predict(lm.fit)
+lines(Auto$horsepower, lm_preds, col = "blue")
+quad_preds <- predict(quad.fit)
+lines(Auto$horsepower, quad_preds, col = "red")
+log_preds <- predict(log.fit)
+lines(Auto$horsepower, log_preds, col = "green")
+exp_preds <- predict(exp.fit)
+lines(Auto$horsepower, exp_preds, col = "purple")
+spline_preds <- predict(spline.fit)
+lines(Auto$horsepower, spline_preds, col = "orange")
+
+```
+
+
+
+### ISLR Chapter 7 Applied Exercise 9 (14 pts)
+
+
+### (a)
+
+```{r}
+data(Boston)
+
+attach(Boston)
+
+fit <- lm(nox ~ poly(dis, 3), data = Boston)
+summary(fit)
+
+
+
+
+```
+
+
+### (b)
+```{r}
+r <- rep(NA, 10)
+  rss <- rep(NA, length(r))
+
+for (i in 1:10) {
+  fit <- lm(nox ~ poly(dis, i), data = Boston)
+  rss[i] <- sum(fit$residuals ^ 2)
+
+}
+plot(1:10, rss, type = 'l', xlab = "Degree", ylab = "RSS")
+
+
+```
+
+
+### (c)
+Optimal value looks to be at 3.
+```{r}
+t <- rep(NA, 10)
+rss <- rep(NA, length(t))
+
+for (i in 1:10) {
+  fit <- glm(nox ~ poly(dis, i), data = Boston)
+  rss[i] <- cv.glm(Boston, fit, K = 20)$delta[1]
+}
+plot(1:10, rss, type = 'l', xlab = "Degree", ylab = "MSE")
+```
+
+
+### (d)
+Chosen by the basis in the regression spline in the graphing above. Also, we see a lot of non-normality as it deviates from the line in plot 2.
+```{r}
+fit.bs <- lm(nox ~ bs(dis, df = 4), data = Boston)
+summary(fit.bs)
+plot(fit.bs)
+
+
+
+```
+
+
+### (e)
+```{r}
+library(splines)
+
+df <- seq(3, 12, by = 1)
+
+rss <- rep(NA, length(df))
+
+for(i in 1:length(df)) {
+  fit <- lm(nox ~ bs(dis, df = df[i]), data = Boston)
+  rss[i] <- sum(fit$residuals^2)
+}
+
+plot(df, rss, type = "l", xlab = "DF", ylab = "RSS")
+```
+There seems to be a lot of knots and downfall in the graph. The optimal value is at 12 it seems.
+
+### (f)
+```{r}
+
+
+t <- rep(NA, 12)
+for (i in 3:12) {
+  fit <- glm(nox ~ bs(dis, i), data = Boston)
+  t[i] <- cv.glm(Boston, fit, K = 10)$delta[1]
+
+}
+plot(3:12, t[-c(1,2)], type = 'l', xlab = "Degree", ylab = "MSE")
+
+```
+It seems the results become jumpy and we have an optimal value at 5.
+
+### ISLR Chapter 7 Applied Exercise 10 (10 pts)
+
+
+### (a)
+```{r}
+
+set.seed(1)
+data(College)
+
+train <- sample(nrow(College), nrow(College) * 0.7)
+
+training <- College[train,]
+testing <- College[-train,]
+
+
+fit <- regsubsets(Outstate ~ ., data = training, nvmax = 17, method = "forward")
+fit.summary <- summary(fit)
+
+```
+
+
+### (b)
+We can see that there is an increasing slope in a few models like Room.Board, but at a slower rate. This means that the the increasing amount has higher tendency to cost. On the other hand, we see the model Expend increases at a dramatic rate compared to the rest meaning the Expend must have sky rocketed at a dramatic rate. Also, we can see that there are more in private to yes for the cost. 
+```{r}
+gam.fit <- gam(Outstate ~ Private + s(Room.Board) + s(PhD) + s(perc.alumni) + s(Expend) + s(Grad.Rate), data = training)
+summary(gam.fit)
+plot(gam.fit, pages = 1, all.terms = TRUE)
+
+```
+
+
+### (c)
+R^2 is 0.77, meaning 77% of the variability can be explained by the differences in the data. It is moderate to strong correlation.
+```{r}
+pred <- predict(gam.fit, newdata = testing)
+res <- sum((testing$Outstate - pred)^2)
+tot <- sum((testing$Outstate - mean(training$Outstate))^2)
+rsq <- 1 - (res / tot)
+rsq
+```
+
+
+### (d)
+This shows evidence of a non-linear relationship between Outstate and Expend, Grad.Rate, and PhD. 
+```{r}
+summary(gam.fit)
+```

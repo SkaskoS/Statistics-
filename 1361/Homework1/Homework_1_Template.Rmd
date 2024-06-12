@@ -1,0 +1,290 @@
+---
+title: "Homework_1"
+author: "Skasko_Stephen"
+date: '2023-01-27'
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages, include=FALSE}
+# Insert the packages you need here
+
+```
+
+## 1.
+* You do not need to turn anything in for this.
+
+## 2.
+
+### ISLR Chapter 2 Conceptual Exercise 1 (5 pts)
+
+### (a)
+
+Better and more flexible since the sample size is large and having a low number of predictors. Since this is true, its better than an inflexible method and will perform better. 
+
+### (b)
+
+Worse and less flexible/inflexible since the observations are small, along with a large number of predictors. This means it would also overfit the model and not perform well.
+
+### (c)
+
+Better and more flexible since since the relationship between the predictor and response is highly non-linear. This means the data would perform well and have more degrees of freedom. Measuring how much the predictions depend on the response values- relationship making it more flexible and being a jumpy model. 
+
+### (d)
+
+Worst and less flexible/inflexible since the var of error is usually non-constant and may increase with the value of the response and variance. This means the error terms would not perform well and overfit from high variance. 
+ 
+
+### ISLR Chapter 2 Conceptual Exercise 2 (5 pts)
+
+### (a)
+
+Regression problem based on the measurements of salary/wages/etc.Interested inference since we are measuring variables based on the relationship for the CEO. 
+n = 500 for total, # of firms in the data collected 
+p = 3 for profit, # of employees, and industry 
+
+### (b)
+
+Classification problem based on binary outcomes, which also tells us its a prediction problem. 
+n = 20 # of products 
+p = 13 for 10 other variables, price charged for product, marketing budget, and competition price. 
+
+### (c)
+
+Regression and prediction based on the weekly data and recording in the % of change in the markets. 
+n = 52 in # of weeks of a year
+p = 3 for the % change in the US market, the % change in the British market, and the % change in the German market
+
+### ISLR Chapter 2 Conceptual Exercise 5 (5 pts)
+
+## 3. (5 pts)
+
+Regression or Classification: 
+
+Very flexible advantages: with enough data-predictors can be very accurate and it decreases the bias, fit data well, low MSE
+
+less flexible disadvantages: requires significant amount of data, limited ability to do inference, computing f estimate may be expensive, overfitting and increase variance, harder to understand scientifically 
+
+More flexible would be better with more data or has non-linearity, while  inflexible would be better with less data with few variables or has linear patterns.
+
+## 4.
+
+
+(a) 
+
+Regression -> Classification - Change the response variable from continuous to categorical
+
+We could take the CEO salary and putting the salary into certain categories like $0-10,000, $10000-50000, $50000-10000, etc. 
+
+(b)
+
+Classification -> Regression - Change the response variable from categorical to continuous
+
+We could change the success/failure into a product of its amount in profit. 
+
+(c)
+ 
+Regression -> Classification - Change the response variable from continuous to categorical
+
+We could change the % change of the weekly exchange rate into categories like putting into 0-10%, 10-20%, 20-30%, 30-40%, etc.
+
+### ISLR Chapter 2 Applied Exercise 8 (10 pts)
+
+### (a)
+
+```{r}
+college <- read.csv("College.csv")
+```
+
+### (b)
+```{r}
+rownames(college) <- college[, 1]
+View(college)
+
+college <- college[, -1]
+View(college)
+```
+
+
+### (c)
+```{r}
+summary(college)
+college$Private <- as.factor(college$Private) #quantitative response is only private so change this variable
+pairs(college[, 1:10])
+
+plot(Outstate ~ Private, data = college, xlab = "Private Colleges", ylab = "Out-of-State Tuition")
+
+
+Elite <- rep ("No", nrow(college))
+Elite[college$Top10perc > 50] <- " Yes "
+Elite <- as.factor(Elite)
+college <- data.frame(college , Elite)
+
+summary(Elite)
+
+plot(Outstate ~ Elite, data = college, xlab = "Elite Colleges", ylab = "Out-of-State Tuition")
+
+par(mfrow = c(2, 2))
+
+hist(college$Grad.Rate, main = "Average College Graduation Rate", xlab = "Average Amount of students Graduating")
+hist(college$PhD, main = "Average Amount of College faculty PhD's", xlab = "Amount of faculty PhD's")
+hist(college$Books, main = "Average Cost of College Books", xlab = "Cost")
+hist(college$Room.Board, main = "Average Cost of College Room & Board", xlab = "Cost")
+
+```
+
+Exploting more
+```{r}
+par(mfrow = c(2, 2))
+
+plot(college$Top10perc ~ college$Elite, main ="Elite Vs Private College", xlab="Elite College", ylab = "Top10%of HS students")
+plot(college$Top25perc ~ college$Elite,  main ="Elite Vs Private College", xlab="Elite College", ylab = "Top25%of HS students")
+
+plot(college$Grad.Rate ~ college$Elite, main ="Elite Vs Private College", xlab="Elite College", ylab = "Graduated")
+plot(college$Grad.Rate ~ college$Private, main ="Elite Vs Private College", xlab="Private College", ylab = "Graduated")
+
+```
+
+Brief Summary:
+
+After exploring the data, we found out that there are both positives and negatives in attending a Private or Elite college. In the box plots above, we can see that most top 10% of high school students tend to attend elite colleges but a low percentage tend to not accept for various reasons we don't know. Another factor was finding out how top 25% of high schools students and their attendance rate towards elite college, and we found out that they tend to increasingly accept into elite colleges compared to their counterparts at 10% of high school students. Additionally, we found out that the graduation rate at elite colleges tend to be high than those at private colleges but their are many outliers to this exception.  
+
+
+### ISLR Chapter 2 Applied Exercise 9 (10 pts)
+
+### (a)
+Quantitative: mpg, cylinders, displacement, horsepower, weight, acceleration, year
+Qualitative: origin, name
+```{r}
+library(ISLR)
+#na.string gets rid of unwanted 'strings' like ? in this data 
+auto <- read.csv("Auto.csv", na.strings = "?") 
+
+auto <- na.omit(auto)
+
+
+```
+
+### (b) ask about 
+```{r}
+sapply(auto[, 1:7], range)
+
+```
+### (c)
+```{r}
+
+sapply(auto[, 1:7], mean)
+sapply(auto[, 1:7], sd)
+
+
+```
+### (d)
+```{r}
+set <- auto[-c(10:85), c(1:7)]
+sapply(set, range)
+sapply(set, mean)
+sapply(set, sd)
+
+
+
+```
+
+
+### (e)
+It seems that more weight means that we have less mpg, more cylinders equals less mpg, more horsepower equals to less mpg, and it seems cars mpg has become more efficient over the years, espcially in the 80's. 
+```{r}
+plot(mpg ~ weight, data = auto)
+plot(mpg ~ cylinders, data = auto)
+plot(mpg ~ horsepower, data = auto)
+plot(mpg ~ year, data = auto)
+
+
+```
+
+### (f)
+
+Yes, since we can see that a lot of the predictor variables shown give us a relationships that we could trust, especially year. But some may not based so we should be careful of overfitting a model. For example, mpg has a strong, linear relationship with horsepower and weight.  
+
+### ISLR Chapter 2 Applied Exercise 10 (10 pts)
+
+### (a)
+"A data frame with 506 rows and 13 variables."
+506 rows + 13 columns
+"A data set containing housing values in 506 suburbs of Boston."
+```{r}
+library(ISLR2)
+Boston
+?Boston
+
+dim(Boston)
+```
+
+### (b)
+```{r}
+pairs(Boston)
+
+
+par(mfrow = c(2, 2))
+plot(Boston$crim, Boston$medv, data = Boston, xlab = "per capita crime rate by town", ylab ="median value of homes")
+
+plot(Boston$rm, Boston$medv, data = Boston, xlab = "average number of rooms per dwelling", ylab ="median value of homes")
+
+plot(Boston$crim, Boston$age, data = Boston, xlab = "per capita crime rate by town", ylab ="units built prior to 1940")
+
+plot(Boston$lstat, Boston$medv, data = Boston, xlab = "lower status of the population (percent)", ylab ="median value of homes")
+
+plot(Boston$crim, Boston$lstat, data = Boston, xlab = "per capita crime rate by town", ylab ="lower status of the population")
+
+
+```
+In graph one, we can say as crime rates rise, then the median value of homes drop.
+In graph two, we can say that the more dwellings the home has or increases, then the more the median house prices increase.
+In graph three, we can see the more old the home is, then there is an increase in crime.  
+In graph four, we can see that the lower the status of the population, then the median home value decreases. 
+### (c)
+Yes, it seems that we can say that crime rates can increase based on factors of old housing or lower status of the population. There seems to be a relationship between these few things and potentially more factors based on our plotted graphs shown. 
+### (d)
+```{r}
+hist(Boston$crim, xlab = "per capita crime rate by town", main = "", ylab = "Number of Suburbs")
+hist(Boston$tax, xlab = "full-value property-tax rate per $10,000", main = "", ylab = "Number of Suburbs")
+hist(Boston$ptratio, xlab = "pupil-teacher ratio by town", main = "", ylab = "Number of Suburbs")
+
+```
+In graph one, we can see that the suburbs have less crime rate and most fall around 0, which is quite good. 
+In graph two, we can see that the suburbs has more property tax rate per $10,000 around 650-700 and a smaller but almost equivalent amount around 250-350. 
+In graph three, we can see that the suburbs has a fair amount of pupil-teachers by town around and a big increase at 20-21. 
+### (e)
+Census tracts in this data for the Charles river is bounded by 35 suburbs.
+```{r}
+
+Charles <- subset(Boston, chas == 1)
+nrow(Charles)
+
+```
+### (f)
+The median pupil-teacher ratio is around 19 in the towns of this data set. 
+```{r}
+median(Boston$ptratio)
+```
+
+### (g)
+```{r}
+median(Boston$medv)
+
+```
+### (h)
+There will be around 64 suburbs with more than 7 dwellings.
+There will be around 13 suburbs with more than 8 dwellings. 
+```{r}
+dwellings <- subset(Boston, rm > 7)
+nrow(dwellings)
+
+dwellings2 <- subset(Boston, rm > 8)
+nrow(dwellings2)
+```
+

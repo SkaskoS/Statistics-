@@ -1,0 +1,217 @@
+---
+title: "SKS104_FINAL"
+author: "Skasko_Stephen"
+date: "12/11/2023"
+output: html_document
+---
+
+```{r}
+library(readr)
+library(readxl)
+library(plotly)
+library(fpp)
+library(astsa)
+library(latex2exp)
+library(ggplot2)
+library(forecast)
+library(Ecdat)
+library(TSstudio)
+library(TSA)
+library(kableExtra)
+library(stats)
+
+retail <- read.csv("retail.csv")
+euro <- read.csv("euro.csv")
+
+```
+
+# 1 - The time series plot shows a consistent up and down trend with a slowly decreasing plot overtime but with one high flucuations in sales for 2020. With this, I believe there may be a type of seasonality since there is a repeating pattern every year in sales with flucuations moving up and down during the winter months with high influx of sales. Additionally, there could be some cyclity if we had more data since we can see a high influx at 2020 after a steady decline, but when comparing the first data point with the last one, then we get is high in sales and this could potentially create a pattern after 2020. Aditionally, the model of the ACF and PCF show a similar look with a small lag 1 and a high lag 2 with uncorrelated lags. Additionally, after looking carefully into the plots, I did a AR, differencing, MA, AIC, BIC, and the Box-Ljung test to indicate no singificant autocorrelation in the residuals. So, understanding these results, I decided to fit the ARIMA model which does fit the data quite nicely to the orginal.
+
+```{r, Problem 1, warning = F, message = F}
+library(ggplot2)
+library(forecast)
+
+retail$X7.1.09 <- as.Date(retail$X7.1.09)
+
+retail_ts <- ts(retail$X1038, f = 12, start = c(2009, 7), end = c(2019, 12))
+
+original_plot <- ts_plot(retail_ts,line.mode = 'lines+markers' , Xtitle = "Year", Ytitle = "Warehouse and Superstore Sales", title= "", slider = F)
+original_plot
+
+decompose_result <- decompose(retail_ts)
+seasonal_type <- ifelse(all(decompose_result$seasonal >= 0), "additive", "multiplicative")
+seasonal_type
+
+if (seasonal_type == "multiplicative") {
+  retail_ts <- log(retail_ts)
+}
+retail_ts
+
+harmonic_model <- forecast(retail_ts, h = 12) 
+fitted_values <- fitted(harmonic_model)
+
+# Analyze residuals
+residuals <- resid(harmonic_model)
+residuals <- resid(harmonic_model)
+acf(residuals, main = "ACF of Residuals")
+pacf(residuals, main = "PACF of Residuals")
+Box.test(residuals, lag = 20, type = "Ljung-Box")
+shapiro.test(residuals)
+
+residual_arima <- auto.arima(residuals)
+
+# Fitted values from ARIMA model
+fitted_values_arima <- fitted(harmonic_model)
+
+# Fitted values from residuals model
+fitted_values_residuals <- fitted(residual_arima)
+
+# Combine the plots
+combined_plot <- plot_ly() %>%
+  add_trace(x = time(retail_ts), y = exp(retail_ts), type = 'scatter', mode = 'lines+markers', 
+            name = "Original Data", marker = list(color = 'blue')) %>%
+  add_trace(x = time(retail_ts), y = exp(fitted_values_arima), type = 'scatter', 
+            mode = 'lines', name = "Fitted ARIMA", line = list(color = 'red')) %>%
+  add_trace(x = time(retail_ts), y = exp(fitted_values_residuals), type = 'scatter', 
+            mode = 'lines', name = "Fitted Residuals", line = list(color = 'green'))
+combined_plot <- combined_plot %>%
+  layout(title = "Original vs. Fitted Values", xaxis = list(title = "Year"), 
+         yaxis = list(title = "Retail Sales"))
+combined_plot
+```
+
+# 2 
+```{r}
+retail$X7.1.09 <- as.Date(retail$X7.1.09)
+
+retail_ts <- ts(retail$X1038, frequency = 12, start = c(2009, 1), end = c(2019, 12))
+
+ts.plot(retail_ts, main = "Retail Sales Data")
+
+decompose_result <- decompose(retail_ts)
+plot(decompose_result)
+
+acf(retail_ts, main = "ACF - Original Series")
+pacf(retail_ts, main = "PACF - Original Series")
+
+differenced_ts <- diff(retail_ts)
+acf(differenced_ts, main = "ACF - Differenced Series")
+pacf(differenced_ts, main = "PACF - Differenced Series")
+
+sarima_model <- auto.arima(retail_ts, trace = FALSE)
+summary(sarima_model)
+
+
+forecast_values <- forecast(sarima_model, h = 12)
+
+plot(forecast_values, main = "Retail Sales Forecast with SARIMA Model", xlab = "Time", ylab = "Sales")
+lines(retail_ts, col = "blue")  
+
+
+```
+
+# 3 - The model of the forecast has three different where the observed, seasonal means forecast, and SARIMA forecase values.The seasonal means forecast shows a slightsly below model and points compared to the observed values overall but does model the observed points almost completely until 1975 with a sudden point to jump into the observed value for 1976. The SARIMA forecast shows a slightly closer match with the observed values but with a slightly higher production of values and jumps at 1975 way above production compared to the observed points. These models are quite similar overall with few differences and jumps, which could indicate a good predictive model for beer production in these few years using both models. Overall, the models are greatly similar but if you had to choose the best model then the SARIMA forecasting model would win. 
+```{r}
+library(fpp)
+library(forecast)
+
+data(ausbeer)
+
+training_data <- window(ausbeer, start = c(1959, 2), end = c(1973, 4))
+test_data <- window(ausbeer, start = c(1974, 1), end = c(1975, 4))
+
+seasonal_means_model <- tslm(training_data ~ trend + season)
+
+seasonal_means_forecast <- forecast(seasonal_means_model, h = 8)
+
+sarima_model <- auto.arima(training_data)
+sarima_forecast <- forecast(sarima_model, h = 8)
+
+plot(test_data, type = "o", col = "blue", pch = 16, main = "Observed Test Series and Forecasts", xlab = "Year", ylab = "Beer Production", ylim = c(400, 700))
+lines(seasonal_means_forecast$mean, col = "red", lty = 2)
+lines(sarima_forecast$mean, col = "green", lty = 2)
+legend("topleft", legend = c("Observed", "Seasonal Means Forecast", "SARIMA Forecast"), 
+       col = c("blue", "red", "green"), lty = c(1, 2, 2), cex = 0.6, bty = "n")
+
+
+```
+
+# 4 - Based on the plots, they do show a tendency to have a random walk. For example, the first plot shows a slowly decreasing trend with irregular junps down and up. Also the AFC plot shows a decreasing lag overtime with no repeating patterns, which could indicate a random walk.
+```{r}
+plot(euro$X1.2254, type = "l", xlab = "Time", ylab = "Exchange Rate", main = "US to Euro Exchange Rate")
+
+
+diff_euro <- diff(euro$X1.2254)
+
+plot(diff_euro, type = "l", xlab = "Time", ylab = "Difference", main = "Differenced Exchange Rate")
+acf(diff_euro, main = "ACF of Differenced Exchange Rate")
+
+adf_result <- adf.test(euro$X1.2254, alternative = "stationary", k = 1)
+print(adf_result)
+
+```
+
+# 5 - 
+
+# b) Based on the plots, there does seem to be a relatively easy to see plots where they represent the common descriptions of the models. AR(1) having a sharp cutoff after first lags and a spike at lag 1 with cutoffs. MA(1) is simlar with with a spike at lag 1 with a slowing decrease over lags. Lastly, ARMA models where there is a exponetial decay slowly decreasing overtime with AR and MA representations, having sinificant multiple lags. 
+
+# c) Based on the models, the armasubsets functions do seem to correctly pick the models for the AR(1), MA(1) and the ARMA(1,1). 
+
+# d) The plots of n = 1000 seems to have correctly identified the models that align with the plots for AR(1), MA(1), and ARMA(1,1). Overall, the points show a consistent trend that is similar to the models of n = 250. The models seem to showcase a high first lag or a very low first lag then a slow downward trend or a single high lag with a dramactic drop after the first lag overtime. 
+```{r}
+set.seed(123)
+
+n <- 250  
+phi <- -0.6
+theta <- 0.8
+
+ar1_series <- arima.sim(model = list(ar = phi), n = n)
+ma1_series <- arima.sim(model = list(ma = theta), n = n)
+arma11_series <- arima.sim(model = list(ar = phi, ma = theta), n = n)
+
+plot(ar1_series, main = "AR(1) Time Series")
+plot(ma1_series, main = "MA(1) Time Series")
+plot(arma11_series, main = "ARMA(1,1) Time Series")
+
+acf_ar1 <- acf(ar1_series)
+pacf_ar1 <- pacf(ar1_series)
+
+acf_ma1 <- acf(ma1_series)
+pacf_ma1 <- pacf(ma1_series)
+
+acf_arma11 <- acf(arma11_series)
+pacf_arma11 <- pacf(arma11_series)
+
+ar1_model <- armasubsets(ar1_series, nar = 5, nma = 0)
+ma1_model <- armasubsets(ma1_series, nar = 0, nma = 5)
+arma11_model <- armasubsets(arma11_series, nar = 5, nma = 5)
+
+n <- 1000
+phi <- -0.6
+theta <- 0.8
+
+ar1_series_1000 <- arima.sim(model = list(ar = phi), n = n)
+ma1_series_1000 <- arima.sim(model = list(ma = theta), n = n)
+arma11_series_1000 <- arima.sim(model = list(ar = phi, ma = theta), n = n)
+
+plot(ar1_series_1000, main = "AR(1) Time Series (n = 1000)")
+plot(ma1_series_1000, main = "MA(1) Time Series (n = 1000)")
+plot(arma11_series_1000, main = "ARMA(1,1) Time Series (n = 1000)")
+
+acf_ar1_1000 <- acf(ar1_series_1000)
+pacf_ar1_1000 <- pacf(ar1_series_1000)
+
+acf_ma1_1000 <- acf(ma1_series_1000)
+pacf_ma1_1000 <- pacf(ma1_series_1000)
+
+acf_arma11_1000 <- acf(arma11_series_1000)
+pacf_arma11_1000 <- pacf(arma11_series_1000)
+
+# (a) Use armasubsets function
+ar1_model_1000 <- armasubsets(ar1_series_1000, nar = 5, nma = 0)
+ma1_model_1000 <- armasubsets(ma1_series_1000, nar = 0, nma = 5)
+arma11_model_1000 <- armasubsets(arma11_series_1000, nar = 5, nma = 5)
+
+
+```
+

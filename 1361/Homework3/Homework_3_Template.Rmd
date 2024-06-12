@@ -1,0 +1,267 @@
+---
+title: "Homework_3"
+author: "Skasko_Stephen"
+date: "2023-02-17"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r packages, include=FALSE}
+# Insert the packages you need here
+library(ISLR)
+library(MASS)
+library(caret)
+library(ggplot2)
+library(e1071)
+library(caTools)
+library(class)
+
+```
+
+### 1. 
+
+Work through all of the labs given in Section 4.7 of the ISLR textbook. **You do not need to turn anything in for this.**
+
+
+### 2. (16 points) 
+
+### (a) 
+
+Complete ISLR Chapter 4 Conceptual Exercise 4
+a) we want to take integrals, where we get 9.75%
+b) when p = 2, 9.75^2 = 95%
+c) when p = 100, 0.1^100 = 0%
+d) When p is large, then we can tell from from answer c that our observations 
+   will be at 0% or closer so it would a huge drawback.
+e) p = 1 -> length = 0.1
+   p = 2 -> length = 0.1^(1/2)
+   p = 100 -> length = 0.1^(1/100)
+
+### (b) 
+
+In an interesting twist, use what you showed in ISLR Ch. 4 Exercise 4 to argue that the line, “non-parametric approaches often perform poorly when p is large” (used in the opening of ISL Ch. 4 Exercise 4) is actually not quite the whole picture. In particular, what else would you like to know before judging whether a nonparametric approach is likely to work well in high dimensions?
+
+We might want to know if its categorical data, quantitative data, if the data is 
+not normal with outliers or does not fit well. 
+
+### (c)
+
+The point that ISLR Ch. 4 Exercise 4 is trying to illustrate, is that in high dimensional space, you are often forced to   (fill in the black). Hint: This is a word you likely heard over and over again in introductory statistics and is something you were probably told to try and avoid doing.
+
+Underfit the data
+
+### (d) 
+
+Given the previous parts of this problem, how would you respond to the notion that “more data is never a bad thing.” Be careful and take a few minutes to really think about this. There are a few different things that could be meant here and least two very valid but different perspectives one could take.
+
+One reason could be if there is an error, over-complication, or irrelevance data in the sets which just lead to worse results in general.
+
+Second reason can be the potential for lots of bias or potentially underfitting
+in the data.
+
+### 3. (20 points)
+
+### ISLR Chapter 4 Conceptual Exercises 5 (8 points)
+
+
+### (a)
+
+QDA would perform better on a training set since its more flexible while a LDA     
+would be better on a test set since it would be less likely to overfit. 
+
+### (b)
+
+QDA would be better for both test set and training set in a non-linear bayes 
+boundary. 
+
+
+### (c)
+
+Yes, we would expect the test prediction accuracy of QDA relative to LDA to 
+improve as n gets bigger since it becomes more flexible for a better fit. 
+
+
+### (d)
+
+False, since a QDA is more flexible and will likely overfit, making a higher 
+test error rate than LDA
+
+### ISLR Chapter 4 Conceptual Exercises 8 (2 points)
+
+We would want to use Logistic regression because it has a lower test error rate     
+based on K = 1 for 18% and if we had K = 2 then it would increase to 36% 
+(18*2=36) > 30% test error in Logistic regression. 
+
+### ISLR Chapter 4 Conceptual Exercises 12 (10 points)
+
+
+### (a)
+
+logodds = B^0 + B^1*X
+
+### (b)
+
+logodds = alpha^orange0 + alpha^orange1*X - alpha^apple0 - alpha^apple1*X
+
+### (c)
+
+B^0 = alpha^orange0 - alpha^apple0
+B^1 = alpha^orange1 - alpha^apple1
+
+### (d)
+
+B^0 = 1.2 - 3 = -1.8 
+B^1 = -2 - 0.6 = -2.6
+
+### 4. (10 points)
+
+
+### ISLR Chapter 4 Applied Exercise 14
+
+a)
+```{r}
+attach(Auto)
+med <- median(mpg)
+
+mpg01 <- ifelse( mpg > median(mpg),  1, 0)
+Auto = data.frame(Auto, mpg01)
+head(Auto)
+```
+b)
+Based on the correlation and boxplots, we can see that the predictors cylinders, weight, displacement, horsepower and mpg are the most useful. 
+```{r}
+par(mfrow=c(2,4))
+boxplot(mpg ~ mpg01, main = "Mpg vs mpg01", data = Auto)
+boxplot(cylinders ~ mpg01, main = "Cylinders vs mpg01", data = Auto)
+boxplot(displacement ~ mpg01, main = "Displacement vs mpg01", data = Auto)
+boxplot(horsepower ~ mpg01, main = "Horsepower vs mpg01", data = Auto)
+boxplot(weight ~ mpg01, main = "Weight vs mpg01", data = Auto)
+boxplot(acceleration ~ mpg01, main = "Acceleration vs mpg01", data = Auto)
+boxplot(year ~ mpg01, main = "Year vs mpg01", data = Auto)
+boxplot(origin ~ mpg01, main = "Origin vs mpg01", data = Auto)
+
+cor(Auto[ , -9])
+```
+c)
+```{r}
+
+set.seed(1)
+
+set <- createDataPartition(Auto$mpg01, p = 0.75, list=FALSE, times = 1)
+train_set <- Auto[set, ]
+test_set <- Auto[-set, ]
+
+model <- as.formula(mpg01 ~ displacement + horsepower + weight + year + cylinders)
+
+
+```
+d)
+```{r}
+
+LDAmodel <- lda(model, data = train_set)
+
+LDA_pred <- predict(LDAmodel, test_set)
+
+mean(LDA_pred$class == test_set$mpg01)
+
+
+```
+e)
+```{r}
+QDAmodel <- qda(model, data = train_set)
+QDA_pred <- predict(QDAmodel, test_set)
+mean(QDA_pred$class == test_set$mpg01)
+
+```
+f)
+```{r}
+logmodel <- glm(model, data = train_set)
+
+log_pred <- predict(logmodel, test_set)
+
+mean(log_pred == test_set$mpg01)
+```
+g)
+```{r}
+bayesmodel <- naiveBayes(model, data = train_set)
+bayes_pred <- predict(bayesmodel, test_set)
+mean(bayes_pred == test_set$mpg01)
+```
+h)
+#Sorry was unable to complete this but had a weird NAs introduced by coercion error
+```{r}
+set.seed (1)
+train_direction <- mpg01[set]
+#knn_pred <- knn(train_set, test_set, train_direction, k=1)
+#mean(knn_pred == test_set$mpg01)
+```
+
+### 5. (12 points)
+
+**Follow the directions outlined on Homework 3 for question 5** 
+```{r}
+example(UCBAdmissions)
+```
+### (a)
+We can see that more men were admitted compared to females 
+
+We can see that men are more likely to be admitted, which can represent the
+bias over women being admitted.
+
+In the chart above,
+
+Men overall: 1198/(1198+1493) = 0.45
+Women overall: 557/(557+1278) = 0.30
+
+### (b)
+The charts now show how different department put more emphasis on women over men
+admit rates. So gender is more distributed between these departments except for 
+department F which shows an even admit rate. 
+
+Overall, there seems to be more bias towards woman over men even with more
+department splits of gender since woman applying to certain departments
+get more admits than men. For example, department A shows very little rejection
+to woman over men with higher admit rate vs the woman rejection rate. While men
+seem to make up 95% of the reject. 
+
+### (c)
+
+The paradox showed we initially thought the bias toward men but after seeing 
+distributions over the department then we could see the real results that
+shows the ways departments place bias on more woman. 
+
+
+### (d)
+
+The reason could be that more woman are interested in this certain department over
+men and the college is able to almost evenly distribute the admit rates among them
+since they meet the certain criteria. Also, the bias dissipated because
+we knew departments would over proportionally admit woman in favor of men since
+the rate of woman applying was low. This means that woman had a higher chance to 
+be admitted to certain departments like in department F. 
+
+### (e)
+The model shows how the female sex at -0.61 coefficient, meaning females are less likely to get admitted overall. 
+```{r}
+data(UCBAdmissions)
+Adm <- as.integer(UCBAdmissions)[(1:(6*2))*2-1]
+Rej <- as.integer(UCBAdmissions)[(1:(6*2))*2]
+Dept <- gl(6,2,6*2,labels=c("A","B","C","D","E","F"))
+Sex <- gl(2,1,6*2,labels=c("Male","Female"))
+Ratio <- Adm/(Rej+Adm)
+berk <- data.frame(Adm,Rej,Sex,Dept,Ratio)
+
+LogReg.gender <- glm(cbind(Adm,Rej)~Sex,data=berk,family=binomial("logit"))
+summary(LogReg.gender)
+```
+
+
+### (f)
+After refitting the model with departments, we can see that females coefficient 
+is a higher, showing the department admits of females being higher. 
+```{r}
+LogReg.gender2 <- glm(cbind(Adm,Rej)~Sex + Dept ,data=berk,family=binomial("logit"))
+summary(LogReg.gender2)
+```
+

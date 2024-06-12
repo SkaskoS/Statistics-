@@ -1,0 +1,265 @@
+---
+title: "Project"
+author: "SKASKO_STEPHEN"
+date: "4/5/2023"
+output: html_document
+---
+
+Libraries 
+```{r}
+library(randomForest)
+library(gbm)
+library(glmnet)
+library(caret)
+library(pls)
+library(caret)
+library(randomForest)
+library(e1071)
+library(xgboost)
+library(dplyr)
+library(moments)
+library(ggplot2)
+```
+
+Part one:
+Read in the files
+```{r}
+# Load in package train
+trainSet <- read.csv("train.csv", stringsAsFactors = FALSE)
+testSet <- read.csv("test.csv", stringsAsFactors = FALSE)
+
+# Checking Structure
+str(trainSet)
+
+# Check for missing values, shows no missing values
+colSums(is.na(trainSet))
+colSums(is.na(testSet))
+
+
+```
+
+# Find Skews Between the Variables
+```{r}
+# Calculate skewness for numeric variables
+skewness_price <- skewness(trainSet$price)
+skewness_numstories <- skewness(trainSet$numstories)
+skewness_yearbuilt <- skewness(trainSet$yearbuilt)
+skewness_totalrooms <- skewness(trainSet$totalrooms)
+skewness_bedrooms <- skewness(trainSet$bedrooms)
+skewness_bathrooms <- skewness(trainSet$bathrooms)
+skewness_fireplaces <- skewness(trainSet$fireplaces)
+skewness_sqft <- skewness(trainSet$sqft)
+skewness_lotarea <- skewness(trainSet$lotarea)
+skewness_AvgIncome <- skewness(trainSet$AvgIncome)
+skewness_DistDowntown <- skewness(trainSet$DistDowntown)
+skewness_year <- skewness(trainSet$year)
+
+# Show skewness values
+cat("Skewness - price:", skewness_price, "\n")
+cat("Skewness - numstories:", skewness_numstories, "\n")
+cat("Skewness - yearbuilt:", skewness_yearbuilt, "\n")
+cat("Skewness - totalrooms:", skewness_totalrooms, "\n")
+cat("Skewness - bedrooms:", skewness_bedrooms, "\n")
+cat("Skewness - bathrooms:", skewness_bathrooms, "\n")
+cat("Skewness - fireplaces:", skewness_fireplaces, "\n")
+cat("Skewness - sqft:", skewness_sqft, "\n")
+cat("Skewness - lotarea:", skewness_lotarea, "\n")
+cat("Skewness - AvgIncome:", skewness_AvgIncome, "\n")
+cat("Skewness - DistDowntown:", skewness_DistDowntown, "\n")
+cat("Skewness - year:", skewness_year, "\n")
+
+```
+
+
+# Conversions
+```{r}
+# Convert id to character
+trainSet$id <- as.character(trainSet$id)
+
+# Convert categorical variables to factors if needed
+trainSet$exteriorfinish <- as.factor(trainSet$exteriorfinish)
+trainSet$rooftype <- as.factor(trainSet$rooftype)
+trainSet$Location <- as.factor(trainSet$Location)
+
+# Extract year from yearbuilt
+trainSet$year <- as.integer(substr(trainSet$yearbuilt, 1, 4))
+
+# Calculate total number of rooms 
+trainSet$total_rooms <- trainSet$bedrooms + trainSet$bathrooms + trainSet$totalrooms
+
+# Perform log transformation on skewed variables
+trainSet$log.lotarea <- log(trainSet$lotarea + 1)
+trainSet$log.price <- log(trainSet$price + 1)
+trainSet$log.totalrooms <- log(trainSet$totalrooms + 1)
+trainSet$log.bedrooms <- log(trainSet$bedrooms + 1)
+trainSet$log.fireplaces <- log(trainSet$fireplaces + 1)
+trainSet$log.sqft <- log(trainSet$sqft + 1)
+
+# Output Column Names
+colnames(trainSet)
+
+# Drop columns that are not needed for modeling
+df <- trainSet[, c("id", "price", "numstories", "yearbuilt", "exteriorfinish", "rooftype", "basement", "totalrooms", "bedrooms", "bathrooms", "fireplaces", "sqft", "lotarea", "zipcode", "AvgIncome", "Location", "DistDowntown", "yearbuilt", "totalrooms")]
+
+```
+
+Data imputation
+```{r}
+
+# Check for missing values in the price column
+missing.values <- is.na(trainSet$price)
+
+# Calculate the mean of non-missing values in the price column
+mean.price <- mean(trainSet$price, na.rm = TRUE)
+
+# Replace missing values with the mean price
+trainSet$price[missing.values] <- mean.price
+
+```
+
+# All training of models
+```{r}
+# Training control, # 5-fold cross-validation
+trainControl <- trainControl(method = "cv", number = 5)  
+
+# Model Formula
+formula <- (price ~ numstories + yearbuilt + exteriorfinish + rooftype + basement + totalrooms + bedrooms + bathrooms + fireplaces + sqft + lotarea + zipcode + AvgIncome + Location + DistDowntown)
+
+# Linear Regression Model
+lm.model <- train(formula, data = trainSet, method = "lm", trControl = trainControl)
+
+
+# Decision Tree Model
+dt.model <- train(formula, data = trainSet, method = "rpart", trControl = trainControl)
+
+# Random Forest Model
+rf.model <- train(formula, data = trainSet, method = "rf", trControl = trainControl)
+
+# Gradient boosting Machine (GBM) model
+gbm.model <- train(formula, data = trainSet, method = "gbm", trControl = trainControl)
+
+# Ridge  Model
+ridge.model <- train(formula, data = trainSet, method = "ridge", trControl = trainControl)
+
+# Print the trained models
+print(lm.model)
+print(dt.model)
+print(rf.model)
+print(gbm.model)
+print(ridge.model)
+
+```
+
+# Predict the training models
+```{r}
+# Predict on the training data using the trained models
+lm.pred <- predict(lm.model, trainSet)
+dt.pred <- predict(dt.model, trainSet)
+rf.pred <- predict(rf.model, trainSet)
+gbm.pred <- predict(gbm.model, trainSet)
+ridge.pred <- predict(ridge.model, trainSet)
+
+# Calculate for the trained models
+lm.mse <- mean((lm.pred - trainSet$price)^2)
+dt.mse <- mean((dt.pred - trainSet$price)^2)
+rf.mse <- mean((rf.pred - trainSet$price)^2)
+gbm.mse <- mean((gbm.pred - trainSet$price)^2)
+ridge.mse <- mean((ridge.pred - trainSet$price)^2)
+
+# Calculate the trained model rmse
+lm.rmse <- sqrt(lm.mse)
+dt.rmse <- sqrt(dt.mse)
+rf.rmse <- sqrt(rf.mse)
+gbm.rmse <- sqrt(gbm.mse)
+ridge.rmse <- sqrt(ridge.mse)
+
+# Calculate the mae models
+lm.mae <- mean(abs(lm.pred - trainSet$price))
+dt.mae <- mean(abs(dt.pred - trainSet$price))
+rf.mae <- mean(abs(rf.pred - trainSet$price))
+gbm.mae <- mean(abs(gbm.pred - trainSet$price))
+ridge.mae <- mean(abs(ridge.pred - trainSet$price))
+
+# Calculate the R-Squared
+lm.r.squared <- 1 - sum((trainSet$price - lm.pred)^2) / sum((trainSet$price - mean(trainSet$price))^2)
+dt.r.squared <- 1 - sum((trainSet$price - dt.pred)^2) / sum((trainSet$price - mean(trainSet$price))^2)
+rf.r.squared <- 1 - sum((trainSet$price - rf.pred)^2) / sum((trainSet$price - mean(trainSet$price))^2)
+gbm.r.squared <- 1 - sum((trainSet$price - gbm.pred)^2) / sum((trainSet$price - mean(trainSet$price))^2)
+ridge.r.squared <- 1 - sum((trainSet$price - ridge.pred)^2) / sum((trainSet$price - mean(trainSet$price))^2)
+
+# Print the mse, print() wont work so cat was the next best bet
+cat("MSE:","\n")
+cat("Linear Repression MSE:", lm.mse, "\n")
+cat("Decision Tree MSE:", dt.mse, "\n")
+cat("Random Forest MSE:", rf.mse, "\n")
+cat("GBM MSE:", gbm.mse, "\n")
+cat("Ridge MSE:", ridge.mse, "\n")
+
+
+# Print the RMSE
+cat("RMSE:","\n")
+cat("Linear Repression RMSE:", lm.rmse, "\n")
+cat("Decision Tree RMSE:", dt.rmse, "\n")
+cat("Random Forest RMSE:", rf.rmse, "\n")
+cat("GBM RMSE:", gbm.rmse, "\n")
+cat("Ridge RMSE:", ridge.rmse, "\n")
+
+# Price the MAE
+cat("MAE:","\n")
+cat("Linear Repression MAE:", lm.mae, "\n")
+cat("Decision Tree MAE:", dt.mae, "\n")
+cat("Random Forest MAE:", rf.mae, "\n")
+cat("GBM MAE:", gbm.mae, "\n")
+cat("Ridge MAE:", ridge.mae, "\n")
+
+
+```
+
+Plotting the Models
+```{r}
+# Create a data frame and using information from above to make a model prediction accuracy 
+models <- c("Linear Regression", "Decision Tree", "Random Forest", "GBM", "Ridge Regression")
+mse <- c(34531538892, 54289986539, 15888289863, 22000077297, 35511984281)
+rmse <- c(185826.6, 233002.1, 126048.8, 148324.2, 188446.2)
+mae <- c(108528.2, 136477, 72887.65, 87432.39, 115216.5)
+
+model.metrics <- data.frame(Model = models, MSE = mse, RMSE = rmse, MAE = mae)
+
+# Creater MSE plot
+ggplot(model.metrics, aes(x = Model, y = MSE)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  ggtitle("Model Performance - MSE") +
+  xlab("Model") +
+  ylab("Error")
+
+# Create RMSE plot
+ggplot(model.metrics, aes(x = Model, y = RMSE)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  ggtitle("Model Performance - RMSE") +
+  xlab("Model") +
+  ylab("Error")
+
+# Create MAE Plot
+ggplot(model.metrics, aes(x = Model, y = MAE)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  ggtitle("Model Performance - MAE") +
+  xlab("Model") +
+  ylab("Error")
+
+```
+
+# Choosing best model
+```{r}
+# Choose best performing model
+best.model <- rf.model
+
+
+# Make predictions using best performing model
+test.predictions <- predict(best.model, newdata = testSet)
+
+# Create testing csv file
+output <- data.frame( id = testSet$id , price = test.predictions)
+write.csv(output, file = "testing_predictions_SKASKO_STEPHEN_SKS104.csv", row.names = FALSE)
+
+```
+

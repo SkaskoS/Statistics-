@@ -1,0 +1,289 @@
+---
+title: "STAT1361_HW4_Template"
+author: "Stephen_Skasko"
+date: "2023-02-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1. 
+Work through the labs given in Section 5.3 of the ISLR textbook as well as the R code provided on courseweb. Note that while the lab code provided in ISLR is helpful for conducting some resampling and/or cross-validation methods for some procedures, the code on courseweb is designed to demonstrate a more explicit and robust approach. 
+**You do not need to turn anything in for this**.
+
+### 2. (4 pts)
+### ISLR Chapter 5 Conceptual Exercise 4
+
+We can use the bootstrapping method. We would want to take repeated samples from the original data to estimate the standard deviation of our prediction. 
+
+### 3. (12 pts) 
+Here we’ll look at the relationship between undergraduate GPA and LSAT scores amongst individuals applying to law school.
+**Please see homework PDF for the rest of the questions**
+
+### (a)
+There is a relatively strong relationship in the plot below since its closeness to a line with little amount of outliers. Also, a 0.77 is strong relationship in the measures of a magnitude strengh.  
+```{r}
+library(bootstrap)
+data(law)
+plot(law)
+cor(law$LSAT, law$GPA)
+```
+
+
+### (b)
+```{r error=TRUE}
+B <- 1000 
+
+bootstrap_corr_estimates <- rep(0, B) 
+for (i in 1:B) {
+    bsample <- sample(1:n, size = n, replace = TRUE)  
+    boot.cor <- law[bsample, ]  
+    rep.boot[i] <- cor(boot.cor)[1, 2]
+}
+hist(rep.boot, main = "1000 Bootstrap Correlation Coefficient", prob = T)
+abline(v = cor(boot.cor), col='red', lwd=3)
+
+#lines(cor(rep.boot), col='red', lwd=3)
+```
+
+
+### (c)
+No, since it falls between 0.5 and 1-meaning we have to fail to reject Ho 
+for the true correlation. 
+```{r error=TRUE}
+CL <- quantile(rep.boot, prob=c(0.025, 0.975))
+CL
+
+hist(rep.boot, main = "1000 Bootstrap Correlation Coefficient", prob = T)
+abline(v = CL, col='blue', lwd=3)
+```
+
+### (d)
+Yes, we reject Ho for the true correlation of 0.05. 
+```{r error=TRUE}
+mean.boot <- mean(bootstrap_corr_estimates)
+
+
+bia.boot <- mean.boot - cor(boot.cor)
+bia.boot
+
+
+
+CL.bia <- quantile(bia.boot, prob=c(0.025, 0.975))
+CL.bia
+
+hist(CL.bia, main = "Bootstrap Bias", prob = T)
+abline(v = CL.bia, col='green', lwd=2)
+```
+
+
+### (e)
+Tells us its not equal to 0!
+```{r error=TRUE}
+library(exactRankTests)
+perm.test(CL, CL.bia)
+perm.test(CL.bia, CL)
+
+
+```
+
+
+
+### 4. (20 pts)
+
+With linear models, we make relatively strong assumptions about the underlying rela- tionships and distributions and these assumptions allow us to provide standard inferential results (confidence intervals and hypothesis tests). Now we’ll look at how we could carry out an informal alternative with permutation tests. That is, we’ll think about how we could try and ask the same types of scientific questions (i.e. evaluate the same kinds of statistical hypotheses) without relying on these known results.
+**Please see homework PDF for the rest of the questions**
+
+### (a)
+```{r}
+x1 <- runif(50)
+x2 <- runif(50)
+e <- rnorm(50, mean = 0, sd = 0.25^2)
+
+y1 <- x1 + x2 + e
+
+response = data.frame(y1, x1, x2)
+
+```
+
+### (b)
+```{r}
+x1 <- runif(30)
+x2 <- runif(30)
+e <- rnorm(30, mean = 0, sd = 0.25) #no higher order
+
+y2 <- x1 + x2 + e
+
+df = data.frame(y2, x1, x2)
+
+model <- lm(y2 ~ x1 + x2, data = df)
+
+sum <- summary(model)
+MSE0 <- mean(sum$residuals^2)
+MSE0
+```
+
+
+### (c)
+Yes, we reject null hypothesis since the p-value is less than 0.05 in the 
+F-test below. 
+```{r}
+x1 <- runif(1000)
+x2 <- runif(1000)
+e <- rnorm(1000, mean = 0, sd = 0.25)
+
+y3 <- x1 + x2 + e
+
+df = data.frame(y3, x1, x2)
+
+model <- lm(y3 ~ x1 + x2, data = df)
+anova(model)
+
+
+MSE0 <- mean(sum$residuals^2)
+MSE0
+```
+
+### (d)
+yes, we can reject the null hypothesis using the test. 
+```{r}
+
+x1 <- runif(1000)
+x2 <- runif(1000)
+e <- rnorm(1000, mean = 0, sd = 0.25)
+
+y3 <- x1 + x2 + e
+
+df = data.frame(y3, x1, x2)
+
+model <- lm(y3 ~ x2 + x1, data = df)
+sum <- summary(model) #t-test
+sum
+MSE0 <- mean(sum$residuals^2)
+MSE0
+
+```
+
+### (e)
+```{r}
+set.seed(1)
+
+h <- runif(nrow(law))
+train <- law[1:500, 10]
+test <- law[1:50, ]
+test
+```
+
+### (f)
+Yes, we still reject Ho where p < -2e^-16
+```{r}
+
+x1 <- runif(1000)
+x2 <- runif(1000)
+x3 <- runif(1000)
+x4 <- runif(1000)
+x5 <- runif(1000)
+x6 <- runif(1000)
+x7 <- runif(1000)
+x8 <- runif(1000)
+x9 <- runif(1000)
+x10 <- runif(1000)
+
+e <- rnorm(1000, mean = 0, sd = 0.25)
+
+y3 <- x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 +  e
+
+df = data.frame(y3, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10)
+
+model <- lm(y3 ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 , data = df)
+reduce_model <- lm(y3 ~  x8 + x9 + x10 , data = df)
+anova(model, reduce_model)
+
+MSE0 <- mean(sum$residuals^2)
+MSE0
+#Partial F-test 
+#Full Model -> Reduced Model -> Anova table(full model, reduced model)
+```
+
+### 5. (10 pts)
+In November of 2020, Pfizer concluded its phase 3 study of its covid-19 vaccine candidate. In total, approximately 43,000 individuals were enrolled in the trial with roughly 50% receiving the vaccine and 50% receiving a placebo. By mid-November, 170 of the enrolled individuals had confirmed covid cases – 162 of those individuals had received the placebo and only 8 had received the vaccine.
+**Please see homework PDF for the rest of the questions**
+
+We can assume a paired t-test
+### (a)
+
+We would want a proportion of mean, where the parameter is whether effectiveness (fail or not) in the individuals who took the vaccine or placebo after testing positive for COVID. 
+
+n1 = 21500
+n2 = 21500
+
+x1 = 162
+x2 = 8
+
+
+
+
+
+Mean 1: population of people who took the vaccine
+Mean 2: population of people who took the placebo
+
+Ho: mean1 = mean2 
+Ha: mean1 > mean2
+
+
+
+Test stat: T = (Mean x1)-(Mean x2) / sqrt ((s^2,1)/n1) + ((s^2,2)/n2)
+
+
+p-value: 0.025
+
+CV: -+1.97
+
+Fail to reject Ho, meaning we do not have significant evidence to support the claim about the effectiveness in the individuals who took vaccine or placebo. 
+
+
+### (b)
+
+Based on the data, we would assume that the test would use the two groups of enrollees as vaccine being not or is effective, where we would expect the data to have less bias in these two groups. 
+
+
+### (c)
+
+S = sample variances
+N = sample sizes
+Y = sample means
+
+Test stat: T = (Mean y1)-(Mean y2) / sqrt ((s^2,1)/n1) + ((s^2,2)/n2)
+
+
+### (d)
+p = 0.104, z = 0.91
+```{r}
+dif <- vector(length = 1000)
+
+set.seed(170)
+dat <- sleep
+
+for (i in 1:length(dif)){
+  dat$group <- sample(dat$group) 
+  dif[i] <- diff(tapply(X = dat$extra, 
+                        INDEX = dat$group, 
+                        FUN = mean))
+}
+
+
+obs_dif <- diff(tapply(X = dat$extra, 
+                       INDEX = dat$group, 
+                       FUN = mean))
+hist(dif, col = "grey")
+abline(v = -abs(obs_dif), col = "red", lwd = 2)
+abline(v = abs(obs_dif), col = "red", lwd = 2)
+
+
+mean(abs(dif) >= abs(obs_dif))
+
+```
+
+

@@ -1,0 +1,347 @@
+---
+title: "Homework 2"
+author: "Skasko_Stephen"
+date: '2023-02-03'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. 
+Work through all of the labs given in Section 3.6 of the ISLR textbook. Make sure that you are extremely comfortable with the lm function and how to obtain each type of output discussed. Pay particular attention to the final two Sections (3.6.6 - 3.6.7) as many of your projects will involve understanding how categorical predictors are treated (3.6.6) and writing your own functions in R (3.6.7) is something that nearly always needs done when writing larger programs. You do not need to turn anything in for this.
+
+## 2. 
+## Chapter 3 Conceptual Exercise 3
+
+### (a)
+
+### i.
+
+### ii.
+
+### iii. 
+
+ 35-10x1>= 0 --> x1 >= 3.5
+ 
+ High school graduates on average make more when their GPA is higher or equal to 3.5
+
+
+### iv.
+
+### (b)
+
+S = 50 + 20(4) + 0.07(110) + 35 + 0.01(110*4) - 10(4) = 137.1 
+
+### (c)
+
+False, based on the coefficient size does not indicate a significance of data. 
+
+## Chapter 3 Conceptual Exercise 4
+
+### (a)
+Expected to be lower since it would better fit the data with a bigger irreducible error 
+### (b)
+Expect to be higher as the overfitting from training of the model would have more error
+### (c)
+Expect to be lower because of high flexibility 
+### (d)
+I don't believe we have enough information for this because we are unsure about the true relationship or linearity
+## 3.
+## Chapter 3 Applied Exercise 9
+
+### (a)
+```{r}
+library(ISLR2)
+pairs(Auto)
+```
+
+### (b)
+```{r}
+#names(Auto)
+cor(Auto[,-9])
+```
+
+### (c)
+i: Yes because since predictors have a relationship with the response based on the p-values. 
+ii: Predictors: Displacement, weight, year, and origin who do have a statistically significant relationship to the response
+iii: Shows that the coefficient of every 3-4 years goes up by 3 mpg
+
+```{r}
+rid <- Auto[, -9]
+
+
+model <- lm(mpg ~ .,  data = rid)
+summary(model)
+```
+
+### (d)
+Problems: Shows heteroscedasticity in graph, non-linearity, high leverage points, but 
+most outliers seem contained except for the last graph at 14. 
+```{r}
+plot(model)
+```
+
+### (e)
+Interaction terms: Displacement * horsepower, horsepower*origin
+
+More interactions means more decrease in the significant values 
+```{r}
+fit <- lm(mpg ~ . + horsepower*origin + horsepower*displacement - name, data = Auto)
+summary(fit)
+```
+
+
+### (f)
+Similarities between p-values and high F-statistics. Another interesting thing is that origin has a higher value overall and most of the values are less than or around 1 except origin. 
+```{r}
+model_new1 <- lm(mpg ~ . + log(weight), data = Auto[-9])
+summary(model_new1)
+model_new2 <- lm(mpg ~ . + sqrt(horsepower^2) + mpg, data = Auto[-9])
+summary(model_new2)
+model_new3 <- lm(mpg ~ . + I(acceleration^2), data = Auto[-9])
+summary(model_new3)
+```
+
+## Chapter 3 Applied Exercise 10
+
+### (a)
+```{r}
+model2 <- lm(Sales ~ Price + Urban + US, data = Carseats)
+summary(model2)
+```
+
+### (b)
+Price: Average decrease is 54.46 units sales that the company lost for car seats at each site sales 
+Urban: Average decrease is 21.92 units of urban location over rural location with factor levels No and Yes
+US: Average increase is 1.20 units in sales in US over non US stores with factor levels No and Yes
+### (c)
+S = 13.043469 + (-0.054459)*price + (-0.021916)*urban + 1.200573*US + E
+### (d)
+We can Reject H0 for both Price and US variables 
+### (e)
+```{r}
+model3 <- lm(Sales ~ Price + US, data = Carseats)
+summary(model3)
+```
+
+### (f)
+The models fit relatively similar with e) fitting a little more better. 
+### (g)
+```{r}
+confint(model3)
+```
+
+### (h)
+```{r}
+plot(model3)
+```
+
+## Chapter 3 Applied Exercise 13
+
+### (a)
+N(mean = 0, sd = 1)
+```{r}
+x <- rnorm(100, mean = 0, sd = 1)
+```
+### (b)
+```{r}
+eps <- rnorm(100, mean = 0, sd = 0.25)
+```
+### (c)
+β0 = -1
+β1 = 0.5 
+```{r}
+y <- -1 + 0.5*x + eps
+length(y)
+```
+
+### (d)
+```{r}
+plot_d <- plot(y ~ x)
+```
+
+### (e)
+βˆ0 and βˆ1 is almost identical or you could say they close to β0 and β1 
+```{r}
+model4 <- lm(y ~ x)
+summary(model4)
+```
+
+### (f)
+```{r}
+plot(y ~ x)
+abline(model4, col = "blue")
+legend("topleft", c("Least Square Regression Line"), col = "blue", lty = 1, cex = 0.8)
+```
+
+### (g)
+There is no evidence that explains our quadratic term improves the model fit since our F-statistic dramatically decreased. 
+```{r}
+model5 <- lm(y ~ poly(x,2)) #look at two columns
+summary(model5)
+```
+
+### (h)
+Reducing the noise allows our model to fit very nicely. R^2 is 0.99 and our F-statistic
+has been greatly increased. 
+```{r}
+x <- rnorm(100, mean = 0, sd = 1)
+eps <- rnorm(100, mean = 0, sd = 0.05)
+y <- -1 + 0.5*x + eps
+length(y)
+plot_d <- plot(y ~ x)
+model.h <- lm(y ~ x)
+summary(model.h)
+plot(y ~ x)
+abline(model.h, col = "blue")
+legend("topleft", c("Least Square Regression Line"), col = "blue", lty = 1, cex = 0.8)
+model.h2 <- lm(y ~ poly(x,2)) #look at two columns
+summary(model.h2)
+
+```
+
+### (i)
+Increasing the noise allows our model to fit very badly. R^2 is 0.34 and our F-statistic
+has been greatly decreased 
+```{r}
+x <- rnorm(100, mean = 0, sd = 1)
+eps <- rnorm(100, mean = 0, sd = 0.75)
+y <- -1 + 0.5*x + eps
+length(y)
+plot_d <- plot(y ~ x)
+model.i <- lm(y ~ x)
+summary(model.i)
+plot(y ~ x)
+abline(model.i, col = "blue")
+legend("topleft", c("Least Square Regression Line"), col = "blue", lty = 1, cex = 0.8)
+model.i2 <- lm(y ~ poly(x,2)) #look at two columns
+summary(model.i2)
+
+```
+### (j)
+The intervals are relatively close to 0.5, but as the noise increaes then the the confidence intervals get bigger and the noise with  
+```{r}
+confint(model4)
+confint(model.h) 
+confint(model.i)
+```
+## Chapter 3 Applied Exercise 14
+
+### (a)
+Model: Y = 2 + 2X1 + 0.3X2 + E, at N(0,1)
+
+Regression Coefficients: 2, 2, and 0.3 
+```{r}
+set.seed (1)
+x1 <- runif (100)
+x2 <- 0.5 * x1 + rnorm (100) / 10
+y <- 2 + 2 * x1 + 0.3 * x2 + rnorm (100)
+```
+### (b)
+```{r}
+cor(x1, x2)
+plot(x1, x2)
+```
+
+### (c)
+B^0: 2.1305, closely related to B0
+B^1: 1.4396, Reject H0 since p-value < 0.05 
+B^2: 1.0097, Fail to reject H0 since it is > 0.05
+```{r}
+model_c14 <- lm(y ~ x1 + x2)
+summary(model_c14)
+```
+
+### (d)
+We will Reject H0, so yes. Also, low p-value comparison with higher Estimate Std. 
+```{r}
+model_d14 <- lm(y ~ x1)
+summary(model_d14)
+```
+### (e)
+We will Reject H0, so yes. Also, low p-value comparison with higher Estimate Std. 
+```{r}
+model_e14 <- lm(y ~ x2)
+summary(model_e14)
+```
+
+### (f) *****
+No, the results are not contradiction since x1 and x2 are correlated to one another. Also, there is growth in B^1, which reduces the estimates of the regression coefficients.
+### (g)
+It seems in these models that the F-statistic is very different among them compared to our previous summaries. The first models show very unrelated data while the second ones show closeness. Some models do show an outlier while others do not based on the new obervations. 
+
+X1 has a high point in the left graphs but not the right since we can see on outlier. 
+X2 does not have much high points and is tight together. 
+X3 does have high points line in X1 where the points lie in both the right and left graphs as high outliers. 
+```{r}
+x1 <- c(x1 , 0.1)
+x2 <- c(x2 , 0.8)
+y <- c(y, 6)
+
+model_fa14 <- lm(y ~ x1 + x2)
+summary(model_fa14)
+
+model_fb14 <- lm(y ~ x1)
+summary(model_fb14)
+
+model_fc14 <- lm(y ~ x2)
+summary(model_fc14)
+
+par(mfrow=c(2,2))
+
+plot(model_fa14)
+plot(model_fb14)
+plot(model_fc14)
+```
+
+## 4.
+In Lecture 2 (covering the material from ISLR Chapter 2) we discussed the fact that more flexible models always fit better on the training data, regardless of how “good” a model they may actually be (i.e. regardless of how well they would fit on new data, not used to build the model). This exercise is designed to emphasize that point in the context of linear models.
+
+### (a)
+Generate 25 variables, each of which consists of 25 random samples from a standard normal. Store these variables in a data frame – call it df.train – and randomly select one variable to be the response – rename it y. (The end result should be a data frame with 25 observations on 25 variables but with no relationships between any of the variables.)
+```{r}
+data <- 25
+df.train <- as.data.frame(matrix(rnorm(data), data))
+names(df.train) <- "y"
+y
+
+```
+
+### (b)
+Repeat step (a) to create a test set called df.test
+```{r}
+n <- 25
+df.train <- as.data.frame(matrix(rnorm(n), n))
+names(df.train) <- "y"
+y
+
+#df.test <- as.data.frame[y, ]
+
+
+```
+### (c)
+Write a loop that will successively linearly regress y on one additional predictor each time through. That is, the first time through the loop you should build a linear model with only one predictor (the first one in your data frame). The ith time through the loop, you should build a linear model where y is regressed on the first i predictors. Record the training and test error each time so that at the end of the procedure you have two vectors (call them MSE.train and MSE.test) that contain the MSEs from each model.
+```{r}
+n = 25
+
+#for(i in 1:n)
+```
+
+
+### (d)
+Plot the training and test errors vs the linear model size (number of predictors) on the same plot in different colors. Add a legend to the plot to distinguish them.
+```{r}
+plot(y)
+```
+### (e)
+What happens to the training error as more predictors are added to the model? What about the test error?
+
+
+Test error would look to increase with the above with more data.
+
