@@ -1,0 +1,40 @@
+---
+title: "Homework 17"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+
+housing <- read.csv("boston_housing.csv")
+
+```
+
+Problem 1a
+
+```{r}
+require(regclass)
+model <- lm(PRICE ~ CRIME + ZONE + INDUS + NOX + RM + AGE + DIS + RAD + TAX + PTRATIO + BLACK +LSTAT, data = housing)
+summary(model)
+
+VIF(model)
+
+```
+
+Problem 1c
+
+```{r}
+correlations <- round(cor(housing), 3)
+print(correlations)
+```
+
+Problem 1f
+
+```{r}
+model2 <- lm(PRICE ~ CRIME + ZONE + INDUS + RM + AGE  + RAD  + PTRATIO + BLACK +LSTAT, data = housing)
+summary(model2)
+
+VIF(model2)
+
+```

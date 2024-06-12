@@ -1,0 +1,1231 @@
+month,day,year,home_team,away_team,home_score,away_score
+10,18,2022,Golden State Warriors,Los Angeles Lakers,123,109
+10,18,2022,Boston Celtics,Philadelphia 76ers,126,117
+10,19,2022,San Antonio Spurs,Charlotte Hornets,102,129
+10,19,2022,Miami Heat,Chicago Bulls,108,116
+10,19,2022,Toronto Raptors,Cleveland Cavaliers,108,105
+10,19,2022,Phoenix Suns,Dallas Mavericks,107,105
+10,19,2022,Utah Jazz,Denver Nuggets,123,102
+10,19,2022,Atlanta Hawks,Houston Rockets,117,107
+10,19,2022,Brooklyn Nets,New Orleans Pelicans,108,130
+10,19,2022,Memphis Grizzlies,New York Knicks,115,112
+10,19,2022,Minnesota Timberwolves,Oklahoma City Thunder,115,108
+10,19,2022,Detroit Pistons,Orlando Magic,113,109
+10,19,2022,Sacramento Kings,Portland Trailblazers,108,115
+10,19,2022,Indiana Pacers,Washington Wizards,107,114
+10,20,2022,Los Angeles Lakers,Los Angeles Clippers,97,103
+10,20,2022,Philadelphia 76ers,Milwaukee Bucks,88,90
+10,21,2022,Miami Heat,Boston Celtics,104,111
+10,21,2022,Washington Wizards,Chicago Bulls,102,100
+10,21,2022,Golden State Warriors,Denver Nuggets,123,128
+10,21,2022,New York Knicks,Detroit Pistons,130,106
+10,21,2022,Houston Rockets,Memphis Grizzlies,122,129
+10,21,2022,Charlotte Hornets,New Orleans Pelicans,112,124
+10,21,2022,Atlanta Hawks,Orlando Magic,108,98
+10,21,2022,Portland Trailblazers,Phoenix Suns,113,111
+10,21,2022,Indiana Pacers,San Antonio Spurs,134,137
+10,21,2022,Brooklyn Nets,Toronto Raptors,109,105
+10,21,2022,Minnesota Timberwolves,Utah Jazz,126,132
+10,22,2022,Orlando Magic,Boston Celtics,120,126
+10,22,2022,Chicago Bulls,Cleveland Cavaliers,96,128
+10,22,2022,Indiana Pacers,Detroit Pistons,124,115
+10,22,2022,Milwaukee Bucks,Houston Rockets,125,105
+10,22,2022,Sacramento Kings,Los Angeles Clippers,109,111
+10,22,2022,Dallas Mavericks,Memphis Grizzlies,137,96
+10,22,2022,Denver Nuggets,Oklahoma City Thunder,122,117
+10,22,2022,Philadelphia 76ers,San Antonio Spurs,105,114
+10,22,2022,Miami Heat,Toronto Raptors,112,109
+10,23,2022,Atlanta Hawks,Charlotte Hornets,109,126
+10,23,2022,Oklahoma City Thunder,Minnesota Timberwolves,106,116
+10,23,2022,Los Angeles Clippers,Phoenix Suns,95,112
+10,23,2022,Los Angeles Lakers,Portland Trailblazers,104,106
+10,23,2022,Golden State Warriors,Sacramento Kings,130,125
+10,23,2022,New Orleans Pelicans,Utah Jazz,121,122
+10,23,2022,Cleveland Cavaliers,Washington Wizards,117,107
+10,24,2022,Memphis Grizzlies,Brooklyn Nets,134,124
+10,24,2022,Chicago Bulls,Boston Celtics,120,102
+10,24,2022,Portland Trailblazers,Denver Nuggets,135,110
+10,24,2022,Philadelphia 76ers,Indiana Pacers,120,106
+10,24,2022,New York Knicks,Orlando Magic,115,102
+10,24,2022,Minnesota Timberwolves,San Antonio Spurs,106,115
+10,24,2022,Miami Heat,Toronto Raptors,90,98
+10,24,2022,Houston Rockets,Utah Jazz,114,108
+10,25,2022,New Orleans Pelicans,Dallas Mavericks,113,111
+10,25,2022,Washington Wizards,Detroit Pistons,120,99
+10,25,2022,Phoenix Suns,Golden State Warriors,134,105
+10,25,2022,Oklahoma City Thunder,Los Angeles Clippers,108,94
+10,26,2022,Detroit Pistons,Atlanta Hawks,113,118
+10,26,2022,Milwaukee Bucks,Brooklyn Nets,110,99
+10,26,2022,New York Knicks,Charlotte Hornets,134,131
+10,26,2022,Utah Jazz,Houston Rockets,109,101
+10,26,2022,Chicago Bulls,Indiana Pacers,124,109
+10,26,2022,Denver Nuggets,Los Angeles Lakers,110,99
+10,26,2022,Portland Trailblazers,Miami Heat,98,119
+10,26,2022,Cleveland Cavaliers,Orlando Magic,103,92
+10,26,2022,Toronto Raptors,Philadelphia 76ers,119,109
+10,26,2022,Minnesota Timberwolves,San Antonio Spurs,134,122
+10,27,2022,Brooklyn Nets,Dallas Mavericks,125,129
+10,27,2022,Oklahoma City Thunder,Los Angeles Clippers,118,110
+10,27,2022,Sacramento Kings,Memphis Grizzlies,110,125
+10,27,2022,Golden State Warriors,Miami Heat,123,110
+10,28,2022,Detroit Pistons,Atlanta Hawks,112,136
+10,28,2022,Orlando Magic,Charlotte Hornets,113,93
+10,28,2022,San Antonio Spurs,Chicago Bulls,129,124
+10,28,2022,Boston Celtics,Cleveland Cavaliers,123,132
+10,28,2022,Portland Trailblazers,Houston Rockets,125,111
+10,28,2022,Washington Wizards,Indiana Pacers,117,127
+10,28,2022,Minnesota Timberwolves,Los Angeles Lakers,111,102
+10,28,2022,Phoenix Suns,New Orleans Pelicans,124,111
+10,28,2022,Milwaukee Bucks,New York Knicks,119,108
+10,28,2022,Toronto Raptors,Philadelphia 76ers,90,112
+10,28,2022,Denver Nuggets,Utah Jazz,117,101
+10,29,2022,Milwaukee Bucks,Atlanta Hawks,123,115
+10,29,2022,Charlotte Hornets,Golden State Warriors,120,113
+10,29,2022,Brooklyn Nets,Indiana Pacers,116,125
+10,29,2022,Utah Jazz,Memphis Grizzlies,124,123
+10,29,2022,Sacramento Kings,Miami Heat,119,113
+10,29,2022,Dallas Mavericks,Oklahoma City Thunder,111,117
+10,29,2022,Chicago Bulls,Philadelphia 76ers,109,114
+10,30,2022,Los Angeles Lakers,Denver Nuggets,121,110
+10,30,2022,Detroit Pistons,Golden State Warriors,128,114
+10,30,2022,Phoenix Suns,Houston Rockets,124,109
+10,30,2022,San Antonio Spurs,Minnesota Timberwolves,107,98
+10,30,2022,Los Angeles Clippers,New Orleans Pelicans,91,112
+10,30,2022,Cleveland Cavaliers,New York Knicks,121,108
+10,30,2022,Dallas Mavericks,Orlando Magic,114,105
+10,30,2022,Boston Celtics,Washington Wizards,112,94
+10,31,2022,Toronto Raptors,Atlanta Hawks,139,109
+10,31,2022,Milwaukee Bucks,Detroit Pistons,110,108
+10,31,2022,Los Angeles Clippers,Houston Rockets,95,93
+10,31,2022,Brooklyn Nets,Indiana Pacers,116,109
+10,31,2022,Utah Jazz,Memphis Grizzlies,121,105
+10,31,2022,Washington Wizards,Philadelphia 76ers,111,118
+10,31,2022,Charlotte Hornets,Sacramento Kings,108,115
+11,1,2022,Brooklyn Nets,Chicago Bulls,99,108
+11,1,2022,Miami Heat,Golden State Warriors,116,109
+11,1,2022,Phoenix Suns,Minnesota Timberwolves,116,107
+11,1,2022,Oklahoma City Thunder,Orlando Magic,116,108
+11,2,2022,New York Knicks,Atlanta Hawks,99,112
+11,2,2022,Cleveland Cavaliers,Boston Celtics,114,113
+11,2,2022,Chicago Bulls,Charlotte Hornets,106,88
+11,2,2022,Milwaukee Bucks,Detroit Pistons,116,91
+11,2,2022,Houston Rockets,Los Angeles Clippers,101,109
+11,2,2022,Portland Trailblazers,Memphis Grizzlies,106,111
+11,2,2022,Los Angeles Lakers,New Orleans Pelicans,120,117
+11,2,2022,Miami Heat,Sacramento Kings,110,107
+11,2,2022,San Antonio Spurs,Toronto Raptors,100,143
+11,2,2022,Dallas Mavericks,Utah Jazz,103,100
+11,2,2022,Philadelphia 76ers,Washington Wizards,111,121
+11,3,2022,Oklahoma City Thunder,Denver Nuggets,110,122
+11,3,2022,Orlando Magic,Golden State Warriors,130,129
+11,4,2022,Washington Wizards,Brooklyn Nets,86,128
+11,4,2022,Memphis Grizzlies,Charlotte Hornets,130,99
+11,4,2022,Boston Celtics,Chicago Bulls,123,119
+11,4,2022,Detroit Pistons,Cleveland Cavaliers,88,112
+11,4,2022,New Orleans Pelicans,Golden State Warriors,114,105
+11,4,2022,San Antonio Spurs,Los Angeles Clippers,106,113
+11,4,2022,Indiana Pacers,Miami Heat,101,99
+11,4,2022,Minnesota Timberwolves,Milwaukee Bucks,102,115
+11,4,2022,Philadelphia 76ers,New York Knicks,104,106
+11,4,2022,Phoenix Suns,Portland Trailblazers,106,108
+11,4,2022,Dallas Mavericks,Toronto Raptors,111,110
+11,4,2022,Los Angeles Lakers,Utah Jazz,116,130
+11,5,2022,Charlotte Hornets,Brooklyn Nets,94,98
+11,5,2022,New York Knicks,Boston Celtics,118,133
+11,5,2022,Minnesota Timberwolves,Houston Rockets,129,117
+11,5,2022,Atlanta Hawks,New Orleans Pelicans,124,121
+11,5,2022,Milwaukee Bucks,Oklahoma City Thunder,108,94
+11,5,2022,Phoenix Suns,Portland Trailblazers,102,82
+11,5,2022,Denver Nuggets,San Antonio Spurs,126,101
+11,5,2022,Orlando Magic,Sacramento Kings,123,126
+11,6,2022,Toronto Raptors,Chicago Bulls,113,104
+11,6,2022,Los Angeles Lakers,Cleveland Cavaliers,100,114
+11,6,2022,Los Angeles Clippers,Utah Jazz,102,110
+11,6,2022,Memphis Grizzlies,Washington Wizards,103,97
+11,7,2022,Dallas Mavericks,Brooklyn Nets,96,94
+11,7,2022,Memphis Grizzlies,Boston Celtics,106,109
+11,7,2022,Los Angeles Clippers,Cleveland Cavaliers,119,117
+11,7,2022,San Antonio Spurs,Denver Nuggets,109,115
+11,7,2022,Orlando Magic,Houston Rockets,127,134
+11,7,2022,Utah Jazz,Los Angeles Lakers,139,116
+11,7,2022,Atlanta Hawks,Milwaukee Bucks,117,98
+11,7,2022,Indiana Pacers,New Orleans Pelicans,129,122
+11,7,2022,Minnesota Timberwolves,New York Knicks,107,120
+11,7,2022,Detroit Pistons,Oklahoma City Thunder,112,103
+11,7,2022,Philadelphia 76ers,Phoenix Suns,100,88
+11,7,2022,Miami Heat,Portland Trailblazers,107,110
+11,7,2022,Golden State Warriors,Sacramento Kings,116,113
+11,7,2022,Chicago Bulls,Toronto Raptors,111,97
+11,7,2022,Charlotte Hornets,Washington Wizards,100,108
+11,9,2022,Sacramento Kings,Cleveland Cavaliers,127,120
+11,9,2022,Orlando Magic,Dallas Mavericks,94,87
+11,9,2022,Indiana Pacers,Denver Nuggets,119,122
+11,9,2022,Boston Celtics,Detroit Pistons,128,112
+11,9,2022,Toronto Raptors,Houston Rockets,116,109
+11,9,2022,Los Angeles Clippers,Los Angeles Lakers,114,101
+11,9,2022,San Antonio Spurs,Memphis Grizzlies,122,124
+11,9,2022,Oklahoma City Thunder,Milwaukee Bucks,132,136
+11,9,2022,Chicago Bulls,New Orleans Pelicans,111,115
+11,9,2022,Brooklyn Nets,New York Knicks,112,85
+11,9,2022,Minnesota Timberwolves,Phoenix Suns,117,129
+11,9,2022,Charlotte Hornets,Portland Trailblazers,95,105
+11,9,2022,Atlanta Hawks,Utah Jazz,119,125
+11,10,2022,Miami Heat,Charlotte Hornets,117,112
+11,10,2022,Washington Wizards,Dallas Mavericks,113,105
+11,10,2022,Atlanta Hawks,Philadelphia 76ers,104,95
+11,10,2022,New Orleans Pelicans,Portland Trailblazers,95,106
+11,11,2022,Golden State Warriors,Cleveland Cavaliers,106,101
+11,11,2022,Boston Celtics,Denver Nuggets,131,112
+11,11,2022,New York Knicks,Detroit Pistons,121,112
+11,11,2022,San Antonio Spurs,Milwaukee Bucks,111,93
+11,11,2022,Memphis Grizzlies,Minnesota Timberwolves,114,103
+11,11,2022,Orlando Magic,Phoenix Suns,114,97
+11,11,2022,Los Angeles Lakers,Sacramento Kings,114,120
+11,11,2022,Oklahoma City Thunder,Toronto Raptors,132,113
+11,12,2022,Philadelphia 76ers,Atlanta Hawks,121,109
+11,12,2022,Los Angeles Clippers,Brooklyn Nets,95,110
+11,12,2022,Detroit Pistons,Boston Celtics,108,117
+11,12,2022,Miami Heat,Charlotte Hornets,132,115
+11,12,2022,New Orleans Pelicans,Houston Rockets,119,106
+11,12,2022,Dallas Mavericks,Portland Trailblazers,117,112
+11,12,2022,Indiana Pacers,Toronto Raptors,118,104
+11,12,2022,Washington Wizards,Utah Jazz,121,112
+11,13,2022,Los Angeles Lakers,Brooklyn Nets,116,103
+11,13,2022,Chicago Bulls,Denver Nuggets,103,126
+11,13,2022,Sacramento Kings,Golden State Warriors,122,115
+11,13,2022,Washington Wizards,Memphis Grizzlies,102,92
+11,13,2022,Cleveland Cavaliers,Minnesota Timberwolves,124,129
+11,13,2022,New York Knicks,Oklahoma City Thunder,135,145
+11,13,2022,Philadelphia 76ers,Utah Jazz,105,98
+11,14,2022,Milwaukee Bucks,Atlanta Hawks,106,121
+11,14,2022,Orlando Magic,Charlotte Hornets,105,112
+11,14,2022,Houston Rockets,Los Angeles Clippers,106,122
+11,14,2022,Boston Celtics,Oklahoma City Thunder,126,122
+11,14,2022,Miami Heat,Phoenix Suns,113,112
+11,14,2022,Golden State Warriors,San Antonio Spurs,132,95
+11,14,2022,Detroit Pistons,Toronto Raptors,111,115
+11,15,2022,Sacramento Kings,Brooklyn Nets,153,121
+11,15,2022,Dallas Mavericks,Los Angeles Clippers,103,101
+11,15,2022,New Orleans Pelicans,Memphis Grizzlies,113,102
+11,15,2022,Utah Jazz,New York Knicks,111,118
+11,15,2022,Portland Trailblazers,San Antonio Spurs,117,110
+11,16,2022,Atlanta Hawks,Boston Celtics,101,126
+11,16,2022,New Orleans Pelicans,Chicago Bulls,124,110
+11,16,2022,Milwaukee Bucks,Cleveland Cavaliers,113,98
+11,16,2022,Phoenix Suns,Golden State Warriors,130,119
+11,16,2022,Dallas Mavericks,Houston Rockets,92,101
+11,16,2022,Charlotte Hornets,Indiana Pacers,113,125
+11,16,2022,Toronto Raptors,Miami Heat,112,104
+11,16,2022,Orlando Magic,Minnesota Timberwolves,108,126
+11,16,2022,Denver Nuggets,New York Knicks,103,106
+11,16,2022,Washington Wizards,Oklahoma City Thunder,120,121
+11,17,2022,Portland Trailblazers,Brooklyn Nets,107,109
+11,17,2022,Sacramento Kings,San Antonio Spurs,130,112
+11,17,2022,Los Angeles Clippers,Detroit Pistons,96,91
+11,18,2022,New Orleans Pelicans,Boston Celtics,109,117
+11,18,2022,Cleveland Cavaliers,Charlotte Hornets,132,122
+11,18,2022,Dallas Mavericks,Denver Nuggets,127,99
+11,18,2022,Los Angeles Lakers,Detroit Pistons,128,121
+11,18,2022,Houston Rockets,Indiana Pacers,91,99
+11,18,2022,Washington Wizards,Miami Heat,107,106
+11,18,2022,Philadelphia 76ers,Milwaukee Bucks,110,102
+11,18,2022,Golden State Warriors,New York Knicks,111,101
+11,18,2022,Memphis Grizzlies,Oklahoma City Thunder,121,110
+11,18,2022,Chicago Bulls,Orlando Magic,107,108
+11,18,2022,Utah Jazz,Phoenix Suns,134,133
+11,19,2022,Philadelphia 76ers,Minnesota Timberwolves,109,112
+11,19,2022,Indiana Pacers,Orlando Magic,114,113
+11,19,2022,Los Angeles Clippers,San Antonio Spurs,119,97
+11,19,2022,Atlanta Hawks,Toronto Raptors,124,122
+11,19,2022,Portland Trailblazers,Utah Jazz,113,118
+11,20,2022,Washington Wizards,Charlotte Hornets,106,102
+11,20,2022,Dallas Mavericks,Denver Nuggets,97,98
+11,20,2022,Sacramento Kings,Detroit Pistons,137,129
+11,20,2022,Houston Rockets,Golden State Warriors,120,127
+11,20,2022,Brooklyn Nets,Memphis Grizzlies,127,115
+11,20,2022,Cleveland Cavaliers,Miami Heat,113,87
+11,20,2022,Phoenix Suns,New York Knicks,116,95
+11,20,2022,Los Angeles Lakers,San Antonio Spurs,123,92
+11,21,2022,Cleveland Cavaliers,Atlanta Hawks,114,102
+11,21,2022,Chicago Bulls,Boston Celtics,121,107
+11,21,2022,New Orleans Pelicans,Golden State Warriors,128,83
+11,21,2022,Minnesota Timberwolves,Miami Heat,105,101
+11,21,2022,Oklahoma City Thunder,New York Knicks,119,129
+11,21,2022,Indiana Pacers,Orlando Magic,123,102
+11,21,2022,Milwaukee Bucks,Portland Trailblazers,119,111
+11,21,2022,Los Angeles Clippers,Utah Jazz,121,114
+11,22,2022,Philadelphia 76ers,Brooklyn Nets,115,106
+11,22,2022,Denver Nuggets,Detroit Pistons,108,110
+11,22,2022,Phoenix Suns,Los Angeles Lakers,115,105
+11,22,2022,Memphis Grizzlies,Sacramento Kings,109,113
+11,23,2022,Toronto Raptors,Brooklyn Nets,98,112
+11,23,2022,Milwaukee Bucks,Chicago Bulls,113,118
+11,23,2022,Boston Celtics,Dallas Mavericks,125,112
+11,23,2022,Oklahoma City Thunder,Denver Nuggets,126,131
+11,23,2022,Utah Jazz,Detroit Pistons,116,125
+11,23,2022,Golden State Warriors,Los Angeles Clippers,124,107
+11,23,2022,Indiana Pacers,Minnesota Timberwolves,101,115
+11,23,2022,San Antonio Spurs,New Orleans Pelicans,110,129
+11,23,2022,Charlotte Hornets,Philadelphia 76ers,107,101
+11,23,2022,Cleveland Cavaliers,Portland Trailblazers,114,96
+11,23,2022,Atlanta Hawks,Sacramento Kings,115,106
+11,23,2022,Miami Heat,Washington Wizards,113,105
+11,25,2022,Houston Rockets,Atlanta Hawks,128,122
+11,25,2022,Indiana Pacers,Brooklyn Nets,128,117
+11,25,2022,Oklahoma City Thunder,Chicago Bulls,123,119
+11,25,2022,Milwaukee Bucks,Cleveland Cavaliers,117,102
+11,25,2022,Los Angeles Clippers,Denver Nuggets,104,114
+11,25,2022,Phoenix Suns,Detroit Pistons,108,102
+11,25,2022,San Antonio Spurs,Los Angeles Lakers,94,105
+11,25,2022,Charlotte Hornets,Minnesota Timberwolves,110,108
+11,25,2022,Memphis Grizzlies,New Orleans Pelicans,132,111
+11,25,2022,Orlando Magic,Philadelphia 76ers,99,107
+11,25,2022,New York Knicks,Portland Trailblazers,129,132
+11,25,2022,Boston Celtics,Sacramento Kings,122,104
+11,25,2022,Golden State Warriors,Utah Jazz,129,118
+11,25,2022,Miami Heat,Washington Wizards,110,107
+11,26,2022,Toronto Raptors,Dallas Mavericks,105,100
+11,26,2022,San Antonio Spurs,Los Angeles Lakers,138,143
+11,26,2022,Houston Rockets,Oklahoma City Thunder,118,105
+11,26,2022,Phoenix Suns,Utah Jazz,113,112
+11,27,2022,Detroit Pistons,Cleveland Cavaliers,94,102
+11,27,2022,Milwaukee Bucks,Dallas Mavericks,124,115
+11,27,2022,Minnesota Timberwolves,Golden State Warriors,114,137
+11,27,2022,Los Angeles Clippers,Indiana Pacers,114,100
+11,27,2022,New York Knicks,Memphis Grizzlies,123,127
+11,27,2022,Atlanta Hawks,Miami Heat,98,106
+11,27,2022,Orlando Magic,Philadelphia 76ers,103,133
+11,27,2022,Brooklyn Nets,Portland Trailblazers,111,97
+11,27,2022,Boston Celtics,Washington Wizards,130,121
+11,28,2022,Philadelphia 76ers,Atlanta Hawks,104,101
+11,28,2022,Boston Celtics,Charlotte Hornets,140,105
+11,28,2022,Utah Jazz,Chicago Bulls,107,114
+11,28,2022,Toronto Raptors,Cleveland Cavaliers,100,88
+11,28,2022,Denver Nuggets,Houston Rockets,129,113
+11,28,2022,Los Angeles Lakers,Indiana Pacers,115,116
+11,28,2022,Washington Wizards,Minnesota Timberwolves,142,127
+11,28,2022,New Orleans Pelicans,Oklahoma City Thunder,105,101
+11,28,2022,Brooklyn Nets,Orlando Magic,109,102
+11,28,2022,Sacramento Kings,Phoenix Suns,117,122
+11,29,2022,Dallas Mavericks,Golden State Warriors,116,113
+11,29,2022,Portland Trailblazers,Los Angeles Clippers,112,118
+11,29,2022,Detroit Pistons,New York Knicks,110,140
+11,30,2022,Orlando Magic,Atlanta Hawks,108,125
+11,30,2022,Phoenix Suns,Chicago Bulls,132,113
+11,30,2022,Denver Nuggets,Houston Rockets,120,100
+11,30,2022,Sacramento Kings,Indiana Pacers,137,114
+11,30,2022,Utah Jazz,Los Angeles Clippers,125,112
+11,30,2022,Minnesota Timberwolves,Memphis Grizzlies,109,101
+11,30,2022,Boston Celtics,Miami Heat,134,121
+11,30,2022,New York Knicks,Milwaukee Bucks,103,109
+11,30,2022,Cleveland Cavaliers,Philadelphia 76ers,113,85
+11,30,2022,Los Angeles Lakers,Portland Trailblazers,128,109
+11,30,2022,Oklahoma City Thunder,San Antonio Spurs,119,111
+11,30,2022,New Orleans Pelicans,Toronto Raptors,126,108
+11,30,2022,Brooklyn Nets,Washington Wizards,113,107
+12,1,2022,Detroit Pistons,Dallas Mavericks,131,125
+12,2,2022,Golden State Warriors,Chicago Bulls,119,111
+12,2,2022,Atlanta Hawks,Denver Nuggets,117,109
+12,2,2022,Phoenix Suns,Houston Rockets,121,122
+12,2,2022,Utah Jazz,Indiana Pacers,139,119
+12,2,2022,Milwaukee Bucks,Los Angeles Lakers,129,133
+12,2,2022,Boston Celtics,Miami Heat,116,120
+12,2,2022,San Antonio Spurs,New Orleans Pelicans,99,117
+12,2,2022,Cleveland Cavaliers,Orlando Magic,107,96
+12,2,2022,Memphis Grizzlies,Philadelphia 76ers,117,109
+12,2,2022,Brooklyn Nets,Toronto Raptors,114,105
+12,2,2022,Charlotte Hornets,Washington Wizards,117,116
+12,3,2022,New York Knicks,Dallas Mavericks,100,121
+12,3,2022,Golden State Warriors,Houston Rockets,120,101
+12,3,2022,Charlotte Hornets,Milwaukee Bucks,96,105
+12,3,2022,Minnesota Timberwolves,Oklahoma City Thunder,128,135
+12,3,2022,Toronto Raptors,Orlando Magic,121,108
+12,3,2022,Utah Jazz,Portland Trailblazers,111,116
+12,3,2022,Los Angeles Clippers,Sacramento Kings,96,123
+12,4,2022,Brooklyn Nets,Boston Celtics,92,103
+12,4,2022,Sacramento Kings,Chicago Bulls,110,101
+12,4,2022,New York Knicks,Cleveland Cavaliers,92,81
+12,4,2022,New Orleans Pelicans,Denver Nuggets,121,106
+12,4,2022,Portland Trailblazers,Indiana Pacers,116,100
+12,4,2022,Washington Wizards,Los Angeles Lakers,119,130
+12,4,2022,Detroit Pistons,Memphis Grizzlies,112,122
+12,4,2022,San Antonio Spurs,Phoenix Suns,95,133
+12,5,2022,Toronto Raptors,Boston Celtics,110,116
+12,5,2022,Golden State Warriors,Indiana Pacers,104,112
+12,5,2022,Charlotte Hornets,Los Angeles Clippers,117,119
+12,5,2022,Memphis Grizzlies,Miami Heat,101,93
+12,5,2022,Orlando Magic,Milwaukee Bucks,102,109
+12,5,2022,Atlanta Hawks,Oklahoma City Thunder,114,121
+12,5,2022,Houston Rockets,Philadelphia 76ers,132,123
+12,5,2022,Dallas Mavericks,Phoenix Suns,130,111
+12,6,2022,Denver Nuggets,Dallas Mavericks,115,116
+12,6,2022,Miami Heat,Detroit Pistons,96,116
+12,6,2022,Cleveland Cavaliers,Los Angeles Lakers,116,102
+12,7,2022,New York Knicks,Atlanta Hawks,113,89
+12,7,2022,Phoenix Suns,Boston Celtics,98,125
+12,7,2022,Brooklyn Nets,Charlotte Hornets,122,116
+12,7,2022,New Orleans Pelicans,Detroit Pistons,104,98
+12,7,2022,Utah Jazz,Golden State Warriors,124,123
+12,7,2022,Minnesota Timberwolves,Indiana Pacers,121,115
+12,7,2022,Orlando Magic,Los Angeles Clippers,116,111
+12,7,2022,Toronto Raptors,Los Angeles Lakers,126,113
+12,7,2022,Memphis Grizzlies,Oklahoma City Thunder,123,102
+12,7,2022,Milwaukee Bucks,Sacramento Kings,126,113
+12,7,2022,Chicago Bulls,Washington Wizards,115,111
+12,8,2022,Portland Trailblazers,Denver Nuggets,120,121
+12,8,2022,San Antonio Spurs,Houston Rockets,118,109
+12,8,2022,Miami Heat,Los Angeles Clippers,115,110
+12,9,2022,Brooklyn Nets,Atlanta Hawks,120,116
+12,9,2022,Memphis Grizzlies,Detroit Pistons,114,103
+12,9,2022,Philadelphia 76ers,Los Angeles Lakers,133,122
+12,9,2022,Dallas Mavericks,Milwaukee Bucks,105,106
+12,9,2022,Utah Jazz,Minnesota Timberwolves,108,118
+12,9,2022,Charlotte Hornets,New York Knicks,102,121
+12,9,2022,New Orleans Pelicans,Phoenix Suns,128,117
+12,9,2022,Cleveland Cavaliers,Sacramento Kings,95,106
+12,9,2022,Orlando Magic,Toronto Raptors,113,109
+12,9,2022,Indiana Pacers,Washington Wizards,121,111
+12,10,2022,Indiana Pacers,Brooklyn Nets,133,136
+12,10,2022,Portland Trailblazers,Minnesota Timberwolves,124,118
+12,10,2022,Golden State Warriors,Boston Celtics,123,107
+12,10,2022,Chicago Bulls,Dallas Mavericks,144,115
+12,10,2022,Washington Wizards,Los Angeles Clippers,107,114
+12,10,2022,Cleveland Cavaliers,Oklahoma City Thunder,110,102
+12,10,2022,Miami Heat,San Antonio Spurs,111,115
+12,10,2022,Denver Nuggets,Utah Jazz,115,110
+12,11,2022,Philadelphia 76ers,Charlotte Hornets,131,113
+12,11,2022,Atlanta Hawks,Chicago Bulls,123,122
+12,11,2022,Detroit Pistons,Los Angeles Lakers,117,124
+12,11,2022,Houston Rockets,Milwaukee Bucks,97,92
+12,11,2022,New Orleans Pelicans,Phoenix Suns,129,124
+12,11,2022,New York Knicks,Sacramento Kings,112,99
+12,11,2022,Orlando Magic,Toronto Raptors,111,99
+12,12,2022,Memphis Grizzlies,Atlanta Hawks,128,103
+12,12,2022,Washington Wizards,Brooklyn Nets,100,112
+12,12,2022,Los Angeles Clippers,Boston Celtics,113,93
+12,12,2022,San Antonio Spurs,Cleveland Cavaliers,112,111
+12,12,2022,Indiana Pacers,Miami Heat,82,87
+12,12,2022,Portland Trailblazers,Minnesota Timberwolves,133,112
+12,12,2022,Dallas Mavericks,Oklahoma City Thunder,121,114
+12,13,2022,Los Angeles Lakers,Boston Celtics,118,122
+12,13,2022,Milwaukee Bucks,Golden State Warriors,128,111
+12,13,2022,Utah Jazz,New Orleans Pelicans,121,100
+12,13,2022,Houston Rockets,Phoenix Suns,111,97
+12,13,2022,Philadelphia 76ers,Sacramento Kings,123,103
+12,14,2022,Orlando Magic,Atlanta Hawks,135,124
+12,14,2022,Dallas Mavericks,Cleveland Cavaliers,90,105
+12,14,2022,Charlotte Hornets,Detroit Pistons,134,141
+12,14,2022,Indiana Pacers,Golden State Warriors,125,119
+12,14,2022,Oklahoma City Thunder,Miami Heat,108,110
+12,14,2022,Los Angeles Clippers,Minnesota Timberwolves,99,88
+12,14,2022,Chicago Bulls,New York Knicks,120,128
+12,14,2022,San Antonio Spurs,Portland Trailblazers,112,128
+12,14,2022,Toronto Raptors,Sacramento Kings,123,124
+12,14,2022,Denver Nuggets,Washington Wizards,141,128
+12,15,2022,Houston Rockets,Miami Heat,108,111
+12,15,2022,Memphis Grizzlies,Milwaukee Bucks,142,101
+12,15,2022,Utah Jazz,New Orleans Pelicans,132,129
+12,15,2022,Los Angeles Clippers,Phoenix Suns,95,111
+12,16,2022,Charlotte Hornets,Atlanta Hawks,106,125
+12,16,2022,Toronto Raptors,Brooklyn Nets,116,119
+12,16,2022,Los Angeles Lakers,Denver Nuggets,126,108
+12,16,2022,Philadelphia 76ers,Golden State Warriors,118,106
+12,16,2022,Cleveland Cavaliers,Indiana Pacers,118,112
+12,16,2022,Oklahoma City Thunder,Minnesota Timberwolves,110,112
+12,16,2022,Chicago Bulls,New York Knicks,91,114
+12,16,2022,Boston Celtics,Orlando Magic,109,117
+12,16,2022,Dallas Mavericks,Portland Trailblazers,130,110
+12,16,2022,Detroit Pistons,Sacramento Kings,113,122
+12,17,2022,Cleveland Cavaliers,Dallas Mavericks,100,99
+12,17,2022,Oklahoma City Thunder,Memphis Grizzlies,115,109
+12,17,2022,San Antonio Spurs,Miami Heat,101,111
+12,17,2022,Phoenix Suns,New Orleans Pelicans,118,114
+12,17,2022,Houston Rockets,Portland Trailblazers,95,107
+12,17,2022,Milwaukee Bucks,Utah Jazz,123,97
+12,17,2022,Los Angeles Clippers,Washington Wizards,102,93
+12,18,2022,Detroit Pistons,Brooklyn Nets,121,124
+12,18,2022,Denver Nuggets,Charlotte Hornets,119,115
+12,18,2022,Minnesota Timberwolves,Chicago Bulls,150,126
+12,18,2022,Toronto Raptors,Golden State Warriors,110,126
+12,18,2022,Indiana Pacers,New York Knicks,106,109
+12,18,2022,Boston Celtics,Orlando Magic,92,95
+12,18,2022,Los Angeles Lakers,Washington Wizards,119,117
+12,19,2022,Sacramento Kings,Charlotte Hornets,119,125
+12,19,2022,Minnesota Timberwolves,Dallas Mavericks,116,106
+12,19,2022,Phoenix Suns,Los Angeles Lakers,130,104
+12,19,2022,New Orleans Pelicans,Milwaukee Bucks,119,128
+12,19,2022,Atlanta Hawks,Orlando Magic,126,125
+12,19,2022,Oklahoma City Thunder,Portland Trailblazers,123,121
+12,19,2022,Houston Rockets,San Antonio Spurs,105,124
+12,19,2022,Philadelphia 76ers,Toronto Raptors,104,101
+12,19,2022,Cleveland Cavaliers,Utah Jazz,122,99
+12,20,2022,Miami Heat,Chicago Bulls,103,113
+12,20,2022,New York Knicks,Golden State Warriors,132,94
+12,20,2022,Denver Nuggets,Memphis Grizzlies,105,91
+12,20,2022,Detroit Pistons,Utah Jazz,111,126
+12,20,2022,Phoenix Suns,Washington Wizards,110,113
+12,21,2022,Los Angeles Clippers,Charlotte Hornets,126,105
+12,21,2022,Atlanta Hawks,Chicago Bulls,108,110
+12,21,2022,Minnesota Timberwolves,Dallas Mavericks,99,104
+12,21,2022,Philadelphia 76ers,Detroit Pistons,113,93
+12,21,2022,Brooklyn Nets,Golden State Warriors,143,113
+12,21,2022,Boston Celtics,Indiana Pacers,112,117
+12,21,2022,Sacramento Kings,Los Angeles Lakers,134,120
+12,21,2022,Cleveland Cavaliers,Milwaukee Bucks,114,106
+12,21,2022,Houston Rockets,Orlando Magic,110,116
+12,21,2022,Oklahoma City Thunder,Portland Trailblazers,101,98
+12,21,2022,New York Knicks,Toronto Raptors,106,113
+12,22,2022,New Orleans Pelicans,San Antonio Spurs,126,117
+12,22,2022,Utah Jazz,Washington Wizards,120,112
+12,23,2022,Los Angeles Lakers,Charlotte Hornets,130,134
+12,23,2022,New York Knicks,Chicago Bulls,117,118
+12,23,2022,Houston Rockets,Dallas Mavericks,106,112
+12,23,2022,Atlanta Hawks,Detroit Pistons,130,105
+12,23,2022,Miami Heat,Indiana Pacers,108,111
+12,23,2022,Philadelphia 76ers,Los Angeles Clippers,119,114
+12,23,2022,Phoenix Suns,Memphis Grizzlies,100,125
+12,23,2022,Brooklyn Nets,Milwaukee Bucks,118,100
+12,23,2022,Boston Celtics,Minnesota Timberwolves,121,109
+12,23,2022,Oklahoma City Thunder,New Orleans Pelicans,125,128
+12,23,2022,Denver Nuggets,Portland Trailblazers,120,107
+12,23,2022,Orlando Magic,San Antonio Spurs,133,113
+12,23,2022,Cleveland Cavaliers,Toronto Raptors,107,118
+12,23,2022,Sacramento Kings,Washington Wizards,111,125
+12,25,2022,Dallas Mavericks,Los Angeles Lakers,124,115
+12,25,2022,Golden State Warriors,Memphis Grizzlies,123,109
+12,25,2022,Boston Celtics,Milwaukee Bucks,139,118
+12,25,2022,New York Knicks,Philadelphia 76ers,112,119
+12,25,2022,Denver Nuggets,Phoenix Suns,128,125
+12,26,2022,Cleveland Cavaliers,Brooklyn Nets,117,125
+12,26,2022,Portland Trailblazers,Charlotte Hornets,124,113
+12,26,2022,Chicago Bulls,Houston Rockets,118,133
+12,26,2022,New Orleans Pelicans,Indiana Pacers,113,93
+12,26,2022,Detroit Pistons,Los Angeles Clippers,131,142
+12,26,2022,Miami Heat,Minnesota Timberwolves,113,110
+12,26,2022,San Antonio Spurs,Utah Jazz,126,122
+12,27,2022,Indiana Pacers,Atlanta Hawks,129,114
+12,27,2022,Golden State Warriors,Charlotte Hornets,110,105
+12,27,2022,Sacramento Kings,Denver Nuggets,106,113
+12,27,2022,Boston Celtics,Houston Rockets,126,102
+12,27,2022,Toronto Raptors,Los Angeles Clippers,113,124
+12,27,2022,Orlando Magic,Los Angeles Lakers,110,129
+12,27,2022,Dallas Mavericks,New York Knicks,126,121
+12,27,2022,Washington Wizards,Philadelphia 76ers,116,111
+12,27,2022,Memphis Grizzlies,Phoenix Suns,108,125
+12,27,2022,Oklahoma City Thunder,San Antonio Spurs,130,114
+12,28,2022,Atlanta Hawks,Brooklyn Nets,107,108
+12,28,2022,Sacramento Kings,Denver Nuggets,127,126
+12,28,2022,Miami Heat,Los Angeles Lakers,112,98
+12,28,2022,Chicago Bulls,Milwaukee Bucks,119,113
+12,28,2022,New Orleans Pelicans,Minnesota Timberwolves,119,118
+12,28,2022,Detroit Pistons,Orlando Magic,121,101
+12,28,2022,Washington Wizards,Phoenix Suns,127,102
+12,28,2022,Golden State Warriors,Utah Jazz,112,107
+12,29,2022,Indiana Pacers,Cleveland Cavaliers,135,126
+12,29,2022,Dallas Mavericks,Houston Rockets,129,114
+12,29,2022,Boston Celtics,Los Angeles Clippers,116,110
+12,29,2022,Toronto Raptors,Memphis Grizzlies,106,119
+12,29,2022,San Antonio Spurs,New York Knicks,122,115
+12,29,2022,Charlotte Hornets,Oklahoma City Thunder,121,113
+12,30,2022,Chicago Bulls,Detroit Pistons,132,118
+12,30,2022,Atlanta Hawks,Los Angeles Lakers,121,130
+12,30,2022,Denver Nuggets,Miami Heat,124,119
+12,30,2022,Milwaukee Bucks,Minnesota Timberwolves,123,114
+12,30,2022,New Orleans Pelicans,Philadelphia 76ers,127,116
+12,30,2022,Toronto Raptors,Phoenix Suns,113,104
+12,30,2022,Golden State Warriors,Portland Trailblazers,118,112
+12,30,2022,Sacramento Kings,Utah Jazz,126,125
+12,30,2022,Orlando Magic,Washington Wizards,100,119
+12,31,2022,Charlotte Hornets,Brooklyn Nets,106,123
+12,31,2022,Chicago Bulls,Cleveland Cavaliers,102,103
+12,31,2022,San Antonio Spurs,Dallas Mavericks,125,126
+12,31,2022,Minnesota Timberwolves,Detroit Pistons,104,116
+12,31,2022,Indiana Pacers,Los Angeles Clippers,131,130
+12,31,2022,Utah Jazz,Miami Heat,123,126
+12,31,2022,Memphis Grizzlies,New Orleans Pelicans,116,101
+12,31,2022,Houston Rockets,New York Knicks,88,108
+12,31,2022,Oklahoma City Thunder,Philadelphia 76ers,96,115
+1,1,2023,Denver Nuggets,Boston Celtics,123,111
+1,1,2023,Memphis Grizzlies,Sacramento Kings,118,108
+1,1,2023,Milwaukee Bucks,Washington Wizards,95,118
+1,2,2023,Golden State Warriors,Atlanta Hawks,143,141
+1,2,2023,Cleveland Cavaliers,Chicago Bulls,145,134
+1,2,2023,Houston Rockets,Dallas Mavericks,106,111
+1,2,2023,Minnesota Timberwolves,Denver Nuggets,124,111
+1,2,2023,Portland Trailblazers,Detroit Pistons,135,106
+1,2,2023,Charlotte Hornets,Los Angeles Lakers,115,121
+1,2,2023,Los Angeles Clippers,Miami Heat,100,110
+1,2,2023,Philadelphia 76ers,New Orleans Pelicans,120,111
+1,2,2023,New York Knicks,Phoenix Suns,102,83
+1,2,2023,Brooklyn Nets,San Antonio Spurs,139,103
+1,2,2023,Indiana Pacers,Toronto Raptors,122,114
+1,3,2023,Oklahoma City Thunder,Boston Celtics,150,117
+1,3,2023,Utah Jazz,Sacramento Kings,115,117
+1,3,2023,Milwaukee Bucks,Washington Wizards,123,113
+1,4,2023,Sacramento Kings,Atlanta Hawks,117,120
+1,4,2023,Chicago Bulls,Brooklyn Nets,121,112
+1,4,2023,Golden State Warriors,Detroit Pistons,119,122
+1,4,2023,New Orleans Pelicans,Houston Rockets,119,108
+1,4,2023,Philadelphia 76ers,Indiana Pacers,129,126
+1,4,2023,Charlotte Hornets,Memphis Grizzlies,107,131
+1,4,2023,Los Angeles Lakers,Miami Heat,112,109
+1,4,2023,Toronto Raptors,Milwaukee Bucks,101,104
+1,4,2023,Orlando Magic,Oklahoma City Thunder,126,115
+1,4,2023,Cleveland Cavaliers,Phoenix Suns,90,88
+1,4,2023,Minnesota Timberwolves,Portland Trailblazers,113,106
+1,4,2023,New York Knicks,San Antonio Spurs,117,114
+1,5,2023,Dallas Mavericks,Boston Celtics,95,124
+1,5,2023,Denver Nuggets,Los Angeles Clippers,122,91
+1,5,2023,Orlando Magic,Memphis Grizzlies,115,123
+1,5,2023,Houston Rockets,Utah Jazz,114,131
+1,6,2023,Los Angeles Lakers,Atlanta Hawks,130,114
+1,6,2023,New Orleans Pelicans,Brooklyn Nets,102,108
+1,6,2023,Milwaukee Bucks,Charlotte Hornets,109,138
+1,6,2023,Philadelphia 76ers,Chicago Bulls,112,126
+1,6,2023,Denver Nuggets,Cleveland Cavaliers,121,108
+1,6,2023,San Antonio Spurs,Detroit Pistons,121,109
+1,6,2023,Minnesota Timberwolves,Los Angeles Clippers,128,115
+1,6,2023,Phoenix Suns,Miami Heat,96,104
+1,6,2023,Toronto Raptors,New York Knicks,108,112
+1,6,2023,Indiana Pacers,Portland Trailblazers,108,99
+1,6,2023,Oklahoma City Thunder,Washington Wizards,127,110
+1,7,2023,San Antonio Spurs,Boston Celtics,116,121
+1,7,2023,Sacramento Kings,Los Angeles Lakers,134,136
+1,7,2023,Dallas Mavericks,New Orleans Pelicans,127,117
+1,7,2023,Golden State Warriors,Orlando Magic,101,115
+1,7,2023,Chicago Bulls,Utah Jazz,126,118
+1,8,2023,Los Angeles Clippers,Atlanta Hawks,108,112
+1,8,2023,Miami Heat,Brooklyn Nets,101,102
+1,8,2023,Indiana Pacers,Charlotte Hornets,116,111
+1,8,2023,Phoenix Suns,Cleveland Cavaliers,98,112
+1,8,2023,Oklahoma City Thunder,Dallas Mavericks,120,109
+1,8,2023,Houston Rockets,Minnesota Timberwolves,96,104
+1,8,2023,Detroit Pistons,Philadelphia 76ers,111,123
+1,8,2023,Toronto Raptors,Portland Trailblazers,117,105
+1,8,2023,Memphis Grizzlies,Utah Jazz,123,118
+1,9,2023,Boston Celtics,Chicago Bulls,107,99
+1,9,2023,Denver Nuggets,Los Angeles Lakers,122,109
+1,9,2023,New York Knicks,Milwaukee Bucks,107,111
+1,9,2023,Washington Wizards,New Orleans Pelicans,112,132
+1,9,2023,Sacramento Kings,Orlando Magic,136,111
+1,9,2023,Memphis Grizzlies,San Antonio Spurs,121,113
+1,10,2023,Toronto Raptors,Charlotte Hornets,132,120
+1,10,2023,Utah Jazz,Cleveland Cavaliers,116,114
+1,10,2023,Los Angeles Clippers,Dallas Mavericks,113,101
+1,10,2023,Philadelphia 76ers,Detroit Pistons,147,116
+1,10,2023,Miami Heat,Oklahoma City Thunder,112,111
+1,10,2023,Portland Trailblazers,Orlando Magic,106,109
+1,10,2023,Golden State Warriors,Phoenix Suns,113,125
+1,11,2023,Washington Wizards,Chicago Bulls,100,97
+1,11,2023,Sacramento Kings,Houston Rockets,135,115
+1,11,2023,New York Knicks,Indiana Pacers,119,113
+1,11,2023,Atlanta Hawks,Milwaukee Bucks,105,114
+1,11,2023,Detroit Pistons,Minnesota Timberwolves,135,118
+1,11,2023,Boston Celtics,New Orleans Pelicans,125,114
+1,11,2023,Denver Nuggets,Phoenix Suns,126,97
+1,11,2023,Memphis Grizzlies,San Antonio Spurs,135,129
+1,12,2023,Brooklyn Nets,Boston Celtics,98,109
+1,12,2023,Toronto Raptors,Charlotte Hornets,124,114
+1,12,2023,Portland Trailblazers,Cleveland Cavaliers,113,119
+1,12,2023,Los Angeles Lakers,Dallas Mavericks,115,119
+1,12,2023,Miami Heat,Milwaukee Bucks,108,102
+1,12,2023,Philadelphia 76ers,Oklahoma City Thunder,114,133
+1,13,2023,Indiana Pacers,Atlanta Hawks,111,113
+1,13,2023,Los Angeles Clippers,Denver Nuggets,103,115
+1,13,2023,San Antonio Spurs,Golden State Warriors,113,144
+1,13,2023,Sacramento Kings,Houston Rockets,139,114
+1,13,2023,Detroit Pistons,New Orleans Pelicans,110,116
+1,13,2023,Washington Wizards,New York Knicks,108,112
+1,13,2023,Chicago Bulls,Oklahoma City Thunder,110,124
+1,13,2023,Utah Jazz,Orlando Magic,112,108
+1,13,2023,Minnesota Timberwolves,Phoenix Suns,121,116
+1,14,2023,Toronto Raptors,Atlanta Hawks,103,114
+1,14,2023,Charlotte Hornets,Boston Celtics,106,122
+1,14,2023,Minnesota Timberwolves,Cleveland Cavaliers,110,102
+1,14,2023,Portland Trailblazers,Dallas Mavericks,136,119
+1,14,2023,Indiana Pacers,Memphis Grizzlies,112,130
+1,14,2023,Miami Heat,Milwaukee Bucks,111,95
+1,14,2023,Utah Jazz,Philadelphia 76ers,117,118
+1,15,2023,Portland Trailblazers,Dallas Mavericks,140,123
+1,15,2023,Chicago Bulls,Golden State Warriors,132,118
+1,15,2023,Los Angeles Clippers,Houston Rockets,121,100
+1,15,2023,Detroit Pistons,New York Knicks,104,117
+1,15,2023,Brooklyn Nets,Oklahoma City Thunder,102,112
+1,15,2023,Denver Nuggets,Orlando Magic,119,116
+1,15,2023,Los Angeles Lakers,Philadelphia 76ers,112,113
+1,15,2023,San Antonio Spurs,Sacramento Kings,119,132
+1,16,2023,Charlotte Hornets,Boston Celtics,118,130
+1,16,2023,Washington Wizards,Golden State Warriors,118,127
+1,16,2023,Los Angeles Lakers,Houston Rockets,140,132
+1,16,2023,Milwaukee Bucks,Indiana Pacers,132,119
+1,16,2023,Atlanta Hawks,Miami Heat,121,113
+1,16,2023,Cleveland Cavaliers,New Orleans Pelicans,113,103
+1,16,2023,Memphis Grizzlies,Phoenix Suns,136,106
+1,16,2023,New York Knicks,Toronto Raptors,121,123
+1,16,2023,Minnesota Timberwolves,Utah Jazz,125,126
+1,17,2023,San Antonio Spurs,Brooklyn Nets,106,98
+1,17,2023,Los Angeles Clippers,Philadelphia 76ers,110,120
+1,17,2023,Denver Nuggets,Portland Trailblazers,122,113
+1,17,2023,Milwaukee Bucks,Toronto Raptors,130,122
+1,18,2023,Dallas Mavericks,Atlanta Hawks,122,130
+1,18,2023,Houston Rockets,Charlotte Hornets,117,122
+1,18,2023,Memphis Grizzlies,Cleveland Cavaliers,115,114
+1,18,2023,Oklahoma City Thunder,Indiana Pacers,126,106
+1,18,2023,Utah Jazz,Los Angeles Clippers,126,103
+1,18,2023,New Orleans Pelicans,Miami Heat,98,124
+1,18,2023,Denver Nuggets,Minnesota Timberwolves,122,118
+1,18,2023,Los Angeles Lakers,Sacramento Kings,111,116
+1,18,2023,New York Knicks,Washington Wizards,105,116
+1,19,2023,Phoenix Suns,Brooklyn Nets,117,112
+1,19,2023,Detroit Pistons,Chicago Bulls,108,126
+1,19,2023,Boston Celtics,Golden State Warriors,121,118
+1,19,2023,Portland Trailblazers,Philadelphia 76ers,95,105
+1,19,2023,Minnesota Timberwolves,Toronto Raptors,128,126
+1,20,2023,Utah Jazz,Brooklyn Nets,106,117
+1,20,2023,Cleveland Cavaliers,Golden State Warriors,114,120
+1,20,2023,Denver Nuggets,Indiana Pacers,134,111
+1,20,2023,San Antonio Spurs,Los Angeles Clippers,126,131
+1,20,2023,Los Angeles Lakers,Memphis Grizzlies,122,121
+1,20,2023,Dallas Mavericks,Miami Heat,115,90
+1,20,2023,Orlando Magic,New Orleans Pelicans,123,110
+1,20,2023,Atlanta Hawks,New York Knicks,139,124
+1,20,2023,Sacramento Kings,Oklahoma City Thunder,118,113
+1,21,2023,Toronto Raptors,Boston Celtics,104,106
+1,21,2023,Atlanta Hawks,Charlotte Hornets,118,122
+1,21,2023,Minnesota Timberwolves,Houston Rockets,113,104
+1,21,2023,Phoenix Suns,Indiana Pacers,112,107
+1,21,2023,Cleveland Cavaliers,Milwaukee Bucks,114,102
+1,21,2023,Washington Wizards,Orlando Magic,138,118
+1,21,2023,Sacramento Kings,Philadelphia 76ers,127,129
+1,22,2023,Golden State Warriors,Brooklyn Nets,116,120
+1,22,2023,Dallas Mavericks,Los Angeles Clippers,98,112
+1,22,2023,Portland Trailblazers,Los Angeles Lakers,112,121
+1,22,2023,Phoenix Suns,Memphis Grizzlies,112,110
+1,22,2023,Miami Heat,New Orleans Pelicans,100,96
+1,22,2023,Toronto Raptors,New York Knicks,125,116
+1,22,2023,Denver Nuggets,Oklahoma City Thunder,99,101
+1,23,2023,Chicago Bulls,Atlanta Hawks,111,100
+1,23,2023,Orlando Magic,Boston Celtics,113,98
+1,23,2023,Utah Jazz,Charlotte Hornets,120,102
+1,23,2023,Sacramento Kings,Memphis Grizzlies,133,100
+1,23,2023,Detroit Pistons,Milwaukee Bucks,130,150
+1,23,2023,Houston Rockets,Minnesota Timberwolves,119,114
+1,23,2023,Portland Trailblazers,San Antonio Spurs,147,127
+1,24,2023,Miami Heat,Boston Celtics,98,95
+1,24,2023,Phoenix Suns,Charlotte Hornets,128,97
+1,24,2023,Indiana Pacers,Chicago Bulls,116,110
+1,24,2023,New York Knicks,Cleveland Cavaliers,105,103
+1,24,2023,New Orleans Pelicans,Denver Nuggets,98,99
+1,24,2023,Los Angeles Lakers,Los Angeles Clippers,115,133
+1,24,2023,Dallas Mavericks,Washington Wizards,126,127
+1,25,2023,Oklahoma City Thunder,Atlanta Hawks,132,137
+1,25,2023,Philadelphia 76ers,Brooklyn Nets,137,133
+1,25,2023,Milwaukee Bucks,Denver Nuggets,107,99
+1,25,2023,Orlando Magic,Indiana Pacers,126,120
+1,25,2023,Golden State Warriors,Memphis Grizzlies,122,120
+1,25,2023,New Orleans Pelicans,Minnesota Timberwolves,102,111
+1,25,2023,Los Angeles Lakers,San Antonio Spurs,113,104
+1,25,2023,Sacramento Kings,Toronto Raptors,95,113
+1,25,2023,Portland Trailblazers,Utah Jazz,134,124
+1,25,2023,Houston Rockets,Washington Wizards,103,108
+1,26,2023,Charlotte Hornets,Chicago Bulls,111,96
+1,26,2023,Houston Rockets,Cleveland Cavaliers,95,113
+1,26,2023,Phoenix Suns,Dallas Mavericks,95,99
+1,26,2023,Brooklyn Nets,Detroit Pistons,122,130
+1,26,2023,Boston Celtics,New York Knicks,117,120
+1,26,2023,Los Angeles Clippers,San Antonio Spurs,138,100
+1,27,2023,Oklahoma City Thunder,Cleveland Cavaliers,112,100
+1,27,2023,Minnesota Timberwolves,Memphis Grizzlies,111,100
+1,27,2023,Indiana Pacers,Milwaukee Bucks,131,141
+1,27,2023,Miami Heat,Orlando Magic,110,105
+1,27,2023,Golden State Warriors,Toronto Raptors,129,117
+1,28,2023,Orlando Magic,Chicago Bulls,109,128
+1,28,2023,Utah Jazz,Dallas Mavericks,108,100
+1,28,2023,Philadelphia 76ers,Denver Nuggets,126,119
+1,28,2023,Detroit Pistons,Houston Rockets,114,117
+1,28,2023,Atlanta Hawks,Los Angeles Clippers,113,120
+1,28,2023,Boston Celtics,Los Angeles Lakers,125,121
+1,28,2023,Brooklyn Nets,New York Knicks,122,115
+1,28,2023,San Antonio Spurs,Phoenix Suns,118,128
+1,28,2023,Minnesota Timberwolves,Sacramento Kings,117,110
+1,28,2023,Portland Trailblazers,Toronto Raptors,105,123
+1,28,2023,New Orleans Pelicans,Washington Wizards,103,113
+1,29,2023,Memphis Grizzlies,Indiana Pacers,112,100
+1,29,2023,Cleveland Cavaliers,Los Angeles Clippers,122,99
+1,29,2023,Charlotte Hornets,Miami Heat,122,117
+1,29,2023,Milwaukee Bucks,New Orleans Pelicans,135,110
+1,30,2023,Portland Trailblazers,Atlanta Hawks,129,125
+1,30,2023,Dallas Mavericks,Detroit Pistons,111,105
+1,30,2023,Oklahoma City Thunder,Golden State Warriors,120,128
+1,30,2023,Brooklyn Nets,Los Angeles Lakers,121,104
+1,30,2023,Philadelphia 76ers,Orlando Magic,109,119
+1,30,2023,Minnesota Timberwolves,Sacramento Kings,111,118
+1,30,2023,Phoenix Suns,Toronto Raptors,114,106
+1,30,2023,San Antonio Spurs,Washington Wizards,106,127
+1,31,2023,Milwaukee Bucks,Charlotte Hornets,124,115
+1,31,2023,Chicago Bulls,Los Angeles Clippers,103,108
+1,31,2023,New York Knicks,Los Angeles Lakers,123,129
+1,31,2023,Cleveland Cavaliers,Miami Heat,97,100
+1,31,2023,Denver Nuggets,New Orleans Pelicans,122,113
+2,1,2023,Phoenix Suns,Atlanta Hawks,100,132
+2,1,2023,Boston Celtics,Brooklyn Nets,139,96
+2,1,2023,Minnesota Timberwolves,Golden State Warriors,119,114
+2,1,2023,Houston Rockets,Oklahoma City Thunder,112,106
+2,1,2023,Philadelphia 76ers,Orlando Magic,105,94
+2,1,2023,Memphis Grizzlies,Portland Trailblazers,112,122
+2,1,2023,San Antonio Spurs,Sacramento Kings,109,119
+2,1,2023,Utah Jazz,Toronto Raptors,131,128
+2,2,2023,Chicago Bulls,Charlotte Hornets,114,98
+2,2,2023,Denver Nuggets,Golden State Warriors,134,117
+2,2,2023,Milwaukee Bucks,Los Angeles Clippers,106,105
+2,2,2023,Indiana Pacers,Los Angeles Lakers,111,112
+2,2,2023,Cleveland Cavaliers,Memphis Grizzlies,128,113
+2,2,2023,New York Knicks,Miami Heat,106,104
+2,2,2023,Dallas Mavericks,New Orleans Pelicans,111,106
+2,3,2023,Utah Jazz,Atlanta Hawks,108,115
+2,3,2023,Detroit Pistons,Charlotte Hornets,118,112
+2,3,2023,Minnesota Timberwolves,Orlando Magic,120,127
+2,3,2023,San Antonio Spurs,Philadelphia 76ers,125,137
+2,3,2023,Boston Celtics,Phoenix Suns,94,106
+2,3,2023,Washington Wizards,Portland Trailblazers,116,124
+2,3,2023,Indiana Pacers,Sacramento Kings,107,104
+2,3,2023,Houston Rockets,Toronto Raptors,111,117
+2,4,2023,Denver Nuggets,Atlanta Hawks,128,108
+2,4,2023,Golden State Warriors,Dallas Mavericks,119,113
+2,4,2023,Oklahoma City Thunder,Houston Rockets,153,121
+2,4,2023,New York Knicks,Los Angeles Clippers,128,134
+2,4,2023,New Orleans Pelicans,Los Angeles Lakers,131,126
+2,4,2023,Milwaukee Bucks,Miami Heat,123,115
+2,4,2023,Detroit Pistons,Phoenix Suns,100,116
+2,4,2023,Chicago Bulls,Portland Trailblazers,129,121
+2,4,2023,Brooklyn Nets,Washington Wizards,125,123
+2,5,2023,Indiana Pacers,Cleveland Cavaliers,103,122
+2,5,2023,Minnesota Timberwolves,Denver Nuggets,128,98
+2,5,2023,Charlotte Hornets,Orlando Magic,113,119
+2,5,2023,New York Knicks,Philadelphia 76ers,108,97
+2,5,2023,New Orleans Pelicans,Sacramento Kings,136,104
+2,5,2023,Memphis Grizzlies,Toronto Raptors,103,106
+2,6,2023,Detroit Pistons,Boston Celtics,99,111
+2,6,2023,Washington Wizards,Cleveland Cavaliers,91,114
+2,6,2023,Utah Jazz,Dallas Mavericks,111,124
+2,6,2023,Brooklyn Nets,Los Angeles Clippers,116,124
+2,6,2023,Portland Trailblazers,Milwaukee Bucks,108,127
+2,6,2023,Golden State Warriors,Oklahoma City Thunder,141,114
+2,6,2023,Chicago Bulls,San Antonio Spurs,128,104
+2,6,2023,Houston Rockets,Sacramento Kings,120,140
+2,7,2023,New Orleans Pelicans,Atlanta Hawks,116,107
+2,7,2023,Memphis Grizzlies,Chicago Bulls,104,89
+2,7,2023,Denver Nuggets,Minnesota Timberwolves,146,112
+2,7,2023,Orlando Magic,New York Knicks,98,102
+2,7,2023,Los Angeles Lakers,Oklahoma City Thunder,130,133
+2,7,2023,Brooklyn Nets,Phoenix Suns,112,116
+2,8,2023,Washington Wizards,Charlotte Hornets,118,104
+2,8,2023,Los Angeles Clippers,Dallas Mavericks,104,110
+2,8,2023,Cleveland Cavaliers,Detroit Pistons,113,85
+2,8,2023,Portland Trailblazers,Golden State Warriors,125,122
+2,8,2023,Miami Heat,Indiana Pacers,116,111
+2,8,2023,Utah Jazz,Minnesota Timberwolves,118,143
+2,8,2023,Boston Celtics,Philadelphia 76ers,106,99
+2,8,2023,Toronto Raptors,San Antonio Spurs,112,98
+2,8,2023,Houston Rockets,Sacramento Kings,128,130
+2,9,2023,Brooklyn Nets,Chicago Bulls,116,105
+2,9,2023,Orlando Magic,Denver Nuggets,115,104
+2,9,2023,Los Angeles Lakers,Milwaukee Bucks,106,115
+2,9,2023,Atlanta Hawks,Phoenix Suns,116,107
+2,10,2023,Boston Celtics,Charlotte Hornets,127,116
+2,10,2023,New Orleans Pelicans,Cleveland Cavaliers,107,118
+2,10,2023,Sacramento Kings,Dallas Mavericks,114,122
+2,10,2023,Miami Heat,Houston Rockets,97,95
+2,10,2023,Los Angeles Clippers,Milwaukee Bucks,106,119
+2,10,2023,Memphis Grizzlies,Minnesota Timberwolves,128,107
+2,10,2023,Philadelphia 76ers,New York Knicks,119,108
+2,10,2023,Portland Trailblazers,Oklahoma City Thunder,129,138
+2,10,2023,Indiana Pacers,Phoenix Suns,104,117
+2,10,2023,Detroit Pistons,San Antonio Spurs,138,131
+2,10,2023,Toronto Raptors,Utah Jazz,116,122
+2,11,2023,Cleveland Cavaliers,Chicago Bulls,97,89
+2,11,2023,Sacramento Kings,Dallas Mavericks,133,128
+2,11,2023,Charlotte Hornets,Denver Nuggets,105,119
+2,11,2023,Washington Wizards,Indiana Pacers,127,113
+2,11,2023,Golden State Warriors,Los Angeles Lakers,103,109
+2,11,2023,Orlando Magic,Miami Heat,103,107
+2,11,2023,Brooklyn Nets,Philadelphia 76ers,98,101
+2,11,2023,Atlanta Hawks,San Antonio Spurs,125,106
+2,11,2023,New York Knicks,Utah Jazz,126,120
+2,12,2023,Toronto Raptors,Detroit Pistons,119,118
+2,12,2023,Boston Celtics,Memphis Grizzlies,119,109
+2,13,2023,Charlotte Hornets,Atlanta Hawks,144,138
+2,13,2023,New York Knicks,Brooklyn Nets,124,106
+2,13,2023,Miami Heat,Denver Nuggets,108,112
+2,13,2023,Philadelphia 76ers,Houston Rockets,123,104
+2,13,2023,Portland Trailblazers,Los Angeles Lakers,127,115
+2,13,2023,Dallas Mavericks,Minnesota Timberwolves,121,124
+2,13,2023,Oklahoma City Thunder,New Orleans Pelicans,100,103
+2,13,2023,Chicago Bulls,Orlando Magic,91,100
+2,13,2023,Cleveland Cavaliers,San Antonio Spurs,117,109
+2,13,2023,Indiana Pacers,Utah Jazz,117,123
+2,13,2023,Golden State Warriors,Washington Wizards,135,126
+2,14,2023,Milwaukee Bucks,Boston Celtics,131,125
+2,14,2023,Los Angeles Clippers,Golden State Warriors,134,124
+2,14,2023,Toronto Raptors,Orlando Magic,123,113
+2,14,2023,Phoenix Suns,Sacramento Kings,120,109
+2,14,2023,Portland Trailblazers,Washington Wizards,101,126
+2,15,2023,Indiana Pacers,Chicago Bulls,117,113
+2,15,2023,Philadelphia 76ers,Cleveland Cavaliers,118,112
+2,15,2023,Denver Nuggets,Dallas Mavericks,118,109
+2,15,2023,Boston Celtics,Detroit Pistons,127,109
+2,15,2023,Oklahoma City Thunder,Houston Rockets,133,96
+2,15,2023,Brooklyn Nets,Miami Heat,116,105
+2,15,2023,Los Angeles Lakers,New Orleans Pelicans,120,102
+2,15,2023,Atlanta Hawks,New York Knicks,101,122
+2,15,2023,Charlotte Hornets,San Antonio Spurs,120,110
+2,15,2023,Memphis Grizzlies,Utah Jazz,117,111
+2,16,2023,Phoenix Suns,Los Angeles Clippers,107,116
+2,16,2023,Chicago Bulls,Milwaukee Bucks,100,112
+2,16,2023,Minnesota Timberwolves,Washington Wizards,106,114
+2,23,2023,Indiana Pacers,Boston Celtics,138,142
+2,23,2023,Cleveland Cavaliers,Denver Nuggets,109,115
+2,23,2023,Orlando Magic,Detroit Pistons,108,106
+2,23,2023,Los Angeles Lakers,Golden State Warriors,124,111
+2,23,2023,Philadelphia 76ers,Memphis Grizzlies,110,105
+2,23,2023,Toronto Raptors,New Orleans Pelicans,115,110
+2,23,2023,Utah Jazz,Oklahoma City Thunder,120,119
+2,23,2023,Sacramento Kings,Portland Trailblazers,133,116
+2,23,2023,Dallas Mavericks,San Antonio Spurs,142,116
+2,24,2023,Chicago Bulls,Brooklyn Nets,131,87
+2,24,2023,Minnesota Timberwolves,Charlotte Hornets,113,121
+2,24,2023,Atlanta Hawks,Cleveland Cavaliers,136,119
+2,24,2023,Golden State Warriors,Houston Rockets,116,101
+2,24,2023,Milwaukee Bucks,Miami Heat,128,99
+2,24,2023,Washington Wizards,New York Knicks,109,115
+2,24,2023,Phoenix Suns,Oklahoma City Thunder,124,115
+2,24,2023,Los Angeles Clippers,Sacramento Kings,175,176
+2,25,2023,Philadelphia 76ers,Boston Celtics,107,110
+2,25,2023,Memphis Grizzlies,Denver Nuggets,112,94
+2,25,2023,Orlando Magic,Indiana Pacers,108,121
+2,25,2023,Charlotte Hornets,Miami Heat,108,103
+2,25,2023,New York Knicks,New Orleans Pelicans,128,106
+2,25,2023,Utah Jazz,San Antonio Spurs,118,102
+2,25,2023,Detroit Pistons,Toronto Raptors,91,95
+2,26,2023,Atlanta Hawks,Brooklyn Nets,129,127
+2,26,2023,Portland Trailblazers,Houston Rockets,131,114
+2,26,2023,Denver Nuggets,Los Angeles Clippers,134,124
+2,26,2023,Dallas Mavericks,Los Angeles Lakers,108,111
+2,26,2023,Golden State Warriors,Minnesota Timberwolves,109,104
+2,26,2023,Milwaukee Bucks,Phoenix Suns,104,101
+2,26,2023,Oklahoma City Thunder,Sacramento Kings,115,124
+2,26,2023,Cleveland Cavaliers,Toronto Raptors,118,93
+2,26,2023,Chicago Bulls,Washington Wizards,102,82
+2,27,2023,New York Knicks,Boston Celtics,109,94
+2,27,2023,Charlotte Hornets,Detroit Pistons,117,106
+2,27,2023,Philadelphia 76ers,Miami Heat,99,101
+2,27,2023,New Orleans Pelicans,Orlando Magic,93,101
+2,28,2023,Toronto Raptors,Chicago Bulls,104,98
+2,28,2023,Houston Rockets,Denver Nuggets,112,133
+2,28,2023,Dallas Mavericks,Indiana Pacers,122,124
+2,28,2023,Memphis Grizzlies,Los Angeles Lakers,121,109
+2,28,2023,Brooklyn Nets,Milwaukee Bucks,104,118
+2,28,2023,Los Angeles Clippers,Minnesota Timberwolves,101,108
+2,28,2023,Golden State Warriors,Portland Trailblazers,123,105
+2,28,2023,Utah Jazz,San Antonio Spurs,94,102
+2,28,2023,Oklahoma City Thunder,Sacramento Kings,117,123
+2,28,2023,Atlanta Hawks,Washington Wizards,116,119
+3,1,2023,New York Knicks,Brooklyn Nets,142,118
+3,1,2023,Detroit Pistons,Chicago Bulls,115,117
+3,1,2023,Boston Celtics,Cleveland Cavaliers,117,113
+3,1,2023,Oklahoma City Thunder,Los Angeles Lakers,117,123
+3,1,2023,Houston Rockets,Memphis Grizzlies,99,113
+3,1,2023,Portland Trailblazers,New Orleans Pelicans,110,121
+3,1,2023,Milwaukee Bucks,Orlando Magic,139,117
+3,1,2023,Miami Heat,Philadelphia 76ers,96,119
+3,1,2023,Charlotte Hornets,Phoenix Suns,91,105
+3,2,2023,San Antonio Spurs,Indiana Pacers,110,99
+3,2,2023,Golden State Warriors,Los Angeles Clippers,115,91
+3,2,2023,Dallas Mavericks,Philadelphia 76ers,133,126
+3,2,2023,Washington Wizards,Toronto Raptors,119,108
+3,3,2023,Boston Celtics,Brooklyn Nets,105,115
+3,3,2023,Sacramento Kings,Los Angeles Clippers,128,127
+3,3,2023,Denver Nuggets,Memphis Grizzlies,113,97
+3,3,2023,Los Angeles Lakers,Minnesota Timberwolves,102,110
+3,3,2023,Golden State Warriors,New Orleans Pelicans,108,99
+3,3,2023,Miami Heat,New York Knicks,120,122
+3,3,2023,Charlotte Hornets,Orlando Magic,106,117
+3,3,2023,Chicago Bulls,Phoenix Suns,104,125
+3,3,2023,Atlanta Hawks,Portland Trailblazers,129,111
+3,3,2023,Oklahoma City Thunder,Utah Jazz,130,103
+3,4,2023,Miami Heat,Atlanta Hawks,117,109
+3,4,2023,Cleveland Cavaliers,Detroit Pistons,114,90
+3,4,2023,San Antonio Spurs,Houston Rockets,110,122
+3,4,2023,Sacramento Kings,Minnesota Timberwolves,134,138
+3,4,2023,Milwaukee Bucks,Philadelphia 76ers,130,133
+3,4,2023,Washington Wizards,Toronto Raptors,109,116
+3,5,2023,Brooklyn Nets,Charlotte Hornets,102,86
+3,5,2023,Washington Wizards,Milwaukee Bucks,111,117
+3,5,2023,Los Angeles Lakers,Golden State Warriors,113,105
+3,5,2023,Chicago Bulls,Indiana Pacers,122,125
+3,5,2023,Los Angeles Clippers,Memphis Grizzlies,135,129
+3,5,2023,Boston Celtics,New York Knicks,129,131
+3,5,2023,Dallas Mavericks,Phoenix Suns,126,130
+3,5,2023,Orlando Magic,Portland Trailblazers,119,122
+3,5,2023,Houston Rockets,San Antonio Spurs,142,110
+3,5,2023,Oklahoma City Thunder,Utah Jazz,129,119
+3,6,2023,Miami Heat,Atlanta Hawks,130,128
+3,6,2023,Cleveland Cavaliers,Boston Celtics,118,114
+3,6,2023,Sacramento Kings,New Orleans Pelicans,123,108
+3,6,2023,Indiana Pacers,Philadelphia 76ers,143,147
+3,6,2023,Detroit Pistons,Portland Trailblazers,104,110
+3,6,2023,Denver Nuggets,Toronto Raptors,118,113
+3,7,2023,Houston Rockets,Brooklyn Nets,96,118
+3,7,2023,New York Knicks,Charlotte Hornets,105,112
+3,7,2023,Oklahoma City Thunder,Golden State Warriors,137,128
+3,7,2023,Los Angeles Lakers,Memphis Grizzlies,112,103
+3,7,2023,Orlando Magic,Milwaukee Bucks,123,134
+3,7,2023,Minnesota Timberwolves,Philadelphia 76ers,94,117
+3,7,2023,Detroit Pistons,Washington Wizards,117,119
+3,7,2023,Dallas Mavericks,Utah Jazz,120,116
+3,8,2023,Washington Wizards,Atlanta Hawks,120,122
+3,8,2023,Denver Nuggets,Chicago Bulls,96,117
+3,8,2023,Miami Heat,Cleveland Cavaliers,100,104
+3,8,2023,New Orleans Pelicans,Dallas Mavericks,113,106
+3,8,2023,Phoenix Suns,Oklahoma City Thunder,132,101
+3,8,2023,Boston Celtics,Portland Trailblazers,115,93
+3,8,2023,Los Angeles Clippers,Toronto Raptors,108,100
+3,9,2023,Milwaukee Bucks,Brooklyn Nets,118,113
+3,9,2023,Detroit Pistons,Charlotte Hornets,103,113
+3,9,2023,Memphis Grizzlies,Golden State Warriors,131,110
+3,9,2023,Indiana Pacers,Houston Rockets,134,125
+3,9,2023,Sacramento Kings,New York Knicks,122,117
+3,9,2023,Orlando Magic,Utah Jazz,124,131
+3,10,2023,Washington Wizards,Atlanta Hawks,107,114
+3,10,2023,Minnesota Timberwolves,Brooklyn Nets,123,124
+3,10,2023,Miami Heat,Cleveland Cavaliers,119,115
+3,10,2023,San Antonio Spurs,Denver Nuggets,128,120
+3,10,2023,Philadelphia 76ers,Portland Trailblazers,120,119
+3,10,2023,Los Angeles Lakers,Toronto Raptors,122,112
+3,11,2023,Atlanta Hawks,Boston Celtics,125,134
+3,11,2023,Houston Rockets,Chicago Bulls,111,119
+3,11,2023,Memphis Grizzlies,Dallas Mavericks,112,108
+3,11,2023,Detroit Pistons,Indiana Pacers,115,121
+3,11,2023,Orlando Magic,Miami Heat,126,114
+3,11,2023,Golden State Warriors,Milwaukee Bucks,125,116
+3,11,2023,Los Angeles Clippers,New York Knicks,106,95
+3,11,2023,New Orleans Pelicans,Oklahoma City Thunder,96,110
+3,11,2023,Phoenix Suns,Sacramento Kings,119,128
+3,11,2023,Charlotte Hornets,Utah Jazz,111,119
+3,12,2023,Denver Nuggets,Brooklyn Nets,120,122
+3,12,2023,Charlotte Hornets,Cleveland Cavaliers,108,114
+3,12,2023,Los Angeles Lakers,New York Knicks,108,112
+3,12,2023,San Antonio Spurs,Oklahoma City Thunder,90,102
+3,12,2023,New Orleans Pelicans,Portland Trailblazers,127,110
+3,12,2023,Philadelphia 76ers,Washington Wizards,112,93
+3,13,2023,Houston Rockets,Boston Celtics,111,109
+3,13,2023,Detroit Pistons,Indiana Pacers,117,97
+3,13,2023,Dallas Mavericks,Memphis Grizzlies,88,104
+3,13,2023,Sacramento Kings,Milwaukee Bucks,124,133
+3,13,2023,Atlanta Hawks,Minnesota Timberwolves,115,136
+3,13,2023,Golden State Warriors,Phoenix Suns,123,112
+3,13,2023,Miami Heat,Utah Jazz,119,115
+3,14,2023,Oklahoma City Thunder,Brooklyn Nets,121,107
+3,14,2023,Charlotte Hornets,Cleveland Cavaliers,104,120
+3,14,2023,Toronto Raptors,Denver Nuggets,125,110
+3,14,2023,Washington Wizards,Detroit Pistons,117,97
+3,14,2023,New Orleans Pelicans,Los Angeles Lakers,108,123
+3,14,2023,Phoenix Suns,Milwaukee Bucks,104,116
+3,14,2023,Portland Trailblazers,New York Knicks,107,123
+3,14,2023,San Antonio Spurs,Orlando Magic,132,114
+3,15,2023,Minnesota Timberwolves,Boston Celtics,102,104
+3,15,2023,San Antonio Spurs,Dallas Mavericks,128,137
+3,15,2023,Los Angeles Clippers,Golden State Warriors,134,126
+3,15,2023,Houston Rockets,Los Angeles Lakers,114,110
+3,15,2023,Miami Heat,Memphis Grizzlies,138,119
+3,15,2023,Cleveland Cavaliers,Philadelphia 76ers,109,118
+3,15,2023,Chicago Bulls,Sacramento Kings,114,117
+3,16,2023,Detroit Pistons,Denver Nuggets,100,119
+3,16,2023,Milwaukee Bucks,Indiana Pacers,123,139
+3,16,2023,Toronto Raptors,Oklahoma City Thunder,128,111
+3,16,2023,Phoenix Suns,Orlando Magic,116,113
+3,16,2023,Brooklyn Nets,Sacramento Kings,96,101
+3,17,2023,Portland Trailblazers,Boston Celtics,112,126
+3,17,2023,Los Angeles Lakers,Dallas Mavericks,110,111
+3,17,2023,Atlanta Hawks,Golden State Warriors,127,119
+3,17,2023,San Antonio Spurs,Memphis Grizzlies,120,126
+3,17,2023,Chicago Bulls,Minnesota Timberwolves,139,131
+3,17,2023,Houston Rockets,New Orleans Pelicans,114,112
+3,17,2023,Charlotte Hornets,Philadelphia 76ers,82,121
+3,17,2023,Cleveland Cavaliers,Washington Wizards,117,94
+3,18,2023,Utah Jazz,Boston Celtics,118,117
+3,18,2023,New York Knicks,Denver Nuggets,116,110
+3,18,2023,Memphis Grizzlies,Golden State Warriors,133,119
+3,18,2023,Chicago Bulls,Miami Heat,113,99
+3,18,2023,Toronto Raptors,Minnesota Timberwolves,122,107
+3,18,2023,Los Angeles Clippers,Orlando Magic,108,113
+3,18,2023,Indiana Pacers,Philadelphia 76ers,121,141
+3,18,2023,Washington Wizards,Sacramento Kings,118,132
+3,19,2023,San Antonio Spurs,Atlanta Hawks,126,118
+3,19,2023,Brooklyn Nets,Denver Nuggets,102,108
+3,19,2023,Portland Trailblazers,Los Angeles Clippers,102,117
+3,19,2023,Detroit Pistons,Miami Heat,100,112
+3,19,2023,Houston Rockets,New Orleans Pelicans,107,117
+3,19,2023,Los Angeles Lakers,Orlando Magic,111,105
+3,19,2023,Oklahoma City Thunder,Phoenix Suns,124,120
+3,19,2023,Milwaukee Bucks,Toronto Raptors,118,111
+3,20,2023,Philadelphia 76ers,Chicago Bulls,105,109
+3,20,2023,Memphis Grizzlies,Dallas Mavericks,112,108
+3,20,2023,Houston Rockets,Golden State Warriors,108,121
+3,20,2023,Charlotte Hornets,Indiana Pacers,115,109
+3,20,2023,New York Knicks,Minnesota Timberwolves,134,140
+3,20,2023,Utah Jazz,Sacramento Kings,128,120
+3,21,2023,Sacramento Kings,Boston Celtics,109,132
+3,21,2023,Brooklyn Nets,Cleveland Cavaliers,109,115
+3,21,2023,Atlanta Hawks,Detroit Pistons,129,107
+3,21,2023,Los Angeles Clippers,Oklahoma City Thunder,100,101
+3,21,2023,New Orleans Pelicans,San Antonio Spurs,119,84
+3,21,2023,Orlando Magic,Washington Wizards,122,112
+3,22,2023,Minnesota Timberwolves,Atlanta Hawks,125,124
+3,22,2023,Washington Wizards,Denver Nuggets,104,118
+3,22,2023,Dallas Mavericks,Golden State Warriors,125,127
+3,22,2023,Memphis Grizzlies,Houston Rockets,130,125
+3,22,2023,Toronto Raptors,Indiana Pacers,114,118
+3,22,2023,Miami Heat,New York Knicks,127,120
+3,22,2023,Chicago Bulls,Philadelphia 76ers,91,116
+3,22,2023,Los Angeles Lakers,Phoenix Suns,122,111
+3,22,2023,Utah Jazz,Portland Trailblazers,115,127
+3,22,2023,Milwaukee Bucks,San Antonio Spurs,130,94
+3,23,2023,New Orleans Pelicans,Charlotte Hornets,115,96
+3,23,2023,Brooklyn Nets,Cleveland Cavaliers,114,116
+3,23,2023,Orlando Magic,New York Knicks,111,106
+3,23,2023,Los Angeles Clippers,Oklahoma City Thunder,127,105
+3,24,2023,Dallas Mavericks,Charlotte Hornets,109,117
+3,24,2023,Portland Trailblazers,Chicago Bulls,96,124
+3,24,2023,Toronto Raptors,Detroit Pistons,118,97
+3,24,2023,Memphis Grizzlies,Houston Rockets,151,114
+3,24,2023,Boston Celtics,Indiana Pacers,120,95
+3,24,2023,Utah Jazz,Milwaukee Bucks,116,144
+3,24,2023,Los Angeles Lakers,Oklahoma City Thunder,116,111
+3,24,2023,Golden State Warriors,Philadelphia 76ers,120,112
+3,24,2023,Sacramento Kings,Phoenix Suns,135,127
+3,24,2023,Washington Wizards,San Antonio Spurs,136,124
+3,25,2023,Miami Heat,Brooklyn Nets,100,129
+3,25,2023,Atlanta Hawks,Indiana Pacers,143,130
+3,25,2023,Denver Nuggets,Milwaukee Bucks,129,106
+3,25,2023,Los Angeles Clippers,New Orleans Pelicans,110,131
+3,25,2023,Phoenix Suns,Philadelphia 76ers,125,105
+3,25,2023,Sacramento Kings,Utah Jazz,121,113
+3,26,2023,Orlando Magic,Brooklyn Nets,119,106
+3,26,2023,Los Angeles Lakers,Chicago Bulls,108,118
+3,26,2023,Charlotte Hornets,Dallas Mavericks,110,104
+3,26,2023,Cleveland Cavaliers,Houston Rockets,108,91
+3,26,2023,Atlanta Hawks,Memphis Grizzlies,119,123
+3,26,2023,Golden State Warriors,Minnesota Timberwolves,96,99
+3,26,2023,Portland Trailblazers,Oklahoma City Thunder,112,118
+3,26,2023,Boston Celtics,San Antonio Spurs,137,93
+3,26,2023,Toronto Raptors,Washington Wizards,114,104
+3,27,2023,Los Angeles Clippers,Chicago Bulls,124,112
+3,27,2023,Indiana Pacers,Dallas Mavericks,104,127
+3,27,2023,New York Knicks,Houston Rockets,137,115
+3,27,2023,Detroit Pistons,Milwaukee Bucks,117,126
+3,27,2023,Sacramento Kings,Minnesota Timberwolves,115,119
+3,27,2023,Portland Trailblazers,New Orleans Pelicans,90,124
+3,27,2023,Denver Nuggets,Philadelphia 76ers,116,111
+3,27,2023,Utah Jazz,Phoenix Suns,103,117
+3,28,2023,Washington Wizards,Boston Celtics,130,111
+3,28,2023,Oklahoma City Thunder,Charlotte Hornets,134,137
+3,28,2023,Atlanta Hawks,Cleveland Cavaliers,120,118
+3,28,2023,Toronto Raptors,Miami Heat,106,92
+3,28,2023,Golden State Warriors,New Orleans Pelicans,120,109
+3,28,2023,Memphis Grizzlies,Orlando Magic,113,108
+3,29,2023,Philadelphia 76ers,Dallas Mavericks,116,108
+3,29,2023,Oklahoma City Thunder,Detroit Pistons,107,106
+3,29,2023,Brooklyn Nets,Houston Rockets,123,114
+3,29,2023,Memphis Grizzlies,Los Angeles Clippers,132,141
+3,29,2023,Chicago Bulls,Los Angeles Lakers,110,121
+3,29,2023,New York Knicks,Miami Heat,101,92
+3,29,2023,Indiana Pacers,Milwaukee Bucks,136,149
+3,29,2023,Phoenix Suns,Minnesota Timberwolves,117,100
+3,29,2023,Portland Trailblazers,Sacramento Kings,80,120
+3,29,2023,San Antonio Spurs,Utah Jazz,117,128
+3,30,2023,Milwaukee Bucks,Boston Celtics,99,140
+3,30,2023,Denver Nuggets,New Orleans Pelicans,88,107
+3,31,2023,Brooklyn Nets,Atlanta Hawks,124,107
+3,31,2023,Charlotte Hornets,Chicago Bulls,91,121
+3,31,2023,Phoenix Suns,Denver Nuggets,100,93
+3,31,2023,Houston Rockets,Detroit Pistons,121,115
+3,31,2023,Memphis Grizzlies,Los Angeles Clippers,108,94
+3,31,2023,Minnesota Timberwolves,Los Angeles Lakers,111,123
+3,31,2023,Cleveland Cavaliers,New York Knicks,116,130
+3,31,2023,Indiana Pacers,Oklahoma City Thunder,121,117
+3,31,2023,Washington Wizards,Orlando Magic,109,116
+3,31,2023,Golden State Warriors,San Antonio Spurs,130,115
+3,31,2023,Portland Trailblazers,Sacramento Kings,114,138
+3,31,2023,Philadelphia 76ers,Toronto Raptors,117,110
+3,31,2023,Boston Celtics,Utah Jazz,122,114
+4,1,2023,Miami Heat,Dallas Mavericks,129,122
+4,1,2023,New Orleans Pelicans,Los Angeles Clippers,122,114
+4,2,2023,Atlanta Hawks,Dallas Mavericks,132,130
+4,2,2023,Orlando Magic,Detroit Pistons,128,102
+4,2,2023,Denver Nuggets,Golden State Warriors,112,110
+4,2,2023,Cleveland Cavaliers,Indiana Pacers,115,105
+4,2,2023,Houston Rockets,Los Angeles Lakers,109,134
+4,2,2023,Chicago Bulls,Memphis Grizzlies,128,107
+4,2,2023,Milwaukee Bucks,Philadelphia 76ers,117,104
+4,2,2023,Oklahoma City Thunder,Phoenix Suns,118,128
+4,2,2023,Minnesota Timberwolves,Portland Trailblazers,105,107
+4,2,2023,Sacramento Kings,San Antonio Spurs,134,142
+4,2,2023,Charlotte Hornets,Toronto Raptors,108,128
+4,2,2023,Brooklyn Nets,Utah Jazz,111,110
+4,2,2023,New York Knicks,Washington Wizards,118,109
+4,4,2023,Chicago Bulls,Atlanta Hawks,105,123
+4,4,2023,Philadelphia 76ers,Boston Celtics,103,101
+4,4,2023,Orlando Magic,Cleveland Cavaliers,113,117
+4,4,2023,Houston Rockets,Denver Nuggets,124,103
+4,4,2023,Utah Jazz,Los Angeles Lakers,133,135
+4,4,2023,Detroit Pistons,Miami Heat,105,118
+4,4,2023,Washington Wizards,Milwaukee Bucks,128,140
+4,4,2023,Brooklyn Nets,Minnesota Timberwolves,102,107
+4,4,2023,Golden State Warriors,Oklahoma City Thunder,136,125
+4,4,2023,Memphis Grizzlies,Portland Trailblazers,119,109
+4,4,2023,Phoenix Suns,San Antonio Spurs,115,94
+4,4,2023,New Orleans Pelicans,Sacramento Kings,103,121
+4,4,2023,Charlotte Hornets,Toronto Raptors,100,120
+4,5,2023,Detroit Pistons,Brooklyn Nets,108,123
+4,5,2023,Milwaukee Bucks,Chicago Bulls,105,92
+4,5,2023,Los Angeles Clippers,Los Angeles Lakers,125,118
+4,5,2023,New Orleans Pelicans,Memphis Grizzlies,138,131
+4,5,2023,Indiana Pacers,New York Knicks,129,138
+4,5,2023,Dallas Mavericks,Sacramento Kings,123,119
+4,5,2023,Boston Celtics,Toronto Raptors,97,93
+4,5,2023,Atlanta Hawks,Washington Wizards,134,116
+4,6,2023,Orlando Magic,Cleveland Cavaliers,94,118
+4,6,2023,Phoenix Suns,Denver Nuggets,119,115
+4,6,2023,Philadelphia 76ers,Miami Heat,101,129
+4,6,2023,Utah Jazz,Oklahoma City Thunder,98,114
+4,6,2023,San Antonio Spurs,Portland Trailblazers,129,127
+4,7,2023,Dallas Mavericks,Chicago Bulls,112,115
+4,7,2023,Indiana Pacers,Detroit Pistons,115,122
+4,7,2023,Sacramento Kings,Golden State Warriors,97,119
+4,7,2023,Charlotte Hornets,Houston Rockets,109,112
+4,7,2023,Milwaukee Bucks,Memphis Grizzlies,114,137
+4,7,2023,Washington Wizards,Miami Heat,114,108
+4,7,2023,New Orleans Pelicans,New York Knicks,113,105
+4,7,2023,Brooklyn Nets,Orlando Magic,101,84
+4,7,2023,Atlanta Hawks,Philadelphia 76ers,131,136
+4,7,2023,Los Angeles Lakers,Phoenix Suns,121,107
+4,7,2023,Boston Celtics,Toronto Raptors,121,102
+4,8,2023,Utah Jazz,Denver Nuggets,118,114
+4,8,2023,San Antonio Spurs,Minnesota Timberwolves,131,151
+4,8,2023,Los Angeles Clippers,Portland Trailblazers,136,125
+4,9,2023,Boston Celtics,Atlanta Hawks,120,114
+4,9,2023,Cleveland Cavaliers,Charlotte Hornets,95,106
+4,9,2023,Chicago Bulls,Detroit Pistons,103,81
+4,9,2023,Portland Trailblazers,Golden State Warriors,101,157
+4,9,2023,Washington Wizards,Houston Rockets,109,114
+4,9,2023,New York Knicks,Indiana Pacers,136,141
+4,9,2023,Phoenix Suns,Los Angeles Clippers,114,119
+4,9,2023,Oklahoma City Thunder,Memphis Grizzlies,115,100
+4,9,2023,Toronto Raptors,Milwaukee Bucks,121,105
+4,9,2023,Minnesota Timberwolves,New Orleans Pelicans,113,108
+4,9,2023,Miami Heat,Orlando Magic,123,110
+4,9,2023,Brooklyn Nets,Philadelphia 76ers,105,134
+4,9,2023,Dallas Mavericks,San Antonio Spurs,117,138
+4,9,2023,Denver Nuggets,Sacramento Kings,109,95
+4,9,2023,Los Angeles Lakers,Utah Jazz,128,117

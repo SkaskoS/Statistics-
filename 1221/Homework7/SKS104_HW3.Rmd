@@ -1,0 +1,37 @@
+---
+title: "SKS104_HW3"
+output: html_document
+---
+4)
+
+  a) integrals = 9 + 0.375 + 0.375 = 9.75
+     9.75 * 9.75 = 95%
+     9.75^100 approx 0
+     lim p-> infinity (9.75^p) = 0
+     P = 1, the length would be 10% = 0.1
+     P = 2, the length would be length would be 0.1^1/2
+     P = 100, the length would be 0.1^1/100
+  b) 
+  c) 
+  d) 
+5) 
+
+  a) QDA would perform better on a training set since its more flexible while a LDA      would be better on a test set since it would be less likely to overfit. 
+
+  b) QDA would be better for both test set and training set in a non-linear bayes        boundary. 
+
+  c) Yes, we would expect the test prediction accuracy of QDA relative to LDA to         improve as n gets bigger since it becomes more flexible for a better fit. 
+
+  d) False, since a QDA is more flexible and will likely overfit, making a higher        test error rate than LDA
+
+8)
+
+  We would want to use Logistic regression because it has a lower test error rate     based on K = 1 for 18% and if we had K = 2 then it would increase to 36% (18*2=36)   > 30% test error in Logistic regression. 
+
+12)
+
+a) 
+b)
+c)  
+d)
+e)

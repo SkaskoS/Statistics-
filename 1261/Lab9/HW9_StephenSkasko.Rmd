@@ -1,0 +1,175 @@
+---
+title: "HW9_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+library(NHANES)
+library(tidyverse)
+
+dim(NHANES)
+names(NHANES)
+
+data2<- NHANES %>%
+  select(Gender,Age,Race1,Education,MaritalStatus,HHIncomeMid,Poverty,HomeOwn,Weight,Height,
+         BMI,Pulse,BPSysAve,BPDiaAve,Diabetes,HealthGen,DaysPhysHlthBad,DaysMentHlthBad,
+         Depressed,SleepHrsNight,SleepTrouble,AlcoholDay,Smoke100,Marijuana,HardDrugs) %>% 
+  drop_na()
+
+set.seed(100)
+train2 <- data2 %>% sample_frac(size = 0.8, fac=HardDrugs)
+test2 <- data2 %>% setdiff(train2)
+
+library(rpart)
+library(rpart.plot)
+
+form_full <- as.formula(HardDrugs~Gender+Age+Race1+Education+MaritalStatus+HHIncomeMid+Poverty+HomeOwn+Weight+Height+BMI+Pulse+BPSysAve+BPDiaAve+Diabetes+HealthGen+DaysPhysHlthBad+DaysMentHlthBad+Depressed+SleepHrsNight+SleepTrouble+AlcoholDay+Smoke100+Marijuana)
+
+mod_tree <- rpart(form_full,data=train2)
+
+
+library(randomForest)
+mod_rf<- randomForest(form_full,train2,ntree=1000)
+mod_rf
+
+confusion_matrix <- function(data,y,mod){
+  confusion_matrix <- data %>% 
+  mutate(pred = predict(mod, newdata = data, type = "class"),
+         y=y) %>%
+  select(y,pred) %>% table()
+}
+
+
+misclass <- function(confusion){
+  misclass <- 1- sum(diag(confusion))/sum(confusion)
+  return(misclass)
+  print(misclass)
+
+}
+#1 Calculating misclassification rate 
+set.seed(100)
+mod_rf <- randomForest(formula=form_full, data=train2, 
+                           ntree=1000, mtry=8);
+confusion_rf <- confusion_matrix(test2,test2$HardDrugs,mod_rf);confusion_rf
+
+misclass_rf <- misclass(confusion_rf)
+misclass_rf
+
+```
+
+```{r}
+#2 Fit a naive Bayes model and calculate the misclassification rate on a test set
+library(e1071)
+mod_rf2<- naiveBayes(form_full,train2)
+mod_rf2
+
+confusion_matrix <- function(data,y,mod){
+  confusion_matrix <- data %>% 
+  mutate(pred = predict(mod, newdata = data, type = "class"),
+         y=y) %>%
+  select(y,pred) %>% table()
+}
+
+
+misclass <- function(confusion){
+  misclass <- 1- sum(diag(confusion))/sum(confusion)
+  return(misclass)
+}
+set.seed(100)
+
+mod_nb <- naiveBayes(form_full, data=train2)
+winner_nb <- predict(mod_nb, newdata=test2)
+confusion_nb<-table(winner_nb, test2$HardDrugs);confusion_nb
+misclass_test_nb <- 1-sum(diag(confusion_nb))/sum(confusion_nb)
+misclass_test_nb
+
+```
+
+```{r}
+#3 Calculate the Sensitivity and the Specificity for the random forest
+
+tpr_rf = confusion_rf[2,2]/sum(confusion_rf[2,]); tpr_rf
+tnr_rf = confusion_rf[1,1]/sum(confusion_rf[1,]); tnr_rf
+
+#3 Calculate the Sensitivity and the Specificity for the Naive Bayes 
+
+tpr_nb = confusion_nb[2,2]/sum(confusion_nb[2,]); tpr_nb
+tnr_nb = confusion_nb[1,1]/sum(confusion_nb[1,]); tnr_nb
+
+
+```
+
+```{r}
+library(ROCR)
+
+roc_data <- function(test,y_test,model,type){
+  prob = model %>% 
+    predict(newdata=test, type=type) %>% 
+    as.data.frame()
+  pred_prob = prediction(prob[,2], y_test)
+  perf = performance(pred_prob, 'tpr', 'fpr')
+  perf_df = data.frame(perf@x.values, perf@y.values)
+  names(perf_df)=c('fpr','tpr')
+  return(perf_df)
+}
+
+point_data <- function(test,y_test,model,type){
+  y_pred = predict(model, newdata=test,type=type)
+  confusion_matrix = table(y_test, y_pred)
+  tpr = confusion_matrix['Yes','Yes']/sum(confusion_matrix['Yes',])
+  fpr = confusion_matrix['No','Yes']/sum(confusion_matrix['No',])
+  return(c(fpr,tpr))
+}
+
+# Add the ROC curves of the naive Bayes model and the decision tree to the above plot.
+
+perf_df_rf = roc_data(test2, test2$HardDrugs, mod_rf, "prob")
+point_rf = point_data(test2, test2$HardDrugs, mod_rf, "class")
+
+perf_df_tree = roc_data(test2, test2$HardDrugs, mod_tree, "prob")
+point_tree = point_data(test2, test2$HardDrugs, mod_tree, "class")
+
+perf_df_nb = roc_data(test2, test2$HardDrugs, mod_nb, "raw")
+point_nb = point_data(test2, test2$HardDrugs, mod_nb, "class")
+
+ggplot(data =perf_df_rf, aes(x=fpr, y=tpr))+
+  geom_line(color="purple",lwd=1)+
+  geom_point(x=point_rf[1],y=point_rf[2],size=3,col="red")+
+  
+  # Add the ROC curves of the naive Bayes model and the decision tree to the above plot.
+  geom_line(data = perf_df_tree, color="orange",lwd=1, aes(x=fpr, y=tpr))+
+  geom_point(x=point_tree[1],y=point_tree[2],size=3,col="red")+
+  
+  
+  geom_line(data = perf_df_nb, color="red",lwd=1, aes(x=fpr, y=tpr))+
+  geom_point(x=point_nb[1],y=point_nb[2],size=3,col="red")+
+  labs(x='False Positive Rate', y='True Positive Rate')
+
+```
+
+```{r}
+#5
+library(caret)
+control <- trainControl(method="repeatedcv", number=5, 
+                        repeats=2, search="grid")
+set.seed(100)
+tunegrid <- expand.grid(.mtry=seq(2,20))
+rf_gridsearch <- train(HardDrugs~., data=train2, method="rf", 
+                       metric="Accuracy", tuneGrid=tunegrid, 
+                       trControl=control)
+print(rf_gridsearch)
+plot(rf_gridsearch)
+
+```
+```{r}
+#6
+set.seed(100)
+mod_rf <- randomForest(formula=form_full, data=train2, 
+                           ntree=1000, mtry=6);
+confusion_rf<-confusion_matrix(test2,test2$HardDrugs,mod_rf);confusion_rf
+misclass_rf<-misclass(confusion_rf);misclass_rf
+
+```
+

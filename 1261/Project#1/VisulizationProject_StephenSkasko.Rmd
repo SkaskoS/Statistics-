@@ -1,0 +1,171 @@
+---
+title: "The Ultimate Halloween Candy Power Ranking"
+output: 
+  html_document:
+    toc: TRUE
+---
+Visualization Project-Stephen Skasko
+<https://fivethirtyeight.com/videos/the-ultimate-halloween-candy-power-ranking/>  
+
+```{r}
+library(fivethirtyeight)
+library(tibble)
+library(tidyr)
+library(dplyr)
+library(gt)
+library(gtExtras)
+library(ggplot2)
+head(candy_rankings)
+```
+
+```{r}
+candy <- candy_rankings %>%
+  mutate(candy_rankings, 
+         RK = 1:n(), 
+         CANDY = competitorname,
+         WIN_PERCENTAGE = signif(winpercent, digits=3),
+         PERCENTAGE = signif(winpercent, digits=3)
+
+        ) %>% 
+
+          
+
+  select(RK, 
+         CANDY,
+         PERCENTAGE,
+         WIN_PERCENTAGE
+         
+         ) %>%
+  
+  
+  arrange(desc(WIN_PERCENTAGE)) %>%
+  mutate(candy_rankings, 
+         RK = 1:n(),
+         fruity = NULL, 
+         chocolate = NULL, 
+         competitorname = NULL, 
+         caramel = NULL, 
+         peanutyalmondy = NULL, 
+         nougat = NULL, 
+         crispedricewafer = NULL, 
+         hard = NULL, 
+         bar = NULL, 
+         pluribus = NULL,
+         sugarpercent = NULL, 
+         pricepercent = NULL,
+         winpercent = NULL
+         ) %>% #reorder the count from original data to a ranked data from WIN_PERCENTAGE
+      
+  gt()%>%
+
+   cols_label(
+    PERCENTAGE = "",
+    WIN_PERCENTAGE = "WIN PERCENTAGE"
+    
+  ) %>% 
+  gt_plt_bar_pct(WIN_PERCENTAGE,
+                 fill = '#E66C2C', 
+                 background = 'white',
+                 scaled = TRUE
+                ) %>%
+  
+  #Rows of numbers in RK
+ tab_style(
+    style = list(
+      cell_text(size = "xx-small", weight = "bolder")
+      ),
+    locations = cells_body(
+      columns = RK,
+      rows = RK
+    )
+  ) %>%
+  
+  tab_style(
+    style = list(
+      cell_text(size = "small",  align = "left")
+      ),
+    locations = cells_body(
+      
+      columns = CANDY,
+      rows = CANDY > 100
+      
+      
+    )
+  ) %>%
+
+
+  
+  #Column Name of RK
+  tab_style(
+    style = list(
+      cell_text(size = "x-small")
+      ),
+    locations = cells_column_labels(
+      columns = RK
+    )
+  ) %>%
+  
+  #Column name of Candy 
+  tab_style(
+    style = list(
+      cell_text(size = "x-small")
+      ),
+    locations = cells_column_labels(
+      columns = CANDY
+    )
+  ) %>%
+  
+  #Column name of WIN PERCENTAGE
+  tab_style(
+    style = list(
+      cell_text(size = "x-small", align = "left")
+      ),
+    locations = cells_column_labels(
+      columns = WIN_PERCENTAGE
+    )
+  ) %>%
+  
+      gt_merge_stack(WIN_PERCENTAGE, PERCENTAGE, 
+                     small_cap = TRUE,
+                     palette = c("black", "black"),
+                     font_size = c("10.2px", "10.2px"),
+                     font_weight = c("normal", "normal")
+                     ) %>%
+  #Changes the rows/columns spacing and the chart for removal of colors/things
+  tab_options(
+    data_row.padding = px(3),
+    column_labels.padding = px(1),
+    table_body.border.bottom.color = "white",
+    column_labels.border.top.color = "white",
+    column_labels.border.bottom.color = "black"
+    
+    ) %>%
+  
+    cols_width(
+    WIN_PERCENTAGE ~ px(220))
+
+  
+candy 
+
+```
+
+
+Technical Discussion:
+
+The project to recreate the original data set, I had to use techniques such as mutate, select, piping, gt package, arrange, and data framing. First, I used a data frame of candy to recall the columns and rows to check these things in each step. Using the data frame, I piped to continue to apply functions like mutation or select to piece together a sequence of these options in one chuck. Piping allowed me to use select and mutation functions, which allowed the columns to customize, such as creating a new chuck of columns like RK, CANDY, PERCENTAGE, and WIN_PERCENTAGE using the mutate functions. I also used mutate function again after prioritizing these columns using the select function to bring the columns to my priority in the set. After using the selection function, I noticed the data frame was showing the wrong arrangement of the most popular candies, so I had to use the new arrange function to frame it. After doing this, I needed to remove and recreate my new arrangement of columns to fit the frame of RK, so I removed all columns with NULL values to remove them from the data frame. After many difficulties finding a solution to the row bar plot using ggplot, I found the gt package. This package allowed me to create a chart in each row of a column horizontally. With this-it allowed me to customize the data columns or rows, like the ggplot library. Using this tool, I could rename my column without an underscore, combine my rows, and output the columns' percentage with bar plots as a merge function. 
+
+
+Context of the data graphic:
+
+In this project, I chose the most Halloween themed data chart to recreate and the chart was to look at the candy trends. The graphs purpose is to find the most popular 
+and preferred candies as Halloween comes around the corner. After surveying, the data was found to have the top candies selected by individuals where these candies
+would showcase what popular candies would be best to give out on Halloween. The percentage showed how many selected it with a bar graph comparing them to the list
+of candy in each row. With this, the RK column showing the numerical order of the candy from top to bottom based on the percentage of picked candies. So, the data shows the numerical and percentage of people who chose each candy based on their favorite in order to let people know which candy would be most appreciated on Halloween night. 
+
+
+
+
+
+
+
+

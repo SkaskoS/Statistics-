@@ -1,0 +1,82 @@
+---
+title: "Homework 19-20"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+boston <- read.csv("boston_housing_complete.csv")
+boston
+```
+
+Problem 1b
+
+```{r}
+model <- lm(PRICE ~ CRIME + ZONE + INDUS + NOX + RM + AGE, data = boston)
+anova(model)
+summary(model)
+
+```
+
+Problem 1d
+
+```{r}
+library(leaps)
+best_model <- leaps(x = boston[, 2:13], y = boston[, 1], names = names(boston)[2:13], method = "adjr2")
+adjR2 <- as.data.frame(cbind(best_model$which, best_model$size, best_model$adjr2))
+adjR2
+```
+
+Problem 1f
+
+```{r}
+require(leaps)
+max_model <- lm(PRICE ~ ., data = boston)
+r_model <- lm(PRICE ~ DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data = boston)
+anova(max_model)
+anova(r_model)
+```
+
+Problem 1h
+
+```{r}
+require(leaps)
+best_modelCp <- leaps(x = boston[, 2:13], y = boston[, 1], names = names(boston)[2:13], method = "Cp")
+Cp <- as.data.frame(cbind(best_modelCp$which, best_modelCp$size, best_modelCp$Cp, abs(best_modelCp$Cp - best_modelCp$size)))
+Cp
+```
+
+Problem 1k
+
+```{r}
+model <- lm(PRICE ~ CRIME + ZONE + INDUS + NOX + RM + AGE, data = boston)
+anova(model)
+
+```
+
+Problem 1m
+
+```{r}
+model <- lm(PRICE ~ DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data = boston)
+anova(model)
+```
+
+Problem 1o
+
+```{r}
+require(MASS)
+min_model = lm(PRICE ~ 1, data = boston)
+max_model = formula(lm(PRICE ~ CRIME + ZONE + INDUS + NOX + RM + AGE + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data = boston))
+best_model = step(min_model, direction = "forward", scope = max_model, k = log(506))
+
+```
+
+Problem 1q
+
+```{r}
+require(MASS)
+max_model = lm(PRICE ~ CRIME + ZONE + INDUS + NOX + RM + AGE + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data = boston)
+best_model = step(max_model, direction = "backward")
+
+```

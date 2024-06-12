@@ -1,0 +1,48 @@
+---
+title: "Homework 15"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+diet <- read.csv("diet.csv")
+diet
+```
+
+Problem 1a
+
+```{r}
+diet$exercise == ifelse(diet$method == "exercise", 1, 0)
+diet$diet == ifelse(diet$method == "diet", 1, 0)
+diet$both = ifelse(diet$method == "both", 1, 0)
+
+full <- lm(weight_lost ~ calories + method + calories*method, data = diet)
+anova(full)
+
+reduced <- lm(weight_lost ~ calories + method, data = diet)
+anova(reduced)
+```
+
+Problem 1c
+
+```{r}
+full <- lm(weight_lost ~ calories + method + calories*method, data = diet)
+summary(full)
+anova(full)
+
+reduced <- lm(weight_lost ~ calories, data = diet)
+summary(reduced)
+anova(reduced)
+
+library(emmeans)
+
+# Calculate adjusted means
+means <- emmeans(full, ~ method, at = list(calories = mean(diet$calories)))
+means
+#Calculate Grand Mean of caloric intake 
+grand_mean <- mean(diet$calories)
+grand_mean
+
+
+```

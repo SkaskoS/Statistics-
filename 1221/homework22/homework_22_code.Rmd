@@ -1,0 +1,81 @@
+---
+title: "Homework 22 Code"
+output: html_notebook
+---
+
+Read in data
+
+```{r}
+gme = read.table("gamestop.csv", header = TRUE, sep = ",")
+```
+
+Problem 1a
+
+```{r}
+plot.ts(gme$price, xlab = "Days Since 1/1/2021", ylab = "Closing Price")
+
+```
+
+Problem 1c
+
+```{r}
+model = lm(price ~ time, data = gme)
+summary(model)
+```
+
+Problem 1d
+
+```{r}
+gme$res = residuals(model)
+plot.ts(gme$res, ylab = "Residual")
+abline(a = 0, b = 0)
+```
+
+Problem 1e
+
+```{r}
+require(car)
+durbinWatsonTest(model)
+```
+
+Read in data again (This is going to clear the residual column so we can work with a clean data frame and have the lagged terms directly next to the response.)
+
+```{r}
+gme = read.table("gamestop.csv", header = TRUE, sep = ",")
+
+```
+
+Problem 1g
+
+```{r}
+model = ar.ols(gme$price, order.max = 10, demean = F, intercept = T)
+model
+```
+
+Problem 1j
+
+```{r}
+gme$lag1[2:314] = gme$price[1:313]
+gme$lag2[3:314] = gme$price[1:312]
+gme$lag3[4:314] = gme$price[1:311]
+gme$lag4[5:314] = gme$price[1:310]
+gme$lag5[6:314] = gme$price[1:309]
+
+cor(gme[c(6:314), c(3:8)])
+```
+
+Problem 1l
+
+```{r}
+ar_model = lm(price ~ lag1 + lag2 + lag3 + lag4 + lag5, data = gme)
+gme$res[6:314] = residuals(ar_model)
+plot.ts(gme$res, ylab = "Residual")
+abline(a = 0, b = 0)
+```
+
+Problem 1m
+
+```{r}
+require(car)
+durbinWatsonTest(ar_model)
+```

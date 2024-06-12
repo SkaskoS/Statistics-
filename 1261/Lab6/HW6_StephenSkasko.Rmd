@@ -1,0 +1,187 @@
+---
+title: "HW6_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+Part one
+```{r}
+library(tidyverse)
+
+ebsurvey <- read_csv('https://uoepsy.github.io/data/science-faith-attitude.csv')
+head(ebsurvey)
+
+ebsurvey0 <- ebsurvey %>% 
+  select(kstot, age, toomuchscience)
+
+ebsurvey0 <- ebsurvey0 %>% 
+  rename(science_score = kstot,
+         attitude = toomuchscience)
+head(ebsurvey0,3)
+```
+
+
+```{r}
+dim(ebsurvey0)
+```
+
+
+```{r}
+anyNA(ebsurvey0)
+```
+
+
+```{r}
+ebsurvey1 <- na.omit(ebsurvey0)
+dim(ebsurvey1)
+```
+
+Part two
+```{r}
+ggplot(ebsurvey1, aes(x = age)) +
+    geom_histogram(color = 'white', binwidth = 5, fill='steelblue') +
+    labs(x = 'Age (years)', 
+         y = 'Frequency')
+```
+
+```{r}
+library(kableExtra)
+
+ebsurvey1 %>%
+    summarise(Min = min(age),
+              Median = quantile(age, 0.5),
+              IQR = IQR(age),
+              Mean = mean(age),
+              SD = sd(age),
+              Max = max(age)) %>%
+    kable(digits = 2, 
+          caption = 'Descriptive Statistics of Age') %>%
+    kable_styling(full_width = FALSE)
+```
+
+Exercise One: 
+a)
+```{r}
+ggplot(ebsurvey1, aes(x = science_score)) +
+    geom_histogram(aes(y =..density..), color = 'white', fill='steelblue', binwidth = 1) +
+  stat_function(fun = dnorm,
+                args = list(mean = mean(ebsurvey1$science_score),
+                            sd = sd(ebsurvey1$science_score)),
+                col = "red")
+
+```
+
+b)
+```{r}
+ebsurvey1 %>%
+    summarise(Min = min(science_score),
+              Median = quantile(science_score, 0.5),
+              IQR = IQR(science_score),
+              Mean = mean(science_score),
+              SD = sd(science_score),
+              Max = max(science_score)) %>%
+    kable(digits = , 
+          caption = 'Descriptive Statistics of Science Scores') %>%
+    kable_styling(full_width = FALSE)
+```
+
+```{r}
+ggplot(ebsurvey1, aes(x = attitude)) +
+    geom_histogram(color = 'white', fill='steelblue', binwidth = 1) +
+    labs(x = 'We rely too much on science and not enough on faith', 
+         y = 'Frequency')
+
+```
+
+```{r}
+plot(ebsurvey1)
+```
+
+```{r}
+cor(ebsurvey1)
+
+```
+
+```{r}
+library(plotly)
+library(GGally)
+
+correlation_plot <- ggpairs(ebsurvey1, title = "Correlogram")
+ggplotly(correlation_plot)
+```
+
+```{r}
+reg <- lm(attitude ~ science_score + age, data=ebsurvey1)
+summareg <- lm(attitude ~ science_score + age, data=ebsurvey1)
+summary(reg)
+```
+
+```{r}
+par(mfrow = c(1,2))
+plot(reg, which=c(1,2))
+```
+
+```{r}
+
+par(mfrow = c(1,1)) # go back to 1 by 1 panels
+
+```
+
+```{r}
+
+library(car)
+boot_reg <- Boot(reg, R = 1000)
+summary(boot_reg)
+
+
+```
+
+
+```{r}
+
+Confint(boot_reg, level = 0.95, type = "perc")
+
+```
+
+
+
+```{r}
+library(kableExtra)
+Confint(boot_reg, type = "perc") %>%
+    kable(digits = 3, caption = 'Bootstrap 95% CIs') %>%
+    kable_styling(full_width = FALSE)
+```
+
+Exercise two
+```{r}
+boot_reg2 <- Boot(reg, R = 1000)
+summary(boot_reg2)
+
+```
+
+```{r}
+head(boot_reg$t)
+```
+
+
+```{r}
+plot_data <- as_tibble(boot_reg$t)
+head(plot_data)
+```
+```{r}
+hist(boot_reg, ci = "perc", legend = "separate")
+
+```
+Exercise 3: Visualization in different perspectives 
+```{r}
+
+head(boot_reg2$t)
+
+head(boot_reg2$t0)
+
+plot_data2 <- as_tibble(boot_reg2$t)
+head(plot_data2)
+
+hist(boot_reg2, ci = "perc", legend = "separate")
+```

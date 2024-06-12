@@ -1,0 +1,47 @@
+---
+title: "Homework 12 Code"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+diet = read.csv("diet.csv")
+diet
+```
+
+Problem 1a
+
+```{r}
+colors = c("blue", "red", "black")
+plot(diet$calories, diet$weight_lost, pch = 19, col = colors[factor(diet$method)])
+legend("topright", legend = c("both", "diet", "exercise"), pch = 19, col = colors)
+
+```
+
+Problem 1c
+
+```{r}
+diet$exercise == ifelse(diet$method == "exercise", 1, 0)
+diet$both = ifelse(diet$method == "both", 1, 0)
+
+
+table(diet$method)
+sum(diet$exercise)
+sum(diet$both)
+```
+
+Problem 1d
+
+```{r}
+modeld = lm(weight_lost ~ calories + method, data = diet)
+summary(modeld)
+```
+
+Problem 1i
+
+```{r}
+cov_matrix = vcov(modeld)
+cov_matrix
+
+```

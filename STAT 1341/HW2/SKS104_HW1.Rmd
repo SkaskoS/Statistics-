@@ -1,0 +1,141 @@
+---
+title: "Homework 1"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+Problem 2a
+
+```{r}
+nba <- read.csv("nba_scores.csv")
+
+nba <- nba[order(-nba$home_score), ]
+
+
+
+
+hist(nba$home_score, main = "Home Team", xlab = "Points", ylab = "Frequency", col = "blue")
+hist(nba$away_score, main = "Away Team", xlab = "Points", ylab = "Frequency", col = "red")
+
+mean(nba$home_score)
+mean(nba$away_score)
+
+
+sd(nba$home_score)
+sd(nba$away_score)
+
+
+
+high <- which.max(nba$home_score)
+HighScore <- nba[high, ]
+print(HighScore)
+
+
+```
+
+Problem 2b
+
+```{r}
+sum(nba$home_score < 100)/nrow(nba)
+
+#2c
+pnorm(100, mean(nba$home_score, sd(nba$home_score)))
+
+```
+
+Problem 2e
+
+```{r}
+mov <- abs(nba$home_score - nba$away_score)
+
+hist(mov, main = "Difference Score", xlab = "Points", ylab = "Frequency", col = "yellow")
+
+mean(mov)
+sd(mov)
+```
+
+Problem 2f
+
+```{r}
+m <-sum(abs(nba$home_score - nba$away_score >= 10)/nrow(nba))
+m
+
+shapiro.test(nba$m)
+```
+
+Problem 3a
+
+```{r}
+nfl <- read.csv("nfl_team_stats.csv")
+nfl
+model <- lm(points ~ yards + plays + turnovers + penalties, data = nfl)
+
+
+summary(model)
+
+```
+
+Problem 3b
+
+```{r}
+library(ggplot2)
+nfl$points <- predict(model)
+nfl$residuals <- residuals(model)
+
+
+df <- ggplot(nfl, aes(x = points, y = residuals)) +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "blue") +
+  xlab("Predicted Points") +
+  ylab("Residuals") +
+  ggtitle("Residual Plot")
+df
+
+
+overperformed <- nfl[which.max(nfl$residuals), ]
+underperformed <- nfl[which.min(nfl$residuals), ]
+overperformed
+underperformed
+
+```
+
+Problem 4a
+
+```{r}
+nhl <- read.csv("nhl_team_stats.csv")
+nhl
+LogModel <- glm(playoffs ~ GF + GA + age, family = "binomial", data = nhl)
+summary(LogModel)
+
+```
+
+Problem 4b
+
+```{r}
+nhl$LogitPred <- predict(LogModel, type = "link")
+nhl$PredProb <- 1 / (1 + exp(-nhl$LogitPred))
+
+
+nhl$playoffsPred <- ifelse(nhl$PredProb >= 0.5, 1, 0)
+
+cm<- table(nhl$playoffs, nhl$playoffsPred)
+cm
+
+
+
+#Accuracy
+accuracy <- sum(nhl$playoffs == nhl$playoffsPred) / length(nhl$playoffs)
+print(paste("Accuracy of Model:", accuracy))
+
+#Surprising playoffs of yes vs no probability
+playoffNo <- nhl[nhl$playoffs == 0 & nhl$PredProb > 0.5, ]
+playoffNo[which.max(playoffNo$PredProb), ]
+playoffYes <- nhl[nhl$playoffs == 1 & nhl$PredProb <= 0.5, ]
+playoffYes[which.max(playoffYes$PredProb), ]
+
+
+
+```

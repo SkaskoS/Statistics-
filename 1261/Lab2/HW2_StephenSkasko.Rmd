@@ -1,0 +1,92 @@
+---
+title: "STAT 1261/2260 Homework 2"
+author: "Stephen Skasko"
+output: 
+  word_document:
+    toc: TRUE
+
+---
+
+* **Spirited Away**
+* How the Grinch Stole Christmas
+* Child's Play
+* Shrek
+* Kung Fu Panda 
+
+
+![My background Christmas screen saver for the winter](CTheme.jpg)
+
+
+|Name         | Age          |Salary
+:------------ |-------------:|------------:
+|Sam          |     22       |    $55,000
+|Tom          |     25       |    $60,000
+|Susan        |     30       |    $80,000              
+
+#3, Will show all the code and output of it in each line of {r} used with no specifications on what to include or not 
+```{r}
+x <- 1:5
+```
+```{r}
+x <- x + 1
+```
+```{r}
+x
+```
+#4, Shows nothing since we are using the echo = FALSE with output of x being include = FALSE option 
+```{r echo = FALSE}
+x <- 1:5
+```
+```{r echo = FALSE}
+x <- x + 1
+```
+```{r include = FALSE}
+x
+```
+
+#5, Shows x values since we don't have include = FALSE 
+```{r echo = FALSE}
+x <- 1:5
+```
+```{r echo = FALSE}
+x <- x + 1
+```
+```{r echo = FALSE}
+x
+```
+
+#6, Shows the output when we dont have include = FALSE
+```{r echo = FALSE}
+x <- 1:5
+```
+```{r echo = FALSE, eval = FALSE}
+x <- x + 1
+```
+```{r echo = FALSE}
+x
+```
+
+#9, If we having warning=FALSE then it takes away the warning in the output, but true includes the warnings
+```{r warning=FALSE}
+sqrt(-1)
+
+```
+
+
+#12, Some of the lines will show since they have include=TRUE but others will not since they set it to include=FALSE, but it seems that you can take separate R chunks to set it include=TRUE even after setting it to include=FALSE in one chunk
+
+```{r chunk1, eval = TRUE, include = FALSE}
+x <- 15
+cat("assigning value to x.\n")
+```
+```{r chunk2, eval = TRUE, include = FALSE}
+x <- x + 3
+cat("updating value of x.\n")
+```
+```{r chunk3, eval = FALSE, include = TRUE}
+cat("x =", x, "\n")
+```
+```{r chunk1, eval = FALSE, include = TRUE}
+```
+```{r chunk2, eval = FALSE, include = TRUE}
+```

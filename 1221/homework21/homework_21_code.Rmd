@@ -1,0 +1,75 @@
+---
+title: "Homework 21"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+boston <- read.csv("boston_housing_complete.csv")
+```
+
+Problem 1a
+
+```{r}
+require(caret)
+cv = trainControl(method = "LOOCV")
+modela = train(PRICE ~ CRIME + ZONE + INDUS + NOX + RM  + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+modela$pred
+modela$results
+
+```
+
+Problem 1b
+
+```{r}
+require(caret)
+cv = trainControl(method = "LOOCV")
+modelb = train(PRICE ~ CRIME + ZONE + NOX + RM + AGE + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+modelb$pred
+modelb$results
+```
+
+Problem 1c
+
+```{r}
+require(caret)
+cv = trainControl(method = "LOOCV")
+model = train(PRICE ~  ZONE + NOX  + DIS + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+model$pred
+model$results
+
+```
+
+Problem 1h
+
+```{r}
+require(caret)
+set.seed(5)
+cv = trainControl(method = "cv", number = 10)
+modelh = train(PRICE ~ CRIME + ZONE + INDUS + NOX + RM  + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+modelh$results
+modelh$pred
+```
+
+Problem 1i
+
+```{r}
+require(caret)
+set.seed(5)
+cv = trainControl(method = "cv", number = 10)
+modeli = train(PRICE ~ CRIME + ZONE + NOX + RM + AGE + DIS + RAD + TAX + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+modeli$results
+modeli$pred
+```
+
+Problem 1j
+
+```{r}
+require(caret)
+set.seed(5)
+cv = trainControl(method = "cv", number = 10)
+modelj = train(PRICE ~  ZONE + NOX  + DIS + PTRATIO + BLACK + LSTAT, data  = boston, method = "lm", trControl = cv)
+modelj$results
+modelj$pred
+```

@@ -1,0 +1,5407 @@
+season,home_team,away_team,home_score,away_score,location
+2018,Syracuse,Cornell,77,45,1
+2018,Virginia Tech,Detroit Mercy,111,79,1
+2018,Clemson,Western Carolina,85,57,1
+2018,Miami-FL,Gardner-Webb,77,45,1
+2018,Gonzaga,TX-Southern,97,69,1
+2018,Tennessee,Presbyterian,88,53,1
+2018,Mississippi St,Alabama St,96,68,1
+2018,Ole Miss,Louisiana,94,76,1
+2018,Kentucky,Utah Valley St,73,63,1
+2018,Georgia,Bryant,79,54,1
+2018,Auburn,Norfolk St,102,74,1
+2018,Vanderbilt,Austin Peay,73,54,1
+2018,TX-Rio Grande,Nicholls St,106,111,1
+2018,Davidson,Charleston Southern,110,62,1
+2018,Dayton,Ball St,78,77,1
+2018,George Mason,Lafayette,67,65,1
+2018,George Washington,Howard,84,75,1
+2018,VCU,Grambling St,94,65,1
+2018,St Louis,Seattle,62,46,1
+2018,Richmond,Delaware,63,76,1
+2018,UMass,MA-Lowell,74,69,1
+2018,Troy,North Dakota,80,83,0
+2018,Sacred Heart,Holy Cross,64,69,1
+2018,Hofstra,Army,77,74,1
+2018,Old Dominion,Towson,57,54,1
+2018,Cincinnati,Savannah St,107,77,1
+2018,Tulsa,Lamar,67,74,1
+2018,Baylor,Central Arkansas,107,66,1
+2018,Penn St,Campbell,86,75,1
+2018,West Virginia,Texas A&M,65,88,0
+2018,Memphis,Alabama,70,82,0
+2018,Seton Hall,Fairleigh Dickinson,90,68,1
+2018,North Carolina,Northern Iowa,86,69,1
+2018,North Carolina St,VMI,102,67,1
+2018,Duke,Elon,97,68,1
+2018,Indiana,Indiana St,69,90,1
+2018,Ohio St,Robert Morris,95,64,1
+2018,Wisconsin,South Carolina St,85,50,1
+2018,Stony Brook,Maryland,61,76,0
+2018,Virginia,NC-Greensboro,60,48,1
+2018,UConn,Colgate,70,58,1
+2018,Tulane,LIU-Brooklyn,102,96,1
+2018,Stanford,Cal Poly,78,62,1
+2018,Butler,Kennesaw St,82,64,1
+2018,St Johns,New Orleans,77,61,1
+2018,Xavier,Morehead St,101,49,1
+2018,Providence,Houston Christian,84,55,1
+2018,Northern Kentucky,East Tennessee St,81,63,1
+2018,Oakland,IPFW,85,71,1
+2018,Winthrop,Southern Illinois,66,81,1
+2018,Fordham,Miami-OH,54,55,1
+2018,Albany,Iona,69,67,1
+2018,Binghamton,Morgan St,76,59,1
+2018,Drexel,Bowling Green,69,78,1
+2018,Coll of Charleston,Siena,68,60,1
+2018,UAB,Jacksonville,96,67,1
+2018,Boston College,Maine,85,65,1
+2018,Wake Forest,GA-Southern,83,85,1
+2018,Rhode Island,NC-Asheville,84,60,1
+2018,Hartford,Central Conn St,85,84,1
+2018,Boston U,Northeastern,59,65,1
+2018,Illinois,Southern U,102,55,1
+2018,Michigan St,North Florida,98,66,1
+2018,Minnesota,SC-Upstate,92,77,1
+2018,Purdue,SIU-Edwardsville,105,74,1
+2018,LSU,Alcorn St,99,59,1
+2018,Arkansas,Samford,95,56,1
+2018,UCF,Mercer,88,79,1
+2018,Houston,McNeese St,81,53,1
+2018,South Florida,Florida Atlantic,60,59,1
+2018,Wichita St,Kansas City,109,57,1
+2018,SMU,UMBC,78,67,1
+2018,Colorado,Northern Colorado,66,51,1
+2018,Arizona,Northern Arizona,101,67,1
+2018,Texas,Northwestern St,105,59,1
+2018,Montana St,NE-Omaha,89,80,1
+2018,Evansville,Arkansas St,77,63,1
+2018,Western Kentucky,Missouri St,80,85,1
+2018,Loyola-Chicago,Wright St,84,80,1
+2018,St Bonaventure,Niagara,75,77,1
+2018,Rice,Eastern Kentucky,72,73,1
+2018,Marshall,TN-Martin,102,91,1
+2018,Rider,Hampton,90,75,1
+2018,High Point,William & Mary,100,66,1
+2018,IL-Chicago,NC-Central,65,55,1
+2018,Northwestern,Loyola-MD,79,75,1
+2018,Oklahoma St,Pepperdine,78,47,1
+2018,Monmouth,Bucknell,79,78,1
+2018,Navy,Pittsburgh,71,62,1
+2018,Iowa,Chicago St,95,62,1
+2018,Creighton,Yale,92,76,1
+2018,Marquette,Mt St Marys,80,59,1
+2018,Wyoming,Chattanooga,74,65,1
+2018,Kansas,Tennessee St,92,56,1
+2018,Kansas St,American U,83,45,1
+2018,TCU,LA-Monroe,83,73,1
+2018,Texas Tech,South Alabama,75,50,1
+2018,Grand Canyon,Florida A&M,67,51,1
+2018,Weber St,Utah St,65,59,1
+2018,Colorado St,Sacramento St,72,61,1
+2018,Missouri,Iowa St,74,59,1
+2018,Washington,Belmont,86,82,1
+2018,Oregon St,Southern Utah,99,82,1
+2018,Arizona St,Idaho St,94,74,1
+2018,USC,Cal St-Fullerton,84,42,1
+2018,Utah,Prairie View A&M,83,62,1
+2018,Nevada,Idaho,88,64,1
+2018,San Francisco,Long Beach St,71,83,1
+2018,Georgia Tech,UCLA,60,63,0
+2018,California,UC-Riverside,66,74,1
+2018,Oregon,Coppin St,70,54,1
+2018,Wofford,South Carolina,52,73,1
+2018,South Dakota St,UC-Irvine,65,54,1
+2018,Villanova,Columbia,75,60,1
+2018,Hawaii,AR-Pine Bluff,82,70,1
+2018,Nebraska,Eastern Illinois,72,68,1
+2018,BYU,Miss Valley St,91,61,1
+2018,Longwood,Stephen F Austin,61,74,1
+2018,Youngstown St,Kent St,78,111,0
+2018,NJIT,Wagner,49,60,1
+2018,FL-Gulf Coast,Illinois St,98,87,1
+2018,Buffalo,Canisius,80,75,1
+2018,Fairfield,Pennsylvania,80,72,1
+2018,Bradley,IUPUI,68,53,1
+2018,Duquesne,St Francis-NY,80,70,1
+2018,Ohio,Alabama A&M,61,53,1
+2018,Quinnipiac,Dartmouth,78,77,1
+2018,La Salle,St Peters,61,40,1
+2018,DePaul,Notre Dame,58,72,1
+2018,UC-Santa Barbara,North Dakota St,85,66,1
+2018,Duke,Utah Valley St,99,69,1
+2018,Toledo,St Josephs,98,87,1
+2018,Akron,Cleveland St,67,57,1
+2018,Marist,Lehigh,76,84,1
+2018,Michigan,North Florida,86,66,1
+2018,TX-Arlington,Loyola Marymount,85,80,1
+2018,St Marys,St Francis-PA,85,68,1
+2018,Portland,Portland St,75,80,1
+2018,UNLV,Florida A&M,108,66,1
+2018,Miami-FL,Navy,89,55,1
+2018,Clemson,North Carolina A&T,87,63,1
+2018,Virginia Tech,Citadel,132,93,1
+2018,Arkansas,Bucknell,101,73,1
+2018,Harvard,UMass,70,67,1
+2018,AR-Pine Bluff,Troy,57,81,0
+2018,Georgetown,Jacksonville,73,57,1
+2018,Boston College,South Carolina St,91,52,1
+2018,Seton Hall,Monmouth,75,65,1
+2018,Louisville,George Mason,72,61,1
+2018,Ohio St,Radford,82,72,1
+2018,Rutgers,Central Conn St,71,67,1
+2018,Oklahoma,NE-Omaha,108,89,1
+2018,Kentucky,Vermont,73,69,1
+2018,North Carolina St,Charleston Southern,78,56,1
+2018,Iowa,Alabama St,92,58,1
+2018,Purdue,Chicago St,111,42,1
+2018,SMU,LA-Monroe,83,65,1
+2018,California,Cal Poly,85,82,1
+2018,Washington St,TX-Southern,86,84,1
+2018,Air Force,Texas St,65,57,1
+2018,Boise St,Southern Utah,90,69,1
+2018,Penn St,Fairleigh Dickinson,81,57,1
+2018,San Jose St,San Diego,64,81,1
+2018,East Carolina,Coppin St,76,50,1
+2018,Lipscomb,Morehead St,77,70,1
+2018,Illinois,TN-Martin,77,74,1
+2018,Maryland,MD-Eastern Shore,96,43,1
+2018,Wisconsin,Yale,89,61,1
+2018,Arizona,UMBC,103,78,1
+2018,Butler,Princeton,85,75,1
+2018,Denver,UC-Irvine,69,83,1
+2018,Creighton,Alcorn St,109,72,1
+2018,Florida Intl,Stetson,64,70,1
+2018,Indiana,Howard,86,77,1
+2018,Washington,Eastern Washington,79,69,1
+2018,Stanford,Pacific,89,80,1
+2018,Hawaii,North Dakota,81,78,1
+2018,Pittsburgh,Montana,78,83,1
+2018,Florida,Gardner-Webb,116,74,1
+2018,Belmont,Vanderbilt,69,60,1
+2018,UAB,Chattanooga,89,47,1
+2018,Savannah St,East Tennessee St,61,76,1
+2018,VCU,North Florida,95,85,1
+2018,IL-Chicago,St Josephs,82,86,1
+2018,Richmond,Jacksonville St,61,94,1
+2018,Pennsylvania,La Salle,71,75,1
+2018,Hawaii,Troy,72,67,1
+2018,Louisiana Tech,SE Missouri St,96,95,1
+2018,Utah St,Montana St,81,73,1
+2018,Hofstra,Kennesaw St,75,57,1
+2018,AR-Pine Bluff,North Dakota,71,80,0
+2018,Evansville,NC-Central,68,55,1
+2018,Providence,Minnesota,74,86,1
+2018,Ole Miss,Eastern Kentucky,85,75,1
+2018,Notre Dame,Mt St Marys,88,62,1
+2018,Virginia,Austin Peay,93,49,1
+2018,Michigan,Central Michigan,72,65,1
+2018,Cincinnati,Western Carolina,102,51,1
+2018,South Florida,Morgan St,53,63,1
+2018,Oakland,New Orleans,87,68,1
+2018,Bowling Green,South Dakota,79,88,1
+2018,Fordham,LIU-Brooklyn,81,68,1
+2018,Boston U,Albany,74,88,1
+2018,Cornell,Binghamton,94,84,1
+2018,Quinnipiac,Brown,72,79,1
+2018,Siena,FL-Gulf Coast,53,86,1
+2018,James Madison,Old Dominion,53,69,1
+2018,Marshall,Southern U,83,74,1
+2018,GA-Southern,Cal St-Bakersfield,77,53,1
+2018,Nebraska,North Texas,86,67,1
+2018,Northwestern,St Peters,75,66,1
+2018,Tulane,SE Louisiana,89,66,1
+2018,Tulsa,Oral Roberts,90,71,1
+2018,DePaul,Delaware St,81,57,1
+2018,Samford,Alabama A&M,87,68,1
+2018,Arkansas St,Abilene Christian,83,69,1
+2018,Baylor,Texas A&M-CC,70,46,1
+2018,Iowa St,WI-Milwaukee,56,74,1
+2018,Oklahoma St,Charlotte,83,65,1
+2018,Northern Iowa,Alcorn St,73,45,1
+2018,Xavier,Rider,101,75,1
+2018,Missouri,Wagner,99,55,1
+2018,Wichita St,Coll of Charleston,81,63,1
+2018,Oregon,Prairie View A&M,100,67,1
+2018,Utah,Miss Valley St,91,51,1
+2018,TCU,Tennessee Tech,100,63,1
+2018,Northern Colorado,UC-Davis,59,74,1
+2018,San Francisco,St Francis-PA,75,63,1
+2018,Grand Canyon,Robert Morris,75,61,1
+2018,Fresno St,Cal St-Northridge,89,73,1
+2018,Oregon St,Wyoming,66,75,1
+2018,USC,North Dakota St,75,65,1
+2018,Nevada,Rhode Island,88,81,1
+2018,Murray St,Middle Tenn St,67,72,1
+2018,South Carolina,Western Michigan,78,60,1
+2018,St Marys,New Mexico St,92,74,1
+2018,TX-Rio Grande,Bethune-Cookman,92,74,1
+2018,Syracuse,Iona,71,62,1
+2018,Florida St,George Washington,87,67,1
+2018,Gonzaga,Howard,106,69,1
+2018,Tennessee,High Point,84,53,1
+2018,Georgia,SC-Upstate,74,65,1
+2018,Alabama,Lipscomb,86,64,1
+2018,New Mexico,NE-Omaha,103,71,1
+2018,Davidson,NC-Wilmington,108,81,1
+2018,Northern Illinois,Green Bay,85,65,1
+2018,St Johns,Central Conn St,80,55,1
+2018,Villanova,Nicholls St,113,77,1
+2018,Wake Forest,Liberty,66,79,1
+2018,Boston College,Sacred Heart,73,53,1
+2018,Michigan St,Duke,81,88,0
+2018,Rutgers,Cleveland St,70,38,1
+2018,North Carolina St,Bryant,95,72,1
+2018,UConn,Stony Brook,72,64,1
+2018,Mercer,Jackson St,86,58,1
+2018,Duquesne,VMI,77,61,1
+2018,Furman,Elon,76,67,1
+2018,Miami-OH,Wright St,73,67,1
+2018,Lehigh,Monmouth,72,80,1
+2018,Fairfield,Loyola-MD,64,52,1
+2018,Air Force,Canisius,93,79,1
+2018,Longwood,Columbia,77,87,1
+2018,Yale,South Carolina St,86,54,1
+2018,NJIT,Lafayette,96,80,1
+2018,Memphis,AR-Little Rock,70,62,1
+2018,Lamar,Coastal Carolina,66,60,1
+2018,Kansas St,Kansas City,72,51,1
+2018,Texas,New Hampshire,78,60,1
+2018,Texas Tech,Maine,83,44,1
+2018,South Dakota St,Alabama St,94,63,1
+2018,Bradley,Delaware,61,53,1
+2018,Rice,Georgia St,54,75,1
+2018,Marquette,Purdue,71,86,1
+2018,Arizona St,San Diego St,90,68,1
+2018,Colorado,Denver,89,62,1
+2018,Idaho St,Utah Valley St,71,84,1
+2018,Colorado St,Winthrop,80,76,1
+2018,Kentucky,Kansas,61,65,0
+2018,Stanford,Eastern Washington,61,67,1
+2018,North Carolina,Bucknell,93,81,1
+2018,Pittsburgh,UC-Santa Barbara,70,62,1
+2018,Princeton,BYU,56,65,1
+2018,Loyola Marymount,UC-Riverside,76,64,1
+2018,UCF,Gardner-Webb,68,65,1
+2018,Missouri St,Southern U,86,58,1
+2018,Pennsylvania,Navy,66,45,1
+2018,Buffalo,Jacksonville St,81,76,1
+2018,Seton Hall,Indiana,84,68,1
+2018,Penn St,Montana,70,57,1
+2018,East Carolina,Radford,66,73,1
+2018,Stetson,South Florida,72,75,1
+2018,Georgetown,Mt St Marys,102,68,1
+2018,North Carolina A&T,Citadel,92,73,1
+2018,West Virginia,American U,98,64,1
+2018,IPFW,Delaware St,85,71,1
+2018,Manhattan,St Francis-NY,80,79,1
+2018,Rider,Hartford,89,53,1
+2018,William & Mary,Hampton,83,76,1
+2018,MA-Lowell,Marist,76,73,1
+2018,Minnesota,Niagara,107,81,1
+2018,SMU,Northwestern St,81,35,1
+2018,Texas A&M-CC,TX-Rio Grande,75,82,1
+2018,Oklahoma,Ball St,108,69,1
+2018,Western Illinois,Eastern Illinois,56,54,1
+2018,SIU-Edwardsville,Valparaiso,69,94,1
+2018,TN-Martin,NC-Central,74,57,1
+2018,Maryland,Butler,79,65,1
+2018,Northwestern,Creighton,88,92,1
+2018,Washington St,Seattle,75,59,1
+2018,TCU,South Dakota,76,71,1
+2018,Utah St,Miss Valley St,83,47,1
+2018,San Diego,Robert Morris,65,53,1
+2018,Santa Clara,Nevada,63,93,1
+2018,UNLV,Prairie View A&M,98,63,1
+2018,St Marys,Cal St-Fullerton,76,57,1
+2018,Pacific,UC-Davis,58,62,1
+2018,UCLA,Central Arkansas,106,101,1
+2018,Texas St,UTSA,78,79,1
+2018,Miami-FL,Florida A&M,90,59,1
+2018,Florida,North Florida,108,68,1
+2018,George Mason,Binghamton,69,57,1
+2018,Middle Tenn St,Belmont,63,69,1
+2018,Southern Utah,San Jose St,81,69,1
+2018,South Carolina,Illinois St,65,69,0
+2018,Indiana St,Auburn,64,83,0
+2018,Old Dominion,Temple,65,76,0
+2018,UTEP,Boise St,56,58,0
+2018,Ohio,Clemson,76,81,0
+2018,Appalachian St,Iowa St,98,104,0
+2018,St Johns,Nebraska,79,56,1
+2018,Virginia Tech,St Louis,71,77,0
+2018,Notre Dame,Chicago St,105,66,1
+2018,Michigan,Southern Miss,61,47,1
+2018,Ohio St,TX-Southern,82,64,1
+2018,North Carolina St,Presbyterian,86,68,1
+2018,Cincinnati,Coppin St,97,54,1
+2018,La Salle,South Alabama,81,73,1
+2018,Eastern Michigan,Arkansas St,76,59,1
+2018,Morehead St,Marshall,86,83,1
+2018,Colgate,Cornell,72,61,1
+2018,Holy Cross,Harvard,73,69,1
+2018,Dayton,Hofstra,69,72,0
+2018,Iowa,Grambling St,85,74,1
+2018,Utah,Missouri,77,59,1
+2018,LSU,Samford,105,86,1
+2018,Western Michigan,Tulsa,74,81,0
+2018,LA-Monroe,SE Louisiana,86,75,1
+2018,Oklahoma St,Oral Roberts,91,48,1
+2018,Evansville,SE Missouri St,66,50,1
+2018,Kansas City,Loyola-Chicago,56,66,1
+2018,IL-Chicago,Delaware St,95,55,1
+2018,North Texas,Bethune-Cookman,90,78,1
+2018,Wisconsin,Xavier,70,80,1
+2018,California,Wofford,79,65,1
+2018,Washington,Providence,70,77,0
+2018,Arizona,Cal St-Bakersfield,91,59,1
+2018,Fordham,Florida St,43,67,0
+2018,Texas A&M,UC-Santa Barbara,84,65,1
+2018,Ole Miss,Georgia St,77,72,1
+2018,Kentucky,East Tennessee St,78,61,1
+2018,Alabama,Alabama A&M,104,67,1
+2018,Vanderbilt,NC-Asheville,79,76,1
+2018,San Diego St,McNeese St,83,52,1
+2018,LIU-Brooklyn,Miami-OH,74,78,0
+2018,UTSA,Coastal Carolina,69,83,0
+2018,New Mexico St,New Mexico,75,56,1
+2018,James Madison,Northern Kentucky,78,87,0
+2018,Loyola-MD,Towson,72,95,1
+2018,Bradley,Vermont,64,65,0
+2018,Liberty,Mercer,48,63,1
+2018,Colorado St,Tulane,53,80,0
+2018,Houston,Drexel,80,84,0
+2018,VCU,Virginia,67,76,1
+2018,Louisiana,Savannah St,115,82,1
+2018,Quinnipiac,Colorado,69,70,0
+2018,Stanford,Northeastern,73,59,1
+2018,Florida Intl,Elon,87,95,0
+2018,Duke,Southern U,78,61,1
+2018,Louisville,NE-Omaha,87,78,1
+2018,Penn St,Columbia,79,65,1
+2018,East Carolina,Central Conn St,68,79,1
+2018,Albany,Yale,80,72,1
+2018,Ball St,Stony Brook,87,76,1
+2018,Lehigh,Siena,91,90,1
+2018,Cleveland St,Coppin St,80,56,1
+2018,Northwestern St,Rice,65,87,1
+2018,Arkansas,Fresno St,83,75,1
+2018,Arizona St,Northern Arizona,97,62,1
+2018,Lafayette,Villanova,57,104,0
+2018,Baylor,Alcorn St,78,61,1
+2018,Kansas,South Dakota St,98,64,1
+2018,Missouri St,North Dakota St,54,57,1
+2018,Weber St,Iona,72,80,0
+2018,Wake Forest,Drake,74,77,0
+2018,Illinois,DePaul,82,73,1
+2018,Eastern Illinois,IUPUI,80,79,1
+2018,UCLA,South Carolina St,96,68,1
+2018,Kansas St,UC-Irvine,71,49,1
+2018,Pepperdine,Northern Colorado,82,84,1
+2018,San Francisco,Sacramento St,69,56,1
+2018,UNLV,Eastern Washington,91,76,1
+2018,Oregon,Alabama St,114,56,1
+2018,Illinois St,Boise St,64,82,0
+2018,Hofstra,Clemson,59,78,0
+2018,Ohio,Dayton,65,79,0
+2018,Tulsa,Iowa St,78,80,0
+2018,Indiana St,Old Dominion,44,62,0
+2018,St Louis,Providence,63,90,0
+2018,UTEP,South Carolina,56,80,0
+2018,Auburn,Temple,74,88,0
+2018,Washington,Virginia Tech,79,103,0
+2018,Appalachian St,Western Michigan,67,86,0
+2018,Syracuse,TX-Southern,80,67,1
+2018,Maryland,Bucknell,80,78,1
+2018,Gonzaga,Utah St,79,66,1
+2018,Mississippi St,Florida A&M,79,48,1
+2018,Oregon St,Long Beach St,89,81,1
+2018,Washington St,Idaho St,83,62,1
+2018,Belmont,Houston Christian,93,88,1
+2018,Texas,Lipscomb,80,57,1
+2018,Wagner,American U,71,70,1
+2018,West Virginia,Morgan St,111,48,1
+2018,George Mason,Cal St-Northridge,78,73,1
+2018,George Washington,Hampton,65,57,1
+2018,St Josephs,Princeton,71,58,1
+2018,Charlotte,Coll of Charleston,72,81,1
+2018,Detroit Mercy,Seattle,71,102,1
+2018,Bryant,Navy,71,79,1
+2018,Louisiana Tech,Montana St,71,58,1
+2018,Hartford,LIU-Brooklyn,84,86,0
+2018,WI-Milwaukee,Florida Intl,66,29,1
+2018,Boston College,Texas Tech,64,75,0
+2018,Georgetown,MD-Eastern Shore,83,57,1
+2018,Northern Iowa,Chicago St,82,44,1
+2018,VMI,Presbyterian,78,58,1
+2018,Stetson,SIU-Edwardsville,76,80,1
+2018,Manhattan,Harvard,73,69,1
+2018,UCF,William & Mary,75,64,1
+2018,Butler,Furman,82,65,1
+2018,High Point,Citadel,77,79,1
+2018,Eastern Michigan,Howard,76,66,1
+2018,SC-Upstate,Charleston Southern,72,82,1
+2018,La Salle,Northwestern,74,82,0
+2018,Longwood,St Francis-PA,56,83,1
+2018,Seton Hall,NJIT,82,53,1
+2018,IL-Chicago,IPFW,51,67,1
+2018,Evansville,Binghamton,66,61,1
+2018,St Bonaventure,Jackson St,72,58,1
+2018,Mt St Marys,North Florida,84,81,1
+2018,Maine,South Alabama,46,68,0
+2018,Texas St,TX-Rio Grande,75,58,1
+2018,Bowling Green,FL-Gulf Coast,83,80,1
+2018,UC-Riverside,Portland St,82,94,1
+2018,Jacksonville,North Carolina A&T,82,90,1
+2018,Purdue,Fairfield,106,64,1
+2018,South Dakota,Grambling St,84,55,1
+2018,Akron,TN-Martin,76,59,1
+2018,Toledo,Oakland,87,74,1
+2018,Wright St,Murray St,61,80,1
+2018,Tennessee Tech,Kennesaw St,82,68,1
+2018,Marist,Army,73,94,1
+2018,Canisius,Youngstown St,104,84,1
+2018,NC-Wilmington,Campbell,88,84,1
+2018,Sacred Heart,St Peters,61,70,0
+2018,SMU,AR-Pine Bluff,72,37,1
+2018,Utah Valley St,UC-Davis,80,71,1
+2018,BYU,TX-Arlington,75,89,1
+2018,Pacific,Nevada,74,89,1
+2018,San Diego,Norfolk St,71,62,1
+2018,Santa Clara,Cal Poly,59,63,1
+2018,Idaho,Sam Houston St,63,54,1
+2018,Grand Canyon,AR-Little Rock,76,51,1
+2018,Tennessee St,Middle Tenn St,65,75,1
+2018,UTSA,Bradley,69,71,0
+2018,Drake,Colorado,81,86,0
+2018,Liberty,Houston,66,68,0
+2018,Drexel,Mercer,59,78,0
+2018,Iona,Northern Kentucky,72,85,0
+2018,Coastal Carolina,Vermont,67,80,0
+2018,Quinnipiac,Wake Forest,55,72,0
+2018,James Madison,Weber St,65,73,0
+2018,Colorado St,Florida St,73,90,0
+2018,Loyola Marymount,McNeese St,92,86,1
+2018,Georgia,Texas A&M-CC,68,65,1
+2018,Florida,New Hampshire,70,63,1
+2018,Wofford,North Florida,86,83,1
+2018,Loyola-Chicago,Samford,88,67,1
+2018,Western Kentucky,Nicholls St,100,86,1
+2018,Duquesne,Robert Morris,59,66,1
+2018,UMass,Niagara,101,76,1
+2018,Kent St,Miss Valley St,80,67,1
+2018,Miami-OH,Hartford,58,68,0
+2018,Maine,Sacred Heart,68,69,0
+2018,Austin Peay,NC-Asheville,79,82,1
+2018,Rutgers,Coppin St,64,39,1
+2018,Virginia,Monmouth,73,53,1
+2018,Rhode Island,Holy Cross,88,66,1
+2018,St Francis-NY,Brown,77,74,1
+2018,MA-Lowell,Cornell,98,78,1
+2018,Georgia Tech,Bethune-Cookman,65,62,1
+2018,Nebraska,North Dakota,92,70,1
+2018,Ohio St,Northeastern,80,55,1
+2018,Arizona St,UC-Irvine,99,78,1
+2018,Central Arkansas,Alcorn St,102,76,1
+2018,Colgate,UMBC,93,88,1
+2018,WI-Milwaukee,Elon,72,71,1
+2018,Michigan St,Stony Brook,93,71,1
+2018,Lamar,Cal St-Bakersfield,73,85,1
+2018,SE Louisiana,Valparaiso,50,83,0
+2018,Minnesota,Western Carolina,92,64,1
+2018,Illinois,Marshall,91,74,1
+2018,Indiana,South Florida,70,53,1
+2018,UConn,Boston U,85,66,1
+2018,Fordham,Tulane,55,63,0
+2018,San Jose St,St Marys,61,79,1
+2018,Vanderbilt,USC,89,93,1
+2018,Oregon,Ball St,95,71,1
+2018,UTEP,Appalachian St,72,76,0
+2018,Hofstra,Auburn,78,89,0
+2018,Belmont,Seattle,90,77,1
+2018,La Salle,Boston College,61,82,0
+2018,Weber St,Bradley,64,70,0
+2018,Iona,Coastal Carolina,84,89,0
+2018,Mercer,Colorado,70,79,0
+2018,Houston Christian,Detroit Mercy,109,116,0
+2018,Drexel,Drake,88,90,0
+2018,Wake Forest,Houston,73,78,0
+2018,Tulsa,Illinois St,68,84,0
+2018,Boise St,Iowa St,64,75,0
+2018,Liberty,Quinnipiac,84,72,1
+2018,NC-Central,Southern U,80,67,1
+2018,Indiana St,Ohio,94,96,0
+2018,Dayton,Old Dominion,67,75,0
+2018,St Peters,South Alabama,49,54,1
+2018,Western Michigan,South Carolina,66,79,0
+2018,Clemson,Temple,60,67,0
+2018,James Madison,UTSA,77,90,0
+2018,Northwestern,Texas Tech,49,85,0
+2018,Northern Kentucky,Vermont,64,66,0
+2018,Syracuse,Oakland,74,50,1
+2018,Mississippi St,Green Bay,77,68,1
+2018,Kentucky,Troy,70,62,1
+2018,George Washington,Rider,65,67,1
+2018,Towson,Florida Atlantic,76,52,1
+2018,Charlotte,Presbyterian,83,74,1
+2018,Manhattan,Kansas City,63,74,0
+2018,San Diego St,Eastern Illinois,94,63,1
+2018,Iowa,Louisiana,71,80,0
+2018,Missouri St,GA-Southern,73,74,0
+2018,Prairie View A&M,Eastern Kentucky,80,70,1
+2018,VCU,Marquette,83,94,0
+2018,Wyoming,South Dakota St,77,65,1
+2018,Eastern Washington,Georgia St,50,68,0
+2018,Northern Illinois,Pennsylvania,80,93,0
+2018,Savannah St,Jacksonville St,71,86,0
+2018,California,Wichita St,82,92,0
+2018,UAB,Richmond,50,63,0
+2018,Duke,Furman,92,63,1
+2018,Maryland,Jackson St,76,45,1
+2018,Oklahoma St,Texas A&M,55,72,0
+2018,East Carolina,Cleveland St,72,69,1
+2018,UCLA,Creighton,89,100,0
+2018,East Tennessee St,Delaware St,81,57,1
+2018,NC-Greensboro,Delaware,79,66,1
+2018,West Virginia,Long Beach St,91,62,1
+2018,Bucknell,Siena,115,92,1
+2018,Buffalo,Cincinnati,67,73,0
+2018,Chattanooga,Alabama St,67,50,1
+2018,Lipscomb,Abilene Christian,75,67,1
+2018,Kansas St,Northern Arizona,80,58,1
+2018,Oral Roberts,Montana,64,69,0
+2018,Arkansas St,Howard,92,78,1
+2018,North Texas,TX-Rio Grande,63,75,1
+2018,Xavier,Hampton,96,60,1
+2018,TCU,NE-Omaha,99,66,1
+2018,Grand Canyon,Norfolk St,85,60,1
+2018,Air Force,AR-Pine Bluff,57,47,1
+2018,Pittsburgh,Penn St,54,85,0
+2018,Wisconsin,Baylor,65,70,0
+2018,San Diego,AR-Little Rock,66,52,1
+2018,Portland St,Utah St,83,79,1
+2018,UNLV,Rice,95,68,1
+2018,Pepperdine,UC-Santa Barbara,84,92,1
+2018,Stanford,North Carolina,72,96,1
+2018,Michigan,LSU,75,77,0
+2018,Ole Miss,Utah,74,83,0
+2018,St Bonaventure,MD-Eastern Shore,96,48,1
+2018,Virginia Tech,Houston Christian,99,73,1
+2018,BYU,Niagara,95,88,1
+2018,Alabama,TX-Arlington,77,76,1
+2018,UMass,Western Carolina,85,76,1
+2018,South Carolina St,Central Arkansas,64,73,1
+2018,Kent St,SE Louisiana,66,70,1
+2018,Central Conn St,Coppin St,74,71,1
+2018,Sacramento St,UC-Davis,47,64,0
+2018,Binghamton,Montana St,64,74,0
+2018,Cal St-Northridge,SE Missouri St,59,74,0
+2018,George Mason,Louisiana Tech,64,77,0
+2018,Louisville,Southern Illinois,84,42,1
+2018,Rutgers,Bryant,83,54,1
+2018,Nevada,Davidson,81,68,1
+2018,IUPUI,Morehead St,67,61,1
+2018,New Hampshire,American U,70,74,1
+2018,Army,Columbia,88,78,1
+2018,NC-Greensboro,Longwood,71,40,1
+2018,Middle Tenn St,FL-Gulf Coast,85,72,1
+2018,Minnesota,Alabama A&M,100,57,1
+2018,Memphis,New Orleans,63,52,1
+2018,Samford,Valparaiso,67,88,0
+2018,LA-Monroe,Northwestern St,61,76,1
+2018,Kansas,TX-Southern,114,71,1
+2018,Loyola-Chicago,Miss Valley St,63,50,1
+2018,Tennessee St,Canisius,60,52,1
+2018,Evansville,Fresno St,59,57,1
+2018,New Mexico,Tennessee Tech,96,104,1
+2018,Air Force,Pacific,71,83,1
+2018,Bethune-Cookman,Grambling St,87,78,1
+2018,Creighton,Baylor,59,65,0
+2018,UAB,Buffalo,91,96,0
+2018,Richmond,Cincinnati,48,75,0
+2018,Northern Illinois,Florida Atlantic,67,77,0
+2018,Kansas City,GA-Southern,75,78,0
+2018,Chattanooga,Jacksonville St,75,77,1
+2018,Manhattan,Missouri St,65,69,0
+2018,LSU,Notre Dame,53,92,0
+2018,Pittsburgh,Oklahoma St,67,73,0
+2018,Pepperdine,Oral Roberts,80,76,1
+2018,Alabama St,Savannah St,97,101,0
+2018,Iowa,South Dakota St,72,80,0
+2018,Pennsylvania,Towson,71,79,0
+2018,Penn St,Texas A&M,87,98,0
+2018,Wisconsin,UCLA,70,72,0
+2018,Montana,UC-Santa Barbara,73,80,0
+2018,California,VCU,69,83,0
+2018,Marquette,Wichita St,66,80,0
+2018,Louisiana,Wyoming,61,70,0
+2018,Syracuse,Toledo,72,64,1
+2018,Florida St,Kennesaw St,98,79,1
+2018,GA-Southern,Towson,67,70,0
+2018,La Salle,Miami-FL,46,57,0
+2018,Incarnate Word,Loyola Marymount,87,91,1
+2018,Mississippi St,Stephen F Austin,80,75,1
+2018,St Louis,Detroit Mercy,70,72,1
+2018,Bucknell,Ball St,87,83,1
+2018,Southern U,TN-Martin,69,66,1
+2018,NC-Asheville,Monmouth,62,51,1
+2018,Longwood,Delaware,57,65,0
+2018,Elon,Radford,77,74,1
+2018,Purdue,Tennessee,75,78,0
+2018,Alcorn St,Yale,73,87,1
+2018,Fairleigh Dickinson,Holy Cross,87,76,1
+2018,Maine,Boston U,69,78,1
+2018,Stony Brook,Brown,77,64,1
+2018,Western Kentucky,Villanova,58,66,0
+2018,MA-Lowell,LIU-Brooklyn,74,66,1
+2018,Boston College,Colgate,83,79,1
+2018,James Madison,Appalachian St,105,99,1
+2018,Texas Tech,Wofford,79,56,1
+2018,Sam Houston St,Central Michigan,60,71,0
+2018,Arizona,North Carolina St,84,90,0
+2018,Indiana,Arkansas St,87,70,1
+2018,South Florida,Howard,75,52,1
+2018,Providence,Belmont,66,65,1
+2018,East Tennessee St,Troy,65,73,1
+2018,Dartmouth,Albany,73,91,1
+2018,Princeton,Lafayette,60,46,1
+2018,Georgia Tech,TX-Rio Grande,78,68,1
+2018,Kentucky,IPFW,86,67,1
+2018,Tulane,Miami-OH,80,59,1
+2018,SIU-Edwardsville,Western Illinois,67,69,1
+2018,North Dakota St,Florida A&M,80,66,1
+2018,Marshall,NC-Central,92,84,1
+2018,South Alabama,Stetson,77,81,1
+2018,New Mexico St,Colorado St,89,76,1
+2018,Santa Clara,Idaho,59,69,0
+2018,SMU,Northern Iowa,58,61,0
+2018,USC,Lehigh,88,63,1
+2018,AR-Pine Bluff,Texas St,54,71,0
+2018,San Jose St,Idaho St,62,54,1
+2018,Cal St-Northridge,Binghamton,65,70,0
+2018,Coll of Charleston,Cal Poly,68,73,0
+2018,Wyoming,Cincinnati,53,78,0
+2018,Eastern Kentucky,Eastern Washington,62,83,0
+2018,George Mason,Fresno St,73,79,0
+2018,UAB,Iowa,85,95,0
+2018,Richmond,Louisiana,76,82,0
+2018,Evansville,Louisiana Tech,61,63,0
+2018,LSU,Marquette,84,94,0
+2018,VCU,Michigan,60,68,0
+2018,Florida Atlantic,Missouri St,60,71,0
+2018,SE Missouri St,Montana St,82,88,0
+2018,Manhattan,Northern Illinois,68,70,0
+2018,Wichita St,Notre Dame,66,67,0
+2018,Rice,Ole Miss,62,79,0
+2018,Kansas City,Pennsylvania,65,68,0
+2018,Georgia St,Prairie View A&M,56,71,0
+2018,Buffalo,South Dakota St,24,94,0
+2018,Utah,UNLV,58,85,0
+2018,Presbyterian,Nicholls St,64,76,1
+2018,UMBC,Chicago St,84,73,1
+2018,Northern Arizona,Hampton,66,76,0
+2018,Long Beach St,Missouri,58,95,0
+2018,Oregon St,St Johns,77,82,0
+2018,Portland,North Carolina,78,102,0
+2018,Vanderbilt,Virginia,42,68,0
+2018,Harvard,St Marys,71,89,1
+2018,Portland St,Duke,81,99,0
+2018,Oklahoma,Arkansas,83,92,0
+2018,George Washington,Xavier,64,83,0
+2018,Nebraska,UCF,59,68,0
+2018,Seton Hall,Rhode Island,74,75,0
+2018,St Josephs,Washington St,71,75,0
+2018,Butler,Texas,48,61,0
+2018,Kansas St,Arizona St,90,92,0
+2018,Marist,West Virginia,78,84,0
+2018,Oregon,UConn,63,71,0
+2018,Stanford,Florida,87,108,0
+2018,UC-Irvine,Rider,82,90,0
+2018,Cal St-Fullerton,Georgia,57,64,1
+2018,DePaul,Michigan St,51,73,0
+2018,Ohio St,Gonzaga,59,86,0
+2018,Sam Houston St,Coll of Charleston,49,59,0
+2018,North Carolina St,Northern Iowa,60,64,0
+2018,Arizona,SMU,60,66,0
+2018,Tennessee,Villanova,76,85,0
+2018,Purdue,Western Kentucky,73,77,0
+2018,Clemson,TX-Southern,84,77,1
+2018,UMass,Minnesota,51,69,0
+2018,Texas A&M,Pepperdine,81,65,1
+2018,Auburn,Winthrop,119,85,1
+2018,Sacramento St,San Diego St,52,89,1
+2018,Georgia,San Diego St,68,75,0
+2018,South Florida,Arkansas St,72,61,1
+2018,UTSA,Texas A&M-CC,72,58,1
+2018,Youngstown St,Northern Colorado,67,80,0
+2018,Jackson St,MD-Eastern Shore,63,66,0
+2018,Rutgers,East Carolina,61,47,1
+2018,New Hampshire,Furman,64,78,0
+2018,NE-Omaha,Tennessee Tech,85,86,0
+2018,Samford,SE Louisiana,71,77,1
+2018,Campbell,Abilene Christian,80,85,1
+2018,Northeastern,Utah St,67,71,0
+2018,BYU,Alabama,59,71,0
+2018,Penn St,Oral Roberts,86,48,1
+2018,Washington,Seattle,89,84,1
+2018,Hartford,Bryant,73,78,1
+2018,Georgia Tech,North Texas,63,49,1
+2018,Cornell,Toledo,80,77,1
+2018,St Francis-NY,Navy,76,85,0
+2018,Niagara,Alabama A&M,96,74,1
+2018,Indiana,Eastern Michigan,87,67,1
+2018,Fairfield,Jacksonville,84,92,0
+2018,NC-Wilmington,Loyola-Chicago,78,102,0
+2018,SC-Upstate,Bowling Green,74,83,0
+2018,Cleveland St,Central Conn St,73,74,1
+2018,Norfolk St,Robert Morris,53,75,0
+2018,Southern Miss,South Dakota,71,84,0
+2018,Louisville,St Francis-PA,84,72,1
+2018,Wake Forest,NC-Greensboro,81,75,1
+2018,Western Carolina,TX-Arlington,65,89,0
+2018,New Mexico,TCU,67,69,0
+2018,FL-Gulf Coast,Denver,79,71,1
+2018,Ohio,Mt St Marys,96,77,1
+2018,Green Bay,Florida A&M,57,50,1
+2018,Wright St,Gardner-Webb,67,47,1
+2018,Charlotte,High Point,70,67,1
+2018,Illinois,NC-Central,86,73,1
+2018,Kent St,Valparaiso,67,77,0
+2018,Florida St,Citadel,113,78,1
+2018,Utah,Eastern Washington,85,69,1
+2018,Kansas,Oakland,102,59,1
+2018,Northwestern,Sacred Heart,81,50,1
+2018,Wisconsin,WI-Milwaukee,71,49,1
+2018,Pacific,AR-Pine Bluff,78,69,1
+2018,Colorado St,Northwestern St,72,60,1
+2018,Maryland,St Bonaventure,61,63,0
+2018,UC-Santa Barbara,Prairie View A&M,69,66,1
+2018,Texas St,Canisius,62,68,0
+2018,Xavier,Arizona St,86,102,0
+2018,Portland St,Butler,69,71,0
+2018,Idaho,Cal St-Bakersfield,62,64,0
+2018,Sacramento St,Cal St-Fullerton,63,68,0
+2018,Cal Poly,Central Michigan,53,56,0
+2018,Texas,Duke,78,85,0
+2018,Gonzaga,Florida,105,111,0
+2018,St Josephs,Harvard,71,77,0
+2018,George Washington,Kansas St,59,67,0
+2018,Oregon St,Long Beach St,69,74,0
+2018,UConn,Michigan St,57,77,0
+2018,St Johns,Missouri,82,90,0
+2018,Marist,Nebraska,59,84,0
+2018,Hawaii,Nevada,54,67,1
+2018,Arkansas,North Carolina,68,87,0
+2018,Stanford,Ohio St,71,79,0
+2018,Portland,Oklahoma,71,93,0
+2018,DePaul,Oregon,79,89,0
+2018,Chicago St,Presbyterian,73,75,0
+2018,Arizona,Purdue,64,89,0
+2018,Rhode Island,Virginia,55,70,0
+2018,Hampton,Rider,80,94,0
+2018,Vanderbilt,Seton Hall,59,72,0
+2018,North Carolina St,Tennessee,58,67,0
+2018,Northern Arizona,UC-Irvine,71,77,0
+2018,UMBC,Nicholls St,89,35,1
+2018,Northern Iowa,Villanova,50,64,0
+2018,St Marys,Washington St,79,84,0
+2018,UCF,West Virginia,45,83,0
+2018,SMU,Western Kentucky,61,63,0
+2018,Virginia Tech,Morehead St,96,63,1
+2018,Pittsburgh,Lehigh,80,68,1
+2018,Alabama,Minnesota,84,89,0
+2018,Miami-FL,North Florida,86,65,1
+2018,Memphis,Northern Kentucky,76,74,1
+2018,Tulsa,Central Arkansas,92,72,1
+2018,Richmond,Georgetown,76,82,1
+2018,Miss Valley St,SE Louisiana,59,73,0
+2018,Illinois St,Charleston Southern,62,64,1
+2018,Dayton,Akron,73,60,1
+2018,New Mexico St,UTEP,72,63,1
+2018,Brown,LIU-Brooklyn,94,86,1
+2018,UNLV,Southern Utah,101,82,1
+2018,NJIT,Drexel,65,53,1
+2018,Radford,James Madison,69,68,1
+2018,Indiana St,Ball St,85,93,1
+2018,New Hampshire,Utah St,63,77,0
+2018,Holy Cross,Albany,62,78,1
+2018,Bradley,GA-Southern,62,57,1
+2018,Campbell,Bowling Green,72,78,1
+2018,Siena,Hofstra,85,76,1
+2018,Yale,Vermont,73,79,1
+2018,Colgate,Columbia,77,71,1
+2018,UMass,BYU,66,68,0
+2018,Gardner-Webb,Fairfield,64,75,0
+2018,Northeastern,Furman,67,78,0
+2018,Texas Tech,Savannah St,103,69,1
+2018,North Dakota,Utah Valley St,75,83,1
+2018,East Tennessee St,IPFW,83,73,1
+2018,American U,VMI,69,64,1
+2018,St Francis-NY,Denver,50,60,0
+2018,AR-Little Rock,Robert Morris,64,78,1
+2018,Creighton,SIU-Edwardsville,103,66,1
+2018,Abilene Christian,SC-Upstate,78,88,0
+2018,Kent St,Loyola-Chicago,60,75,0
+2018,Wright St,Jacksonville,68,44,1
+2018,Youngstown St,Southern Miss,64,71,0
+2018,Appalachian St,Davidson,78,62,1
+2018,Kennesaw St,Tennessee St,74,77,1
+2018,Monmouth,Pennsylvania,96,101,1
+2018,William & Mary,Old Dominion,79,77,1
+2018,FL-Gulf Coast,Navy,70,54,1
+2018,South Dakota,Northern Colorado,62,63,0
+2018,NC-Wilmington,Valparaiso,70,79,0
+2018,Providence,Boston College,86,66,1
+2018,Houston,Incarnate Word,97,58,1
+2018,North Dakota St,Stetson,94,58,1
+2018,Murray St,Southern Illinois,81,73,1
+2018,TX-Rio Grande,Grambling St,76,82,1
+2018,Boise St,Loyola Marymount,68,48,1
+2018,Pacific,Texas St,78,85,1
+2018,Iowa St,Western Illinois,70,45,1
+2018,Grand Canyon,San Diego,62,72,1
+2018,AR-Pine Bluff,Canisius,58,81,0
+2018,Cal St-Bakersfield,Central Michigan,72,75,0
+2018,Cal Poly,Idaho,66,75,0
+2018,NE-Omaha,Jackson St,73,75,0
+2018,New Mexico,Maryland,65,80,0
+2018,Santa Clara,Sam Houston St,59,73,0
+2018,St Bonaventure,TCU,79,89,0
+2018,MD-Eastern Shore,Tennessee Tech,60,90,0
+2018,Niagara,TX-Arlington,90,95,0
+2018,Alabama A&M,Western Carolina,72,82,0
+2018,Mississippi St,Jacksonville St,59,56,1
+2018,Kentucky,IL-Chicago,107,73,1
+2018,South Florida,Eastern Michigan,47,65,1
+2018,Austin Peay,Miami-OH,86,61,1
+2018,Lafayette,St Peters,82,86,1
+2018,Winthrop,South Carolina St,86,61,1
+2018,Georgia St,Tulane,70,59,1
+2018,Denver,Navy,71,79,0
+2018,Southern Miss,Northern Colorado,63,77,0
+2018,Bowling Green,Abilene Christian,83,88,0
+2018,Gardner-Webb,Jacksonville,99,106,0
+2018,Fordham,Manhattan,70,57,1
+2018,Fairleigh Dickinson,Princeton,76,83,1
+2018,Hartford,Wagner,50,72,1
+2018,Quinnipiac,Maine,72,78,1
+2018,Stony Brook,Bucknell,76,85,1
+2018,MA-Lowell,Loyola-MD,83,75,1
+2018,Samford,Miss Valley St,83,70,1
+2018,Oklahoma St,Houston Christian,101,74,1
+2018,Stephen F Austin,Florida A&M,79,63,1
+2018,Youngstown St,South Dakota,53,81,0
+2018,Drake,Chicago St,79,67,1
+2018,SE Missouri St,NC-Central,70,77,1
+2018,Fresno St,Montana St,80,67,1
+2018,Wright St,Fairfield,57,56,1
+2018,Michigan,UC-Riverside,87,42,1
+2018,East Carolina,North Carolina A&T,81,87,1
+2018,Colorado,Air Force,81,69,1
+2018,AR-Little Rock,Norfolk St,70,55,1
+2018,Campbell,SC-Upstate,93,74,1
+2018,South Alabama,New Orleans,55,52,1
+2018,NC-Asheville,Wofford,85,65,1
+2018,La Salle,Temple,87,83,1
+2018,TN-Martin,Kansas City,27,65,1
+2018,Pacific,Canisius,80,58,1
+2018,UCLA,UC-Irvine,87,63,1
+2018,Bryant,Brown,67,81,1
+2018,FL-Gulf Coast,St Francis-NY,75,51,1
+2018,Washington,UC-Davis,77,70,1
+2018,USC,Texas A&M,59,75,1
+2018,UConn,Arkansas,67,102,0
+2018,Ohio St,Butler,66,67,0
+2018,Cal St-Fullerton,Harvard,70,61,1
+2018,Portland,DePaul,69,82,0
+2018,Florida,Duke,84,87,0
+2018,St Marys,Georgia,81,83,0
+2018,Texas,Gonzaga,71,76,0
+2018,North Carolina,Michigan St,45,63,0
+2018,Long Beach St,Nebraska,80,85,0
+2018,Oregon,Oklahoma,42,90,0
+2018,Marist,Oregon St,46,65,0
+2018,Stanford,Portland St,78,87,0
+2018,UCF,St Johns,43,46,0
+2018,Sacramento St,St Josephs,69,74,0
+2018,San Diego St,Washington St,86,93,0
+2018,Missouri,West Virginia,79,83,0
+2018,Florida Intl,South Carolina,61,78,1
+2018,Duquesne,Cornell,71,78,1
+2018,Troy,Delaware St,95,64,1
+2018,Belmont,Lipscomb,66,74,1
+2018,Old Dominion,MD-Eastern Shore,83,44,1
+2018,Syracuse,Maryland,72,70,1
+2018,Cincinnati,Alabama St,83,51,1
+2018,Monmouth,Albany,81,73,1
+2018,Mt St Marys,Morgan St,63,69,1
+2018,Niagara,Army,77,71,1
+2018,Delaware,Yale,66,76,1
+2018,Liberty,Howard,75,55,1
+2018,Marquette,Eastern Illinois,86,83,1
+2018,Central Arkansas,Morehead St,82,78,1
+2018,Oral Roberts,Oakland,86,93,1
+2018,Green Bay,Stetson,71,83,1
+2018,North Texas,Grambling St,82,77,1
+2018,Virginia,Wisconsin,49,37,1
+2018,UTEP,Lamar,52,66,1
+2018,Seattle,Idaho St,73,67,1
+2018,Pittsburgh,High Point,71,63,1
+2018,LA-Monroe,Jackson St,65,52,1
+2018,Ole Miss,South Dakota St,97,99,1
+2018,Vanderbilt,Radford,74,62,1
+2018,Louisiana,McNeese St,89,78,1
+2018,Charlotte,Davidson,70,85,1
+2018,VCU,Appalachian St,85,72,1
+2018,St Louis,Western Michigan,51,65,1
+2018,Xavier,Baylor,76,63,1
+2018,Rutgers,Florida St,73,78,1
+2018,Georgia Tech,Northwestern,52,51,1
+2018,Presbyterian,NC-Greensboro,74,72,1
+2018,Akron,Chattanooga,75,70,1
+2018,IPFW,Detroit Mercy,91,82,1
+2018,Rhode Island,Brown,86,62,1
+2018,Ohio,Iona,88,93,1
+2018,NJIT,LIU-Brooklyn,73,69,1
+2018,Dartmouth,Loyola-MD,64,63,1
+2018,Charleston Southern,VMI,68,76,1
+2018,Purdue,Louisville,66,57,1
+2018,SMU,TX-Rio Grande,95,64,1
+2018,Tulsa,UTSA,100,96,1
+2018,Wichita St,Savannah St,112,66,1
+2018,Kansas,Toledo,96,58,1
+2018,Western Illinois,IUPUI,90,77,1
+2018,Missouri St,Colorado St,77,67,1
+2018,Georgetown,Maine,76,55,1
+2018,Stephen F Austin,North Dakota St,54,50,1
+2018,Wake Forest,Illinois,80,73,1
+2018,Washington,Kennesaw St,85,71,1
+2018,Boise St,Loyola-Chicago,87,53,1
+2018,Virginia Tech,Iowa,79,55,1
+2018,San Francisco,UC-Santa Barbara,72,79,1
+2018,California,Cal St-Northridge,83,63,1
+2018,Valparaiso,Utah St,72,65,1
+2018,Gonzaga,Incarnate Word,103,68,1
+2018,Tennessee,Mercer,84,60,1
+2018,Dayton,Auburn,60,73,1
+2018,Alabama,Louisiana Tech,77,74,1
+2018,AR-Little Rock,Central Arkansas,71,65,1
+2018,George Washington,Morgan St,73,66,1
+2018,St Josephs,Bucknell,83,70,1
+2018,Northern Illinois,WI-Milwaukee,62,75,1
+2018,Troy,IL-Chicago,87,66,1
+2018,Alabama A&M,Georgia St,53,63,1
+2018,Youngstown St,Robert Morris,74,81,1
+2018,MA-Lowell,Sacred Heart,80,87,1
+2018,Western Kentucky,Eastern Kentucky,83,51,1
+2018,Drexel,Lafayette,68,67,1
+2018,NC-Asheville,SC-Upstate,82,70,1
+2018,North Carolina St,Penn St,85,78,1
+2018,Ohio St,Clemson,65,79,1
+2018,UConn,Columbia,77,73,1
+2018,Providence,Rider,88,34,1
+2018,Villanova,Pennsylvania,90,28,1
+2018,Coastal Carolina,Wofford,81,87,1
+2018,Fordham,East Tennessee St,77,82,1
+2018,Furman,Winthrop,74,93,1
+2018,Indiana St,Air Force,74,64,1
+2018,James Madison,George Mason,72,76,1
+2018,Siena,St Bonaventure,55,75,1
+2018,Richmond,Vermont,65,71,1
+2018,Albany,Colgate,75,69,1
+2018,Quinnipiac,UMass,68,66,1
+2018,Niagara,Buffalo,87,106,1
+2018,Norfolk St,Kent St,70,79,1
+2018,North Florida,Eastern Michigan,84,81,1
+2018,Bowling Green,San Jose St,85,79,1
+2018,Cleveland St,Arkansas St,75,72,1
+2018,St Peters,Fairleigh Dickinson,77,53,1
+2018,St Francis-PA,American U,100,89,1
+2018,Tennessee Tech,Lipscomb,86,80,1
+2018,William & Mary,Marshall,114,104,1
+2018,New Hampshire,Boston U,69,70,1
+2018,North Carolina,Michigan,86,71,1
+2018,Delaware St,Binghamton,64,85,1
+2018,LSU,TN-Martin,84,60,1
+2018,Houston,New Orleans,75,66,1
+2018,Tulane,Alcorn St,81,65,1
+2018,Arizona,Long Beach St,91,56,1
+2018,Texas St,Texas A&M-CC,66,53,1
+2018,Kansas St,Oral Roberts,77,68,1
+2018,Oklahoma St,Austin Peay,79,63,1
+2018,Texas,Florida A&M,82,58,1
+2018,NE-Omaha,Drake,75,73,1
+2018,Southern Illinois,SIU-Edwardsville,86,59,1
+2018,Northern Iowa,UNLV,77,68,1
+2018,TX-Arlington,Rice,69,49,1
+2018,Yale,Bryant,84,67,1
+2018,Princeton,Lehigh,76,85,1
+2018,South Alabama,Southern Miss,69,58,1
+2018,Minnesota,Miami-FL,81,86,1
+2018,Nebraska,Boston College,71,62,1
+2018,Utah Valley St,BYU,58,85,1
+2018,Marquette,Chicago St,95,69,1
+2018,TCU,Belmont,87,76,1
+2018,Denver,Wyoming,88,78,1
+2018,New Mexico,Evansville,78,59,1
+2018,UC-Davis,Northern Colorado,56,51,1
+2018,Indiana,Duke,81,91,1
+2018,Pepperdine,Southern Utah,82,88,1
+2018,Stanford,Montana,70,54,1
+2018,UCLA,Cal St-Bakersfield,75,66,1
+2018,Nevada,Illinois St,98,68,1
+2018,Texas A&M,TX-Rio Grande,78,60,1
+2018,UAB,Memphis,71,56,1
+2018,UTEP,New Mexico St,60,80,1
+2018,LIU-Brooklyn,Hartford,79,78,1
+2018,Texas Tech,Seton Hall,79,89,0
+2018,Michigan St,Notre Dame,81,63,1
+2018,Mississippi St,North Dakota St,83,59,1
+2018,Elon,South Florida,79,78,1
+2018,Coll of Charleston,Western Carolina,69,60,1
+2018,West Virginia,NJIT,102,69,1
+2018,Central Conn St,North Carolina A&T,72,59,1
+2018,Jacksonville St,Alabama St,77,69,1
+2018,Northeastern,Harvard,77,61,1
+2018,Stetson,Campbell,78,85,1
+2018,Oakland,TX-Southern,97,87,1
+2018,Jacksonville,Bethune-Cookman,66,77,1
+2018,East Carolina,NC-Wilmington,93,88,1
+2018,Oklahoma,North Texas,82,72,1
+2018,Kansas City,South Dakota,63,82,1
+2018,South Carolina,Temple,60,76,0
+2018,UCF,Missouri,59,62,1
+2018,UC-Riverside,Pacific,55,57,1
+2018,San Diego,San Diego St,57,66,1
+2018,Santa Clara,Northern Arizona,89,57,1
+2018,Fresno St,Weber St,83,71,1
+2018,Seattle,Kennesaw St,66,54,1
+2018,Duquesne,Pittsburgh,64,76,0
+2018,Oregon,Boise St,70,73,1
+2018,Nicholls St,Louisiana,80,105,1
+2018,La Salle,Towson,60,67,0
+2018,Holy Cross,Manhattan,54,70,0
+2018,Citadel,Marist,91,100,1
+2018,UMBC,Army,70,81,0
+2018,Maryland,Purdue,75,80,1
+2018,Ohio,Coppin St,80,37,1
+2018,Central Michigan,Jackson St,70,63,1
+2018,Wagner,Fairfield,78,76,1
+2018,Navy,Delaware,82,76,1
+2018,Georgia Tech,Grambling St,63,64,1
+2018,Davidson,North Carolina,75,85,0
+2018,Bradley,Eastern Illinois,67,56,1
+2018,Northwestern,Illinois,72,68,1
+2018,Gonzaga,Creighton,91,74,1
+2018,North Carolina St,South Carolina St,103,71,1
+2018,Ole Miss,Virginia Tech,80,83,1
+2018,Utah St,BYU,66,75,1
+2018,South Carolina,UMass,76,70,1
+2018,Marquette,Georgia,66,73,1
+2018,Illinois St,Tulsa,65,58,1
+2018,Rhode Island,Providence,75,68,1
+2018,Coastal Carolina,Lamar,67,69,1
+2018,Western Illinois,Miami-OH,73,76,1
+2018,VCU,Old Dominion,82,75,1
+2018,Kent St,Cleveland St,72,62,1
+2018,Marshall,Akron,86,64,1
+2018,Chicago St,Northern Illinois,77,95,1
+2018,Florida Intl,South Alabama,87,58,1
+2018,Austin Peay,Alabama A&M,67,47,1
+2018,Belmont,Green Bay,86,75,1
+2018,Elon,St Peters,71,65,1
+2018,WI-Milwaukee,Montana St,64,68,1
+2018,Savannah St,William & Mary,85,108,1
+2018,UTEP,New Mexico,88,76,1
+2018,MD-Eastern Shore,American U,74,70,1
+2018,Western Kentucky,Wright St,78,60,1
+2018,Virginia,Lehigh,75,54,1
+2018,Xavier,Cincinnati,89,76,1
+2018,Toledo,TX-Southern,71,69,1
+2018,Michigan,Indiana,69,55,1
+2018,Colorado St,Colorado,72,63,1
+2018,VMI,Radford,50,63,1
+2018,Liberty,NC-Greensboro,75,76,1
+2018,New Hampshire,Bryant,75,59,1
+2018,Iona,Fairleigh Dickinson,82,75,1
+2018,Baylor,Wichita St,62,69,1
+2018,Butler,St Louis,75,45,1
+2018,DePaul,Youngstown St,89,73,1
+2018,Fordham,Maine,67,66,1
+2018,Buffalo,St Bonaventure,62,73,1
+2018,Binghamton,Colgate,76,65,1
+2018,Ball St,IUPUI,41,23,1
+2018,Western Michigan,Oakland,73,78,1
+2018,Brown,Central Conn St,62,68,1
+2018,Siena,Robert Morris,76,74,1
+2018,Lafayette,Quinnipiac,79,58,1
+2018,Washington St,UC-Davis,67,81,1
+2018,Denver,Air Force,59,61,1
+2018,Rice,TX-Rio Grande,67,69,1
+2018,Duke,South Dakota,96,80,1
+2018,Kentucky,Harvard,79,70,1
+2018,Wake Forest,Richmond,82,53,1
+2018,UConn,Monmouth,84,81,1
+2018,AR-Little Rock,Oral Roberts,66,74,1
+2018,Southern Illinois,San Jose St,76,58,1
+2018,Loyola-Chicago,IL-Chicago,85,61,1
+2018,Mt St Marys,Loyola-MD,80,75,1
+2018,Canisius,Dartmouth,73,60,1
+2018,Drexel,Rider,89,77,1
+2018,Northeastern,Cornell,84,66,1
+2018,Presbyterian,North Carolina A&T,73,70,1
+2018,St Johns,Sacred Heart,90,55,1
+2018,Stephen F Austin,LA-Monroe,68,65,1
+2018,Wisconsin,Ohio St,58,83,1
+2018,Iowa,Penn St,73,77,1
+2018,Oregon St,Loyola Marymount,78,74,1
+2018,East Carolina,Delaware St,63,57,1
+2018,Memphis,Mercer,83,81,1
+2018,Chattanooga,TN-Martin,66,63,1
+2018,Furman,Tennessee Tech,64,50,1
+2018,TCU,Yale,92,66,1
+2018,Syracuse,Kansas,60,76,0
+2018,St Josephs,Villanova,53,94,1
+2018,Wyoming,Drake,96,89,1
+2018,Norfolk St,Bowling Green,77,92,1
+2018,Eastern Kentucky,Jacksonville,70,65,1
+2018,Hartford,Boston College,61,73,1
+2018,Appalachian St,South Florida,84,61,1
+2018,Utah,Hawaii,80,60,1
+2018,Albany,Columbia,86,82,1
+2018,Stony Brook,St Francis-PA,85,83,1
+2018,NC-Central,SE Missouri St,77,86,1
+2018,Northern Kentucky,Morehead St,86,49,1
+2018,James Madison,Charlotte,87,82,1
+2018,Bucknell,Vermont,81,77,1
+2018,Long Beach St,Fresno St,70,106,1
+2018,FL-Gulf Coast,Middle Tenn St,76,81,1
+2018,Gardner-Webb,SC-Upstate,87,66,1
+2018,Florida Atlantic,Bethune-Cookman,93,75,1
+2018,Houston,Arkansas,91,65,1
+2018,Princeton,Miami-FL,52,80,0
+2018,Houston Christian,Texas St,71,52,1
+2018,South Dakota St,Missouri St,53,73,1
+2018,TX-Arlington,North Texas,65,60,1
+2018,Murray St,Florida A&M,80,59,1
+2018,Tennessee St,Lipscomb,86,95,1
+2018,Arizona St,San Francisco,75,57,1
+2018,Grand Canyon,UC-Riverside,68,56,1
+2018,Utah Valley St,UTSA,88,80,1
+2018,Cal Poly,Pepperdine,91,81,1
+2018,UC-Santa Barbara,San Diego,67,57,1
+2018,Santa Clara,AR-Pine Bluff,72,57,1
+2018,SMU,USC,72,55,1
+2018,UNLV,Arizona,88,91,1
+2018,Cal St-Bakersfield,Northern Arizona,52,60,1
+2018,UC-Irvine,Nevada,65,76,1
+2018,California,St Marys,63,74,1
+2018,Marist,Army,75,82,0
+2018,Holy Cross,La Salle,54,58,0
+2018,Manhattan,Towson,55,56,0
+2018,Citadel,UMBC,72,98,1
+2018,Clemson,NC-Asheville,83,52,1
+2018,Auburn,George Mason,79,63,1
+2018,Vanderbilt,Kansas St,79,84,1
+2018,George Washington,Temple,71,67,1
+2018,Nicholls St,Idaho,68,79,1
+2018,New Mexico St,Prairie View A&M,69,57,1
+2018,Navy,Morgan St,66,59,1
+2018,North Carolina,Tulane,97,73,1
+2018,Notre Dame,St Francis-NY,71,53,1
+2018,Alabama,UCF,62,65,1
+2018,Jacksonville St,Samford,89,58,1
+2018,IPFW,SIU-Edwardsville,86,71,1
+2018,NJIT,MA-Lowell,78,65,1
+2018,Oklahoma St,Miss Valley St,83,62,1
+2018,Louisville,Seton Hall,77,79,1
+2018,Purdue,Northwestern,74,69,1
+2018,Boise St,Portland,77,54,1
+2018,Seattle,Eastern Washington,84,65,1
+2018,Michigan St,Nebraska,86,57,1
+2018,Long Beach St,Stanford,76,68,1
+2018,Georgia Tech,Tennessee,70,77,1
+2018,Minnesota,Rutgers,89,67,1
+2018,San Diego St,Bradley,75,52,1
+2018,Georgetown,Coppin St,76,60,1
+2018,Washington,NE-Omaha,86,73,1
+2018,Illinois,Maryland,91,92,1
+2018,Mississippi St,Dayton,61,59,1
+2018,UCLA,Detroit Mercy,106,73,1
+2018,Montana,Cal St-Northridge,86,68,1
+2018,Western Carolina,Appalachian St,72,71,1
+2018,Duquesne,MD-Eastern Shore,86,61,1
+2018,Coll of Charleston,High Point,70,58,1
+2018,LIU-Brooklyn,Stony Brook,75,71,1
+2018,Howard,Pennsylvania,68,81,1
+2018,Ohio St,Michigan,71,62,1
+2018,Penn St,Wisconsin,63,64,1
+2018,East Carolina,Campbell,69,66,1
+2018,Georgia St,Liberty,74,77,1
+2018,Columbia,Quinnipiac,87,89,1
+2018,Indiana,Iowa,77,64,1
+2018,Baylor,Sam Houston St,84,56,1
+2018,Oklahoma,UTSA,97,85,1
+2018,North Dakota St,Missouri St,58,71,1
+2018,Lipscomb,Belmont,69,54,1
+2018,Florida,Florida St,66,83,1
+2018,Iowa St,Northern Illinois,94,80,1
+2018,San Francisco,Central Arkansas,78,76,1
+2018,St Marys,Sacramento St,70,54,1
+2018,UConn,Syracuse,63,72,0
+2018,Charlotte,Wake Forest,57,80,1
+2018,Miami-FL,Boston U,69,54,1
+2018,Missouri,Miami-OH,70,51,1
+2018,Georgia,Winthrop,87,82,1
+2018,Marshall,Chattanooga,70,66,1
+2018,Troy,UAB,78,90,1
+2018,Sacred Heart,Dartmouth,79,73,1
+2018,Citadel,James Madison,84,82,1
+2018,West Virginia,Virginia,68,61,1
+2018,Notre Dame,Ball St,77,80,1
+2018,Pittsburgh,Mt St Marys,82,78,1
+2018,Rutgers,Michigan St,52,62,1
+2018,Gonzaga,Villanova,72,88,0
+2018,Marquette,Vermont,91,81,1
+2018,Davidson,VMI,74,51,1
+2018,VCU,Texas,67,71,1
+2018,Bowling Green,Evansville,76,91,1
+2018,Central Michigan,Montana St,75,44,1
+2018,Wagner,MA-Lowell,90,72,1
+2018,New Hampshire,Niagara,70,78,1
+2018,Northeastern,Bucknell,82,64,1
+2018,FL-Gulf Coast,Florida Atlantic,88,92,1
+2018,Jacksonville,WI-Milwaukee,52,62,1
+2018,Presbyterian,South Carolina St,88,77,1
+2018,Furman,NC-Asheville,83,72,1
+2018,Arkansas,Colorado St,92,66,1
+2018,Memphis,Samford,65,64,1
+2018,Wichita St,South Dakota St,95,85,1
+2018,Creighton,North Dakota,111,68,1
+2018,Kansas St,SC-Upstate,86,49,1
+2018,Texas Tech,Nevada,82,76,1
+2018,Arkansas St,TN-Martin,78,92,1
+2018,Duke,St Francis-PA,124,67,1
+2018,Nebraska,Minnesota,78,68,1
+2018,Texas A&M,Arizona,64,67,0
+2018,TCU,SMU,94,83,1
+2018,Butler,Utah,81,69,1
+2018,Denver,San Jose St,58,56,1
+2018,Pepperdine,UC-Riverside,70,59,1
+2018,Oregon St,Eastern Kentucky,74,62,1
+2018,UNLV,Oral Roberts,92,66,1
+2018,UC-Santa Barbara,NE-Omaha,77,70,1
+2018,Fresno St,Cal St-Bakersfield,70,55,1
+2018,Grand Canyon,St Johns,60,68,0
+2018,Virginia Tech,Radford,95,68,1
+2018,Florida St,Loyola-MD,96,71,1
+2018,BYU,Illinois St,80,68,1
+2018,South Carolina,Wyoming,80,64,1
+2018,Auburn,Gardner-Webb,80,55,1
+2018,Florida,Loyola-Chicago,59,65,1
+2018,Alabama,Rhode Island,68,64,1
+2018,Vanderbilt,Middle Tenn St,63,66,1
+2018,Louisiana Tech,Stephen F Austin,83,85,1
+2018,TX-Rio Grande,Texas A&M-CC,82,78,1
+2018,Dayton,Tennessee Tech,79,66,1
+2018,Duquesne,Stetson,73,59,1
+2018,George Mason,William & Mary,70,77,1
+2018,George Washington,Princeton,71,60,1
+2018,Old Dominion,Richmond,79,60,1
+2018,UMass,Holy Cross,64,50,1
+2018,Monmouth,Hofstra,84,85,1
+2018,Southern Utah,Long Beach St,94,89,1
+2018,Towson,Morgan St,82,78,1
+2018,Coppin St,Navy,53,70,1
+2018,Tulane,Southern U,95,76,1
+2018,North Carolina,Western Carolina,104,61,1
+2018,Louisville,Siena,86,60,1
+2018,Temple,Wisconsin,59,55,1
+2018,Wofford,Georgia Tech,63,60,1
+2018,Providence,Brown,77,72,1
+2018,Xavier,Kent St,96,70,1
+2018,East Tennessee St,Northern Kentucky,84,71,1
+2018,St Peters,Houston Christian,76,74,1
+2018,Akron,IPFW,83,79,1
+2018,St Louis,Southern Illinois,74,69,1
+2018,Fordham,Harvard,45,47,1
+2018,Canisius,St Bonaventure,65,73,1
+2018,Albany,Bryant,84,68,1
+2018,Binghamton,Army,71,66,1
+2018,Eastern Michigan,Oakland,95,89,1
+2018,Detroit Mercy,Toledo,86,89,1
+2018,Delaware,Buffalo,72,75,1
+2018,Western Michigan,Cleveland St,78,67,1
+2018,Hampton,Coastal Carolina,81,85,1
+2018,Rider,Robert Morris,75,78,0
+2018,IUPUI,SIU-Edwardsville,81,82,1
+2018,Lehigh,Yale,77,86,1
+2018,SE Missouri St,Kansas City,91,37,1
+2018,Marist,Colgate,78,76,1
+2018,Delaware St,UMBC,60,81,1
+2018,Illinois,Austin Peay,64,57,1
+2018,Houston,Fairfield,88,66,1
+2018,South Dakota,Drake,93,65,1
+2018,North Texas,Indiana St,79,76,1
+2018,Green Bay,Eastern Illinois,59,57,1
+2018,Lafayette,Pennsylvania,68,73,1
+2018,New Mexico St,San Diego,60,65,1
+2018,Kansas,Washington,65,74,0
+2018,Colorado,New Mexico,75,57,1
+2018,DePaul,Central Conn St,85,57,1
+2018,Air Force,Abilene Christian,58,62,1
+2018,Western Illinois,American U,69,56,1
+2018,Utah Valley St,Weber St,83,56,1
+2018,Utah St,UC-Irvine,62,59,1
+2018,Idaho St,Cal St-Northridge,74,66,1
+2018,UC-Davis,Pacific,71,67,1
+2018,Portland,Cal St-Fullerton,66,76,1
+2018,California,Central Arkansas,69,96,1
+2018,Idaho,Washington St,91,64,1
+2018,Hawaii,Prairie View A&M,72,60,1
+2018,Loyola Marymount,Portland St,85,94,1
+2018,Columbia,Stony Brook,66,76,1
+2018,Purdue,Valparaiso,80,50,1
+2018,Maryland,Ohio,87,62,1
+2018,Rutgers,NJIT,73,64,1
+2018,NC-Greensboro,Elon,75,44,1
+2018,La Salle,Drexel,70,72,1
+2018,Hartford,Quinnipiac,77,75,1
+2018,Iowa St,Iowa,84,78,1
+2018,Northern Iowa,TX-Arlington,62,58,1
+2018,Georgetown,Howard,81,67,1
+2018,San Francisco,Eastern Washington,81,71,1
+2018,Wake Forest,Army,109,80,1
+2018,Maine,Dartmouth,66,73,1
+2018,Bethune-Cookman,Boston U,87,90,1
+2018,Liberty,MD-Eastern Shore,71,49,1
+2018,St Johns,Arizona St,70,82,0
+2018,Missouri St,Hampton,88,75,1
+2018,Oregon,Colorado St,95,65,1
+2018,UC-Riverside,Air Force,67,48,1
+2018,USC,Oklahoma,83,85,0
+2018,North Carolina St,Kansas City,88,69,1
+2018,Nevada,TCU,80,84,0
+2018,Clemson,Samford,81,59,1
+2018,Arkansas,Minnesota,95,79,1
+2018,Creighton,Nebraska,75,65,1
+2018,Maryland,Gardner-Webb,82,60,1
+2018,Wisconsin,Marquette,63,82,1
+2018,Delaware,Notre Dame,68,92,1
+2018,Weber St,BYU,68,74,0
+2018,Cal St-Northridge,Loyola Marymount,57,74,1
+2018,Texas A&M,Prairie View A&M,73,53,1
+2018,Tennessee,Lipscomb,81,71,1
+2018,South Carolina,Coastal Carolina,80,78,1
+2018,Missouri,Green Bay,100,77,1
+2018,Middle Tenn St,Ole Miss,77,58,1
+2018,Monmouth,Kentucky,76,93,0
+2018,Auburn,UAB,85,80,1
+2018,Cincinnati,Florida,60,66,0
+2018,UConn,Coppin St,72,59,1
+2018,St Louis,Houston,58,77,1
+2018,Xavier,Colorado,96,69,1
+2018,San Diego St,California,62,63,1
+2018,UMass,Providence,72,63,1
+2018,Seton Hall,VCU,90,67,1
+2018,Western Illinois,WI-Milwaukee,90,69,1
+2018,Loyola-Chicago,Norfolk St,80,52,1
+2018,George Mason,NC-Central,77,65,1
+2018,Wright St,Kent St,63,54,1
+2018,Old Dominion,Bowling Green,88,46,1
+2018,Northern Illinois,Central Conn St,61,55,1
+2018,GA-Southern,Savannah St,102,91,1
+2018,Detroit Mercy,Western Michigan,79,87,1
+2018,Oakland,Chicago St,82,50,1
+2018,New Mexico,New Mexico St,62,65,1
+2018,St Marys,Seattle,97,73,1
+2018,Lehigh,Mt St Marys,75,60,1
+2018,Sacred Heart,Lafayette,62,50,1
+2018,Towson,UMBC,78,65,1
+2018,Holy Cross,New Hampshire,62,58,1
+2018,Boston College,Duke,89,84,1
+2018,Michigan,UCLA,78,69,1
+2018,Ohio St,William & Mary,97,62,1
+2018,Butler,Youngstown St,95,67,1
+2018,Duquesne,Delaware St,97,48,1
+2018,Memphis,Bryant,90,72,1
+2018,UCF,Southern U,76,60,1
+2018,VMI,Longwood,81,70,1
+2018,Miami-OH,IPFW,81,73,1
+2018,Central Michigan,Tennessee Tech,74,69,1
+2018,Marist,Stetson,76,79,1
+2018,Louisville,Indiana,71,62,1
+2018,Syracuse,Colgate,72,58,1
+2018,Evansville,Canisius,65,58,1
+2018,Ball St,Valparaiso,71,70,1
+2018,Fordham,St Francis-NY,76,68,1
+2018,St Bonaventure,Yale,75,67,1
+2018,Akron,Appalachian St,94,89,1
+2018,Georgia St,Montana,71,68,1
+2018,Brown,MA-Lowell,89,75,1
+2018,Temple,St Josephs,81,78,1
+2018,Georgetown,North Carolina A&T,83,74,1
+2018,Stephen F Austin,Rice,81,62,1
+2018,Denver,SC-Upstate,84,69,1
+2018,Dayton,Pennsylvania,70,78,1
+2018,TX-Arlington,FL-Gulf Coast,78,85,1
+2018,Penn St,George Washington,74,54,1
+2018,Oklahoma St,Wichita St,66,78,1
+2018,IL-Chicago,DePaul,55,65,1
+2018,Furman,South Carolina St,101,72,1
+2018,Mercer,Florida A&M,82,64,1
+2018,Illinois St,Murray St,72,78,1
+2018,Loyola-MD,Binghamton,64,77,1
+2018,Montana St,UC-Santa Barbara,69,91,1
+2018,Northeastern,Vermont,71,67,1
+2018,Boise St,Sacramento St,77,54,1
+2018,American U,Howard,74,63,1
+2018,NJIT,Iona,70,74,1
+2018,Abilene Christian,Texas St,72,68,1
+2018,Michigan St,Southern Utah,88,63,1
+2018,Drake,NE-Omaha,93,74,1
+2018,Rutgers,Fairleigh Dickinson,92,54,1
+2018,Toledo,Marshall,87,93,1
+2018,Manhattan,Morgan St,80,66,1
+2018,Rider,Hofstra,82,88,1
+2018,Louisiana Tech,Jackson St,91,62,1
+2018,Siena,Albany,69,74,1
+2018,Pittsburgh,West Virginia,60,69,1
+2018,Kansas St,Tulsa,54,61,0
+2018,Utah,Utah St,77,67,1
+2018,Central Arkansas,AR-Little Rock,69,54,1
+2018,UTSA,Houston Christian,87,71,1
+2018,North Texas,McNeese St,85,47,1
+2018,North Dakota,North Dakota St,79,88,1
+2018,Southern Illinois,SE Missouri St,69,75,1
+2018,TX-Rio Grande,UC-Irvine,73,59,1
+2018,UTEP,Washington St,76,69,1
+2018,Grand Canyon,Grambling St,87,53,1
+2018,Wyoming,Pacific,86,72,1
+2018,Pepperdine,Long Beach St,71,78,1
+2018,Portland,San Jose St,64,55,1
+2018,San Diego,Northern Arizona,79,51,1
+2018,Santa Clara,Portland St,84,87,1
+2018,Arizona,Alabama,88,82,1
+2018,Oregon St,AR-Pine Bluff,85,58,1
+2018,Cal St-Bakersfield,Idaho,66,55,1
+2018,Cal St-Fullerton,Utah Valley St,91,83,1
+2018,Cal Poly,Fresno St,63,83,1
+2018,UNLV,Illinois,89,82,1
+2018,Jacksonville St,LA-Monroe,75,56,1
+2018,Virginia Tech,MD-Eastern Shore,93,40,1
+2018,Southern Miss,Troy,89,71,1
+2018,Columbia,Navy,68,73,1
+2018,Tulane,Florida St,53,72,0
+2018,Kansas,Arizona St,85,95,1
+2018,Villanova,La Salle,77,68,1
+2018,Chattanooga,Charlotte,64,50,1
+2018,South Dakota,Eastern Washington,75,73,1
+2018,Ohio,Western Kentucky,89,84,1
+2018,Drexel,Robert Morris,60,74,0
+2018,Niagara,St Francis-PA,87,93,1
+2018,SIU-Edwardsville,South Alabama,76,75,1
+2018,LIU-Brooklyn,Fairfield,72,76,1
+2018,Oral Roberts,Missouri St,73,66,1
+2018,Iowa,Southern U,91,60,1
+2018,LSU,NC-Wilmington,97,84,1
+2018,Iowa St,Alcorn St,78,58,1
+2018,Northern Kentucky,Eastern Kentucky,91,63,1
+2018,Purdue,IUPUI,86,61,1
+2018,Washington,Gonzaga,70,97,1
+2018,Richmond,James Madison,74,71,1
+2018,Hartford,Sacred Heart,86,72,1
+2018,Louisville,Bryant,102,59,1
+2018,Northwestern,Chicago St,96,31,1
+2018,South Florida,Florida Intl,53,65,1
+2018,Vermont,Siena,81,57,1
+2018,Florida A&M,North Florida,89,101,1
+2018,Minnesota,Drake,68,67,1
+2018,DePaul,Alabama A&M,83,59,1
+2018,Grand Canyon,NC-Central,64,59,1
+2018,Oregon,TX-Southern,74,68,1
+2018,George Mason,GA-Southern,51,74,1
+2018,St Louis,Murray St,69,55,1
+2018,Louisiana Tech,Louisiana,71,75,1
+2018,Stony Brook,Hofstra,81,84,1
+2018,South Carolina St,Charleston Southern,91,88,1
+2018,Bethune-Cookman,Cal Poly,67,53,1
+2018,Oregon St,Jacksonville St,70,69,1
+2018,Boston College,Columbia,81,66,1
+2018,Rutgers,Fordham,75,63,1
+2018,Cincinnati,Mississippi St,65,50,1
+2018,UCF,SE Louisiana,61,53,1
+2018,Seton Hall,St Peters,84,61,1
+2018,Indiana St,Green Bay,85,63,1
+2018,St Francis-NY,Army,64,76,1
+2018,Princeton,Monmouth,69,58,1
+2018,Iona,Yale,83,67,1
+2018,UMBC,Coppin St,81,74,1
+2018,Colgate,NJIT,87,76,1
+2018,Colorado,San Diego,59,69,1
+2018,South Dakota St,North Dakota,99,63,1
+2018,LA-Monroe,Grambling St,59,57,1
+2018,Alabama St,Tennessee St,45,64,1
+2018,Texas,Michigan,52,59,1
+2018,Memphis,Albany,67,58,1
+2018,Wyoming,Eastern Washington,93,88,1
+2018,Texas A&M,Savannah St,113,66,1
+2018,Ole Miss,Sam Houston St,82,69,1
+2018,Duquesne,Miss Valley St,73,49,1
+2018,Belmont,WI-Milwaukee,82,63,1
+2018,Alabama A&M,Southern Miss,54,69,1
+2018,MA-Lowell,Boston U,87,82,1
+2018,Temple,Villanova,67,87,1
+2018,NC-Greensboro,NC-Wilmington,71,58,1
+2018,North Florida,Florida Intl,87,85,1
+2018,Illinois,Longwood,92,45,1
+2018,Wisconsin,Western Kentucky,81,80,1
+2018,LSU,Houston,80,77,1
+2018,SMU,New Orleans,79,66,1
+2018,NE-Omaha,Arkansas St,77,74,1
+2018,Southern Illinois,Jackson St,69,51,1
+2018,Bradley,AR-Little Rock,86,46,1
+2018,Texas Tech,Kennesaw St,82,53,1
+2018,Northern Colorado,Denver,83,63,1
+2018,Boise St,Grand Canyon,85,80,1
+2018,Oregon,Portland St,95,84,1
+2018,Fresno St,AR-Pine Bluff,78,52,1
+2018,Northern Arizona,South Dakota,77,90,1
+2018,Southern U,Florida A&M,68,50,1
+2018,South Florida,Bethune-Cookman,83,63,1
+2018,Campbell,Citadel,87,77,1
+2018,Northwestern,Valparaiso,84,50,1
+2018,Tulsa,Prairie View A&M,77,73,1
+2018,NC-Central,McNeese St,77,71,1
+2018,Baylor,TX-Southern,99,68,1
+2018,USC,Santa Clara,82,59,1
+2018,North Carolina A&T,Tennessee St,64,54,1
+2018,Sam Houston St,AR-Little Rock,57,55,1
+2018,Charleston Southern,Eastern Kentucky,65,70,1
+2018,Colorado,South Dakota St,112,103,1
+2018,Creighton,MD-Eastern Shore,87,36,1
+2018,IL-Chicago,Dartmouth,76,60,1
+2018,Stanford,Denver,75,62,1
+2018,San Francisco,UC-Davis,74,61,1
+2018,Gonzaga,North Dakota,89,83,1
+2018,Belmont,Pepperdine,79,62,1
+2018,Missouri,North Florida,85,51,1
+2018,Ole Miss,Illinois St,97,101,1
+2018,UMass,Georgia,72,62,1
+2018,Troy,Arkansas,63,88,0
+2018,Middle Tenn St,Auburn,70,76,0
+2018,SE Louisiana,Grambling St,67,68,1
+2018,Louisiana,New Orleans,87,65,1
+2018,Western Kentucky,Indiana St,81,65,1
+2018,WI-Milwaukee,Loyola-Chicago,73,56,1
+2018,Dayton,Georgia St,88,83,1
+2018,VCU,Bucknell,85,79,1
+2018,Long Beach St,Eastern Michigan,80,85,1
+2018,Marshall,Ohio,99,96,1
+2018,Florida Intl,James Madison,67,76,1
+2018,Longwood,Cornell,62,69,1
+2018,South Carolina St,Jacksonville,83,74,1
+2018,Alabama St,Winthrop,80,88,1
+2018,St Marys,UC-Irvine,73,66,1
+2018,Memphis,Louisville,72,81,0
+2018,North Carolina St,NC-Greensboro,76,81,1
+2018,Detroit Mercy,Michigan,58,90,0
+2018,Butler,Purdue,67,82,0
+2018,Rutgers,Seton Hall,71,65,1
+2018,George Washington,Miami-FL,50,59,1
+2018,Georgetown,Syracuse,79,86,1
+2018,Kentucky,Virginia Tech,93,86,1
+2018,Florida St,Oklahoma St,70,71,0
+2018,Virginia,Davidson,80,60,1
+2018,DePaul,Northwestern,60,62,1
+2018,Drake,Iowa,64,90,0
+2018,Pittsburgh,McNeese St,72,51,1
+2018,Xavier,East Tennessee St,68,66,1
+2018,Texas,Louisiana Tech,75,60,1
+2018,IPFW,Stetson,88,84,1
+2018,Buffalo,Robert Morris,86,70,1
+2018,Toledo,Wright St,69,77,1
+2018,Akron,Miss Valley St,81,63,1
+2018,Notre Dame,Indiana,77,80,0
+2018,Southern Utah,Central Michigan,86,80,1
+2018,Jacksonville St,SC-Upstate,77,61,1
+2018,Chicago St,Bradley,58,84,1
+2018,UAB,Alabama A&M,90,58,1
+2018,UCLA,Cincinnati,63,77,1
+2018,Oakland,Michigan St,73,86,0
+2018,Wichita St,Oklahoma,83,91,1
+2018,California,Cal St-Fullerton,95,89,1
+2018,Incarnate Word,Kansas City,77,73,1
+2018,Evansville,Austin Peay,78,74,1
+2018,Vermont,St Bonaventure,79,81,0
+2018,Rhode Island,Coll of Charleston,68,62,1
+2018,NJIT,Fairleigh Dickinson,71,68,1
+2018,Rider,Wagner,90,84,1
+2018,Norfolk St,Niagara,82,85,1
+2018,South Alabama,Eastern Illinois,63,52,1
+2018,Florida,Clemson,69,71,0
+2018,LSU,Stephen F Austin,82,83,1
+2018,Temple,Drexel,63,60,1
+2018,Cal St-Bakersfield,GA-Southern,55,53,1
+2018,Ohio St,Appalachian St,80,67,1
+2018,Fresno St,Oregon,61,68,1
+2018,Washington St,IUPUI,72,59,1
+2018,Wyoming,TX-Southern,72,66,1
+2018,Tulsa,Manhattan,80,66,1
+2018,Northern Iowa,Iowa St,65,76,0
+2018,Albany,Canisius,68,65,1
+2018,Florida Atlantic,Arkansas St,63,64,1
+2018,Cal Poly,Princeton,60,80,1
+2018,Kennesaw St,Bethune-Cookman,81,74,1
+2018,Illinois,New Mexico St,69,74,0
+2018,Nebraska,Kansas,72,73,1
+2018,Mississippi St,TN-Martin,92,61,1
+2018,New Mexico,Arizona,73,89,1
+2018,Kansas St,SE Missouri St,89,71,1
+2018,Texas Tech,Rice,73,53,1
+2018,TX-Rio Grande,TX-Arlington,65,86,1
+2018,Murray St,Marist,100,63,1
+2018,FL-Gulf Coast,Oral Roberts,64,83,1
+2018,Weber St,AR-Pine Bluff,96,74,1
+2018,Pacific,UNLV,76,81,1
+2018,Seattle,Portland,89,76,1
+2018,San Diego,North Texas,83,86,1
+2018,St Louis,Oregon St,60,63,0
+2018,BYU,Utah,77,65,1
+2018,George Mason,Penn St,54,72,1
+2018,Duquesne,North Carolina A&T,74,58,1
+2018,St Josephs,Maine,72,59,1
+2018,Sacred Heart,Binghamton,48,51,1
+2018,Boston U,Elon,69,77,1
+2018,Hampton,Gardner-Webb,79,80,1
+2018,LIU-Brooklyn,St Peters,56,71,1
+2018,UMBC,Northern Kentucky,76,75,1
+2018,Boston College,Central Conn St,84,65,1
+2018,Abilene Christian,Lipscomb,65,67,1
+2018,Bryant,Siena,68,87,1
+2018,Fairfield,Old Dominion,77,82,1
+2018,Air Force,Army,54,79,0
+2018,Arizona St,Vanderbilt,76,64,1
+2018,High Point,Wofford,57,70,0
+2018,NC-Wilmington,Furman,84,90,1
+2018,Morehead St,Central Arkansas,98,94,1
+2018,Providence,Stony Brook,62,60,1
+2018,Tennessee,North Carolina,73,78,1
+2018,Tennessee Tech,Chattanooga,82,76,1
+2018,Baylor,Savannah St,118,86,1
+2018,Montana,UC-Riverside,77,61,1
+2018,Georgia Tech,Florida A&M,79,54,1
+2018,Houston,Prairie View A&M,92,72,1
+2018,Southern Illinois,Lamar,71,61,1
+2018,St Johns,Iona,69,59,1
+2018,La Salle,Mercer,95,85,1
+2018,NC-Asheville,Western Carolina,72,76,0
+2018,Colorado St,Texas St,66,58,1
+2018,Eastern Washington,Cal St-Northridge,86,58,1
+2018,Washington,Loyola Marymount,80,77,1
+2018,Stanford,San Francisco,71,59,1
+2018,San Jose St,South Dakota,62,76,1
+2018,USC,UC-Santa Barbara,98,87,1
+2018,Delaware St,Delaware,59,68,1
+2018,Hawaii,Utah Valley St,70,69,1
+2018,Nevada,Radford,77,62,1
+2018,Gonzaga,IUPUI,101,71,1
+2018,Kent St,Northeastern,69,81,1
+2018,Michigan St,Houston Christian,107,62,1
+2018,Florida St,Charleston Southern,69,58,1
+2018,Coastal Carolina,Wake Forest,80,84,1
+2018,East Carolina,Charlotte,50,69,1
+2018,South Florida,Northern Arizona,70,56,1
+2018,Marquette,Northern Illinois,79,70,1
+2018,Kansas,NE-Omaha,109,64,1
+2018,Western Michigan,Idaho,52,82,1
+2018,American U,Mt St Marys,56,59,1
+2018,Jacksonville St,Howard,62,60,1
+2018,Drexel,Quinnipiac,72,71,1
+2018,Indiana,IPFW,72,92,1
+2018,Tulane,Nicholls St,76,69,1
+2018,Eastern Kentucky,Norfolk St,83,66,1
+2018,Idaho St,Youngstown St,86,62,1
+2018,SMU,Boise St,86,63,1
+2018,Arizona,North Dakota St,83,53,1
+2018,Creighton,TX-Arlington,90,81,1
+2018,TCU,TX-Southern,91,72,1
+2018,Texas,Tennessee St,47,46,1
+2018,Montana St,Denver,79,65,1
+2018,Grand Canyon,Miss Valley St,71,38,1
+2018,Santa Clara,Valparaiso,68,76,1
+2018,Virginia Tech,Presbyterian,63,55,1
+2018,Texas A&M,Northern Kentucky,64,58,1
+2018,Ole Miss,Texas A&M-CC,85,63,1
+2018,Arkansas,Oral Roberts,104,69,1
+2018,Mercer,Alabama,79,80,0
+2018,Seattle,California,59,81,1
+2018,Louisiana,SE Louisiana,82,74,1
+2018,Duquesne,Lamar,65,64,1
+2018,Illinois St,IL-Chicago,71,70,1
+2018,VCU,Winthrop,69,55,1
+2018,Richmond,Bucknell,78,86,1
+2018,Austin Peay,Troy,75,73,1
+2018,Coll of Charleston,South Carolina St,80,64,1
+2018,Western Kentucky,Belmont,72,75,1
+2018,Wyoming,Northern Colorado,84,91,1
+2018,Florida Intl,FL-Gulf Coast,91,88,1
+2018,Stetson,UCF,55,74,1
+2018,Xavier,Marshall,81,77,1
+2018,Clemson,South Carolina,64,48,1
+2018,Notre Dame,Dartmouth,97,87,1
+2018,Syracuse,Buffalo,81,74,1
+2018,North Carolina St,Robert Morris,81,69,1
+2018,Ohio St,Citadel,94,65,1
+2018,Penn St,Binghamton,80,65,1
+2018,Virginia,Savannah St,78,47,1
+2018,Pittsburgh,Delaware St,74,68,1
+2018,Cincinnati,AR-Pine Bluff,77,49,1
+2018,Western Carolina,High Point,61,72,1
+2018,Detroit Mercy,East Tennessee St,73,81,1
+2018,NC-Greensboro,NC-Asheville,60,67,1
+2018,Oklahoma,Northwestern St,105,68,1
+2018,Ball St,North Florida,79,65,1
+2018,Kennesaw St,GA-Southern,69,78,1
+2018,Niagara,Cleveland St,79,77,1
+2018,Holy Cross,Iona,68,82,1
+2018,Canisius,Elon,67,51,1
+2018,LSU,Sam Houston St,80,58,1
+2018,Murray St,Auburn,77,81,1
+2018,SMU,Cal Poly,84,64,1
+2018,Wichita St,Arkansas St,89,80,1
+2018,Texas Tech,Florida Atlantic,90,54,1
+2018,South Dakota St,Drake,87,74,1
+2018,Missouri St,Wright St,66,50,1
+2018,Southern Illinois,North Carolina A&T,102,64,1
+2018,St Louis,Campbell,74,66,1
+2018,Kansas City,Central Michigan,86,92,1
+2018,SIU-Edwardsville,Chicago St,88,76,1
+2018,Butler,Morehead St,85,69,1
+2018,Eastern Illinois,Western Illinois,78,77,1
+2018,Georgia,Georgia Tech,80,59,1
+2018,Iowa,Southern Utah,92,64,1
+2018,Weber St,Pepperdine,72,67,1
+2018,Missouri,Stephen F Austin,82,81,1
+2018,Oklahoma St,Tulsa,71,59,1
+2018,Arizona St,Longwood,95,61,1
+2018,UCLA,South Dakota,85,82,1
+2018,UTEP,Incarnate Word,72,66,1
+2018,Montana,UC-Irvine,86,68,1
+2018,New Mexico,Rice,78,69,1
+2018,Portland,Hartford,78,67,1
+2018,San Francisco,Radford,52,41,1
+2018,Washington,Bethune-Cookman,106,55,1
+2018,St Marys,Dayton,69,54,1
+2018,Nevada,UC-Davis,88,73,1
+2018,Sacramento St,Cal St-Northridge,66,61,1
+2018,USC,Princeton,93,103,1
+2018,Tennessee,Furman,66,61,1
+2018,Mississippi St,AR-Little Rock,64,48,1
+2018,Florida,James Madison,72,63,1
+2018,Vanderbilt,Houston Christian,81,48,1
+2018,UAB,New Orleans,74,67,1
+2018,George Washington,New Hampshire,68,64,1
+2018,UMass,Georgia St,63,71,1
+2018,Hampton,Appalachian St,86,53,1
+2018,Hofstra,Manhattan,61,63,1
+2018,Jacksonville,Northern Arizona,72,83,1
+2018,Oakland,Towson,97,86,1
+2018,SE Missouri St,Bradley,67,75,1
+2018,St Josephs,St Johns,73,77,0
+2018,Duke,Evansville,104,40,1
+2018,Providence,Houston,59,70,0
+2018,Georgetown,North Texas,75,63,1
+2018,Seton Hall,Wagner,89,68,1
+2018,Iowa St,MD-Eastern Shore,55,49,1
+2018,West Virginia,Coppin St,77,38,1
+2018,St Bonaventure,Northeastern,84,65,1
+2018,Toledo,Jackson St,83,57,1
+2018,Ohio,Prairie View A&M,84,65,1
+2018,Delaware,Cal St-Bakersfield,76,62,1
+2018,Central Conn St,Maine,84,57,1
+2018,Cornell,Lafayette,80,71,1
+2018,Nebraska,UTSA,104,94,1
+2018,Memphis,Siena,70,66,1
+2018,Baylor,Southern U,80,60,1
+2018,North Carolina,Wofford,75,79,1
+2018,Louisville,Albany,70,68,1
+2018,Utah,Northwestern St,84,28,1
+2018,Creighton,SC-Upstate,116,62,1
+2018,Utah St,Youngstown St,91,74,1
+2018,UC-Riverside,Valparaiso,73,60,1
+2018,Oregon,Central Arkansas,96,82,1
+2018,Washington St,Kansas St,65,68,1
+2018,UNLV,Miss Valley St,95,63,1
+2018,Florida St,Southern Miss,98,45,1
+2018,BYU,Idaho St,85,71,1
+2018,Kent St,Oregon St,79,78,1
+2018,Green Bay,Bowling Green,78,81,1
+2018,Northern Illinois,IL-Chicago,69,63,1
+2018,Loyola-MD,Drexel,66,62,1
+2018,Liberty,IPFW,64,75,0
+2018,Jacksonville St,Chattanooga,67,70,1
+2018,Tulane,South Alabama,77,73,1
+2018,Alabama St,Louisiana Tech,62,74,1
+2018,Purdue,Tennessee St,97,48,1
+2018,Maryland,Fairleigh Dickinson,75,50,1
+2018,Michigan St,Long Beach St,102,60,1
+2018,Notre Dame,SE Louisiana,86,50,1
+2018,UCF,South Carolina St,89,64,1
+2018,Cincinnati,Cleveland St,81,62,1
+2018,South Florida,Charlotte,78,76,1
+2018,East Carolina,Grambling St,76,68,1
+2018,Butler,Western Illinois,107,46,1
+2018,Marquette,American U,92,51,1
+2018,Kennesaw St,Samford,71,66,1
+2018,NC-Wilmington,North Dakota St,63,100,0
+2018,Fordham,Florida A&M,79,69,1
+2018,Rhode Island,Iona,80,74,1
+2018,St Francis-PA,Lehigh,84,70,1
+2018,Vermont,Quinnipiac,80,73,1
+2018,Harvard,Boston U,74,63,1
+2018,Navy,Lipscomb,64,73,1
+2018,Indiana,Tennessee Tech,87,59,1
+2018,Minnesota,Oral Roberts,77,63,1
+2018,NE-Omaha,Montana St,84,71,1
+2018,TX-Arlington,Cal Poly,77,56,1
+2018,Grand Canyon,Longwood,86,56,1
+2018,Sacramento St,Portland,75,80,1
+2018,Michigan,Alabama A&M,97,47,1
+2018,Texas A&M,Buffalo,89,73,1
+2018,Arizona,UConn,73,58,1
+2018,DePaul,Miami-OH,83,66,1
+2018,UTEP,Howard,69,56,1
+2018,Idaho,UC-Irvine,59,67,0
+2018,San Diego St,Gonzaga,72,70,1
+2018,Santa Clara,San Jose St,63,75,1
+2018,Stanford,Kansas,54,75,1
+2018,California,Portland St,81,106,1
+2018,Syracuse,St Bonaventure,57,60,1
+2018,North Carolina St,Jacksonville,116,64,1
+2018,Clemson,Louisiana,89,60,1
+2018,Loyola Marymount,Cal St-Fullerton,80,88,1
+2018,Georgia,Temple,84,66,1
+2018,Florida,Incarnate Word,75,60,1
+2018,Vanderbilt,Alcorn St,92,51,1
+2018,VCU,VMI,75,65,1
+2018,Sam Houston St,Utah Valley St,64,75,1
+2018,George Mason,Morgan St,86,79,1
+2018,St Louis,SE Missouri St,78,48,1
+2018,UMass,Maine,74,63,1
+2018,Robert Morris,Canisius,62,76,1
+2018,Austin Peay,Western Kentucky,55,72,1
+2018,UNLV,Northern Colorado,94,91,1
+2018,Florida Intl,Hartford,72,79,1
+2018,Old Dominion,Norfolk St,61,50,1
+2018,Dartmouth,Bryant,75,58,1
+2018,Oklahoma St,TX-Rio Grande,102,83,1
+2018,Arizona St,Pacific,104,65,1
+2018,Texas Tech,Abilene Christian,74,47,1
+2018,Brown,Marist,90,69,1
+2018,North Carolina A&T,Radford,60,66,0
+2018,Lamar,UC-Davis,68,77,0
+2018,Princeton,Middle Tenn St,67,69,0
+2018,Indiana St,Elon,68,73,1
+2018,Davidson,New Mexico St,68,69,0
+2018,Providence,Sacred Heart,89,75,1
+2018,Oklahoma,Northwestern,104,78,1
+2018,Rutgers,Stony Brook,73,75,1
+2018,Penn St,Rider,70,71,1
+2018,Virginia,Hampton,82,48,1
+2018,Pittsburgh,Towson,63,59,1
+2018,Ole Miss,Bradley,82,59,1
+2018,Wichita St,FL-Gulf Coast,75,65,1
+2018,East Tennessee St,GA-Southern,79,59,1
+2018,Kansas City,South Dakota St,60,85,1
+2018,Binghamton,LIU-Brooklyn,66,74,1
+2018,Bucknell,La Salle,88,81,1
+2018,Ball St,Jackson St,70,54,1
+2018,Central Michigan,SIU-Edwardsville,70,52,1
+2018,Oakland,Eastern Michigan,86,81,1
+2018,Coastal Carolina,Coll of Charleston,65,67,1
+2018,WI-Milwaukee,Western Michigan,63,66,1
+2018,Coppin St,Mt St Marys,53,66,1
+2018,Detroit Mercy,Murray St,72,81,1
+2018,Marshall,Eastern Kentucky,91,71,1
+2018,Fairfield,New Hampshire,78,68,1
+2018,Yale,Monmouth,64,85,1
+2018,Siena,Holy Cross,71,65,1
+2018,Nebraska,Delaware St,85,68,1
+2018,LSU,North Florida,104,52,1
+2018,Northern Iowa,Xavier,67,77,1
+2018,Drake,MD-Eastern Shore,81,57,1
+2018,Rice,Texas St,66,74,1
+2018,TN-Martin,AR-Pine Bluff,74,68,1
+2018,San Francisco,Duquesne,65,67,0
+2018,Akron,USC,53,84,0
+2018,Hofstra,Villanova,71,95,0
+2018,Colorado,Iowa,73,80,0
+2018,Georgia Tech,Wright St,81,85,1
+2018,Alabama,Texas,50,66,0
+2018,Washington St,Bethune-Cookman,86,58,1
+2018,TCU,William & Mary,86,75,1
+2018,Missouri St,Loyola-Chicago,64,59,1
+2018,New Mexico,Prairie View A&M,87,78,1
+2018,St Marys,NC-Asheville,95,69,1
+2018,Washington,Montana,66,63,1
+2018,Southern Illinois,Nevada,64,86,0
+2018,Hawaii,Miami-FL,57,75,1
+2018,NC-Wilmington,Howard,75,80,0
+2018,Alabama St,Liberty,70,87,0
+2018,IPFW,Louisiana Tech,76,85,0
+2018,UTEP,North Dakota St,51,63,1
+2018,Louisville,Grand Canyon,74,56,1
+2018,BYU,TX-Southern,73,52,1
+2018,Nevada,San Francisco,64,66,0
+2018,Southern Miss,Mississippi St,64,70,0
+2018,Chattanooga,Georgia St,48,71,1
+2018,Seattle,Nicholls St,95,89,1
+2018,George Washington,Harvard,58,48,1
+2018,Memphis,Loyola-MD,83,71,1
+2018,Georgetown,Alabama A&M,89,49,1
+2018,Seton Hall,Manhattan,74,62,1
+2018,West Virginia,Fordham,86,69,1
+2018,Wake Forest,Tennessee,60,79,1
+2018,Boston College,Richmond,78,73,1
+2018,MA-Lowell,Central Conn St,73,76,1
+2018,Cornell,Niagara,86,89,1
+2018,Ohio St,North Carolina,72,86,0
+2018,Evansville,Illinois St,66,72,1
+2018,Cleveland St,Toledo,62,77,1
+2018,St Peters,St Francis-NY,71,68,1
+2018,Auburn,UConn,89,64,1
+2018,Dayton,Wagner,79,67,1
+2018,UAB,Miss Valley St,74,57,1
+2018,Minnesota,Florida Atlantic,95,60,1
+2018,Kentucky,UCLA,75,83,0
+2018,Colorado St,Long Beach St,68,66,1
+2018,Wisconsin,Green Bay,81,60,1
+2018,Cal St-Northridge,Idaho St,55,67,1
+2018,Missouri,Illinois,64,70,0
+2018,Duquesne,Southern Illinois,64,74,0
+2018,Sacramento St,UC-Santa Barbara,72,82,1
+2018,Hawaii,Davidson,79,71,1
+2018,Miami-FL,New Mexico St,54,63,0
+2018,Lamar,North Carolina A&T,70,74,0
+2018,Akron,Princeton,62,64,0
+2018,UC-Davis,Radford,62,72,0
+2018,Middle Tenn St,USC,84,89,0
+2018,Akron,Davidson,78,91,0
+2018,Middle Tenn St,Miami-FL,81,84,0
+2018,Hawaii,Princeton,63,77,1
+2018,New Mexico St,USC,72,77,0
+2018,Arkansas,Cal St-Bakersfield,95,68,1
+2018,Pennsylvania,Delaware St,105,52,1
+2018,Georgetown,Butler,89,91,1
+2018,Syracuse,Eastern Michigan,62,47,1
+2018,Rhode Island,FL-Gulf Coast,80,60,1
+2018,Georgia Tech,Coppin St,76,62,1
+2018,DePaul,Villanova,85,103,1
+2018,Marquette,Xavier,87,91,1
+2018,Wisconsin,Chicago St,82,70,1
+2018,SMU,UCF,56,51,1
+2018,Morgan St,Grand Canyon,74,100,0
+2018,New Mexico,Air Force,87,58,1
+2018,Wyoming,San Diego St,82,69,1
+2018,Utah St,San Jose St,86,72,1
+2018,Boise St,Colorado St,93,71,1
+2018,Fresno St,Nevada,65,80,1
+2018,Virginia Tech,North Carolina A&T,76,59,1
+2018,BYU,Portland,69,45,1
+2018,St Marys,Loyola Marymount,87,59,1
+2018,Santa Clara,Pepperdine,72,65,1
+2018,San Diego,San Francisco,73,63,1
+2018,Nicholls St,Northwestern St,87,46,1
+2018,UC-Irvine,New Mexico St,60,65,1
+2018,Austin Peay,SIU-Edwardsville,78,58,1
+2018,Northern Arizona,Montana,69,87,1
+2018,Delaware,Cornell,97,96,1
+2018,WI-Milwaukee,Oakland,68,76,1
+2018,Marshall,Southern Miss,85,66,1
+2018,Western Kentucky,Louisiana Tech,69,68,1
+2018,UTSA,Rice,79,66,1
+2018,Tulsa,East Carolina,79,53,1
+2018,Seton Hall,Creighton,90,84,1
+2018,Rutgers,Hartford,58,60,1
+2018,Temple,Tulane,75,85,1
+2018,South Florida,Houston,60,79,1
+2018,St Johns,Providence,72,94,1
+2018,Mercer,Kennesaw St,89,56,1
+2018,Indiana St,Valparaiso,73,64,1
+2018,Albany,Kent St,78,68,1
+2018,Buffalo,NJIT,86,81,1
+2018,TN-Martin,Tennessee St,63,60,1
+2018,Fairfield,St Peters,70,61,1
+2018,Wright St,IL-Chicago,65,61,1
+2018,Jacksonville St,Eastern Kentucky,76,58,1
+2018,Quinnipiac,Monmouth,78,76,1
+2018,Northern Kentucky,IUPUI,77,59,1
+2018,New Orleans,Abilene Christian,77,74,1
+2018,Central Arkansas,Texas A&M-CC,81,69,1
+2018,SE Louisiana,Stephen F Austin,73,62,1
+2018,Lamar,Houston Christian,86,68,1
+2018,McNeese St,Incarnate Word,85,62,1
+2018,Northern Iowa,Southern Illinois,53,56,1
+2018,Drake,Bradley,66,64,1
+2018,Murray St,Eastern Illinois,80,52,1
+2018,Green Bay,Detroit Mercy,95,83,1
+2018,SE Missouri St,Belmont,72,94,1
+2018,Tennessee Tech,Morehead St,69,67,1
+2018,Southern Utah,Montana St,99,104,1
+2018,Gonzaga,Pacific,81,48,1
+2018,Memphis,LSU,61,71,1
+2018,Utah Valley St,UC-Riverside,90,82,1
+2018,UTEP,North Texas,62,63,1
+2018,Seattle,Grambling St,93,63,1
+2018,Pennsylvania,Toledo,72,85,1
+2018,Appalachian St,Texas St,66,62,1
+2018,Troy,GA-Southern,80,86,1
+2018,LIU-Brooklyn,Fairleigh Dickinson,71,82,1
+2018,North Dakota,Idaho,57,74,1
+2018,Boston U,Army,90,82,1
+2018,Kentucky,Louisville,90,61,1
+2018,Bryant,Robert Morris,54,68,1
+2018,Sacred Heart,St Francis-NY,68,73,1
+2018,Canisius,Rider,77,76,1
+2018,Michigan St,Cleveland St,111,61,1
+2018,Oklahoma St,West Virginia,79,85,1
+2018,Ball St,Florida A&M,75,54,1
+2018,Wagner,Mt St Marys,76,57,1
+2018,Marist,Siena,63,58,1
+2018,Niagara,Iona,93,98,1
+2018,Holy Cross,Colgate,74,79,1
+2018,Lafayette,Lehigh,74,79,1
+2018,Loyola-MD,Navy,72,63,1
+2018,Coastal Carolina,TX-Arlington,90,65,1
+2018,Central Conn St,St Francis-PA,72,68,1
+2018,Bucknell,American U,84,55,1
+2018,Indiana,Youngstown St,79,51,1
+2018,Iowa,Northern Illinois,98,75,1
+2018,Maryland,UMBC,66,45,1
+2018,Nebraska,Stetson,71,62,1
+2018,Texas Tech,Baylor,77,53,1
+2018,AR-Little Rock,Louisiana,63,77,1
+2018,South Alabama,Georgia St,86,64,1
+2018,Arkansas St,LA-Monroe,75,64,1
+2018,Iowa St,Kansas St,75,91,1
+2018,Texas,Kansas,86,92,1
+2018,Northern Colorado,Eastern Washington,88,75,1
+2018,Oregon,Utah,56,66,1
+2018,USC,Washington,81,88,1
+2018,Oregon St,Colorado,76,57,1
+2018,UCLA,Washington St,96,82,1
+2018,Hawaii,Howard,84,59,1
+2018,North Carolina,Wake Forest,73,69,1
+2018,Notre Dame,Georgia Tech,68,59,1
+2018,Clemson,North Carolina St,78,62,1
+2018,BYU,St Marys,64,74,1
+2018,Gonzaga,Santa Clara,101,52,1
+2018,Pacific,Loyola Marymount,88,82,1
+2018,San Diego,Pepperdine,74,66,1
+2018,Portland,San Francisco,61,84,1
+2018,Mississippi St,North Florida,109,81,1
+2018,Arkansas,Tennessee,95,93,1
+2018,Auburn,Cornell,98,77,1
+2018,Florida,Vanderbilt,81,74,1
+2018,Alabama,Texas A&M,79,57,1
+2018,Houston,Temple,76,73,1
+2018,Nicholls St,Incarnate Word,77,60,1
+2018,TCU,Oklahoma,89,90,1
+2018,Duquesne,Dayton,70,62,1
+2018,George Washington,St Josephs,70,64,1
+2018,Western Michigan,Chicago St,92,71,1
+2018,Austin Peay,Eastern Illinois,70,54,1
+2018,Southern Utah,Montana,49,79,1
+2018,Sacramento St,Portland St,80,75,1
+2018,Columbia,Maine,83,71,1
+2018,WI-Milwaukee,Detroit Mercy,87,79,1
+2018,Winthrop,High Point,76,60,1
+2018,Western Kentucky,Southern Miss,82,66,1
+2018,UTSA,North Texas,71,72,1
+2018,Old Dominion,Charlotte,89,58,1
+2018,Marshall,Louisiana Tech,78,65,1
+2018,Florida Intl,Florida Atlantic,58,57,1
+2018,Northwestern,Brown,95,73,1
+2018,Ohio St,Miami-OH,72,59,1
+2018,UConn,Wichita St,62,72,1
+2018,VCU,Fordham,76,63,1
+2018,VMI,Furman,57,87,1
+2018,Citadel,Western Carolina,79,81,1
+2018,Green Bay,Oakland,80,79,1
+2018,Duke,Florida St,100,93,1
+2018,Virginia,Boston College,59,58,1
+2018,Minnesota,Harvard,65,55,1
+2018,Penn St,Coppin St,88,43,1
+2018,Xavier,DePaul,77,72,1
+2018,La Salle,St Louis,83,60,1
+2018,Elon,Drexel,90,75,1
+2018,NC-Asheville,Campbell,85,79,1
+2018,St Bonaventure,UMass,98,78,1
+2018,Pittsburgh,Miami-FL,53,67,1
+2018,Illinois,Grand Canyon,62,58,1
+2018,Wisconsin,MA-Lowell,82,53,1
+2018,Butler,Villanova,101,93,1
+2018,Loyola-Chicago,Evansville,66,59,1
+2018,Rhode Island,George Mason,83,64,1
+2018,Coll of Charleston,Towson,73,62,1
+2018,Seattle,UC-Riverside,95,71,1
+2018,William & Mary,Hofstra,90,87,1
+2018,James Madison,Northeastern,70,81,1
+2018,Kennesaw St,Yale,74,89,1
+2018,Wright St,IUPUI,60,52,1
+2018,Presbyterian,Radford,62,78,1
+2018,Marquette,Georgetown,74,65,1
+2018,McNeese St,Northwestern St,72,63,1
+2018,South Dakota,Denver,82,71,1
+2018,Richmond,Davidson,69,58,1
+2018,NC-Greensboro,Wofford,71,67,1
+2018,San Jose St,Colorado St,52,59,1
+2018,Nevada,New Mexico,77,74,1
+2018,UAB,Middle Tenn St,60,63,1
+2018,Jacksonville St,Morehead St,76,69,1
+2018,Charleston Southern,Longwood,84,43,1
+2018,Michigan,Jacksonville,76,51,1
+2018,Tennessee Tech,Eastern Kentucky,77,69,1
+2018,TN-Martin,Belmont,58,65,1
+2018,Manhattan,Fairfield,61,58,1
+2018,Northern Arizona,Montana St,73,76,1
+2018,NC-Wilmington,Delaware,56,58,1
+2018,New Hampshire,Dartmouth,83,66,1
+2018,Fresno St,Air Force,71,59,1
+2018,Northern Kentucky,IL-Chicago,86,51,1
+2018,Gardner-Webb,Liberty,58,55,1
+2018,Purdue,Lipscomb,98,66,1
+2018,Samford,Chattanooga,73,56,1
+2018,Houston Christian,New Orleans,57,64,1
+2018,Oral Roberts,NE-Omaha,93,74,1
+2018,TX-Rio Grande,Hampton,80,69,1
+2018,Murray St,SIU-Edwardsville,87,63,1
+2018,Abilene Christian,Sam Houston St,75,72,1
+2018,Texas A&M-CC,Lamar,72,77,1
+2018,Arizona,Arizona St,84,78,1
+2018,Utah Valley St,Cal St-Fullerton,87,78,1
+2018,Weber St,Idaho St,60,62,1
+2018,UTEP,Rice,80,62,1
+2018,Stanford,California,74,77,1
+2018,San Diego St,Utah St,79,59,1
+2018,UNLV,Boise St,74,83,1
+2018,Cal St-Northridge,Morgan St,79,69,1
+2018,Stony Brook,Norfolk St,68,74,1
+2018,Seton Hall,St Johns,75,70,1
+2018,Illinois St,Indiana St,84,81,1
+2018,Troy,Georgia St,68,66,1
+2018,Central Conn St,Robert Morris,57,71,1
+2018,Sacred Heart,Fairleigh Dickinson,66,65,1
+2018,LIU-Brooklyn,Mt St Marys,71,57,1
+2018,Northern Colorado,Idaho,81,77,1
+2018,Michigan St,Savannah St,108,52,1
+2018,St Peters,Monmouth,77,64,1
+2018,St Francis-NY,Wagner,82,75,1
+2018,Niagara,Rider,76,99,1
+2018,Canisius,Iona,85,78,1
+2018,Mercer,East Tennessee St,55,74,1
+2018,Bradley,Northern Iowa,72,53,1
+2018,SE Missouri St,Tennessee St,77,65,1
+2018,Creighton,Providence,83,64,1
+2018,Appalachian St,TX-Arlington,80,76,1
+2018,Tulane,Tulsa,56,65,1
+2018,Bryant,St Francis-PA,82,86,1
+2018,Coastal Carolina,Texas St,48,53,1
+2018,Cincinnati,Memphis,82,48,1
+2018,East Carolina,UCF,39,59,1
+2018,Central Arkansas,SE Louisiana,69,73,1
+2018,Southern Illinois,Drake,67,70,1
+2018,Valparaiso,Missouri St,50,67,1
+2018,South Alabama,GA-Southern,69,67,1
+2018,Arkansas St,Louisiana,78,88,1
+2018,AR-Little Rock,LA-Monroe,71,62,1
+2018,North Dakota,Eastern Washington,64,77,1
+2018,Syracuse,Virginia Tech,68,56,1
+2018,Ole Miss,South Carolina,74,69,1
+2018,Kentucky,Georgia,66,61,1
+2018,Oregon St,Utah,64,66,1
+2018,SMU,South Florida,79,39,1
+2018,UCLA,Washington,74,53,1
+2018,USC,Washington St,89,71,1
+2018,Oregon,Colorado,77,62,1
+2018,Grambling St,Alabama A&M,64,71,1
+2018,Siena,Quinnipiac,70,71,1
+2018,Cleveland St,Youngstown St,77,80,1
+2018,Kansas St,West Virginia,69,77,1
+2018,Iowa St,Texas,70,74,1
+2018,Jackson St,Alabama St,82,73,1
+2018,Prairie View A&M,Alcorn St,76,64,1
+2018,TX-Southern,Southern U,78,66,1
+2018,Miss Valley St,AR-Pine Bluff,71,80,1
+2018,Texas A&M,Florida,66,83,1
+2018,Western Michigan,Akron,87,75,1
+2018,Buffalo,Toledo,104,94,1
+2018,Northern Illinois,Kent St,75,61,1
+2018,James Madison,William & Mary,76,84,1
+2018,Navy,Lehigh,78,66,1
+2018,Wisconsin,Indiana,71,61,1
+2018,Iowa,Michigan,68,75,1
+2018,Maryland,Penn St,75,69,1
+2018,Tennessee,Auburn,84,94,1
+2018,Vanderbilt,Alabama,76,75,1
+2018,Xavier,Butler,86,79,1
+2018,Baylor,TCU,78,81,1
+2018,Central Michigan,Ohio,75,50,1
+2018,Ball St,Eastern Michigan,72,62,1
+2018,Bowling Green,Miami-OH,72,77,1
+2018,Coll of Charleston,Delaware,93,78,1
+2018,SC-Upstate,Kansas City,77,79,1
+2018,Marist,Manhattan,96,101,1
+2018,NC-Wilmington,Drexel,107,87,1
+2018,Elon,Towson,75,72,1
+2018,Northeastern,Hofstra,70,71,1
+2018,Harvard,Vermont,56,62,1
+2018,American U,Colgate,63,72,1
+2018,Army,Loyola-MD,86,75,1
+2018,Bucknell,Boston U,79,84,1
+2018,Lafayette,Holy Cross,60,48,1
+2018,Liberty,Charleston Southern,70,53,1
+2018,Green Bay,IUPUI,63,67,1
+2018,Louisville,Pittsburgh,77,51,1
+2018,Northwestern,Nebraska,55,70,1
+2018,Mississippi St,Arkansas,78,75,1
+2018,DePaul,Georgetown,81,90,1
+2018,Kansas,Texas Tech,73,85,1
+2018,Colorado St,San Diego St,68,77,1
+2018,Loyola-Chicago,Indiana St,57,61,1
+2018,Davidson,St Louis,54,51,1
+2018,Duquesne,George Washington,69,52,1
+2018,St Josephs,VCU,87,81,1
+2018,Stony Brook,Maine,71,70,1
+2018,UMBC,New Hampshire,71,67,1
+2018,Morgan St,MD-Eastern Shore,85,82,1
+2018,Jackson St,Alabama A&M,59,56,1
+2018,Prairie View A&M,Southern U,78,74,1
+2018,UMass,George Mason,72,80,1
+2018,Georgia,Ole Miss,71,60,1
+2018,Providence,Marquette,90,95,1
+2018,Grambling St,Alabama St,66,74,1
+2018,Florida St,North Carolina,81,80,1
+2018,Wake Forest,Syracuse,73,67,1
+2018,Boston College,Clemson,70,74,1
+2018,Purdue,Rutgers,82,51,1
+2018,South Florida,East Carolina,65,67,1
+2018,Tulsa,UConn,90,88,1
+2018,UCF,Memphis,65,56,1
+2018,Fordham,Richmond,69,65,1
+2018,Albany,Hartford,64,72,1
+2018,Rhode Island,La Salle,74,62,1
+2018,Brown,NJIT,70,69,1
+2018,Campbell,Gardner-Webb,80,82,1
+2018,High Point,NC-Asheville,84,74,1
+2018,Longwood,Presbyterian,65,78,1
+2018,Radford,Winthrop,85,79,1
+2018,Sam Houston St,Central Arkansas,82,76,1
+2018,Bethune-Cookman,South Carolina St,86,80,1
+2018,Delaware St,NC-Central,62,65,1
+2018,Creighton,St Johns,78,71,1
+2018,Abilene Christian,McNeese St,79,74,1
+2018,Stephen F Austin,Nicholls St,81,64,1
+2018,Texas A&M-CC,Northwestern St,67,65,1
+2018,New Orleans,Lamar,72,62,1
+2018,South Dakota,Western Illinois,62,50,1
+2018,North Dakota St,South Dakota St,80,87,1
+2018,Southern Illinois,Evansville,65,63,1
+2018,Drake,Illinois St,87,62,1
+2018,Bradley,Valparaiso,80,71,1
+2018,Florida A&M,Howard,84,76,1
+2018,TX-Southern,Alcorn St,85,70,1
+2018,LSU,Kentucky,71,74,1
+2018,Dayton,St Bonaventure,82,72,1
+2018,Notre Dame,North Carolina St,88,58,1
+2018,Georgia Tech,Miami-FL,64,54,1
+2018,Minnesota,Illinois,77,67,1
+2018,Virginia Tech,Virginia,52,78,1
+2018,South Carolina,Missouri,68,79,1
+2018,Oklahoma,Oklahoma St,109,89,1
+2018,Boise St,New Mexico,90,62,1
+2018,Utah St,Fresno St,81,79,1
+2018,Cal St-Fullerton,UC-Riverside,68,65,1
+2018,Nevada,Wyoming,92,83,1
+2018,San Jose St,UNLV,76,82,1
+2018,Norfolk St,Coppin St,75,67,1
+2018,San Francisco,BYU,59,69,1
+2018,Loyola Marymount,Santa Clara,49,65,1
+2018,St Marys,Pacific,74,56,1
+2018,Portland,San Diego,74,81,1
+2018,Wichita St,Houston,81,63,1
+2018,Temple,Cincinnati,53,55,1
+2018,Wofford,VMI,92,53,1
+2018,Chattanooga,Western Carolina,63,75,1
+2018,Georgia St,AR-Little Rock,73,64,1
+2018,Fairleigh Dickinson,Central Conn St,81,77,1
+2018,Montana,North Dakota,109,79,1
+2018,Weber St,Northern Arizona,95,55,1
+2018,Idaho St,Southern Utah,93,78,1
+2018,Youngstown St,WI-Milwaukee,72,63,1
+2018,UC-Davis,UC-Irvine,64,53,1
+2018,Florida Intl,Middle Tenn St,66,71,1
+2018,North Texas,Charlotte,68,70,1
+2018,Morehead St,Eastern Illinois,52,61,1
+2018,Iowa,Ohio St,81,92,1
+2018,Mt St Marys,Bryant,96,80,1
+2018,St Francis-PA,LIU-Brooklyn,85,68,1
+2018,Robert Morris,St Francis-NY,80,79,1
+2018,Wagner,Sacred Heart,69,63,1
+2018,Austin Peay,TN-Martin,75,69,1
+2018,MA-Lowell,Vermont,77,88,1
+2018,Cleveland St,Green Bay,80,79,1
+2018,IUPUI,IL-Chicago,65,70,1
+2018,Florida Atlantic,UAB,44,75,1
+2018,Furman,Citadel,107,67,1
+2018,GA-Southern,Arkansas St,80,49,1
+2018,Louisiana Tech,UTSA,76,78,1
+2018,Michigan St,Maryland,91,61,1
+2018,Samford,East Tennessee St,72,90,1
+2018,Oral Roberts,IPFW,76,60,1
+2018,LA-Monroe,Coastal Carolina,82,72,1
+2018,Belmont,Tennessee Tech,80,67,1
+2018,Eastern Kentucky,SIU-Edwardsville,82,85,1
+2018,Murray St,SE Missouri St,89,73,1
+2018,Rice,Old Dominion,75,82,1
+2018,Southern Miss,UTEP,85,75,1
+2018,Louisiana,Appalachian St,78,45,1
+2018,TX-Arlington,Troy,86,76,1
+2018,Colorado,Arizona St,90,81,1
+2018,Texas St,South Alabama,72,69,1
+2018,Tennessee St,Jacksonville St,67,60,1
+2018,Tulane,SMU,73,70,1
+2018,Utah,Arizona,82,94,1
+2018,Missouri St,Northern Iowa,62,55,1
+2018,Montana St,Northern Colorado,76,64,1
+2018,Eastern Washington,Portland St,81,74,1
+2018,Stanford,UCLA,107,99,1
+2018,Idaho,Sacramento St,69,68,1
+2018,Cal Poly,UC-Santa Barbara,80,79,1
+2018,Long Beach St,Hawaii,89,81,1
+2018,California,USC,62,80,1
+2018,Pepperdine,Gonzaga,59,89,1
+2018,Toledo,Akron,67,65,1
+2018,Delaware,William & Mary,65,90,1
+2018,Colgate,Lafayette,68,71,1
+2018,Detroit Mercy,Wright St,73,80,1
+2018,Oakland,Northern Kentucky,83,87,1
+2018,Lehigh,Holy Cross,83,77,1
+2018,Rutgers,Wisconsin,64,60,1
+2018,Drexel,Coll of Charleston,87,82,1
+2018,Rider,Fairfield,96,77,1
+2018,Siena,Niagara,76,84,1
+2018,Monmouth,Manhattan,77,66,1
+2018,Iona,St Peters,73,69,1
+2018,Northeastern,Elon,72,60,1
+2018,Hofstra,James Madison,87,81,1
+2018,Towson,NC-Wilmington,89,71,1
+2018,Navy,American U,70,64,1
+2018,Army,Bucknell,66,83,1
+2018,Loyola-MD,Boston U,68,65,1
+2018,Penn St,Northwestern,78,63,1
+2018,Quinnipiac,Canisius,74,82,1
+2018,Oregon St,Oregon,76,64,1
+2018,Virginia,North Carolina,61,49,1
+2018,North Carolina St,Duke,96,85,1
+2018,Pacific,BYU,67,66,1
+2018,Pepperdine,San Francisco,67,80,1
+2018,Santa Clara,Portland,70,68,1
+2018,St Marys,San Diego,70,63,1
+2018,Chattanooga,East Tennessee St,66,85,1
+2018,George Washington,Rhode Island,60,81,1
+2018,St Louis,Richmond,69,62,1
+2018,Kent St,Central Michigan,85,69,1
+2018,Miami-OH,Western Michigan,62,67,1
+2018,Sacred Heart,Bryant,74,79,1
+2018,Austin Peay,SE Missouri St,76,71,1
+2018,Belmont,Jacksonville St,60,64,1
+2018,Montana,Northern Colorado,89,80,1
+2018,Weber St,Southern Utah,92,76,1
+2018,Idaho St,Northern Arizona,64,60,1
+2018,North Texas,Old Dominion,60,63,1
+2018,Florida Intl,UAB,64,75,1
+2018,Marshall,Western Kentucky,87,112,1
+2018,Morgan St,Florida A&M,87,68,1
+2018,Clemson,Louisville,74,69,1
+2018,Michigan,Illinois,79,69,1
+2018,Virginia Tech,Pittsburgh,81,67,1
+2018,Georgia,Alabama,65,46,1
+2018,UConn,East Carolina,70,65,1
+2018,Georgetown,Creighton,66,90,1
+2018,Providence,Xavier,81,72,1
+2018,Dayton,UMass,60,62,1
+2018,Eastern Michigan,Bowling Green,71,75,1
+2018,Missouri,Florida,75,77,1
+2018,VMI,NC-Greensboro,61,63,1
+2018,New Hampshire,Albany,64,61,1
+2018,Binghamton,Maine,73,76,1
+2018,Colorado,Arizona,80,77,1
+2018,St Johns,DePaul,74,91,1
+2018,Baylor,Texas,69,60,1
+2018,South Dakota,North Dakota St,79,84,1
+2018,Indiana St,Drake,72,75,1
+2018,La Salle,VCU,74,80,1
+2018,Ball St,Buffalo,63,83,1
+2018,Harvard,Dartmouth,61,51,1
+2018,Air Force,Nevada,75,86,1
+2018,Campbell,Winthrop,88,77,1
+2018,Longwood,Gardner-Webb,79,73,1
+2018,Purdue,Nebraska,74,62,1
+2018,Texas A&M,LSU,68,69,1
+2018,Butler,Seton Hall,87,90,1
+2018,Denver,IPFW,63,82,1
+2018,LA-Monroe,Appalachian St,73,79,1
+2018,Chicago St,New Mexico St,60,97,1
+2018,Rice,Charlotte,73,64,1
+2018,Syracuse,Notre Dame,49,51,1
+2018,Fordham,Duquesne,41,64,1
+2018,Ohio,Northern Illinois,78,68,1
+2018,Cleveland St,WI-Milwaukee,63,67,1
+2018,Boston College,Wake Forest,77,71,1
+2018,Memphis,Tulsa,76,67,1
+2018,Washington St,Washington,65,70,1
+2018,Northwestern St,Stephen F Austin,56,64,1
+2018,Incarnate Word,Sam Houston St,74,85,1
+2018,Oklahoma St,Iowa St,96,87,1
+2018,Texas Tech,Kansas St,74,58,1
+2018,Valparaiso,Southern Illinois,83,72,1
+2018,Evansville,Bradley,68,44,1
+2018,Mt St Marys,Central Conn St,78,51,1
+2018,Wagner,Fairleigh Dickinson,73,65,1
+2018,Robert Morris,LIU-Brooklyn,88,79,1
+2018,St Francis-PA,St Francis-NY,91,87,1
+2018,Eastern Kentucky,Eastern Illinois,53,54,1
+2018,Montana St,North Dakota,79,68,1
+2018,NJIT,SC-Upstate,98,87,1
+2018,Liberty,Presbyterian,60,48,1
+2018,Radford,NC-Asheville,90,70,1
+2018,Howard,Bethune-Cookman,87,92,1
+2018,Coppin St,Savannah St,71,80,1
+2018,Delaware St,South Carolina St,60,63,1
+2018,Alabama St,Miss Valley St,63,46,1
+2018,MD-Eastern Shore,Hampton,92,83,1
+2018,Morehead St,SIU-Edwardsville,65,70,1
+2018,Ole Miss,Mississippi St,64,58,1
+2018,Furman,Mercer,74,71,1
+2018,McNeese St,New Orleans,75,82,1
+2018,Kennesaw St,Lipscomb,71,86,1
+2018,Abilene Christian,SE Louisiana,70,72,1
+2018,GA-Southern,AR-Little Rock,72,69,1
+2018,Tennessee St,Tennessee Tech,81,87,1
+2018,Southern Miss,UTSA,93,83,1
+2018,Florida Atlantic,Middle Tenn St,57,61,1
+2018,Eastern Washington,Sacramento St,82,67,1
+2018,Minnesota,Indiana,71,75,1
+2018,TX-Arlington,South Alabama,91,67,1
+2018,Lamar,Central Arkansas,91,100,1
+2018,Texas St,Troy,57,56,1
+2018,Colorado St,Fresno St,79,82,1
+2018,Auburn,Arkansas,88,77,1
+2018,California,UCLA,84,107,1
+2018,Alcorn St,Jackson St,55,60,1
+2018,Southern U,Grambling St,80,69,1
+2018,South Carolina,Vanderbilt,71,60,1
+2018,Georgia Tech,Yale,74,60,1
+2018,Wofford,Citadel,109,92,1
+2018,Hartford,Stony Brook,61,63,1
+2018,Vermont,UMBC,71,56,1
+2018,FL-Gulf Coast,Stetson,90,52,1
+2018,North Florida,Jacksonville,86,90,1
+2018,Youngstown St,Green Bay,85,74,1
+2018,High Point,Charleston Southern,80,59,1
+2018,Louisiana Tech,UTEP,97,88,1
+2018,West Virginia,Oklahoma,89,76,1
+2018,Georgia St,Arkansas St,79,75,1
+2018,Villanova,Marquette,100,90,1
+2018,Samford,Western Carolina,85,71,1
+2018,Houston Christian,Nicholls St,71,72,1
+2018,NE-Omaha,South Dakota St,88,101,1
+2018,Oral Roberts,Western Illinois,81,66,1
+2018,St Josephs,St Bonaventure,85,78,1
+2018,Louisiana,Coastal Carolina,81,64,1
+2018,Kansas City,TX-Rio Grande,61,73,1
+2018,Murray St,TN-Martin,82,68,1
+2018,Wyoming,Boise St,79,78,1
+2018,TX-Southern,Prairie View A&M,100,94,1
+2018,Tennessee,Kentucky,76,65,1
+2018,Utah Valley St,Cal St-Bakersfield,75,42,1
+2018,New Mexico,San Jose St,80,47,1
+2018,TCU,Kansas,84,88,1
+2018,Loyola Marymount,Gonzaga,66,85,1
+2018,Seattle,Grand Canyon,57,73,1
+2018,Idaho,Portland St,72,73,1
+2018,UNLV,Utah St,78,85,1
+2018,Cal Poly,Cal St-Fullerton,97,101,1
+2018,Cal St-Northridge,Hawaii,46,65,1
+2018,UC-Irvine,Long Beach St,86,73,1
+2018,UC-Santa Barbara,UC-Riverside,65,57,1
+2018,Alabama A&M,AR-Pine Bluff,62,69,1
+2018,Pennsylvania,Princeton,76,70,1
+2018,Ohio St,Michigan St,80,64,1
+2018,Illinois St,Missouri St,72,68,1
+2018,Northern Iowa,Loyola-Chicago,50,56,1
+2018,Towson,Coll of Charleston,73,62,1
+2018,UCF,Temple,60,39,1
+2018,George Mason,Davidson,59,86,1
+2018,Iona,Fairfield,84,65,1
+2018,Marist,Niagara,70,86,1
+2018,St Peters,Quinnipiac,84,58,1
+2018,Delaware,NC-Wilmington,96,76,1
+2018,Drexel,William & Mary,63,85,1
+2018,Northeastern,James Madison,80,67,1
+2018,Detroit Mercy,Northern Kentucky,54,56,1
+2018,Siena,Canisius,65,62,1
+2018,Oakland,Wright St,81,86,1
+2018,Wichita St,South Florida,95,57,1
+2018,Hofstra,Elon,76,89,1
+2018,Miami-FL,Florida St,80,74,1
+2018,Cincinnati,SMU,76,56,1
+2018,Manhattan,Rider,76,82,1
+2018,Maryland,Iowa,91,73,1
+2018,Utah,Arizona St,77,80,1
+2018,Stanford,USC,77,76,1
+2018,Colgate,Navy,70,62,1
+2018,Morgan St,Savannah St,89,88,1
+2018,Alabama A&M,Miss Valley St,65,55,1
+2018,American U,Army,54,58,1
+2018,Boston U,Lehigh,92,81,1
+2018,Lafayette,Bucknell,75,80,1
+2018,Holy Cross,Loyola-MD,64,57,1
+2018,MD-Eastern Shore,Bethune-Cookman,84,89,1
+2018,Coppin St,Florida A&M,79,78,1
+2018,Delaware St,North Carolina A&T,66,76,1
+2018,NC-Central,Norfolk St,64,63,1
+2018,Alcorn St,Grambling St,61,72,1
+2018,Southern U,Jackson St,61,65,1
+2018,Alabama St,AR-Pine Bluff,68,94,1
+2018,Richmond,Dayton,81,87,1
+2018,VCU,Duquesne,78,67,1
+2018,Miami-OH,Kent St,80,69,1
+2018,Winthrop,Liberty,70,73,1
+2018,Indiana,Penn St,74,70,1
+2018,St Johns,Georgetown,66,69,1
+2018,Alabama,South Carolina,76,62,1
+2018,Kentucky,Texas A&M,74,73,1
+2018,Memphis,Tulane,96,89,1
+2018,West Virginia,Baylor,57,54,1
+2018,Oklahoma,Texas Tech,75,65,1
+2018,St Louis,Rhode Island,65,72,1
+2018,Akron,Buffalo,65,87,1
+2018,Bowling Green,Northern Illinois,66,57,1
+2018,Ohio,Ball St,68,75,1
+2018,Eastern Michigan,Central Michigan,79,74,1
+2018,Toledo,Western Michigan,84,61,1
+2018,Presbyterian,Campbell,79,83,1
+2018,Gardner-Webb,High Point,62,45,1
+2018,NC-Asheville,Longwood,90,80,1
+2018,Charleston Southern,Radford,61,64,1
+2018,North Carolina,Boston College,96,66,1
+2018,Virginia,Syracuse,68,61,1
+2018,Bradley,Southern Illinois,68,62,1
+2018,Nebraska,Wisconsin,63,59,1
+2018,Creighton,Butler,85,74,1
+2018,Michigan,Purdue,69,70,1
+2018,Vanderbilt,Tennessee,84,92,1
+2018,Auburn,Ole Miss,85,70,1
+2018,Marquette,Seton Hall,84,64,1
+2018,Kansas,Iowa St,83,78,1
+2018,Fresno St,Boise St,64,70,1
+2018,San Diego St,San Jose St,85,49,1
+2018,Western Carolina,Mercer,58,56,1
+2018,Nicholls St,McNeese St,85,80,1
+2018,Davidson,George Washington,72,45,1
+2018,George Mason,St Josephs,81,79,1
+2018,UMass,La Salle,86,79,1
+2018,Pittsburgh,Duke,52,87,1
+2018,Georgia Tech,Notre Dame,60,53,1
+2018,Wake Forest,Virginia Tech,75,83,1
+2018,Michigan St,Rutgers,76,72,1
+2018,Florida,Mississippi St,71,54,1
+2018,UConn,UCF,62,53,1
+2018,Chattanooga,Furman,55,73,1
+2018,Wofford,Harvard,63,62,1
+2018,Indiana St,Northern Iowa,69,67,1
+2018,St Bonaventure,Fordham,77,61,1
+2018,Albany,Stony Brook,78,65,1
+2018,New Hampshire,Binghamton,71,67,1
+2018,Quinnipiac,Marist,80,79,1
+2018,Hartford,MA-Lowell,84,73,1
+2018,Maine,UMBC,67,72,1
+2018,Dartmouth,Vermont,78,91,1
+2018,Detroit Mercy,Cleveland St,85,84,1
+2018,IUPUI,WI-Milwaukee,72,71,1
+2018,Oakland,Youngstown St,95,82,1
+2018,Villanova,Xavier,89,65,1
+2018,Houston Christian,Abilene Christian,74,82,1
+2018,Central Arkansas,Incarnate Word,92,76,1
+2018,Stephen F Austin,New Orleans,78,68,1
+2018,Texas A&M-CC,Sam Houston St,50,82,1
+2018,Lamar,SE Louisiana,58,63,1
+2018,Kansas St,Oklahoma St,86,82,1
+2018,Illinois St,Loyola-Chicago,61,68,1
+2018,Evansville,Missouri St,64,55,1
+2018,Valparaiso,Drake,77,60,1
+2018,IL-Chicago,Green Bay,84,73,1
+2018,Florida St,Louisville,69,73,1
+2018,Northwestern,Minnesota,83,60,1
+2018,Missouri,Georgia,68,56,1
+2018,Arkansas,LSU,54,75,1
+2018,SMU,Temple,64,66,1
+2018,Texas,TCU,99,98,1
+2018,Utah St,Colorado St,75,84,1
+2018,New Mexico,Wyoming,75,66,1
+2018,USC,Colorado,70,58,1
+2018,Air Force,UNLV,76,81,1
+2018,Long Beach St,Cal St-Northridge,80,70,1
+2018,Hawaii,Cal Poly,57,45,1
+2018,BYU,Pepperdine,83,63,1
+2018,Gonzaga,Portland,103,57,1
+2018,Loyola Marymount,San Francisco,67,65,1
+2018,Pacific,San Diego,74,70,1
+2018,Santa Clara,St Marys,57,81,1
+2018,Fairleigh Dickinson,LIU-Brooklyn,85,90,1
+2018,Sacramento St,Montana,66,78,1
+2018,North Dakota,Idaho St,81,58,1
+2018,Northern Colorado,Weber St,74,78,1
+2018,William & Mary,James Madison,89,82,1
+2018,Army,Lafayette,81,71,1
+2018,UC-Riverside,UC-Davis,65,75,1
+2018,Middle Tenn St,Louisiana Tech,72,57,1
+2018,UTSA,Florida Intl,76,79,1
+2018,Charlotte,Marshall,83,91,1
+2018,Old Dominion,Western Kentucky,68,75,1
+2018,UAB,Southern Miss,86,75,1
+2018,Citadel,Samford,91,107,1
+2018,Ohio St,Maryland,91,69,1
+2018,Houston,Tulsa,104,71,1
+2018,East Tennessee St,NC-Greensboro,68,58,1
+2018,IPFW,South Dakota,58,68,1
+2018,Coll of Charleston,Northeastern,82,66,1
+2018,Bryant,Wagner,62,71,1
+2018,St Francis-NY,Central Conn St,77,60,1
+2018,Mt St Marys,Sacred Heart,81,75,1
+2018,Robert Morris,St Francis-PA,80,89,1
+2018,Eastern Illinois,Tennessee St,65,69,1
+2018,Fairfield,Manhattan,53,59,1
+2018,Iona,Siena,71,69,1
+2018,Delaware,Drexel,72,66,1
+2018,Elon,NC-Wilmington,78,80,1
+2018,Towson,Hofstra,73,76,1
+2018,FL-Gulf Coast,SC-Upstate,75,58,1
+2018,Jacksonville,Kennesaw St,65,58,1
+2018,North Florida,Lipscomb,102,96,1
+2018,Stetson,NJIT,80,67,1
+2018,American U,Loyola-MD,76,65,1
+2018,Boston U,Colgate,72,58,1
+2018,Bucknell,Lehigh,78,65,1
+2018,Navy,Holy Cross,61,56,1
+2018,Northern Kentucky,Wright St,81,84,1
+2018,Appalachian St,Georgia St,58,71,1
+2018,Coastal Carolina,GA-Southern,66,77,1
+2018,Illinois,Iowa,97,104,1
+2018,Western Illinois,NE-Omaha,66,87,1
+2018,North Dakota St,Denver,61,67,1
+2018,South Dakota St,Oral Roberts,78,75,1
+2018,AR-Little Rock,TX-Arlington,77,65,1
+2018,Jacksonville St,Murray St,76,71,1
+2018,SIU-Edwardsville,Belmont,61,76,1
+2018,Arkansas St,Texas St,67,73,1
+2018,Tennessee Tech,Austin Peay,86,74,1
+2018,SE Missouri St,Morehead St,78,75,1
+2018,TN-Martin,Eastern Kentucky,70,78,1
+2018,North Carolina St,Clemson,78,77,1
+2018,East Carolina,Wichita St,60,95,1
+2018,Washington St,Stanford,70,79,1
+2018,Arizona,Oregon St,62,53,1
+2018,Utah Valley St,Kansas City,95,59,1
+2018,Grand Canyon,New Mexico St,59,70,1
+2018,UTEP,Florida Atlantic,66,73,1
+2018,Arizona St,Oregon,72,76,1
+2018,Seattle,Chicago St,67,64,1
+2018,Cal St-Bakersfield,TX-Rio Grande,74,87,1
+2018,Portland St,Montana St,93,74,1
+2018,UC-Irvine,Cal St-Fullerton,64,67,1
+2018,Washington,California,66,56,1
+2018,UCLA,Utah,83,64,1
+2018,Dayton,VCU,106,79,1
+2018,Kent St,Ohio,70,69,1
+2018,Princeton,Columbia,72,56,1
+2018,Pennsylvania,Cornell,69,61,1
+2018,IL-Chicago,WI-Milwaukee,88,73,1
+2018,Hampton,Delaware St,78,56,1
+2018,Butler,Marquette,94,83,1
+2018,Penn St,Nebraska,76,74,1
+2018,Niagara,Monmouth,78,77,1
+2018,Canisius,St Peters,70,58,1
+2018,Rider,Quinnipiac,78,60,1
+2018,Oakland,Cleveland St,81,68,1
+2018,Detroit Mercy,Youngstown St,93,91,1
+2018,IUPUI,Green Bay,67,61,1
+2018,Campbell,High Point,65,64,1
+2018,Gardner-Webb,Radford,59,54,1
+2018,Liberty,Longwood,51,58,1
+2018,Presbyterian,NC-Asheville,56,76,1
+2018,Charleston Southern,Winthrop,53,64,1
+2018,Yale,Brown,78,72,1
+2018,DePaul,Providence,64,71,1
+2018,Eastern Washington,Idaho,51,58,1
+2018,Santa Clara,BYU,50,84,1
+2018,San Diego,Loyola Marymount,75,71,1
+2018,Portland,Pacific,54,66,1
+2018,Pepperdine,St Marys,67,91,1
+2018,Western Carolina,NC-Greensboro,55,66,1
+2018,Nicholls St,Central Arkansas,86,79,1
+2018,Western Michigan,Ball St,73,58,1
+2018,Northern Illinois,Eastern Michigan,72,66,1
+2018,Central Conn St,Bryant,80,76,1
+2018,Fairleigh Dickinson,Robert Morris,75,81,1
+2018,LIU-Brooklyn,Wagner,69,67,1
+2018,North Dakota,Weber St,89,79,1
+2018,Northern Colorado,Idaho St,94,80,1
+2018,Southern Utah,Northern Arizona,81,75,1
+2018,Portland St,Montana,89,92,1
+2018,Pennsylvania,Columbia,77,71,1
+2018,Princeton,Cornell,91,54,1
+2018,Nevada,Utah St,83,57,1
+2018,UC-Riverside,Long Beach St,68,75,1
+2018,Old Dominion,Marshall,82,76,1
+2018,Middle Tenn St,Southern Miss,69,49,1
+2018,Charlotte,Western Kentucky,63,73,1
+2018,UTSA,Florida Atlantic,69,73,1
+2018,UAB,Louisiana Tech,74,62,1
+2018,North Carolina A&T,Morgan St,69,67,1
+2018,Alabama St,Alabama A&M,70,67,1
+2018,Jackson St,TX-Southern,85,80,1
+2018,Rhode Island,St Bonaventure,87,73,1
+2018,Duke,Wake Forest,89,71,1
+2018,Michigan St,Michigan,72,82,1
+2018,Minnesota,Purdue,47,81,1
+2018,Seton Hall,Georgetown,74,61,1
+2018,Kansas,Kansas St,73,72,1
+2018,Maine,Albany,66,84,1
+2018,MA-Lowell,UMBC,62,89,1
+2018,Duquesne,La Salle,101,94,1
+2018,Boston College,Dartmouth,86,72,1
+2018,Ole Miss,Florida,78,72,1
+2018,Georgia,South Carolina,57,64,1
+2018,Tulane,UConn,57,67,1
+2018,Citadel,Chattanooga,110,101,1
+2018,Oklahoma,TCU,102,97,1
+2018,Pittsburgh,Georgia Tech,54,69,1
+2018,Florida St,Syracuse,101,90,1
+2018,Temple,Memphis,72,75,1
+2018,Arizona,Oregon,90,83,1
+2018,Xavier,Creighton,92,70,1
+2018,Texas Tech,West Virginia,72,71,1
+2018,Hartford,Binghamton,97,65,1
+2018,Akron,Bowling Green,80,78,1
+2018,Buffalo,Miami-OH,82,66,1
+2018,St Francis-PA,Mt St Marys,80,81,1
+2018,Vermont,Stony Brook,73,62,1
+2018,George Mason,St Louis,86,81,1
+2018,Clemson,Miami-FL,72,63,1
+2018,Iowa St,Baylor,75,65,1
+2018,South Dakota St,Denver,94,72,1
+2018,North Dakota St,Oral Roberts,82,64,1
+2018,Drake,Evansville,81,65,1
+2018,Rice,North Texas,78,85,1
+2018,Mississippi St,Auburn,68,76,1
+2018,Appalachian St,GA-Southern,59,60,1
+2018,Coastal Carolina,Georgia St,58,72,1
+2018,Louisville,Virginia Tech,94,86,1
+2018,Vanderbilt,Kentucky,67,74,1
+2018,Washington St,California,78,53,1
+2018,Mercer,Samford,81,50,1
+2018,East Tennessee St,VMI,89,48,1
+2018,Northwestern St,Abilene Christian,58,69,1
+2018,Loyola-Chicago,Bradley,81,65,1
+2018,Seattle,Kansas City,77,75,1
+2018,St Francis-NY,Sacred Heart,52,92,1
+2018,James Madison,Delaware,60,61,1
+2018,Drexel,Hofstra,86,91,1
+2018,William & Mary,Towson,73,99,1
+2018,Wyoming,Colorado St,73,78,1
+2018,Stetson,SC-Upstate,87,69,1
+2018,Bethune-Cookman,Florida A&M,99,81,1
+2018,NC-Central,Coppin St,81,61,1
+2018,South Carolina St,Howard,91,88,1
+2018,South Alabama,Troy,64,79,1
+2018,Eastern Illinois,Belmont,66,75,1
+2018,Richmond,George Washington,78,68,1
+2018,Central Michigan,Toledo,82,93,1
+2018,Jacksonville St,Austin Peay,67,87,1
+2018,Oklahoma St,Texas,65,64,1
+2018,San Jose St,Air Force,71,78,1
+2018,New Orleans,Texas A&M-CC,61,55,1
+2018,SE Missouri St,Eastern Kentucky,86,91,1
+2018,Notre Dame,North Carolina,68,69,1
+2018,Tennessee,Texas A&M,75,62,1
+2018,Arkansas,Missouri,65,63,1
+2018,Arizona St,Oregon St,77,75,1
+2018,SE Louisiana,McNeese St,62,71,1
+2018,Southern Illinois,Illinois St,74,70,1
+2018,AR-Little Rock,Texas St,70,72,1
+2018,Jacksonville,Lipscomb,87,69,1
+2018,Savannah St,MD-Eastern Shore,87,59,1
+2018,Miss Valley St,Alcorn St,63,77,1
+2018,Grambling St,Prairie View A&M,80,71,1
+2018,South Florida,Cincinnati,55,78,1
+2018,Wofford,Furman,79,70,1
+2018,Stephen F Austin,Incarnate Word,83,63,1
+2018,IPFW,NE-Omaha,82,78,1
+2018,Elon,Coll of Charleston,63,58,1
+2018,TN-Martin,Morehead St,67,71,1
+2018,Marist,Fairfield,95,89,1
+2018,Manhattan,Siena,72,61,1
+2018,NC-Wilmington,Northeastern,77,81,1
+2018,Fresno St,New Mexico,89,80,1
+2018,FL-Gulf Coast,NJIT,68,54,1
+2018,North Florida,Kennesaw St,85,78,1
+2018,Sam Houston St,Houston Christian,81,68,1
+2018,Tulsa,Wichita St,69,72,1
+2018,Washington,Stanford,64,73,1
+2018,St Johns,Villanova,71,78,1
+2018,Northern Iowa,Valparaiso,81,76,1
+2018,Arkansas St,TX-Arlington,71,97,1
+2018,Louisiana,LA-Monroe,82,48,1
+2018,SIU-Edwardsville,Tennessee St,82,79,1
+2018,LSU,Alabama,66,74,1
+2018,Tennessee Tech,Murray St,45,71,1
+2018,Grand Canyon,TX-Rio Grande,84,71,1
+2018,Utah Valley St,Chicago St,83,58,1
+2018,Cal St-Fullerton,UC-Davis,85,70,1
+2018,UTEP,Florida Intl,72,68,1
+2018,San Francisco,Gonzaga,65,75,1
+2018,Cal St-Bakersfield,New Mexico St,53,66,1
+2018,Sacramento St,Montana St,87,68,1
+2018,Boise St,San Diego St,83,80,1
+2018,Cal St-Northridge,UC-Irvine,54,71,1
+2018,UCLA,Colorado,59,68,1
+2018,AR-Pine Bluff,Southern U,78,76,1
+2018,Hawaii,UC-Santa Barbara,77,76,1
+2018,Indiana,Northwestern,66,46,1
+2018,UMass,St Josephs,72,69,1
+2018,Iona,Rider,91,64,1
+2018,Holy Cross,Boston U,40,54,1
+2018,East Carolina,Houston,49,65,1
+2018,Niagara,St Peters,73,70,1
+2018,Canisius,Monmouth,94,79,1
+2018,Lehigh,American U,76,66,1
+2018,Loyola-MD,Lafayette,83,77,1
+2018,Navy,Army,62,64,1
+2018,Missouri St,Indiana St,76,73,1
+2018,Fordham,Davidson,45,75,1
+2018,Virginia,North Carolina St,68,51,1
+2018,Rutgers,Ohio St,46,68,1
+2018,USC,Utah,84,67,1
+2018,Western Carolina,VMI,65,58,1
+2018,UMBC,Hartford,78,56,1
+2018,MA-Lowell,New Hampshire,62,74,1
+2018,Winthrop,Gardner-Webb,90,67,1
+2018,Stetson,Bethune-Cookman,62,74,1
+2018,Wright St,Youngstown St,77,67,1
+2018,Providence,Butler,70,60,1
+2018,Michigan,Maryland,68,67,1
+2018,Miami-FL,Duke,75,83,1
+2018,Boston College,Florida St,81,75,1
+2018,Penn St,Minnesota,84,95,1
+2018,Mercer,Chattanooga,75,71,1
+2018,Binghamton,Albany,79,66,1
+2018,Vermont,Maine,83,62,1
+2018,Colgate,Bucknell,51,63,1
+2018,Longwood,Campbell,76,62,1
+2018,NC-Asheville,Charleston Southern,83,73,1
+2018,High Point,Presbyterian,73,49,1
+2018,Radford,Liberty,59,57,1
+2018,Northern Kentucky,Cleveland St,70,55,1
+2018,Green Bay,WI-Milwaukee,99,92,1
+2018,IL-Chicago,Oakland,68,78,1
+2018,Nebraska,Illinois,64,63,1
+2018,Marquette,DePaul,70,52,1
+2018,Baylor,Oklahoma St,76,60,1
+2018,West Virginia,Kansas,66,71,1
+2018,AR-Pine Bluff,Alcorn St,71,59,1
+2018,Florida A&M,Delaware St,94,89,1
+2018,Grambling St,TX-Southern,79,78,1
+2018,Jackson St,Prairie View A&M,79,71,1
+2018,NC-Central,Morgan St,77,63,1
+2018,North Carolina A&T,Coppin St,60,47,1
+2018,Savannah St,Howard,91,90,1
+2018,South Carolina St,MD-Eastern Shore,66,62,1
+2018,Miss Valley St,Southern U,70,78,1
+2018,Nicholls St,Texas A&M-CC,91,61,1
+2018,Kent St,Western Michigan,73,71,1
+2018,Miami-OH,Bowling Green,70,81,1
+2018,Notre Dame,Louisville,78,82,1
+2018,North Carolina,Clemson,87,79,1
+2018,Purdue,Wisconsin,78,50,1
+2018,LSU,Georgia,60,61,1
+2018,Mississippi St,Vanderbilt,80,62,1
+2018,UCF,Cincinnati,38,49,1
+2018,Eastern Michigan,Akron,63,49,1
+2018,Ohio,Toledo,57,91,1
+2018,Ball St,Central Michigan,82,76,1
+2018,Buffalo,Northern Illinois,95,67,1
+2018,IUPUI,Detroit Mercy,81,66,1
+2018,North Dakota St,North Dakota,77,86,1
+2018,Northern Iowa,Drake,68,54,1
+2018,Syracuse,Pittsburgh,59,45,1
+2018,Texas A&M,Ole Miss,71,69,1
+2018,South Carolina,Kentucky,76,68,1
+2018,Memphis,UConn,73,49,1
+2018,Kansas St,Oklahoma,87,69,1
+2018,St Louis,Duquesne,76,63,1
+2018,George Washington,George Mason,80,68,1
+2018,VCU,Richmond,52,67,1
+2018,Holy Cross,Army,70,66,1
+2018,UC-Davis,Long Beach St,84,75,1
+2018,Temple,Tulsa,59,58,1
+2018,Georgetown,Villanova,56,88,1
+2018,St Josephs,Dayton,81,65,1
+2018,Rutgers,Iowa,80,64,1
+2018,Florida,Arkansas,88,73,1
+2018,Alabama,Auburn,76,71,1
+2018,East Carolina,South Florida,90,52,1
+2018,Wichita St,SMU,78,83,1
+2018,Illinois St,Bradley,70,57,1
+2018,La Salle,Fordham,75,67,1
+2018,Rhode Island,UMass,73,51,1
+2018,Boston U,American U,58,69,1
+2018,Loyola-MD,Bucknell,70,78,1
+2018,Lehigh,Colgate,72,76,1
+2018,Lafayette,Navy,72,75,1
+2018,Sam Houston St,Northwestern St,75,52,1
+2018,Tulane,Houston,81,72,1
+2018,Abilene Christian,Stephen F Austin,66,76,1
+2018,New Orleans,Central Arkansas,57,81,1
+2018,SE Louisiana,Houston Christian,85,69,1
+2018,Incarnate Word,Lamar,69,90,1
+2018,Texas,Texas Tech,67,58,1
+2018,Western Illinois,IPFW,75,74,1
+2018,South Dakota,Oral Roberts,82,70,1
+2018,Evansville,Indiana St,66,71,1
+2018,Loyola-Chicago,Southern Illinois,79,65,1
+2018,Missouri St,Valparaiso,64,57,1
+2018,Creighton,Seton Hall,80,63,1
+2018,Xavier,St Johns,88,82,1
+2018,Northwestern,Ohio St,65,71,1
+2018,Missouri,Tennessee,59,55,1
+2018,California,Arizona,58,79,1
+2018,TCU,Iowa St,96,73,1
+2018,Colorado St,Air Force,71,76,1
+2018,Boise St,Utah St,71,67,1
+2018,UC-Santa Barbara,Cal St-Fullerton,83,64,1
+2018,San Jose St,Nevada,54,71,1
+2018,Stanford,Arizona St,86,77,1
+2018,San Diego St,Fresno St,73,77,1
+2018,UNLV,New Mexico,81,85,1
+2018,UC-Riverside,Cal St-Northridge,57,66,1
+2018,Pacific,Pepperdine,92,78,1
+2018,San Diego,Portland,49,55,1
+2018,San Francisco,Santa Clara,62,65,1
+2018,New Mexico St,Seattle,75,62,1
+2018,LIU-Brooklyn,Bryant,83,79,1
+2018,Central Conn St,Fairleigh Dickinson,66,65,1
+2018,Sacred Heart,Robert Morris,60,74,1
+2018,Northern Arizona,Eastern Washington,76,81,1
+2018,Weber St,Sacramento St,80,64,1
+2018,Idaho St,Portland St,83,87,1
+2018,Southern Utah,Idaho,76,80,1
+2018,William & Mary,Northeastern,70,90,1
+2018,WI-Milwaukee,Northern Kentucky,64,91,1
+2018,Gardner-Webb,Presbyterian,61,53,1
+2018,Marshall,Middle Tenn St,73,63,1
+2018,Florida Intl,Old Dominion,54,64,1
+2018,Western Kentucky,UAB,77,69,1
+2018,Furman,East Tennessee St,61,62,1
+2018,NC-Greensboro,Citadel,72,58,1
+2018,VMI,Mercer,56,62,1
+2018,Albany,MA-Lowell,70,62,1
+2018,Stony Brook,Binghamton,77,66,1
+2018,Coll of Charleston,NC-Wilmington,80,76,1
+2018,St Francis-NY,Mt St Marys,81,73,1
+2018,Wagner,St Francis-PA,73,64,1
+2018,Morehead St,Jacksonville St,57,58,1
+2018,Belmont,Murray St,79,72,1
+2018,Siena,Marist,68,65,1
+2018,Quinnipiac,Niagara,73,81,1
+2018,Hofstra,Delaware,90,63,1
+2018,Towson,Drexel,90,68,1
+2018,James Madison,Elon,85,74,1
+2018,Maine,Hartford,68,86,1
+2018,New Hampshire,Vermont,56,67,1
+2018,SC-Upstate,Jacksonville,91,85,1
+2018,Kennesaw St,Stetson,95,81,1
+2018,NJIT,North Florida,91,59,1
+2018,Cleveland St,IUPUI,70,67,1
+2018,Youngstown St,IL-Chicago,78,92,1
+2018,Campbell,Charleston Southern,62,47,1
+2018,High Point,Liberty,71,60,1
+2018,Radford,Longwood,70,63,1
+2018,Winthrop,NC-Asheville,85,58,1
+2018,Florida Atlantic,Charlotte,75,64,1
+2018,St Peters,Rider,84,88,1
+2018,Lipscomb,FL-Gulf Coast,83,88,1
+2018,Louisiana Tech,North Texas,66,65,1
+2018,Georgia Tech,Virginia,48,64,1
+2018,North Carolina St,Wake Forest,72,63,1
+2018,Colorado,Washington St,82,73,1
+2018,Samford,Wofford,89,93,1
+2018,TX-Rio Grande,Utah Valley St,76,84,1
+2018,Chicago St,Grand Canyon,58,86,1
+2018,Kansas City,Cal St-Bakersfield,62,59,1
+2018,Eastern Kentucky,Tennessee Tech,67,70,1
+2018,SIU-Edwardsville,SE Missouri St,74,86,1
+2018,Green Bay,Wright St,67,80,1
+2018,Southern Miss,Rice,86,75,1
+2018,South Alabama,Coastal Carolina,60,57,1
+2018,TX-Arlington,Louisiana,65,77,1
+2018,Maryland,Minnesota,77,66,1
+2018,NE-Omaha,Denver,86,80,1
+2018,Texas St,LA-Monroe,55,52,1
+2018,Tennessee St,Austin Peay,70,56,1
+2018,Eastern Illinois,TN-Martin,80,60,1
+2018,Nebraska,Michigan,72,52,1
+2018,Gonzaga,St Marys,71,74,1
+2018,Oregon,USC,70,75,1
+2018,Utah,Washington,70,62,1
+2018,UC-Irvine,Cal Poly,80,73,1
+2018,BYU,Loyola Marymount,82,67,1
+2018,Oregon St,UCLA,69,63,1
+2018,North Carolina A&T,Norfolk St,71,68,1
+2018,Western Michigan,Buffalo,74,84,1
+2018,Michigan St,Indiana,85,57,1
+2018,Davidson,St Bonaventure,83,73,1
+2018,Monmouth,Iona,73,76,1
+2018,Manhattan,Canisius,59,68,1
+2018,Brown,Yale,81,80,1
+2018,Wisconsin,Illinois,75,50,1
+2018,BYU,San Diego,74,58,1
+2018,Santa Clara,Gonzaga,60,75,1
+2018,Loyola Marymount,Portland,65,72,1
+2018,Pacific,St Marys,69,72,1
+2018,San Francisco,Pepperdine,80,73,1
+2018,Kentucky,Florida,64,66,1
+2018,Pennsylvania,Temple,51,60,1
+2018,St Josephs,Fordham,68,46,1
+2018,UMass,St Louis,47,66,1
+2018,Miami-OH,Ball St,71,53,1
+2018,Troy,Coastal Carolina,73,74,1
+2018,Georgia St,GA-Southern,83,66,1
+2018,New Mexico St,Utah Valley St,86,59,1
+2018,Central Conn St,LIU-Brooklyn,72,63,1
+2018,Fairleigh Dickinson,Mt St Marys,73,72,1
+2018,Belmont,Austin Peay,83,59,1
+2018,Northern Colorado,North Dakota,94,91,1
+2018,Northern Arizona,Idaho,80,84,1
+2018,Weber St,Portland St,84,79,1
+2018,Columbia,Cornell,88,62,1
+2018,Youngstown St,IUPUI,85,62,1
+2018,WI-Milwaukee,Wright St,66,61,1
+2018,Florida Intl,Charlotte,79,59,1
+2018,UTSA,UTEP,65,61,1
+2018,Western Kentucky,Middle Tenn St,62,66,1
+2018,Marshall,UAB,86,78,1
+2018,MD-Eastern Shore,North Carolina A&T,64,66,1
+2018,Alcorn St,Alabama A&M,68,52,1
+2018,Virginia Tech,Florida St,82,91,1
+2018,Iowa,Purdue,64,87,1
+2018,Minnesota,Ohio St,49,67,0
+2018,UConn,Villanova,61,81,1
+2018,Houston,Wichita St,73,59,1
+2018,Georgetown,St Johns,93,89,1
+2018,Bucknell,Holy Cross,77,56,1
+2018,VCU,George Washington,87,63,1
+2018,Vanderbilt,LSU,77,71,1
+2018,VMI,Citadel,88,81,1
+2018,IPFW,North Dakota St,92,88,1
+2018,Dayton,Rhode Island,74,88,1
+2018,Fairfield,Niagara,104,85,1
+2018,Army,Lehigh,93,81,1
+2018,Green Bay,Northern Kentucky,65,77,1
+2018,North Carolina,Georgia Tech,80,66,1
+2018,Northwestern,Penn St,70,61,1
+2018,DePaul,Butler,67,79,1
+2018,Iowa St,Texas Tech,70,52,1
+2018,Oklahoma St,Oklahoma,83,81,1
+2018,West Virginia,Texas,86,51,1
+2018,Indiana St,Illinois St,84,54,1
+2018,Eastern Michigan,Ohio,66,72,1
+2018,Akron,Northern Illinois,82,67,1
+2018,SIU-Edwardsville,TN-Martin,69,70,1
+2018,Northeastern,Delaware,76,64,1
+2018,NJIT,Jacksonville,61,63,1
+2018,SC-Upstate,North Florida,80,100,1
+2018,American U,Lafayette,53,62,1
+2018,Navy,Boston U,68,75,1
+2018,Colgate,Loyola-MD,77,72,1
+2018,Florida Atlantic,Old Dominion,62,73,1
+2018,Seton Hall,Xavier,64,73,1
+2018,Richmond,La Salle,81,74,1
+2018,Southern Utah,Eastern Washington,66,62,1
+2018,Providence,Creighton,85,71,1
+2018,Chicago St,Cal St-Bakersfield,78,89,1
+2018,Arkansas,Ole Miss,97,93,1
+2018,Bowling Green,Central Michigan,75,84,1
+2018,Sacred Heart,St Francis-PA,60,73,1
+2018,Cleveland St,IL-Chicago,80,87,1
+2018,Clemson,Notre Dame,67,58,1
+2018,Duke,Pittsburgh,81,54,1
+2018,Texas A&M,Missouri,60,49,1
+2018,Cincinnati,East Carolina,86,60,1
+2018,Stanford,Arizona,71,73,1
+2018,East Tennessee St,Western Carolina,66,50,1
+2018,Central Arkansas,Abilene Christian,63,80,1
+2018,Kansas St,TCU,73,68,1
+2018,Drake,Missouri St,61,58,1
+2018,Coll of Charleston,Hofstra,76,70,1
+2018,St Francis-NY,Bryant,85,80,1
+2018,Wagner,Robert Morris,62,49,1
+2018,James Madison,Drexel,75,73,1
+2018,Detroit Mercy,Oakland,86,92,1
+2018,Delaware St,Bethune-Cookman,78,85,1
+2018,Coppin St,Morgan St,80,73,1
+2018,Howard,NC-Central,84,78,1
+2018,South Carolina St,Norfolk St,54,78,1
+2018,Southern U,Alabama St,63,61,1
+2018,South Alabama,Appalachian St,83,77,1
+2018,Eastern Illinois,SE Missouri St,74,86,1
+2018,Morehead St,Tennessee Tech,74,55,1
+2018,Furman,Samford,78,67,1
+2018,Duquesne,George Mason,95,89,1
+2018,Kennesaw St,FL-Gulf Coast,49,66,1
+2018,NC-Greensboro,Mercer,70,66,1
+2018,Colorado St,UNLV,74,79,1
+2018,Lipscomb,Stetson,85,82,1
+2018,Southern Miss,North Texas,85,78,1
+2018,TX-Southern,Miss Valley St,91,77,1
+2018,New Orleans,Incarnate Word,74,70,1
+2018,TX-Arlington,LA-Monroe,71,55,1
+2018,Lamar,Sam Houston St,84,77,1
+2018,Texas St,Louisiana,55,80,1
+2018,South Carolina,Tennessee,63,70,1
+2018,Auburn,Georgia,79,65,1
+2018,South Florida,UCF,69,71,1
+2018,SMU,Tulane,73,62,1
+2018,Colorado,Washington,62,72,1
+2018,SE Louisiana,Northwestern St,85,58,1
+2018,Kansas,Baylor,70,67,1
+2018,AR-Little Rock,Arkansas St,62,70,1
+2018,Savannah St,Hampton,103,101,1
+2018,Jackson St,Grambling St,45,72,1
+2018,Wofford,Chattanooga,71,67,1
+2018,Toledo,Kent St,72,65,1
+2018,Eastern Kentucky,Jacksonville St,60,68,1
+2018,Rider,Marist,60,57,1
+2018,Elon,William & Mary,73,80,1
+2018,NC-Wilmington,Towson,73,71,1
+2018,Dartmouth,Harvard,57,62,1
+2018,New Mexico,San Diego St,79,75,1
+2018,Louisiana Tech,Rice,69,54,1
+2018,Tulsa,Memphis,64,51,1
+2018,Oregon St,USC,67,74,1
+2018,Houston Christian,McNeese St,81,86,1
+2018,Western Illinois,South Dakota St,70,98,1
+2018,NE-Omaha,South Dakota,71,85,1
+2018,Oral Roberts,Denver,64,73,1
+2018,Bradley,Evansville,66,53,1
+2018,TX-Rio Grande,Seattle,76,79,1
+2018,Kansas City,Grand Canyon,69,86,1
+2018,Alabama,Mississippi St,68,62,1
+2018,Tennessee St,Murray St,57,76,1
+2018,Montana St,Montana,52,67,1
+2018,Idaho St,Sacramento St,71,65,1
+2018,Utah St,Wyoming,77,85,1
+2018,Oregon,UCLA,94,91,1
+2018,Nevada,Boise St,74,68,1
+2018,UC-Santa Barbara,UC-Irvine,70,58,1
+2018,California,Arizona St,73,81,1
+2018,Long Beach St,Cal St-Fullerton,81,73,1
+2018,Cal St-Northridge,Cal Poly,72,54,1
+2018,Prairie View A&M,AR-Pine Bluff,66,72,1
+2018,Hawaii,UC-Davis,77,72,1
+2018,Charleston Southern,Gardner-Webb,83,68,1
+2018,Louisville,Boston College,77,69,1
+2018,North Carolina St,Miami-FL,81,86,1
+2018,Michigan,Rutgers,62,47,1
+2018,St Peters,Manhattan,57,68,1
+2018,Iona,Canisius,82,84,1
+2018,Hartford,Vermont,53,76,1
+2018,New Hampshire,Stony Brook,53,51,1
+2018,Albany,UMBC,83,39,1
+2018,Binghamton,MA-Lowell,71,79,1
+2018,Quinnipiac,Siena,76,69,1
+2018,Campbell,Radford,59,56,1
+2018,Liberty,NC-Asheville,68,84,1
+2018,Longwood,High Point,55,75,1
+2018,Southern Illinois,Northern Iowa,64,53,1
+2018,Valparaiso,Loyola-Chicago,54,70,1
+2018,Presbyterian,Winthrop,68,81,1
+2018,Wake Forest,Virginia,49,59,1
+2018,Utah,Washington St,82,69,1
+2018,Morgan St,Delaware St,61,47,1
+2018,Southern U,Alabama A&M,62,61,1
+2018,TX-Southern,AR-Pine Bluff,72,74,1
+2018,Alcorn St,Alabama St,81,64,1
+2018,Virginia Tech,North Carolina,80,69,1
+2018,Indiana,Maryland,71,68,1
+2018,Texas,Iowa St,73,57,1
+2018,American U,Holy Cross,57,60,1
+2018,Howard,North Carolina A&T,90,88,1
+2018,MD-Eastern Shore,NC-Central,60,63,1
+2018,South Carolina St,Hampton,84,91,1
+2018,Ohio St,Nebraska,64,59,1
+2018,Savannah St,Norfolk St,104,99,1
+2018,Prairie View A&M,Miss Valley St,93,77,1
+2018,Illinois,Michigan St,74,87,1
+2018,Baylor,Kansas St,83,90,1
+2018,TCU,West Virginia,82,73,1
+2018,Troy,Appalachian St,81,79,1
+2018,St Louis,VCU,74,75,1
+2018,Western Michigan,Toledo,81,85,1
+2018,Kent St,Ball St,88,80,1
+2018,Northern Illinois,Bowling Green,93,62,1
+2018,LSU,Texas A&M,77,65,1
+2018,Georgia,Arkansas,77,80,1
+2018,Villanova,Providence,89,69,1
+2018,Virginia,Clemson,61,36,1
+2018,Iowa,Wisconsin,85,67,1
+2018,Tennessee,Vanderbilt,67,62,1
+2018,Oklahoma,Kansas,85,80,1
+2018,Texas Tech,Oklahoma St,75,70,1
+2018,Dayton,Davidson,65,64,1
+2018,Akron,Ohio,71,68,1
+2018,Buffalo,Eastern Michigan,83,69,1
+2018,Central Michigan,Miami-OH,61,70,1
+2018,Fairfield,Rider,88,90,1
+2018,Liberty,Campbell,85,94,1
+2018,Bradley,Missouri St,72,52,1
+2018,Ole Miss,Alabama,78,66,1
+2018,St Johns,Creighton,63,68,1
+2018,Wake Forest,Duke,70,84,1
+2018,Minnesota,Northwestern,69,77,1
+2018,Kentucky,Mississippi St,78,65,1
+2018,Fresno St,UNLV,69,63,1
+2018,Chattanooga,Samford,78,71,1
+2018,Duquesne,Richmond,73,77,1
+2018,NC-Asheville,Gardner-Webb,65,60,1
+2018,Xavier,Marquette,89,70,1
+2018,Florida St,Georgia Tech,88,77,1
+2018,Syracuse,Boston College,81,63,1
+2018,Rutgers,Nebraska,54,60,1
+2018,Florida,South Carolina,72,77,1
+2018,VMI,Wofford,46,63,1
+2018,East Tennessee St,Mercer,84,75,1
+2018,NC-Greensboro,Furman,71,61,1
+2018,Fordham,Rhode Island,58,78,1
+2018,St Bonaventure,St Josephs,70,67,1
+2018,Vermont,Albany,61,50,1
+2018,UMBC,Binghamton,69,57,1
+2018,La Salle,UMass,87,72,1
+2018,Niagara,Manhattan,72,63,1
+2018,Maine,New Hampshire,69,68,1
+2018,MA-Lowell,Stony Brook,82,79,1
+2018,North Florida,FL-Gulf Coast,87,96,1
+2018,Jacksonville,Stetson,76,69,1
+2018,Kennesaw St,NJIT,60,66,1
+2018,Army,Colgate,78,81,1
+2018,Lafayette,Boston U,72,75,1
+2018,Navy,Bucknell,67,87,1
+2018,Lehigh,Loyola-MD,88,91,1
+2018,High Point,Radford,76,78,1
+2018,Longwood,Winthrop,78,95,1
+2018,Miami-FL,Louisville,78,75,1
+2018,Northwestern St,New Orleans,67,73,1
+2018,Sam Houston St,SE Louisiana,75,65,1
+2018,Lipscomb,SC-Upstate,92,78,1
+2018,Charleston Southern,Presbyterian,49,57,1
+2018,Texas A&M-CC,Abilene Christian,80,66,1
+2018,Central Arkansas,Stephen F Austin,100,92,1
+2018,Houston Christian,Incarnate Word,102,86,1
+2018,Lamar,Nicholls St,74,79,1
+2018,South Dakota,South Dakota St,87,68,1
+2018,Northern Iowa,Illinois St,83,72,1
+2018,Southern Illinois,Indiana St,82,77,1
+2018,Valparaiso,Evansville,65,75,1
+2018,Drake,Loyola-Chicago,57,80,1
+2018,Georgetown,DePaul,73,74,1
+2018,Pittsburgh,North Carolina St,68,72,1
+2018,Illinois,Indiana,73,71,1
+2018,Missouri,Auburn,73,91,1
+2018,Cincinnati,Temple,75,42,1
+2018,USC,Stanford,69,64,1
+2018,Utah St,Air Force,71,49,1
+2018,Boise St,San Jose St,94,71,1
+2018,UC-Irvine,UC-Riverside,79,40,1
+2018,San Diego St,Colorado St,97,78,1
+2018,Wyoming,Nevada,104,103,1
+2018,Pepperdine,Loyola Marymount,71,70,1
+2018,San Francisco,Pacific,69,67,1
+2018,San Diego,Santa Clara,66,58,1
+2018,Austin Peay,Eastern Kentucky,90,84,1
+2018,Montana,Southern Utah,71,47,1
+2018,WI-Milwaukee,Youngstown St,66,55,1
+2018,UAB,UTEP,85,78,1
+2018,Middle Tenn St,UTSA,75,51,1
+2018,North Texas,Florida Atlantic,59,53,1
+2018,Purdue,Michigan,92,88,1
+2018,UConn,SMU,63,52,1
+2018,Delaware,Coll of Charleston,54,62,1
+2018,Bryant,Central Conn St,74,80,1
+2018,Fairleigh Dickinson,St Francis-NY,70,76,1
+2018,Mt St Marys,LIU-Brooklyn,86,80,1
+2018,Murray St,Morehead St,87,81,1
+2018,Marist,Quinnipiac,77,85,1
+2018,Monmouth,Siena,67,56,1
+2018,Drexel,Elon,83,79,1
+2018,Hofstra,Northeastern,67,81,1
+2018,NC-Wilmington,James Madison,71,68,1
+2018,Towson,William & Mary,96,82,1
+2018,Georgia St,TX-Arlington,81,75,1
+2018,Appalachian St,AR-Little Rock,72,67,1
+2018,Coastal Carolina,Arkansas St,62,47,1
+2018,GA-Southern,Texas St,61,62,1
+2018,Ohio St,Penn St,79,82,1
+2018,North Dakota St,NE-Omaha,73,58,1
+2018,LA-Monroe,Troy,76,71,1
+2018,Belmont,Eastern Illinois,81,59,1
+2018,Green Bay,Cleveland St,66,44,1
+2018,Rice,Florida Intl,73,64,1
+2018,Louisiana,South Alabama,76,57,1
+2018,Arizona,Colorado,80,71,1
+2018,Jacksonville St,TN-Martin,63,67,1
+2018,Tennessee Tech,SE Missouri St,76,65,1
+2018,Tennessee St,SIU-Edwardsville,85,57,1
+2018,Wichita St,UCF,81,62,1
+2018,Tulane,South Florida,75,80,1
+2018,Denver,Western Illinois,70,58,1
+2018,Montana St,Northern Arizona,75,77,1
+2018,Eastern Washington,North Dakota,95,71,1
+2018,Arizona St,Utah,77,80,1
+2018,Idaho,Northern Colorado,63,80,1
+2018,Cal Poly,Long Beach St,71,87,1
+2018,UC-Davis,Cal St-Northridge,63,56,1
+2018,UCLA,California,70,57,1
+2018,Cal St-Fullerton,UC-Santa Barbara,65,70,1
+2018,St Marys,BYU,75,62,1
+2018,Portland,Gonzaga,79,95,1
+2018,St Francis-PA,Wagner,61,91,1
+2018,Ohio,Buffalo,66,73,1
+2018,Robert Morris,Sacred Heart,64,56,1
+2018,Rider,St Peters,63,60,1
+2018,Brown,Dartmouth,64,62,1
+2018,Yale,Harvard,52,54,1
+2018,Wright St,Detroit Mercy,87,55,1
+2018,Michigan St,Wisconsin,76,61,1
+2018,Northern Kentucky,Oakland,70,83,1
+2018,Seattle,Cal St-Bakersfield,59,55,1
+2018,BYU,Pacific,80,65,1
+2018,Gonzaga,San Francisco,82,73,1
+2018,Loyola Marymount,San Diego,82,89,1
+2018,Pepperdine,Santa Clara,59,73,1
+2018,St Marys,Portland,72,55,1
+2018,Kansas,Texas A&M,79,68,1
+2018,West Virginia,Kentucky,76,83,1
+2018,Chattanooga,VMI,69,70,1
+2018,Nicholls St,SE Louisiana,63,67,1
+2018,Pennsylvania,St Josephs,67,56,1
+2018,Western Michigan,Northern Illinois,79,72,1
+2018,Miami-OH,Eastern Michigan,48,58,1
+2018,LIU-Brooklyn,Central Conn St,94,89,1
+2018,Austin Peay,Morehead St,92,76,1
+2018,Montana,Northern Arizona,82,64,1
+2018,Idaho St,Weber St,70,77,1
+2018,Portland St,Sacramento St,61,71,1
+2018,MA-Lowell,Hartford,70,77,1
+2018,UMBC,Maine,86,74,1
+2018,Cornell,Columbia,82,81,1
+2018,Lehigh,Navy,75,77,1
+2018,WI-Milwaukee,Cleveland St,70,47,1
+2018,UC-Davis,Cal Poly,80,56,1
+2018,UAB,UTSA,70,82,1
+2018,Charlotte,Old Dominion,66,88,1
+2018,Middle Tenn St,UTEP,81,50,1
+2018,Western Kentucky,Marshall,85,74,1
+2018,Hampton,Florida A&M,71,75,1
+2018,Alabama A&M,TX-Southern,56,58,1
+2018,North Carolina,North Carolina St,91,95,1
+2018,South Carolina,Texas Tech,63,70,1
+2018,Florida,Baylor,81,60,1
+2018,Rhode Island,Duquesne,61,58,1
+2018,Ball St,Akron,111,106,1
+2018,Bryant,Fairleigh Dickinson,78,89,1
+2018,Fairfield,Quinnipiac,70,75,0
+2018,Green Bay,Youngstown St,85,67,1
+2018,Holy Cross,Lafayette,85,74,1
+2018,Duke,Virginia,63,65,1
+2018,Texas,Ole Miss,85,72,1
+2018,Kansas St,Georgia,56,51,1
+2018,Evansville,Drake,77,73,1
+2018,George Mason,VCU,76,84,1
+2018,Fordham,UMass,82,69,1
+2018,Drexel,Northeastern,68,67,1
+2018,Towson,Elon,76,83,1
+2018,SC-Upstate,Kennesaw St,80,81,1
+2018,Colgate,American U,83,69,1
+2018,Winthrop,Campbell,75,64,1
+2018,Alabama,Oklahoma,80,73,1
+2018,Georgia St,Texas St,54,50,1
+2018,Butler,St Johns,70,45,1
+2018,North Dakota St,Western Illinois,80,69,1
+2018,Louisiana,Troy,81,69,1
+2018,LA-Monroe,South Alabama,83,74,1
+2018,Chicago St,TX-Rio Grande,81,87,1
+2018,Rice,Florida Atlantic,62,63,1
+2018,Appalachian St,Arkansas St,88,93,1
+2018,Coastal Carolina,AR-Little Rock,72,62,1
+2018,Florida St,Miami-FL,103,94,1
+2018,Penn St,Rutgers,60,43,1
+2018,Pittsburgh,Syracuse,55,60,1
+2018,Iowa St,Tennessee,45,68,1
+2018,Vanderbilt,TCU,81,78,1
+2018,Furman,Western Carolina,100,66,1
+2018,Mercer,Citadel,74,76,1
+2018,Northwestern St,Central Arkansas,78,95,1
+2018,Incarnate Word,New Orleans,58,68,1
+2018,St Louis,Dayton,75,65,1
+2018,Binghamton,New Hampshire,52,57,1
+2018,Coll of Charleston,James Madison,66,59,1
+2018,Mt St Marys,St Francis-NY,86,72,1
+2018,Marist,Monmouth,78,91,0
+2018,Montana St,Southern Utah,69,66,1
+2018,NJIT,Lipscomb,79,86,1
+2018,Stetson,North Florida,65,73,1
+2018,Loyola-MD,Army,79,68,1
+2018,IL-Chicago,IUPUI,71,62,1
+2018,Radford,Charleston Southern,81,84,1
+2018,Presbyterian,Liberty,66,81,1
+2018,Norfolk St,Bethune-Cookman,71,70,1
+2018,Coppin St,South Carolina St,73,65,1
+2018,Delaware St,Savannah St,86,106,1
+2018,Howard,MD-Eastern Shore,85,75,1
+2018,North Carolina A&T,NC-Central,70,64,1
+2018,Alabama St,Prairie View A&M,80,86,1
+2018,Central Michigan,Kent St,76,84,1
+2018,NC-Asheville,High Point,84,77,1
+2018,GA-Southern,TX-Arlington,74,59,1
+2018,San Jose St,Wyoming,86,90,1
+2018,Miss Valley St,Jackson St,72,67,1
+2018,Eastern Washington,Northern Colorado,67,65,1
+2018,South Dakota St,IPFW,78,76,1
+2018,Arizona,Utah,74,73,1
+2018,Lamar,McNeese St,86,80,1
+2018,Arkansas,Oklahoma St,66,65,1
+2018,Auburn,LSU,95,70,1
+2018,Memphis,Cincinnati,48,62,1
+2018,Denver,South Dakota,84,68,1
+2018,Missouri St,Southern Illinois,77,79,1
+2018,Belmont,SIU-Edwardsville,83,72,1
+2018,North Texas,Florida Intl,69,67,1
+2018,Southern U,Alcorn St,61,48,1
+2018,AR-Pine Bluff,Grambling St,68,69,1
+2018,Wofford,East Tennessee St,62,75,1
+2018,Stephen F Austin,Sam Houston St,82,66,1
+2018,Stony Brook,Albany,50,57,1
+2018,Toledo,Bowling Green,101,75,1
+2018,Manhattan,Iona,65,78,0
+2018,Canisius,Niagara,89,105,1
+2018,Delaware,Hofstra,59,64,1
+2018,NC-Wilmington,William & Mary,81,84,1
+2018,Brown,Harvard,77,86,1
+2018,Yale,Dartmouth,74,64,1
+2018,Fresno St,Utah St,62,65,1
+2018,FL-Gulf Coast,Jacksonville,68,62,1
+2018,Gardner-Webb,Longwood,60,57,1
+2018,Louisiana Tech,Southern Miss,89,66,1
+2018,Notre Dame,Virginia Tech,75,80,1
+2018,Louisville,Wake Forest,96,77,1
+2018,Nebraska,Iowa,98,84,1
+2018,Oregon,Oregon St,66,57,1
+2018,Arizona St,Colorado,80,66,1
+2018,Creighton,Georgetown,85,77,1
+2018,Samford,NC-Greensboro,82,98,1
+2018,Kansas City,New Mexico St,48,73,1
+2018,Murray St,Eastern Kentucky,88,73,1
+2018,Jacksonville St,SE Missouri St,78,60,1
+2018,Mississippi St,Missouri,74,62,1
+2018,Texas A&M-CC,Houston Christian,79,69,1
+2018,Tennessee St,Eastern Illinois,50,47,1
+2018,Tennessee Tech,TN-Martin,63,55,1
+2018,Utah Valley St,Grand Canyon,68,56,1
+2018,Illinois St,Valparaiso,76,65,1
+2018,Idaho,North Dakota,96,71,1
+2018,Air Force,Boise St,64,70,1
+2018,New Mexico,Colorado St,80,65,1
+2018,UNLV,San Diego St,88,78,1
+2018,Cal St-Northridge,Long Beach St,66,70,1
+2018,UC-Riverside,UC-Santa Barbara,69,76,1
+2018,UCLA,Stanford,89,73,1
+2018,Hawaii,Cal St-Fullerton,66,69,1
+2018,St Bonaventure,George Washington,70,52,1
+2018,Boston U,Bucknell,79,91,1
+2018,Maryland,Michigan St,68,74,1
+2018,Marquette,Villanova,82,85,1
+2018,Northern Kentucky,Detroit Mercy,72,44,1
+2018,SMU,East Carolina,86,61,1
+2018,Indiana St,Bradley,73,81,1
+2018,Davidson,Richmond,63,66,1
+2018,Robert Morris,Wagner,64,77,1
+2018,St Francis-PA,Sacred Heart,72,71,1
+2018,Wright St,Oakland,64,51,1
+2018,Houston,South Florida,63,40,1
+2018,Indiana,Purdue,67,74,1
+2018,USC,California,77,59,1
+2018,Loyola-Chicago,Northern Iowa,70,47,1
+2018,Georgia Tech,Clemson,70,72,1
+2018,Wichita St,Tulsa,90,71,1
+2018,Temple,UConn,85,57,1
+2018,Washington,Washington St,80,62,1
+2018,DePaul,Seton Hall,70,86,1
+2018,Chattanooga,NC-Greensboro,87,85,1
+2018,WI-Milwaukee,IL-Chicago,56,74,1
+2018,Norfolk St,Florida A&M,80,71,1
+2018,Morgan St,South Carolina St,59,74,1
+2018,Alabama A&M,Prairie View A&M,67,88,1
+2018,Citadel,East Tennessee St,71,73,1
+2018,Alabama St,TX-Southern,82,97,1
+2018,Duke,Notre Dame,88,66,1
+2018,Michigan,Northwestern,58,47,1
+2018,Wofford,Western Carolina,77,68,1
+2018,Fairfield,Iona,103,100,1
+2018,Rider,Monmouth,92,85,1
+2018,Siena,St Peters,59,57,1
+2018,FL-Gulf Coast,North Florida,103,70,1
+2018,Stetson,Jacksonville,67,68,1
+2018,NJIT,Kennesaw St,74,71,1
+2018,SC-Upstate,Lipscomb,106,110,1
+2018,Holy Cross,Lehigh,67,71,1
+2018,Hampton,Bethune-Cookman,80,69,1
+2018,Coppin St,MD-Eastern Shore,71,68,1
+2018,AR-Pine Bluff,Jackson St,60,58,1
+2018,Samford,VMI,93,79,1
+2018,Miss Valley St,Grambling St,89,92,1
+2018,Wisconsin,Nebraska,63,74,1
+2018,Kansas St,Kansas,56,70,1
+2018,UMass,Rhode Island,83,85,1
+2018,Kent St,Buffalo,82,79,1
+2018,Miami-OH,Akron,79,64,1
+2018,Clemson,North Carolina,82,78,1
+2018,Ohio St,Indiana,71,56,1
+2018,Illinois,Rutgers,91,60,1
+2018,Georgia,Florida,72,60,1
+2018,Oklahoma St,TCU,66,79,1
+2018,Toledo,Ball St,63,75,1
+2018,Central Michigan,Northern Illinois,81,67,1
+2018,Eastern Michigan,Western Michigan,57,71,1
+2018,Bowling Green,Ohio,66,50,1
+2018,Manhattan,Marist,59,62,1
+2018,McNeese St,Sam Houston St,57,67,1
+2018,South Dakota St,NE-Omaha,80,60,1
+2018,Missouri St,Illinois St,60,76,1
+2018,Drake,Southern Illinois,67,78,1
+2018,St Johns,Xavier,68,73,1
+2018,Iowa,Minnesota,94,80,1
+2018,Ole Miss,Auburn,70,79,1
+2018,Kentucky,Vanderbilt,83,81,1
+2018,Texas A&M,Arkansas,80,66,1
+2018,Oklahoma,Baylor,98,96,1
+2018,Davidson,La Salle,84,65,1
+2018,George Washington,Duquesne,73,75,1
+2018,George Mason,St Bonaventure,69,85,1
+2018,St Josephs,St Louis,59,60,1
+2018,Bucknell,Army,83,71,1
+2018,New Orleans,Northwestern St,82,64,1
+2018,Michigan St,Penn St,76,68,1
+2018,Tennessee,LSU,84,61,1
+2018,East Carolina,Tulane,69,71,1
+2018,Miami-FL,Pittsburgh,69,57,1
+2018,Virginia,Louisville,74,64,1
+2018,Cincinnati,Houston,80,70,1
+2018,Seton Hall,Providence,73,57,1
+2018,Iowa St,West Virginia,93,77,1
+2018,Binghamton,Vermont,54,68,1
+2018,New Hampshire,Hartford,62,79,1
+2018,Maine,MA-Lowell,64,88,1
+2018,Stony Brook,UMBC,63,67,1
+2018,American U,Navy,44,61,1
+2018,Boston U,Loyola-MD,64,55,1
+2018,Lafayette,Colgate,93,83,1
+2018,Hampton,Coppin St,70,59,1
+2018,Wake Forest,Florida St,76,72,1
+2018,Georgia Tech,Syracuse,55,51,1
+2018,Abilene Christian,Lamar,74,69,1
+2018,Stephen F Austin,Houston Christian,102,82,1
+2018,SE Louisiana,Texas A&M-CC,54,67,1
+2018,Valparaiso,Indiana St,69,63,1
+2018,Bradley,Loyola-Chicago,69,67,1
+2018,Evansville,Northern Iowa,57,49,1
+2018,Florida A&M,Savannah St,100,107,1
+2018,Purdue,Maryland,75,67,1
+2018,South Carolina,Mississippi St,76,81,1
+2018,South Florida,Memphis,74,86,1
+2018,Boston College,Virginia Tech,80,85,1
+2018,Alabama,Missouri,60,69,1
+2018,UCF,UConn,70,61,1
+2018,Marquette,Butler,72,92,1
+2018,Texas Tech,Texas,73,71,1
+2018,Colorado St,Wyoming,86,91,1
+2018,Utah St,New Mexico,89,80,1
+2018,Washington St,Arizona,72,100,1
+2018,Cal Poly,UC-Riverside,71,68,1
+2018,Long Beach St,UC-Irvine,68,75,1
+2018,Nevada,Fresno St,102,92,1
+2018,UNLV,San Jose St,76,67,1
+2018,Loyola Marymount,BYU,76,69,1
+2018,Gonzaga,San Diego,69,59,1
+2018,Santa Clara,Pacific,45,63,1
+2018,Portland,Pepperdine,85,76,1
+2018,St Marys,San Francisco,79,43,1
+2018,Western Carolina,Chattanooga,70,68,1
+2018,Northern Colorado,Montana,79,88,1
+2018,Southern Utah,Weber St,80,90,1
+2018,Northern Arizona,Idaho St,61,63,1
+2018,William & Mary,Elon,99,92,1
+2018,Florida Intl,Southern Miss,76,70,1
+2018,Old Dominion,Middle Tenn St,59,66,1
+2018,Charlotte,UAB,64,76,1
+2018,UTSA,Marshall,81,77,1
+2018,Citadel,Wofford,80,78,1
+2018,St Francis-PA,Fairleigh Dickinson,74,60,1
+2018,Villanova,Creighton,98,78,1
+2018,Temple,Wichita St,81,79,1
+2018,East Tennessee St,Samford,96,76,1
+2018,NC-Greensboro,VMI,73,51,1
+2018,IPFW,Oral Roberts,85,75,1
+2018,Northeastern,Coll of Charleston,64,69,1
+2018,Bryant,St Francis-NY,69,73,1
+2018,Wagner,Central Conn St,72,59,1
+2018,Robert Morris,Mt St Marys,42,67,1
+2018,Delaware,Towson,71,75,1
+2018,Drexel,James Madison,76,74,1
+2018,Hofstra,NC-Wilmington,96,76,1
+2018,Cleveland St,Wright St,77,74,1
+2018,Youngstown St,Northern Kentucky,85,95,1
+2018,Campbell,NC-Asheville,57,64,1
+2018,Radford,Gardner-Webb,70,66,1
+2018,Liberty,Winthrop,77,61,1
+2018,Presbyterian,Longwood,67,62,1
+2018,Florida Atlantic,Louisiana Tech,62,67,1
+2018,Mercer,Furman,73,85,1
+2018,Eastern Illinois,Jacksonville St,56,75,1
+2018,Morehead St,Tennessee St,58,61,1
+2018,Charleston Southern,High Point,83,74,1
+2018,Tulsa,SMU,76,67,1
+2018,Western Illinois,South Dakota,54,80,1
+2018,South Dakota St,North Dakota St,82,63,1
+2018,AR-Little Rock,GA-Southern,61,67,1
+2018,Eastern Kentucky,Belmont,63,98,1
+2018,SIU-Edwardsville,Tennessee Tech,67,68,1
+2018,North Dakota,Montana St,75,74,1
+2018,TX-Arlington,Appalachian St,89,77,1
+2018,Wisconsin,Northwestern,52,60,1
+2018,Arkansas St,Georgia St,66,77,1
+2018,Texas St,Coastal Carolina,54,56,1
+2018,SE Missouri St,Murray St,75,87,1
+2018,TN-Martin,Austin Peay,57,59,1
+2018,California,Oregon,53,66,1
+2018,Grand Canyon,Kansas City,79,62,1
+2018,Sacred Heart,LIU-Brooklyn,60,69,1
+2018,UTEP,Western Kentucky,60,72,1
+2018,Cal St-Bakersfield,Chicago St,91,61,1
+2018,Cal St-Northridge,UC-Davis,56,63,1
+2018,UC-Santa Barbara,Hawaii,84,82,1
+2018,Sacramento St,Eastern Washington,54,74,1
+2018,Washington,Arizona St,68,64,1
+2018,Stanford,Oregon St,80,71,1
+2018,Portland St,Idaho,88,97,1
+2018,Columbia,Harvard,83,76,1
+2018,Cornell,Dartmouth,86,85,1
+2018,WI-Milwaukee,Green Bay,76,58,1
+2018,VCU,Rhode Island,68,81,1
+2018,Monmouth,Fairfield,78,79,1
+2018,St Peters,Niagara,58,52,1
+2018,Siena,Manhattan,47,51,1
+2018,Marist,Canisius,67,73,1
+2018,Iona,Quinnipiac,87,82,1
+2018,Pennsylvania,Brown,95,90,1
+2018,Princeton,Yale,76,73,1
+2018,Detroit Mercy,IUPUI,74,60,1
+2018,Colorado,Utah,67,55,1
+2018,Oakland,IL-Chicago,73,79,1
+2018,Buffalo,Western Michigan,92,86,1
+2018,Indiana,Michigan St,60,63,1
+2018,Penn St,Iowa,82,58,1
+2018,Portland,Loyola Marymount,68,66,1
+2018,Pepperdine,Pacific,72,81,1
+2018,San Diego,St Marys,62,65,1
+2018,Santa Clara,San Francisco,59,70,1
+2018,UCLA,USC,82,79,1
+2018,Western Carolina,Samford,88,71,1
+2018,Illinois St,Evansville,75,71,1
+2018,George Washington,Davidson,58,87,1
+2018,UMass,Dayton,86,82,1
+2018,St Louis,Fordham,73,50,1
+2018,Northern Illinois,Miami-OH,65,81,1
+2018,Troy,South Alabama,80,63,1
+2018,Grand Canyon,Chicago St,89,55,1
+2018,Sacred Heart,Central Conn St,67,54,1
+2018,North Dakota,Montana,67,72,1
+2018,Northern Colorado,Montana St,86,63,1
+2018,Northern Arizona,Weber St,55,87,1
+2018,Southern Utah,Idaho St,84,80,1
+2018,Stony Brook,Hartford,64,73,1
+2018,Columbia,Dartmouth,77,74,1
+2018,Pennsylvania,Yale,59,50,1
+2018,Lehigh,Boston U,80,75,1
+2018,Winthrop,Radford,75,57,1
+2018,North Texas,Rice,74,70,1
+2018,Old Dominion,UAB,65,60,1
+2018,Florida Intl,Louisiana Tech,71,68,1
+2018,UTSA,Western Kentucky,74,63,1
+2018,Charlotte,Middle Tenn St,73,78,1
+2018,NC-Central,Delaware St,72,61,1
+2018,Norfolk St,Morgan St,76,65,1
+2018,AR-Pine Bluff,Alabama A&M,80,62,1
+2018,North Carolina St,Notre Dame,76,58,1
+2018,St Johns,Duke,81,77,1
+2018,UConn,Cincinnati,57,65,1
+2018,UCF,Houston,65,69,1
+2018,Butler,DePaul,80,57,1
+2018,Kansas,Oklahoma St,79,84,1
+2018,Akron,Toledo,56,77,1
+2018,Eastern Michigan,Ball St,58,41,1
+2018,Citadel,Furman,100,92,1
+2018,Maine,Binghamton,81,79,1
+2018,Virginia Tech,Miami-FL,75,84,1
+2018,Wake Forest,Clemson,67,75,1
+2018,Texas A&M,South Carolina,83,60,1
+2018,Missouri,Kentucky,69,60,1
+2018,East Carolina,Memphis,88,85,1
+2018,TCU,Texas Tech,71,83,1
+2018,IPFW,Denver,91,63,1
+2018,Loyola-Chicago,Missouri St,97,75,1
+2018,Robert Morris,Fairleigh Dickinson,67,73,1
+2018,SIU-Edwardsville,Jacksonville St,75,67,1
+2018,Wyoming,Fresno St,62,80,1
+2018,Longwood,Liberty,55,67,1
+2018,Michigan,Minnesota,76,73,1
+2018,Marquette,Providence,75,77,1
+2018,North Dakota St,South Dakota,72,76,1
+2018,Western Illinois,Oral Roberts,82,56,1
+2018,LA-Monroe,Louisiana,59,80,1
+2018,Army,American U,82,70,1
+2018,Cleveland St,Northern Kentucky,61,78,1
+2018,LSU,Arkansas,94,86,1
+2018,Bowling Green,Kent St,70,62,1
+2018,Ohio,Central Michigan,98,101,1
+2018,Syracuse,Virginia,44,59,1
+2018,Rutgers,Purdue,76,78,1
+2018,Louisville,Florida St,76,80,1
+2018,Florida,Alabama,50,68,1
+2018,East Tennessee St,Chattanooga,81,61,1
+2018,Northwestern St,McNeese St,62,75,1
+2018,Incarnate Word,Texas A&M-CC,51,56,1
+2018,West Virginia,Kansas St,89,51,1
+2018,Northern Iowa,Indiana St,66,77,1
+2018,La Salle,St Josephs,81,78,1
+2018,Bryant,LIU-Brooklyn,71,84,1
+2018,Mt St Marys,St Francis-PA,59,56,1
+2018,Wagner,St Francis-NY,79,61,1
+2018,Morehead St,Belmont,73,83,1
+2018,Portland St,Eastern Washington,94,81,1
+2018,William & Mary,Drexel,79,91,1
+2018,James Madison,Towson,79,73,1
+2018,Northeastern,NC-Wilmington,107,100,1
+2018,UMBC,Vermont,53,81,1
+2018,Loyola-MD,Holy Cross,57,73,1
+2018,Bethune-Cookman,Coppin St,80,60,1
+2018,Howard,Florida A&M,83,80,1
+2018,Eastern Illinois,Tennessee Tech,79,71,1
+2018,Richmond,George Mason,75,79,1
+2018,Kennesaw St,SC-Upstate,93,69,1
+2018,NC-Asheville,Presbyterian,75,61,1
+2018,Mercer,Wofford,73,65,1
+2018,Stanford,Oregon,96,61,1
+2018,Lipscomb,NJIT,77,81,1
+2018,Miss Valley St,Alabama St,85,89,1
+2018,New Orleans,Nicholls St,64,81,1
+2018,TX-Arlington,Coastal Carolina,87,80,1
+2018,SE Missouri St,Austin Peay,81,96,1
+2018,Lamar,Stephen F Austin,76,54,1
+2018,Texas St,Appalachian St,56,59,1
+2018,Mississippi St,Georgia,72,57,1
+2018,Tennessee,Ole Miss,94,61,1
+2018,Xavier,Georgetown,96,91,1
+2018,SE Louisiana,Central Arkansas,89,84,1
+2018,Texas,Oklahoma,79,74,1
+2018,AR-Little Rock,Georgia St,51,81,1
+2018,Princeton,Brown,100,102,1
+2018,San Jose St,New Mexico,68,71,1
+2018,Jacksonville,FL-Gulf Coast,55,80,1
+2018,Prairie View A&M,TX-Southern,96,82,1
+2018,Savannah St,South Carolina St,111,99,1
+2018,Duquesne,St Bonaventure,81,84,1
+2018,Jackson St,Alcorn St,60,57,1
+2018,Grambling St,Southern U,69,68,1
+2018,Albany,New Hampshire,83,74,1
+2018,Hofstra,Coll of Charleston,85,86,1
+2018,Eastern Kentucky,Tennessee St,60,73,1
+2018,TN-Martin,Murray St,53,66,1
+2018,Elon,Delaware,89,76,1
+2018,Cornell,Harvard,73,76,1
+2018,North Florida,Stetson,97,91,1
+2018,Bucknell,Lafayette,74,59,1
+2018,Youngstown St,Wright St,57,83,1
+2018,High Point,Campbell,67,56,1
+2018,Gardner-Webb,Charleston Southern,63,61,1
+2018,Florida Atlantic,Southern Miss,66,77,1
+2018,Sam Houston St,Abilene Christian,84,77,1
+2018,North Carolina A&T,Hampton,92,84,1
+2018,North Carolina,Pittsburgh,96,65,1
+2018,California,Oregon St,74,70,1
+2018,Baylor,Iowa St,81,67,1
+2018,Southern Illinois,Valparaiso,65,59,1
+2018,Bradley,Drake,68,78,1
+2018,Arkansas St,GA-Southern,91,89,1
+2018,San Diego St,Air Force,81,50,1
+2018,Boise St,UNLV,93,91,1
+2018,Colorado St,Nevada,67,76,1
+2018,Auburn,Vanderbilt,93,81,1
+2018,New Mexico St,TX-Rio Grande,90,67,1
+2018,Sacramento St,Idaho,58,81,1
+2018,Cal St-Fullerton,UC-Irvine,58,63,1
+2018,UTEP,Marshall,65,74,1
+2018,Gonzaga,BYU,68,60,1
+2018,Cal St-Bakersfield,Kansas City,81,58,1
+2018,Seattle,Utah Valley St,55,54,1
+2018,Cal Poly,Hawaii,78,64,1
+2018,UC-Santa Barbara,Cal St-Northridge,75,51,1
+2018,Long Beach St,UC-Davis,104,105,1
+2018,Washington,Arizona,78,75,1
+2018,Oakland,IUPUI,82,74,1
+2018,Boston College,Georgia Tech,80,72,1
+2018,Ohio St,Illinois,75,67,1
+2018,Villanova,Seton Hall,92,76,1
+2018,Marist,Iona,64,98,1
+2018,Navy,Colgate,64,69,1
+2018,Maryland,Wisconsin,68,63,1
+2018,South Florida,Tulsa,54,63,1
+2018,Monmouth,Niagara,91,96,1
+2018,St Peters,Canisius,58,73,1
+2018,Detroit Mercy,IL-Chicago,69,78,1
+2018,Quinnipiac,Rider,59,74,1
+2018,Tulane,Temple,76,83,1
+2018,Washington St,Arizona St,78,88,1
+2018,North Carolina A&T,Delaware St,54,51,1
+2018,MD-Eastern Shore,Florida A&M,62,61,1
+2018,Morgan St,Howard,97,61,1
+2018,Miss Valley St,Alabama A&M,77,67,1
+2018,AR-Pine Bluff,Alabama St,59,65,1
+2018,Louisville,Syracuse,73,78,1
+2018,Rutgers,Indiana,43,65,1
+2018,Fairfield,Siena,78,65,1
+2018,Lehigh,Bucknell,92,89,1
+2018,NC-Central,Hampton,70,86,1
+2018,Bethune-Cookman,Norfolk St,79,83,1
+2018,South Carolina St,Coppin St,60,84,1
+2018,Grambling St,Alcorn St,81,72,1
+2018,Oklahoma,West Virginia,73,75,1
+2018,Jackson St,Southern U,62,67,1
+2018,Davidson,St Josephs,91,62,1
+2018,Western Michigan,Miami-OH,68,64,1
+2018,Butler,Xavier,93,98,1
+2018,Northwestern,Michigan,61,52,1
+2018,Kentucky,Tennessee,59,61,1
+2018,Arkansas,South Carolina,81,65,1
+2018,Mississippi St,Alabama,67,63,1
+2018,Cincinnati,UCF,77,40,1
+2018,Indiana St,Missouri St,62,81,1
+2018,Ohio,Akron,99,75,1
+2018,Ball St,Bowling Green,59,56,1
+2018,Central Michigan,Buffalo,82,88,1
+2018,Toledo,Northern Illinois,82,77,1
+2018,Kent St,Eastern Michigan,67,71,1
+2018,Princeton,Pennsylvania,65,82,1
+2018,Notre Dame,Boston College,96,85,1
+2018,Oklahoma St,Baylor,56,67,1
+2018,Providence,Georgetown,73,69,1
+2018,Iowa,Michigan St,93,96,1
+2018,Minnesota,Nebraska,85,91,1
+2018,Ole Miss,Missouri,69,75,1
+2018,Memphis,Wichita St,65,85,1
+2018,Kansas,TCU,71,64,1
+2018,Air Force,Colorado St,78,73,1
+2018,New Mexico,Boise St,71,73,1
+2018,Fresno St,San Diego St,79,61,1
+2018,Loyola-Chicago,Drake,72,57,1
+2018,Dayton,Duquesne,88,73,1
+2018,George Washington,La Salle,80,69,1
+2018,Richmond,VCU,77,76,1
+2018,Winthrop,Presbyterian,63,49,1
+2018,Penn St,Maryland,74,70,1
+2018,Florida,LSU,73,64,1
+2018,Florida St,Virginia,55,59,1
+2018,Miami-FL,Wake Forest,87,81,1
+2018,UConn,South Florida,68,65,1
+2018,Temple,East Carolina,90,73,1
+2018,Seton Hall,Marquette,85,88,1
+2018,Villanova,St Johns,75,79,1
+2018,Furman,NC-Greensboro,67,80,1
+2018,Wofford,Samford,92,79,1
+2018,Fordham,George Mason,67,66,1
+2018,St Bonaventure,St Louis,79,56,1
+2018,Lafayette,Army,81,54,1
+2018,Colgate,Boston U,74,60,1
+2018,Gardner-Webb,Campbell,70,78,1
+2018,Radford,High Point,60,61,1
+2018,Longwood,NC-Asheville,73,78,1
+2018,Holy Cross,Navy,34,69,1
+2018,Northwestern St,Lamar,75,79,1
+2018,Sam Houston St,Texas A&M-CC,66,64,1
+2018,Loyola-MD,American U,72,69,1
+2018,Charleston Southern,Liberty,87,75,1
+2018,Abilene Christian,Nicholls St,65,69,1
+2018,Houston Christian,Central Arkansas,80,100,1
+2018,Incarnate Word,SE Louisiana,68,86,1
+2018,Texas,Kansas St,64,67,1
+2018,Northern Iowa,Bradley,74,65,1
+2018,Evansville,Valparaiso,63,59,1
+2018,Purdue,Ohio St,63,64,1
+2018,Vanderbilt,Georgia,81,66,1
+2018,Virginia Tech,North Carolina St,85,75,1
+2018,Auburn,Texas A&M,80,81,1
+2018,DePaul,Creighton,75,76,1
+2018,Texas Tech,Iowa St,76,58,1
+2018,Wyoming,Utah St,83,65,1
+2018,UC-Irvine,Cal St-Northridge,77,56,1
+2018,Colorado,California,68,64,1
+2018,Nevada,UNLV,78,86,1
+2018,Hawaii,UC-Riverside,60,64,1
+2018,Pacific,Gonzaga,61,71,1
+2018,Loyola Marymount,St Marys,62,83,1
+2018,Pepperdine,San Diego,66,68,1
+2018,San Francisco,Portland,65,63,1
+2018,Chattanooga,Citadel,85,82,1
+2018,Binghamton,UMBC,68,78,1
+2018,Troy,Arkansas St,89,83,1
+2018,New Mexico St,Cal St-Bakersfield,69,43,1
+2018,Central Conn St,Mt St Marys,57,71,1
+2018,Fairleigh Dickinson,Sacred Heart,77,67,1
+2018,Montana,Portland St,80,60,1
+2018,Weber St,North Dakota,84,76,1
+2018,Idaho St,Northern Colorado,82,85,1
+2018,Northern Kentucky,WI-Milwaukee,54,52,1
+2018,UC-Davis,UC-Santa Barbara,81,90,1
+2018,Middle Tenn St,Rice,94,75,1
+2018,Western Kentucky,Florida Atlantic,75,63,1
+2018,UAB,North Texas,60,67,1
+2018,Marshall,Florida Intl,76,66,1
+2018,Wagner,Bryant,96,76,1
+2018,Clemson,Pittsburgh,72,48,1
+2018,Louisville,Georgia Tech,77,54,1
+2018,Tulsa,Tulane,91,89,1
+2018,VMI,Western Carolina,60,72,1
+2018,Albany,Vermont,67,72,1
+2018,Coll of Charleston,William & Mary,82,77,1
+2018,LIU-Brooklyn,St Francis-PA,83,67,1
+2018,St Francis-NY,Robert Morris,77,65,1
+2018,Jacksonville St,Tennessee Tech,82,65,1
+2018,Rider,Manhattan,77,73,1
+2018,Iona,Monmouth,50,72,1
+2018,St Peters,Marist,70,66,1
+2018,Niagara,Quinnipiac,95,76,1
+2018,Canisius,Siena,89,65,1
+2018,Delaware,Northeastern,67,70,1
+2018,Drexel,Towson,92,94,1
+2018,Elon,Hofstra,48,67,1
+2018,New Hampshire,Maine,71,56,1
+2018,Stony Brook,MA-Lowell,81,68,1
+2018,NJIT,FL-Gulf Coast,70,75,1
+2018,Kennesaw St,North Florida,89,81,1
+2018,SC-Upstate,Stetson,91,79,1
+2018,IUPUI,Cleveland St,78,73,1
+2018,Georgia St,Louisiana,106,92,1
+2018,McNeese St,Stephen F Austin,95,99,1
+2018,GA-Southern,LA-Monroe,64,66,1
+2018,Morehead St,SE Missouri St,62,78,1
+2018,Lipscomb,Jacksonville,82,59,1
+2018,Wright St,Green Bay,68,64,1
+2018,Louisiana Tech,Charlotte,83,65,1
+2018,North Carolina,Duke,82,78,1
+2018,Utah,Stanford,75,60,1
+2018,NE-Omaha,Western Illinois,71,68,1
+2018,South Dakota,IPFW,86,69,1
+2018,Oral Roberts,North Dakota St,67,66,1
+2018,TX-Rio Grande,Grand Canyon,83,81,1
+2018,Chicago St,Utah Valley St,57,97,1
+2018,Kansas City,Seattle,74,67,1
+2018,Murray St,Austin Peay,84,63,1
+2018,SIU-Edwardsville,Eastern Illinois,74,78,1
+2018,Eastern Kentucky,TN-Martin,69,70,1
+2018,IL-Chicago,Youngstown St,100,75,1
+2018,Southern Miss,Old Dominion,63,68,1
+2018,South Alabama,AR-Little Rock,73,56,1
+2018,Tennessee St,Belmont,64,56,1
+2018,Illinois,Wisconsin,69,78,1
+2018,Houston,SMU,67,58,1
+2018,Denver,South Dakota St,77,81,1
+2018,Illinois St,Southern Illinois,76,68,1
+2018,Montana St,Sacramento St,92,76,1
+2018,Oregon,Washington,65,40,1
+2018,Arizona,UCLA,74,82,1
+2018,Cal St-Fullerton,Cal Poly,75,59,1
+2018,Oregon St,Washington St,94,62,1
+2018,BYU,Santa Clara,80,58,1
+2018,Arizona St,USC,80,78,1
+2018,Howard,Hampton,81,95,1
+2018,Yale,Columbia,88,84,1
+2018,Oakland,Detroit Mercy,87,78,1
+2018,Rhode Island,Davidson,72,59,1
+2018,Brown,Cornell,60,78,1
+2018,Dartmouth,Pennsylvania,61,64,1
+2018,Harvard,Princeton,66,51,1
+2018,Indiana,Minnesota,80,56,1
+2018,Idaho,Eastern Washington,66,64,1
+2018,Ball St,Kent St,87,68,1
+2018,Miami-OH,Toledo,67,73,1
+2018,Michigan St,Purdue,68,65,1
+2018,Ohio St,Iowa,82,64,1
+2018,BYU,San Francisco,75,73,1
+2018,Loyola Marymount,Pepperdine,85,79,1
+2018,Pacific,Portland,60,58,1
+2018,Santa Clara,San Diego,70,64,1
+2018,Texas A&M,Kentucky,85,74,1
+2018,Wichita St,UConn,95,74,1
+2018,Chattanooga,Mercer,75,84,1
+2018,Nicholls St,Houston Christian,94,67,1
+2018,Duquesne,Fordham,57,80,1
+2018,George Mason,George Washington,72,65,1
+2018,St Louis,La Salle,70,62,1
+2018,St Josephs,UMass,85,73,1
+2018,Northern Illinois,Buffalo,90,88,1
+2018,Akron,Central Michigan,69,63,1
+2018,Western Michigan,Ohio,69,60,1
+2018,Troy,AR-Little Rock,82,64,1
+2018,New Mexico St,Grand Canyon,74,70,1
+2018,LIU-Brooklyn,Robert Morris,82,96,1
+2018,Idaho St,North Dakota,82,67,1
+2018,Weber St,Northern Colorado,71,66,1
+2018,Northern Arizona,Southern Utah,54,63,1
+2018,Montana St,Portland St,77,80,1
+2018,Wright St,WI-Milwaukee,73,74,1
+2018,UC-Davis,Cal St-Fullerton,66,68,1
+2018,Marshall,Florida Atlantic,79,68,1
+2018,Middle Tenn St,North Texas,79,73,1
+2018,UAB,Rice,61,56,1
+2018,Western Kentucky,Florida Intl,83,76,1
+2018,Savannah St,Morgan St,97,94,1
+2018,South Carolina St,North Carolina A&T,90,85,1
+2018,TX-Southern,Jackson St,86,75,1
+2018,Maryland,Northwestern,73,57,1
+2018,South Carolina,Florida,41,65,1
+2018,South Florida,Temple,55,73,1
+2018,St Johns,Marquette,86,78,1
+2018,Villanova,Butler,86,75,1
+2018,West Virginia,Oklahoma St,85,88,1
+2018,St Peters,Iona,77,86,1
+2018,VMI,East Tennessee St,56,70,1
+2018,Bryant,Mt St Marys,79,77,1
+2018,Boston U,Holy Cross,62,73,1
+2018,IUPUI,Youngstown St,80,84,1
+2018,Army,Navy,59,68,1
+2018,North Carolina St,North Carolina,89,96,1
+2018,Boston College,Miami-FL,72,70,1
+2018,Missouri,Mississippi St,89,85,1
+2018,Baylor,Kansas,80,64,1
+2018,Iowa St,Oklahoma,88,80,1
+2018,TCU,Texas,87,71,1
+2018,Indiana St,Loyola-Chicago,71,75,1
+2018,SIU-Edwardsville,Murray St,66,75,1
+2018,Canisius,Quinnipiac,71,64,1
+2018,William & Mary,Delaware,83,66,1
+2018,American U,Lehigh,78,80,1
+2018,NC-Asheville,Radford,66,64,1
+2018,Georgia St,LA-Monroe,82,90,1
+2018,Creighton,Xavier,71,72,1
+2018,Denver,North Dakota St,66,63,1
+2018,Missouri St,Evansville,72,55,1
+2018,Chicago St,Seattle,81,91,1
+2018,Niagara,Fairfield,95,83,1
+2018,Georgia,Auburn,61,78,1
+2018,Coastal Carolina,Appalachian St,66,81,1
+2018,Notre Dame,Florida St,84,69,1
+2018,Nebraska,Rutgers,67,55,1
+2018,LSU,Ole Miss,82,66,1
+2018,Georgetown,Seton Hall,83,80,1
+2018,Providence,DePaul,63,80,1
+2018,Drake,Northern Iowa,71,64,1
+2018,St Bonaventure,Richmond,97,88,1
+2018,Bowling Green,Eastern Michigan,70,63,1
+2018,Central Conn St,Sacred Heart,50,67,1
+2018,St Francis-NY,St Francis-PA,65,90,1
+2018,Coll of Charleston,Drexel,89,67,1
+2018,Towson,Northeastern,62,77,1
+2018,Harvard,Pennsylvania,76,67,1
+2018,Air Force,New Mexico,100,92,1
+2018,Colorado St,San Jose St,90,79,1
+2018,SC-Upstate,FL-Gulf Coast,71,88,1
+2018,NJIT,Stetson,80,84,1
+2018,Presbyterian,Charleston Southern,54,64,1
+2018,Bethune-Cookman,MD-Eastern Shore,87,67,1
+2018,Alabama A&M,Alabama St,50,69,1
+2018,South Alabama,Arkansas St,87,67,1
+2018,Eastern Illinois,Austin Peay,69,76,1
+2018,Furman,Wofford,76,52,1
+2018,McNeese St,SE Louisiana,67,74,1
+2018,Kennesaw St,Jacksonville,78,54,1
+2018,Campbell,Longwood,88,54,1
+2018,NC-Greensboro,Western Carolina,65,48,1
+2018,Abilene Christian,Incarnate Word,80,69,1
+2018,GA-Southern,Louisiana,91,102,1
+2018,Lipscomb,North Florida,82,75,1
+2018,Southern Miss,Charlotte,72,54,1
+2018,TX-Arlington,Texas St,70,68,1
+2018,Virginia,Virginia Tech,60,61,1
+2018,Alabama,Tennessee,78,50,1
+2018,VCU,Dayton,88,84,1
+2018,Brown,Columbia,91,88,1
+2018,Florida A&M,NC-Central,65,56,1
+2018,Hampton,Norfolk St,82,52,1
+2018,Alcorn St,Miss Valley St,94,90,1
+2018,Prairie View A&M,Grambling St,85,90,1
+2018,Southern U,AR-Pine Bluff,70,62,1
+2018,Arizona St,UCLA,88,79,1
+2018,Stephen F Austin,Northwestern St,97,50,1
+2018,Eastern Kentucky,Morehead St,75,73,1
+2018,TN-Martin,SE Missouri St,77,81,1
+2018,Marist,Rider,79,89,1
+2018,Manhattan,Monmouth,93,76,1
+2018,NC-Wilmington,Hofstra,90,70,1
+2018,Yale,Cornell,74,65,1
+2018,Dartmouth,Princeton,72,56,1
+2018,Northern Kentucky,Green Bay,86,80,1
+2018,High Point,Winthrop,70,82,1
+2018,Liberty,Gardner-Webb,77,65,1
+2018,Louisiana Tech,Old Dominion,69,82,1
+2018,Sam Houston St,Lamar,71,69,1
+2018,Samford,Citadel,116,103,1
+2018,Texas A&M-CC,New Orleans,53,62,1
+2018,Kansas St,Texas Tech,47,66,1
+2018,NE-Omaha,IPFW,90,85,1
+2018,Oral Roberts,South Dakota St,75,85,1
+2018,TX-Rio Grande,Cal St-Bakersfield,68,66,1
+2018,Kansas City,Utah Valley St,77,70,1
+2018,Jacksonville St,Tennessee St,47,65,1
+2018,Nevada,San Diego St,83,58,1
+2018,UNLV,Wyoming,85,70,1
+2018,IL-Chicago,Cleveland St,78,86,1
+2018,UC-Riverside,UC-Irvine,52,62,1
+2018,Arkansas,Vanderbilt,72,54,1
+2018,Tennessee Tech,Belmont,70,75,1
+2018,Montana,Sacramento St,71,69,1
+2018,Utah St,Boise St,71,65,1
+2018,UTEP,UTSA,59,63,1
+2018,Utah,California,77,43,1
+2018,St Marys,Gonzaga,65,78,1
+2018,Oregon St,Washington,97,94,1
+2018,Arizona,USC,81,67,1
+2018,Long Beach St,Cal Poly,73,54,1
+2018,Hawaii,Cal St-Northridge,71,77,1
+2018,Lafayette,Loyola-MD,84,67,1
+2018,Pittsburgh,Louisville,60,94,1
+2018,Wisconsin,Michigan,72,83,1
+2018,Syracuse,Wake Forest,78,70,1
+2018,New Hampshire,UMBC,59,68,1
+2018,Hartford,Albany,63,69,1
+2018,Fairleigh Dickinson,Wagner,76,69,1
+2018,Maine,Stony Brook,61,64,1
+2018,Vermont,MA-Lowell,81,69,1
+2018,Houston,Tulane,73,42,1
+2018,Memphis,UCF,64,68,1
+2018,SMU,Cincinnati,51,76,1
+2018,Colorado,Stanford,64,56,1
+2018,Southern Illinois,Bradley,74,57,1
+2018,Valparaiso,Illinois St,74,58,1
+2018,Georgia Tech,Duke,69,80,1
+2018,Illinois,Penn St,52,74,1
+2018,Oregon,Washington St,84,57,1
+2018,Norfolk St,Delaware St,93,58,1
+2018,Savannah St,North Carolina A&T,108,106,1
+2018,North Carolina,Notre Dame,83,66,1
+2018,NC-Greensboro,East Tennessee St,74,56,1
+2018,Canisius,Fairfield,81,63,1
+2018,Siena,Iona,82,78,1
+2018,Bucknell,Colgate,65,64,1
+2018,Bethune-Cookman,NC-Central,99,81,1
+2018,Coppin St,Hampton,79,82,1
+2018,MD-Eastern Shore,Howard,56,84,1
+2018,Samford,Mercer,69,74,1
+2018,Florida A&M,Morgan St,48,74,1
+2018,Alcorn St,AR-Pine Bluff,84,52,1
+2018,TX-Southern,Grambling St,55,78,1
+2018,Southern U,Miss Valley St,55,51,1
+2018,Prairie View A&M,Jackson St,63,58,1
+2018,Texas,Baylor,73,74,1
+2018,West Virginia,TCU,82,66,1
+2018,Northern Illinois,Central Michigan,72,80,1
+2018,Monmouth,St Peters,73,57,1
+2018,Butler,Georgetown,83,87,1
+2018,Pittsburgh,Boston College,58,81,1
+2018,Nebraska,Maryland,70,66,1
+2018,Missouri,Texas A&M,62,58,1
+2018,Ole Miss,Arkansas,64,75,1
+2018,Iowa St,Kansas,77,83,1
+2018,La Salle,St Bonaventure,68,79,1
+2018,Bowling Green,Western Michigan,83,81,1
+2018,Buffalo,Kent St,84,72,1
+2018,Toledo,Ohio,82,74,1
+2018,Eastern Michigan,Miami-OH,58,57,1
+2018,Northern Iowa,Evansville,47,41,1
+2018,Rhode Island,Richmond,85,67,1
+2018,Miami-FL,Virginia,50,59,1
+2018,Minnesota,Michigan St,57,87,1
+2018,Rutgers,Northwestern,67,58,1
+2018,Tennessee,South Carolina,70,67,1
+2018,Alabama,LSU,80,65,1
+2018,Texas Tech,Oklahoma,88,78,1
+2018,Akron,Ball St,77,90,1
+2018,James Madison,NC-Wilmington,62,61,1
+2018,Northwestern St,Houston Christian,70,77,1
+2018,Nicholls St,Sam Houston St,73,72,1
+2018,Loyola-Chicago,Valparaiso,80,71,1
+2018,George Mason,Dayton,85,67,1
+2018,UMass,George Washington,72,83,1
+2018,UCF,South Florida,72,57,1
+2018,Michigan,Iowa,74,59,1
+2018,Duke,Virginia Tech,74,52,1
+2018,Florida St,Clemson,81,79,1
+2018,Vanderbilt,Mississippi St,81,80,1
+2018,Providence,Villanova,76,71,1
+2018,Oklahoma St,Kansas St,72,82,1
+2018,IPFW,Western Illinois,90,74,1
+2018,VCU,Davidson,63,74,1
+2018,Fordham,St Josephs,55,71,1
+2018,American U,Boston U,60,56,1
+2018,Army,Holy Cross,65,70,1
+2018,Bucknell,Loyola-MD,94,53,1
+2018,Colgate,Lehigh,78,88,1
+2018,Navy,Lafayette,71,69,1
+2018,Cleveland St,Detroit Mercy,75,72,1
+2018,Youngstown St,Oakland,75,73,1
+2018,Tulane,East Carolina,80,82,1
+2018,Central Arkansas,McNeese St,72,76,1
+2018,SE Louisiana,New Orleans,71,64,1
+2018,Texas A&M-CC,Stephen F Austin,68,87,1
+2018,Lamar,Incarnate Word,85,62,1
+2018,Oral Roberts,South Dakota,67,85,1
+2018,Drake,Indiana St,90,76,1
+2018,Bradley,Illinois St,70,58,1
+2018,Southern Illinois,Missouri St,81,80,1
+2018,Indiana,Illinois,78,68,1
+2018,Wake Forest,Georgia Tech,79,62,1
+2018,Syracuse,North Carolina St,70,74,1
+2018,Auburn,Kentucky,76,66,1
+2018,Florida,Georgia,69,72,1
+2018,SMU,Memphis,67,70,1
+2018,DePaul,St Johns,76,77,1
+2018,Xavier,Seton Hall,102,90,1
+2018,Denver,NE-Omaha,94,78,1
+2018,New Mexico,Utah St,78,63,1
+2018,UNLV,Air Force,81,73,1
+2018,San Jose St,Fresno St,57,77,1
+2018,Cal St-Northridge,UC-Riverside,62,69,1
+2018,Boise St,Nevada,72,77,1
+2018,San Diego St,Wyoming,87,77,1
+2018,Pepperdine,BYU,70,75,1
+2018,Gonzaga,Loyola Marymount,76,46,1
+2018,San Diego,Pacific,55,67,1
+2018,Portland,Santa Clara,72,81,1
+2018,San Francisco,St Marys,70,63,1
+2018,Western Carolina,Wofford,69,84,1
+2018,Sacred Heart,Wagner,84,99,1
+2018,Portland St,Weber St,86,95,1
+2018,Sacramento St,Idaho St,64,67,1
+2018,North Dakota,Southern Utah,61,57,1
+2018,Northern Colorado,Northern Arizona,95,60,1
+2018,Vermont,New Hampshire,71,58,1
+2018,Stetson,Lipscomb,73,82,1
+2018,Gardner-Webb,Winthrop,71,90,1
+2018,Old Dominion,UTSA,100,62,1
+2018,Charlotte,UTEP,86,87,1
+2018,North Texas,Western Kentucky,94,102,1
+2018,Citadel,NC-Greensboro,66,82,1
+2018,Wisconsin,Purdue,57,53,1
+2018,Wichita St,Temple,93,86,1
+2018,UConn,Tulsa,71,73,1
+2018,Houston,Cincinnati,67,62,1
+2018,Furman,Chattanooga,75,56,1
+2018,Mercer,VMI,82,58,1
+2018,MA-Lowell,Albany,81,91,1
+2018,Binghamton,Stony Brook,69,57,1
+2018,Robert Morris,Bryant,83,60,1
+2018,St Francis-PA,Central Conn St,77,71,1
+2018,Mt St Marys,Fairleigh Dickinson,79,80,1
+2018,St Francis-NY,LIU-Brooklyn,84,79,1
+2018,Fairfield,Marist,83,79,1
+2018,Quinnipiac,Manhattan,71,70,1
+2018,Rider,Siena,97,71,1
+2018,James Madison,Coll of Charleston,78,81,1
+2018,Towson,Delaware,67,65,1
+2018,Northeastern,Drexel,75,69,1
+2018,NC-Wilmington,Elon,87,63,1
+2018,Hofstra,William & Mary,90,84,1
+2018,Hartford,Maine,67,63,1
+2018,FL-Gulf Coast,Kennesaw St,93,97,1
+2018,Jacksonville,NJIT,69,71,1
+2018,North Florida,SC-Upstate,109,100,1
+2018,Radford,Campbell,72,53,1
+2018,Longwood,Charleston Southern,65,77,1
+2018,Presbyterian,High Point,69,62,1
+2018,NC-Asheville,Liberty,69,82,1
+2018,Appalachian St,South Alabama,66,77,1
+2018,Coastal Carolina,Troy,65,66,1
+2018,SE Missouri St,Eastern Illinois,80,73,1
+2018,Penn St,Ohio St,79,56,1
+2018,LA-Monroe,TX-Arlington,84,71,1
+2018,Kansas City,Chicago St,76,67,1
+2018,Belmont,Eastern Kentucky,84,73,1
+2018,Murray St,Jacksonville St,68,60,1
+2018,TN-Martin,SIU-Edwardsville,69,70,1
+2018,Rice,Marshall,80,93,1
+2018,Southern Miss,Middle Tenn St,62,72,1
+2018,Louisiana,Texas St,73,63,1
+2018,Austin Peay,Tennessee Tech,80,86,1
+2018,Tennessee St,Morehead St,83,74,1
+2018,Washington,Utah,58,70,1
+2018,USC,Oregon,72,70,1
+2018,Arizona St,Arizona,70,77,1
+2018,Utah Valley St,New Mexico St,86,79,1
+2018,Louisiana Tech,UAB,73,60,1
+2018,Eastern Washington,Montana,74,65,1
+2018,Seattle,TX-Rio Grande,85,68,1
+2018,Idaho,Montana St,88,78,1
+2018,Cal Poly,UC-Davis,84,92,1
+2018,Long Beach St,UC-Santa Barbara,70,80,1
+2018,Washington St,Colorado,73,69,1
+2018,UCLA,Oregon St,75,68,1
+2018,UC-Irvine,Hawaii,61,62,1
+2018,Columbia,Pennsylvania,62,74,1
+2018,Cornell,Princeton,107,101,1
+2018,WI-Milwaukee,IUPUI,71,76,1
+2018,St Bonaventure,Rhode Island,77,74,1
+2018,Iona,Niagara,84,85,1
+2018,Monmouth,Canisius,60,78,1
+2018,Harvard,Brown,65,58,1
+2018,Dartmouth,Yale,65,77,1
+2018,Cleveland St,Oakland,66,82,1
+2018,Youngstown St,Detroit Mercy,84,94,1
+2018,Wright St,Northern Kentucky,69,67,1
+2018,GA-Southern,Georgia St,85,80,1
+2018,Green Bay,IL-Chicago,75,83,1
+2018,Buffalo,Bowling Green,95,82,1
+2018,San Diego,BYU,75,62,1
+2018,Gonzaga,Pepperdine,81,67,1
+2018,San Francisco,Loyola Marymount,72,63,1
+2018,Pacific,Santa Clara,68,72,1
+2018,Portland,St Marys,61,73,1
+2018,Chattanooga,Wofford,64,74,1
+2018,Western Carolina,East Tennessee St,61,72,1
+2018,Davidson,UMass,83,78,1
+2018,Dayton,Fordham,80,70,1
+2018,St Josephs,Duquesne,82,75,1
+2018,George Washington,VCU,80,56,1
+2018,Richmond,St Louis,66,72,1
+2018,Northern Illinois,Western Michigan,75,67,1
+2018,Kent St,Akron,78,68,1
+2018,Robert Morris,Central Conn St,58,65,1
+2018,Sacred Heart,Mt St Marys,69,74,1
+2018,Austin Peay,Jacksonville St,60,57,1
+2018,North Dakota,Northern Arizona,86,81,1
+2018,Northern Colorado,Southern Utah,97,80,1
+2018,Portland St,Idaho St,91,77,1
+2018,Columbia,Princeton,85,60,1
+2018,Old Dominion,UTEP,82,33,1
+2018,Charlotte,UTSA,89,97,1
+2018,UCF,SMU,52,37,1
+2018,Miami-FL,Syracuse,55,62,1
+2018,Georgia Tech,Virginia Tech,56,76,1
+2018,Butler,Providence,69,54,1
+2018,Oklahoma,Texas,66,77,1
+2018,Lehigh,Army,84,53,1
+2018,Boston U,Navy,48,62,1
+2018,Holy Cross,Bucknell,67,68,1
+2018,Citadel,VMI,71,75,1
+2018,Kansas St,Iowa St,78,66,1
+2018,St Francis-PA,Bryant,89,56,1
+2018,Fairfield,Quinnipiac,102,98,1
+2018,Northwestern,Michigan St,60,65,1
+2018,Iowa,Indiana,82,84,1
+2018,LSU,Missouri,64,63,1
+2018,Kentucky,Alabama,81,71,1
+2018,Samford,Furman,79,94,1
+2018,Indiana St,Southern Illinois,72,76,1
+2018,La Salle,George Mason,69,62,1
+2018,Ball St,Toledo,99,71,1
+2018,Towson,James Madison,66,69,1
+2018,Boise St,Air Force,76,52,1
+2018,Lafayette,American U,90,85,1
+2018,Florida Atlantic,Florida Intl,77,72,1
+2018,Tulane,Memphis,63,68,1
+2018,South Dakota St,Western Illinois,82,62,1
+2018,North Dakota St,IPFW,72,84,1
+2018,LA-Monroe,Texas St,79,71,1
+2018,South Carolina,Auburn,84,75,1
+2018,Ohio,Miami-OH,92,87,1
+2018,Appalachian St,Troy,65,54,1
+2018,Coastal Carolina,South Alabama,72,70,1
+2018,Boston College,Notre Dame,67,84,1
+2018,Wake Forest,North Carolina St,84,90,1
+2018,Arkansas,Texas A&M,94,75,1
+2018,Vanderbilt,Florida,71,68,1
+2018,Mercer,NC-Greensboro,77,74,1
+2018,Central Arkansas,Nicholls St,83,87,1
+2018,Incarnate Word,Stephen F Austin,70,81,1
+2018,Seattle,New Mexico St,73,63,1
+2018,St Francis-NY,Fairleigh Dickinson,87,74,1
+2018,Wagner,LIU-Brooklyn,78,74,1
+2018,Hofstra,Drexel,88,76,1
+2018,Northeastern,William & Mary,69,67,1
+2018,San Diego St,UNLV,94,56,1
+2018,Wyoming,San Jose St,89,75,1
+2018,Stetson,Kennesaw St,86,74,1
+2018,Coppin St,Bethune-Cookman,85,89,1
+2018,Delaware St,Florida A&M,63,66,1
+2018,North Carolina A&T,Howard,83,69,1
+2018,NC-Central,MD-Eastern Shore,77,49,1
+2018,Xavier,Villanova,79,95,1
+2018,South Dakota,NE-Omaha,79,64,1
+2018,Central Michigan,Eastern Michigan,67,72,1
+2018,UC-Santa Barbara,UC-Davis,54,71,1
+2018,Southern Miss,UAB,69,87,1
+2018,Miss Valley St,TX-Southern,71,72,1
+2018,Eastern Washington,Montana St,84,79,1
+2018,New Orleans,McNeese St,90,74,1
+2018,SE Missouri St,SIU-Edwardsville,79,74,1
+2018,Lamar,Texas A&M-CC,79,76,1
+2018,Georgia,Tennessee,73,62,1
+2018,SE Louisiana,Abilene Christian,68,54,1
+2018,Kansas,West Virginia,77,69,1
+2018,Illinois St,Northern Iowa,79,75,1
+2018,Utah St,Nevada,87,93,1
+2018,Jacksonville,SC-Upstate,82,70,1
+2018,North Texas,Marshall,72,74,1
+2018,Alabama St,Southern U,67,71,1
+2018,Hampton,South Carolina St,79,66,1
+2018,Belmont,Morehead St,108,65,1
+2018,Cornell,Pennsylvania,71,79,1
+2018,Norfolk St,Savannah St,85,77,1
+2018,Alabama A&M,Alcorn St,60,80,1
+2018,Grambling St,Jackson St,71,64,1
+2018,TN-Martin,Eastern Illinois,57,64,1
+2018,Marist,St Peters,69,51,1
+2018,NC-Wilmington,Coll of Charleston,74,88,1
+2018,Delaware,Elon,72,57,1
+2018,Dartmouth,Brown,66,63,1
+2018,Fresno St,Colorado St,86,65,1
+2018,FL-Gulf Coast,Lipscomb,87,90,1
+2018,North Florida,NJIT,86,75,1
+2018,Louisiana Tech,Middle Tenn St,70,87,1
+2018,Baylor,Texas Tech,59,57,1
+2018,Louisville,North Carolina,76,93,1
+2018,Maryland,Rutgers,61,51,1
+2018,Washington,Colorado,82,59,1
+2018,Houston Christian,Sam Houston St,78,86,1
+2018,TCU,Oklahoma St,90,70,1
+2018,Valparaiso,Bradley,77,64,1
+2018,Arkansas St,AR-Little Rock,78,82,1
+2018,Louisiana,TX-Arlington,100,79,1
+2018,Murray St,Tennessee Tech,75,65,1
+2018,Rice,Western Kentucky,66,85,1
+2018,AR-Pine Bluff,Prairie View A&M,71,76,1
+2018,Mississippi St,Ole Miss,79,62,1
+2018,Tennessee St,Eastern Kentucky,59,72,1
+2018,Utah Valley St,TX-Rio Grande,84,72,1
+2018,Cal St-Fullerton,Cal St-Northridge,88,70,1
+2018,Harvard,Yale,64,49,1
+2018,Washington St,Utah,70,77,1
+2018,Creighton,Marquette,86,90,1
+2018,Cal St-Bakersfield,Grand Canyon,71,58,1
+2018,Idaho,Montana,79,77,1
+2018,Sacramento St,Weber St,73,83,1
+2018,Cal Poly,UC-Irvine,58,75,1
+2018,UCLA,Oregon,86,78,1
+2018,UC-Riverside,Hawaii,69,74,1
+2018,USC,Oregon St,72,59,1
+2018,Stony Brook,New Hampshire,72,63,1
+2018,High Point,Gardner-Webb,66,65,1
+2018,Winthrop,Longwood,79,64,1
+2018,Clemson,Duke,57,66,1
+2018,Michigan,Ohio St,74,62,1
+2018,Seton Hall,DePaul,82,77,1
+2018,UMBC,Albany,68,60,1
+2018,MA-Lowell,Binghamton,74,69,1
+2018,Siena,Monmouth,89,93,1
+2018,Manhattan,Niagara,82,72,1
+2018,Rider,Canisius,83,82,1
+2018,Vermont,Hartford,68,69,1
+2018,Loyola-MD,Colgate,47,68,1
+2018,Campbell,Liberty,79,69,1
+2018,East Carolina,UConn,80,84,1
+2018,Tulsa,South Florida,73,61,1
+2018,Denver,Oral Roberts,66,65,1
+2018,Radford,Presbyterian,74,68,1
+2018,Illinois,Nebraska,72,66,1
+2018,Cincinnati,Wichita St,72,76,1
+2018,Temple,Houston,59,80,1
+2018,Evansville,Loyola-Chicago,66,76,1
+2018,Missouri St,Drake,63,67,1
+2018,Charleston Southern,NC-Asheville,80,85,1
+2018,Florida St,Pittsburgh,88,75,1
+2018,Purdue,Penn St,76,73,1
+2018,California,Stanford,73,77,1
+2018,Alabama A&M,Southern U,50,60,1
+2018,AR-Pine Bluff,TX-Southern,62,61,1
+2018,Alabama St,Alcorn St,82,62,1
+2018,Notre Dame,Miami-FL,74,77,1
+2018,Northwestern,Maryland,64,71,1
+2018,IUPUI,Oakland,74,67,1
+2018,NC-Central,Howard,83,66,1
+2018,Hampton,Savannah St,114,102,1
+2018,Wright St,Cleveland St,72,63,1
+2018,Northern Kentucky,Youngstown St,70,51,1
+2018,Morgan St,Bethune-Cookman,95,96,1
+2018,Delaware St,Coppin St,69,51,1
+2018,North Carolina A&T,MD-Eastern Shore,78,69,1
+2018,IL-Chicago,Detroit Mercy,94,87,1
+2018,Norfolk St,South Carolina St,76,62,1
+2018,Miss Valley St,Prairie View A&M,76,71,1
+2018,Wisconsin,Minnesota,73,63,1
+2018,Kansas,Oklahoma,104,74,1
+2018,Western Michigan,Central Michigan,83,81,1
+2018,North Carolina St,Boston College,82,66,1
+2018,Michigan St,Illinois,81,61,1
+2018,Ohio St,Rutgers,79,52,1
+2018,Texas A&M,Mississippi St,81,93,1
+2018,Butler,Creighton,93,70,1
+2018,Wofford,NC-Greensboro,66,76,1
+2018,Furman,VMI,76,54,1
+2018,East Tennessee St,Citadel,82,84,1
+2018,Mercer,Western Carolina,81,64,1
+2018,Baylor,West Virginia,60,71,1
+2018,La Salle,Rhode Island,93,95,1
+2018,Bowling Green,Akron,79,81,1
+2018,Ohio,Kent St,88,76,1
+2018,Eastern Michigan,Toledo,85,79,1
+2018,Ball St,Northern Illinois,77,68,1
+2018,Miami-OH,Buffalo,84,81,1
+2018,Nebraska,Indiana,66,57,1
+2018,Missouri,Ole Miss,87,90,1
+2018,Arkansas,Kentucky,72,87,1
+2018,LSU,Vanderbilt,88,78,1
+2018,Valparaiso,Northern Iowa,63,68,1
+2018,Dayton,St Louis,53,50,1
+2018,Wyoming,New Mexico,114,119,1
+2018,Illinois St,Drake,89,81,1
+2018,Davidson,Fordham,76,52,1
+2018,St Bonaventure,Duquesne,73,67,1
+2018,St Josephs,George Mason,76,79,1
+2018,George Washington,Richmond,103,77,1
+2018,UMass,VCU,78,82,1
+2018,UMBC,Stony Brook,57,64,1
+2018,Colgate,Army,87,83,1
+2018,South Carolina,Georgia,66,57,1
+2018,Georgetown,Xavier,77,89,1
+2018,Virginia,Georgia Tech,65,54,1
+2018,Virginia Tech,Clemson,65,58,1
+2018,Syracuse,North Carolina,74,78,1
+2018,Penn St,Michigan,63,72,1
+2018,East Carolina,SMU,58,77,1
+2018,Oklahoma St,Texas Tech,79,71,1
+2018,Indiana St,Evansville,58,53,1
+2018,Vermont,Binghamton,75,54,1
+2018,Siena,Fairfield,69,70,1
+2018,Niagara,Canisius,88,95,1
+2018,Hartford,New Hampshire,65,56,1
+2018,MA-Lowell,Maine,88,76,1
+2018,Holy Cross,American U,70,64,1
+2018,Boston U,Lafayette,81,65,1
+2018,Bucknell,Navy,85,61,1
+2018,Loyola-MD,Lehigh,74,80,1
+2018,Wichita St,Tulane,93,86,1
+2018,Sam Houston St,New Orleans,57,54,1
+2018,McNeese St,Nicholls St,79,96,1
+2018,Stephen F Austin,Central Arkansas,97,62,1
+2018,Houston Christian,Lamar,73,87,1
+2018,Incarnate Word,Northwestern St,54,66,1
+2018,Iowa St,TCU,83,89,1
+2018,Missouri St,Bradley,78,82,1
+2018,Southern Illinois,Loyola-Chicago,56,75,1
+2018,Auburn,Alabama,90,71,1
+2018,Marquette,St Johns,85,73,1
+2018,Villanova,DePaul,93,62,1
+2018,Duke,Louisville,82,56,1
+2018,Pittsburgh,Wake Forest,57,63,1
+2018,Minnesota,Iowa,86,82,1
+2018,Tennessee,Florida,62,57,1
+2018,Tulsa,UCF,70,61,1
+2018,Kansas St,Texas,58,48,1
+2018,Colorado St,Boise St,54,87,1
+2018,Air Force,San Diego St,56,67,1
+2018,UNLV,Fresno St,64,77,1
+2018,Nevada,San Jose St,80,67,1
+2018,Colorado,USC,64,75,1
+2018,UC-Riverside,Cal St-Fullerton,69,65,1
+2018,Santa Clara,Loyola Marymount,64,65,1
+2018,Pacific,San Francisco,74,84,1
+2018,St Marys,Pepperdine,75,61,1
+2018,Troy,Louisiana,76,81,1
+2018,New Mexico St,Chicago St,78,67,1
+2018,Central Conn St,Wagner,62,64,1
+2018,Southern Utah,Portland St,91,96,1
+2018,William & Mary,NC-Wilmington,96,83,1
+2018,UTSA,Southern Miss,64,56,1
+2018,Western Kentucky,Charlotte,93,55,1
+2018,Marshall,Old Dominion,79,84,1
+2018,Fairleigh Dickinson,St Francis-PA,82,90,1
+2018,Northwestern,Wisconsin,64,70,1
+2018,Illinois,Purdue,86,93,1
+2018,Cincinnati,UConn,77,52,1
+2018,Bryant,Sacred Heart,84,94,1
+2018,LIU-Brooklyn,St Francis-NY,81,76,1
+2018,Mt St Marys,Robert Morris,72,53,1
+2018,Monmouth,Rider,91,77,1
+2018,Coll of Charleston,Elon,79,58,1
+2018,Drexel,Delaware,85,83,1
+2018,James Madison,Hofstra,61,77,1
+2018,Northeastern,Towson,80,75,1
+2018,Stetson,FL-Gulf Coast,60,76,1
+2018,Jacksonville,North Florida,86,81,1
+2018,SC-Upstate,NJIT,67,76,1
+2018,Detroit Mercy,WI-Milwaukee,49,72,1
+2018,Oakland,Green Bay,90,96,1
+2018,Presbyterian,Gardner-Webb,63,78,1
+2018,High Point,Longwood,75,56,1
+2018,Liberty,Radford,50,63,1
+2018,NC-Asheville,Winthrop,89,75,1
+2018,Florida Atlantic,Rice,76,79,1
+2018,Morehead St,TN-Martin,70,53,1
+2018,Lipscomb,Kennesaw St,83,74,1
+2018,Charleston Southern,Campbell,72,68,1
+2018,South Dakota St,South Dakota,76,72,1
+2018,Western Illinois,North Dakota St,82,74,1
+2018,NE-Omaha,Oral Roberts,75,83,1
+2018,AR-Little Rock,Coastal Carolina,60,65,1
+2018,TX-Arlington,GA-Southern,83,63,1
+2018,TX-Rio Grande,Kansas City,59,83,1
+2018,SIU-Edwardsville,Austin Peay,82,86,1
+2018,Jacksonville St,Belmont,78,67,1
+2018,Eastern Kentucky,SE Missouri St,91,88,1
+2018,South Alabama,LA-Monroe,62,66,1
+2018,Arkansas St,Appalachian St,82,79,1
+2018,Texas St,Georgia St,50,77,1
+2018,Eastern Illinois,Murray St,66,76,1
+2018,Tennessee Tech,Tennessee St,69,64,1
+2018,Northern Arizona,Sacramento St,58,53,1
+2018,San Diego,Gonzaga,72,77,1
+2018,Memphis,Houston,91,85,1
+2018,Oregon St,Arizona,65,75,1
+2018,Stanford,Washington,94,78,1
+2018,Utah,UCLA,84,78,1
+2018,Grand Canyon,Seattle,76,64,1
+2018,Idaho St,Idaho,86,83,1
+2018,Weber St,Eastern Washington,70,75,1
+2018,UTEP,Louisiana Tech,74,72,1
+2018,Cal St-Bakersfield,Utah Valley St,47,70,1
+2018,Cal Poly,Cal St-Northridge,90,86,1
+2018,UC-Irvine,UC-Santa Barbara,69,49,1
+2018,Portland,BYU,60,72,1
+2018,California,Washington St,76,78,1
+2018,Oregon,Arizona St,75,68,1
+2018,Florida Intl,North Texas,69,68,1
+2018,Hawaii,Long Beach St,74,63,1
+2018,Providence,Seton Hall,77,89,1
+2018,Abilene Christian,Texas A&M-CC,67,76,1
+2018,Ball St,Western Michigan,80,87,1
+2018,Iona,Manhattan,88,75,1
+2018,Pennsylvania,Dartmouth,74,46,1
+2018,IUPUI,Wright St,66,56,1
+2018,Citadel,Mercer,70,83,1
+2018,East Tennessee St,Wofford,71,75,1
+2018,Western Carolina,Furman,55,78,1
+2018,NC-Greensboro,Chattanooga,72,51,1
+2018,VMI,Samford,82,89,1
+2018,Rhode Island,Dayton,81,56,1
+2018,Niagara,Marist,100,76,1
+2018,Quinnipiac,St Peters,43,52,1
+2018,Columbia,Brown,89,82,1
+2018,Cornell,Yale,80,82,1
+2018,Princeton,Harvard,66,72,1
+2018,Indiana,Ohio St,78,80,1
+2018,IL-Chicago,Northern Kentucky,72,79,1
+2018,Toledo,Central Michigan,89,76,1
+2018,Duke,Syracuse,60,44,1
+2018,Loyola Marymount,Pacific,74,71,1
+2018,Pepperdine,Portland,75,64,1
+2018,San Francisco,San Diego,61,64,1
+2018,St Marys,Santa Clara,67,40,1
+2018,Kentucky,Missouri,87,66,1
+2018,Oregon,Arizona,98,93,1
+2018,Nicholls St,New Orleans,78,64,1
+2018,Loyola-Chicago,Illinois St,68,61,1
+2018,Bradley,Indiana St,64,66,1
+2018,Drake,Valparaiso,64,69,1
+2018,Duquesne,Davidson,60,71,1
+2018,George Mason,UMass,78,76,1
+2018,St Louis,George Washington,62,53,1
+2018,Richmond,St Josephs,70,72,1
+2018,Kent St,Bowling Green,64,63,1
+2018,Akron,Miami-OH,62,64,1
+2018,Troy,LA-Monroe,73,67,1
+2018,Fairleigh Dickinson,Bryant,87,83,1
+2018,Central Conn St,St Francis-NY,78,75,1
+2018,LIU-Brooklyn,Sacred Heart,88,77,1
+2018,Austin Peay,Murray St,64,73,1
+2018,Belmont,Tennessee St,84,59,1
+2018,North Dakota,Northern Colorado,66,79,1
+2018,Northern Arizona,Portland St,66,72,1
+2018,UMBC,MA-Lowell,83,75,1
+2018,Columbia,Yale,73,83,1
+2018,Oakland,WI-Milwaukee,72,70,1
+2018,Winthrop,Charleston Southern,75,78,1
+2018,UC-Davis,UC-Riverside,64,63,1
+2018,Florida Intl,Rice,67,64,1
+2018,Western Kentucky,Old Dominion,88,66,1
+2018,Middle Tenn St,UAB,79,54,1
+2018,Marshall,Charlotte,103,75,1
+2018,UTSA,Louisiana Tech,74,64,1
+2018,Maryland,Michigan,61,85,1
+2018,South Florida,Tulane,68,79,1
+2018,DePaul,Marquette,70,62,1
+2018,Georgetown,Providence,69,74,1
+2018,St Johns,Seton Hall,74,81,1
+2018,TCU,Baylor,82,72,1
+2018,Eastern Michigan,Northern Illinois,82,53,1
+2018,Virginia Tech,Louisville,68,75,1
+2018,Ole Miss,Tennessee,65,73,1
+2018,Fairfield,Monmouth,69,66,1
+2018,Miami-FL,Boston College,79,78,1
+2018,Georgia,LSU,93,82,1
+2018,SMU,Wichita St,78,84,1
+2018,Texas,Oklahoma St,65,64,1
+2018,NE-Omaha,North Dakota St,62,84,1
+2018,Evansville,Southern Illinois,75,44,1
+2018,St Francis-PA,Robert Morris,80,60,1
+2018,Morehead St,Eastern Kentucky,70,66,1
+2018,William & Mary,Coll of Charleston,114,104,1
+2018,American U,Bucknell,61,80,1
+2018,Army,Boston U,59,61,1
+2018,Colgate,Holy Cross,59,53,1
+2018,Navy,Loyola-MD,62,56,1
+2018,Detroit Mercy,Green Bay,97,107,1
+2018,Liberty,High Point,65,45,1
+2018,Utah,USC,58,74,1
+2018,Creighton,Villanova,89,83,1
+2018,Texas A&M-CC,Incarnate Word,62,69,1
+2018,Southern Utah,Sacramento St,77,74,1
+2018,Wake Forest,Notre Dame,71,76,1
+2018,Clemson,Georgia Tech,75,67,1
+2018,Longwood,Radford,47,70,1
+2018,Mississippi St,South Carolina,72,68,1
+2018,Buffalo,Ohio,108,82,1
+2018,Pittsburgh,Virginia,37,66,1
+2018,Vanderbilt,Texas A&M,81,89,1
+2018,Northwestern St,SE Louisiana,62,86,1
+2018,Texas Tech,Kansas,72,74,1
+2018,Northern Iowa,Missouri St,71,56,1
+2018,Fordham,La Salle,60,73,1
+2018,Binghamton,Hartford,57,67,1
+2018,Mt St Marys,Wagner,73,62,1
+2018,Drexel,NC-Wilmington,82,83,1
+2018,Hofstra,Towson,91,86,1
+2018,Air Force,Utah St,75,65,1
+2018,Bethune-Cookman,Savannah St,121,92,1
+2018,Howard,Delaware St,93,74,1
+2018,MD-Eastern Shore,Norfolk St,63,74,1
+2018,South Carolina St,NC-Central,102,79,1
+2018,Eastern Illinois,SIU-Edwardsville,68,56,1
+2018,California,Washington,51,68,1
+2018,McNeese St,Houston Christian,88,79,1
+2018,Campbell,Presbyterian,72,56,1
+2018,Gardner-Webb,NC-Asheville,72,61,1
+2018,Abilene Christian,Central Arkansas,72,74,1
+2018,Jackson St,Miss Valley St,60,59,1
+2018,TX-Arlington,Georgia St,89,81,1
+2018,SE Missouri St,TN-Martin,66,72,1
+2018,Texas St,GA-Southern,77,81,1
+2018,Alabama,Arkansas,73,76,1
+2018,West Virginia,Iowa St,85,70,1
+2018,Oklahoma,Kansas St,86,77,1
+2018,AR-Little Rock,Appalachian St,67,69,1
+2018,Cornell,Brown,73,68,1
+2018,Princeton,Dartmouth,64,47,1
+2018,Florida A&M,North Carolina A&T,83,77,1
+2018,Hampton,Morgan St,57,38,1
+2018,Prairie View A&M,Alabama St,80,74,1
+2018,Alcorn St,Southern U,89,85,1
+2018,Stanford,Washington St,86,84,1
+2018,Stephen F Austin,Lamar,66,71,1
+2018,IPFW,South Dakota St,90,97,1
+2018,Albany,Maine,89,79,1
+2018,Delaware,James Madison,68,66,1
+2018,Elon,Northeastern,59,81,1
+2018,Stony Brook,Vermont,60,69,1
+2018,Pennsylvania,Harvard,74,71,1
+2018,Youngstown St,Cleveland St,94,99,1
+2018,Florida Atlantic,North Texas,74,54,1
+2018,Lehigh,Lafayette,79,64,1
+2018,BYU,Gonzaga,65,79,1
+2018,Oregon St,Arizona St,79,75,1
+2018,Western Illinois,Denver,52,89,1
+2018,VCU,St Bonaventure,63,68,1
+2018,Arkansas St,Coastal Carolina,81,88,1
+2018,TX-Rio Grande,Chicago St,83,75,1
+2018,South Alabama,Louisiana,71,88,1
+2018,Florida,Auburn,72,66,1
+2018,Tennessee Tech,Jacksonville St,57,66,1
+2018,TX-Southern,Alabama A&M,106,71,1
+2018,Grambling St,AR-Pine Bluff,66,75,1
+2018,New Mexico St,Kansas City,82,58,1
+2018,Grand Canyon,Utah Valley St,60,59,1
+2018,Cal St-Bakersfield,Seattle,64,57,1
+2018,Montana,Montana St,90,63,1
+2018,Weber St,Idaho,62,68,1
+2018,Idaho St,Eastern Washington,69,74,1
+2018,UTEP,Southern Miss,73,44,1
+2018,Fresno St,Wyoming,68,78,1
+2018,San Jose St,San Diego St,59,71,1
+2018,Cal St-Fullerton,Long Beach St,81,71,1
+2018,Cal St-Northridge,UC-Santa Barbara,73,82,1
+2018,Hawaii,UC-Irvine,57,66,1
+2018,Temple,UCF,75,56,1
+2018,UConn,Memphis,79,83,1
+2018,Western Carolina,Citadel,92,75,1
+2018,Cincinnati,Tulsa,82,74,1
+2018,Wisconsin,Michigan St,63,68,1
+2018,VMI,Chattanooga,68,65,1
+2018,IUPUI,Northern Kentucky,56,75,1
+2018,NC-Greensboro,Samford,88,75,1
+2018,East Tennessee St,Furman,76,79,1
+2018,Canisius,Marist,98,74,1
+2018,St Peters,Siena,65,48,1
+2018,Rider,Iona,110,101,1
+2018,New Mexico,UNLV,91,90,1
+2018,Rutgers,Illinois,62,75,1
+2018,Houston,East Carolina,109,58,1
+2018,Purdue,Minnesota,84,60,1
+2018,Colorado,UCLA,80,76,1
+2018,Nevada,Colorado St,92,83,1
+2018,Nebraska,Penn St,76,64,1
+2018,North Carolina St,Florida St,92,72,1
+2018,Manhattan,Quinnipiac,92,86,1
+2018,IL-Chicago,Wright St,81,88,1
+2018,Wofford,Mercer,68,69,1
+2018,Iowa,Northwestern,77,70,1
+2018,Savannah St,NC-Central,85,75,1
+2018,TX-Southern,Alabama St,95,77,1
+2018,Virginia Tech,Duke,64,63,1
+2018,Georgetown,Marquette,86,90,1
+2018,Bethune-Cookman,North Carolina A&T,80,86,1
+2018,Morgan St,Coppin St,69,56,1
+2018,MD-Eastern Shore,Delaware St,59,47,1
+2018,Howard,Norfolk St,74,79,1
+2018,Jackson St,AR-Pine Bluff,51,48,1
+2018,Florida A&M,South Carolina St,76,74,1
+2018,Prairie View A&M,Alabama A&M,71,58,1
+2018,Grambling St,Miss Valley St,74,79,1
+2018,Kansas,Texas,80,70,1
+2018,West Virginia,Texas Tech,84,74,1
+2018,FL-Gulf Coast,SC-Upstate,96,76,1
+2018,Air Force,Fresno St,48,54,1
+2018,Jacksonville,Kennesaw St,87,68,1
+2018,Elon,James Madison,84,90,1
+2018,Lipscomb,Stetson,89,73,1
+2018,NJIT,North Florida,76,80,1
+2018,Rhode Island,St Josephs,48,78,1
+2018,Northern Illinois,Toledo,67,97,1
+2018,Kent St,Miami-OH,90,83,1
+2018,Mississippi St,Tennessee,54,76,1
+2018,Alabama,Florida,52,73,1
+2018,Vanderbilt,Missouri,66,74,1
+2018,Iowa St,Oklahoma St,71,80,1
+2018,Albany,Binghamton,71,54,1
+2018,Buffalo,Akron,80,68,1
+2018,Ohio,Bowling Green,75,59,1
+2018,Central Michigan,Ball St,75,51,1
+2018,Western Michigan,Eastern Michigan,58,74,1
+2018,Hartford,UMBC,53,62,1
+2018,Maine,Vermont,62,74,1
+2018,North Carolina,Miami-FL,88,91,1
+2018,Arkansas,Auburn,91,82,1
+2018,Creighton,DePaul,82,57,1
+2018,Baylor,Oklahoma,87,64,1
+2018,TCU,Kansas St,66,59,1
+2018,St Bonaventure,Davidson,117,113,1
+2018,San Diego St,Boise St,72,64,1
+2018,Charleston Southern,Presbyterian,68,51,1
+2018,Lafayette,American U,93,86,1
+2018,High Point,Longwood,55,68,1
+2018,Loyola-MD,Army,82,79,1
+2018,New Hampshire,MA-Lowell,77,92,1
+2018,Duquesne,St Louis,76,69,1
+2018,George Washington,Fordham,72,56,1
+2018,VCU,George Mason,80,81,1
+2018,Richmond,UMass,90,65,1
+2018,South Carolina,LSU,83,74,1
+2018,Xavier,Providence,84,74,1
+2018,Clemson,Florida St,76,63,1
+2018,Notre Dame,Pittsburgh,73,56,1
+2018,Kentucky,Ole Miss,96,78,1
+2018,UConn,Temple,72,66,1
+2018,La Salle,Dayton,71,53,1
+2018,Northwestern St,Nicholls St,70,73,1
+2018,Stephen F Austin,Abilene Christian,76,56,1
+2018,Central Arkansas,Sam Houston St,88,70,1
+2018,Incarnate Word,Houston Christian,83,71,1
+2018,New Orleans,SE Louisiana,64,68,1
+2018,Texas A&M-CC,McNeese St,82,70,1
+2018,Georgia,Texas A&M,60,61,1
+2018,Seton Hall,Villanova,68,69,1
+2018,Boston College,Syracuse,85,70,1
+2018,SMU,Houston,56,69,1
+2018,St Johns,Butler,75,68,1
+2018,Wyoming,Air Force,66,54,1
+2018,Colorado St,New Mexico,87,108,1
+2018,San Jose St,Utah St,64,62,1
+2018,Cal St-Northridge,Cal St-Fullerton,76,102,1
+2018,UNLV,Nevada,75,101,1
+2018,Tennessee St,Eastern Illinois,71,73,0
+2018,SIU-Edwardsville,Tennessee Tech,51,60,0
+2018,St Francis-PA,Fairleigh Dickinson,75,84,1
+2018,Mt St Marys,Robert Morris,56,60,1
+2018,LIU-Brooklyn,St Francis-NY,73,50,1
+2018,Wagner,Central Conn St,73,61,1
+2018,Illinois,Iowa,87,96,0
+2018,Minnesota,Rutgers,54,65,0
+2018,Georgia St,Troy,70,83,1
+2018,Montana,Weber St,75,57,1
+2018,Sacramento St,North Dakota,73,90,1
+2018,Portland St,Northern Colorado,78,85,1
+2018,UC-Riverside,Cal Poly,72,63,1
+2018,UC-Davis,Hawaii,70,59,1
+2018,UC-Santa Barbara,Long Beach St,69,70,1
+2018,Middle Tenn St,Western Kentucky,82,64,1
+2018,North Texas,UTSA,80,62,1
+2018,Charlotte,Florida Intl,83,89,1
+2018,Old Dominion,Florida Atlantic,69,64,1
+2018,UAB,Marshall,91,77,1
+2018,NC-Central,North Carolina A&T,70,59,1
+2018,Alabama A&M,Grambling St,74,84,1
+2018,South Carolina St,Savannah St,81,94,1
+2018,Alabama St,Jackson St,62,60,1
+2018,UCF,Wichita St,71,75,1
+2018,East Carolina,Tulsa,58,72,1
+2018,GA-Southern,South Alabama,81,74,1
+2018,Florida A&M,Bethune-Cookman,77,89,1
+2018,Coppin St,Howard,71,78,1
+2018,Delaware St,Morgan St,87,80,1
+2018,Georgia Tech,North Carolina St,78,75,1
+2018,Louisville,Virginia,66,67,1
+2018,LA-Monroe,AR-Little Rock,48,44,1
+2018,Rice,UTEP,76,70,1
+2018,Norfolk St,Hampton,71,74,1
+2018,Alcorn St,Prairie View A&M,69,79,1
+2018,Louisiana,Arkansas St,85,74,1
+2018,Southern U,TX-Southern,88,90,1
+2018,Memphis,South Florida,51,75,1
+2018,Tulane,Cincinnati,49,78,1
+2018,Washington St,Oregon,78,76,1
+2018,Arizona St,California,84,53,1
+2018,Montana St,Idaho St,78,101,1
+2018,Eastern Washington,Southern Utah,74,51,1
+2018,Arizona,Stanford,75,67,1
+2018,Idaho,Northern Arizona,66,52,1
+2018,Washington,Oregon St,79,77,1
+2018,FL-Gulf Coast,North Florida,95,72,1
+2018,Lipscomb,Jacksonville,77,62,1
+2018,Longwood,Radford,53,59,0
+2018,Gardner-Webb,Winthrop,68,72,0
+2018,NC-Asheville,Charleston Southern,71,66,1
+2018,Campbell,Liberty,59,73,0
+2018,Maryland,Wisconsin,54,59,0
+2018,Iowa,Michigan,71,77,0
+2018,Northwestern,Penn St,57,65,0
+2018,Indiana,Rutgers,59,76,0
+2018,Monmouth,St Peters,58,60,0
+2018,Marist,Fairfield,57,71,0
+2018,Siena,Quinnipiac,58,67,0
+2018,Evansville,Northern Iowa,50,60,0
+2018,Valparaiso,Missouri St,79,83,0
+2018,Tennessee Tech,Jacksonville St,70,73,0
+2018,Eastern Illinois,Austin Peay,66,73,0
+2018,Bucknell,Loyola-MD,83,78,1
+2018,Lehigh,Boston U,82,88,1
+2018,Navy,Holy Cross,65,81,1
+2018,Colgate,Lafayette,76,54,1
+2018,Rutgers,Purdue,75,82,0
+2018,Nebraska,Michigan,58,77,0
+2018,Ohio St,Penn St,68,69,0
+2018,Wisconsin,Michigan St,60,63,0
+2018,Radford,Winthrop,61,52,1
+2018,NC-Asheville,Liberty,64,69,1
+2018,Davidson,Rhode Island,63,61,1
+2018,Oklahoma,Iowa St,81,60,1
+2018,Dartmouth,Columbia,80,78,1
+2018,Harvard,Cornell,98,88,1
+2018,Yale,Pennsylvania,80,79,1
+2018,Brown,Princeton,63,78,1
+2018,Texas St,TX-Arlington,82,85,1
+2018,Northern Illinois,Ball St,66,65,1
+2018,Bowling Green,Buffalo,70,100,1
+2018,Toledo,Eastern Michigan,69,71,1
+2018,Akron,Kent St,67,65,1
+2018,Miami-OH,Ohio,66,75,1
+2018,Canisius,Quinnipiac,69,72,0
+2018,Rider,St Peters,55,66,0
+2018,Northern Iowa,Loyola-Chicago,50,54,0
+2018,Missouri St,Southern Illinois,63,67,0
+2018,Indiana St,Illinois St,70,77,0
+2018,Drake,Bradley,61,63,0
+2018,Jacksonville St,Murray St,63,70,0
+2018,Austin Peay,Belmont,79,94,0
+2018,Samford,Chattanooga,79,89,0
+2018,VMI,Citadel,70,78,0
+2018,Santa Clara,Pepperdine,69,85,0
+2018,Portland,Loyola Marymount,72,78,0
+2018,Youngstown St,Cleveland St,71,72,0
+2018,Detroit Mercy,Green Bay,81,93,0
+2018,Southern Illinois,Illinois St,68,76,0
+2018,Bradley,Loyola-Chicago,54,62,0
+2018,Belmont,Murray St,51,68,0
+2018,Albany,Stony Brook,60,69,1
+2018,Hartford,New Hampshire,71,60,1
+2018,UMBC,MA-Lowell,89,77,1
+2018,Vermont,Maine,75,60,1
+2018,UMass,Duquesne,85,75,1
+2018,Dayton,George Washington,88,78,1
+2018,St Josephs,La Salle,78,70,1
+2018,George Mason,Richmond,79,93,1
+2018,St Louis,St Bonaventure,56,64,1
+2018,Fordham,VCU,58,83,1
+2018,Florida St,Boston College,85,76,1
+2018,Syracuse,Clemson,55,52,1
+2018,North Carolina St,Louisville,76,69,1
+2018,Duke,North Carolina,74,64,1
+2018,Virginia,Notre Dame,62,57,1
+2018,Miami-FL,Virginia Tech,69,68,1
+2018,Georgia Tech,Wake Forest,64,56,1
+2018,Kansas St,Baylor,77,67,1
+2018,Oklahoma St,Kansas,82,64,1
+2018,Texas Tech,TCU,79,75,1
+2018,Texas,West Virginia,87,79,1
+2018,Seton Hall,Butler,77,70,1
+2018,Marquette,Creighton,85,81,1
+2018,Villanova,Georgetown,97,73,1
+2018,Providence,St Johns,61,57,1
+2018,DePaul,Xavier,62,65,1
+2018,Montana,Idaho St,75,64,1
+2018,Portland St,North Dakota,97,90,1
+2018,Eastern Washington,Northern Arizona,85,68,1
+2018,Sacramento St,Northern Colorado,88,77,1
+2018,Idaho,Southern Utah,78,76,1
+2018,Montana St,Weber St,92,95,1
+2018,UC-Santa Barbara,Cal Poly,86,61,1
+2018,Cal St-Fullerton,Hawaii,60,68,1
+2018,UC-Irvine,UC-Davis,84,90,1
+2018,Long Beach St,UC-Riverside,77,59,1
+2018,Charlotte,Florida Atlantic,85,78,1
+2018,Old Dominion,Florida Intl,79,53,1
+2018,Southern Miss,Louisiana Tech,72,64,1
+2018,Middle Tenn St,Marshall,67,76,1
+2018,Rice,UTSA,60,79,1
+2018,North Texas,UTEP,66,68,1
+2018,UAB,Western Kentucky,101,73,1
+2018,Harvard,Columbia,93,74,1
+2018,Dartmouth,Cornell,75,86,1
+2018,Brown,Pennsylvania,93,99,1
+2018,Yale,Princeton,94,90,1
+2018,New Mexico,Fresno St,95,86,1
+2018,San Diego St,Nevada,79,74,1
+2018,Air Force,San Jose St,83,61,1
+2018,Utah St,UNLV,79,67,1
+2018,Boise St,Wyoming,95,87,1
+2018,Arizona,California,66,54,1
+2018,Utah,Colorado,64,54,1
+2018,Washington,Oregon,64,72,1
+2018,Washington St,Oregon St,67,92,1
+2018,Arizona St,Stanford,83,84,1
+2018,USC,UCLA,72,83,1
+2018,LA-Monroe,Arkansas St,79,83,1
+2018,Louisiana,AR-Little Rock,61,72,1
+2018,Appalachian St,Coastal Carolina,76,67,1
+2018,Georgia St,South Alabama,90,75,1
+2018,GA-Southern,Troy,89,83,1
+2018,Texas A&M,Alabama,68,66,1
+2018,Missouri,Arkansas,77,67,1
+2018,Tennessee,Georgia,66,61,1
+2018,Florida,Kentucky,80,67,1
+2018,LSU,Mississippi St,78,57,1
+2018,Auburn,South Carolina,79,70,1
+2018,Ole Miss,Vanderbilt,69,82,1
+2018,Incarnate Word,Abilene Christian,59,69,1
+2018,McNeese St,Lamar,69,60,1
+2018,SE Louisiana,Nicholls St,69,57,1
+2018,Central Arkansas,Northwestern St,61,58,1
+2018,Sam Houston St,Stephen F Austin,53,65,1
+2018,Houston Christian,Texas A&M-CC,87,92,1
+2018,Alabama St,Grambling St,64,66,1
+2018,Alabama A&M,Jackson St,66,59,1
+2018,Southern U,Prairie View A&M,69,77,1
+2018,Alcorn St,TX-Southern,71,78,1
+2018,Grand Canyon,Cal St-Bakersfield,81,68,1
+2018,Chicago St,Kansas City,96,82,1
+2018,TX-Rio Grande,New Mexico St,71,86,1
+2018,Utah Valley St,Seattle,73,47,1
+2018,AR-Pine Bluff,Miss Valley St,94,57,1
+2018,Central Michigan,Western Michigan,84,71,1
+2018,Elon,Delaware,79,86,0
+2018,James Madison,Drexel,62,70,0
+2018,Green Bay,Wright St,72,87,0
+2018,Northern Kentucky,Cleveland St,80,89,0
+2018,Niagara,Fairfield,77,90,0
+2018,Manhattan,Iona,60,72,0
+2018,LIU-Brooklyn,Fairleigh Dickinson,78,77,1
+2018,Wagner,Robert Morris,75,64,1
+2018,Pepperdine,St Marys,66,69,0
+2018,Penn St,Purdue,70,78,0
+2018,Michigan St,Michigan,64,75,0
+2018,San Diego,BYU,79,85,0
+2018,Loyola Marymount,Gonzaga,69,83,0
+2018,Pacific,San Francisco,70,71,0
+2018,Chattanooga,East Tennessee St,59,77,0
+2018,Western Carolina,Furman,73,97,0
+2018,Mercer,Wofford,53,73,0
+2018,Citadel,NC-Greensboro,58,72,0
+2018,NE-Omaha,South Dakota,73,87,0
+2018,Western Illinois,South Dakota St,60,66,0
+2018,FL-Gulf Coast,Lipscomb,96,108,1
+2018,Purdue,Michigan,66,75,0
+2018,Radford,Liberty,55,52,1
+2018,Wichita St,Cincinnati,61,62,1
+2018,Houston,UConn,81,71,1
+2018,Memphis,East Carolina,90,70,1
+2018,South Florida,SMU,65,54,1
+2018,Tulsa,Temple,76,58,1
+2018,UCF,Tulane,60,51,1
+2018,Drexel,Coll of Charleston,59,66,0
+2018,Delaware,Northeastern,50,74,0
+2018,Hofstra,NC-Wilmington,88,93,0
+2018,Towson,William & Mary,66,80,0
+2018,IUPUI,Oakland,55,62,0
+2018,IL-Chicago,WI-Milwaukee,75,80,0
+2018,St Peters,Iona,62,65,0
+2018,Quinnipiac,Fairfield,64,75,0
+2018,Illinois St,Loyola-Chicago,49,65,0
+2018,Bucknell,Boston U,90,59,1
+2018,Colgate,Holy Cross,62,55,1
+2018,Wofford,NC-Greensboro,55,56,0
+2018,Furman,East Tennessee St,52,63,0
+2018,IPFW,North Dakota St,82,86,0
+2018,Oral Roberts,Denver,88,90,0
+2018,William & Mary,Coll of Charleston,71,83,0
+2018,NC-Wilmington,Northeastern,52,79,0
+2018,WI-Milwaukee,Wright St,53,59,0
+2018,Oakland,Cleveland St,43,44,0
+2018,Fairfield,Iona,71,83,0
+2018,Miami-OH,Ohio,68,55,1
+2018,Western Michigan,Akron,78,79,1
+2018,Kent St,Northern Illinois,61,59,1
+2018,Central Michigan,Bowling Green,81,77,1
+2018,MD-Eastern Shore,Norfolk St,68,78,0
+2018,Delaware St,North Carolina A&T,61,62,0
+2018,East Tennessee St,NC-Greensboro,47,62,0
+2018,North Dakota St,South Dakota St,57,78,0
+2018,Denver,South Dakota,58,76,0
+2018,San Francisco,Gonzaga,60,88,0
+2018,St Marys,BYU,72,85,0
+2018,South Carolina St,Morgan St,80,83,0
+2018,Howard,Florida A&M,78,88,0
+2018,Coppin St,NC-Central,48,60,0
+2018,BYU,Gonzaga,54,74,0
+2018,South Dakota,South Dakota St,87,97,0
+2018,Cleveland St,Wright St,57,74,0
+2018,Northeastern,Coll of Charleston,76,83,0
+2018,Georgia Tech,Boston College,77,87,0
+2018,Pittsburgh,Notre Dame,64,67,0
+2018,Wake Forest,Syracuse,64,73,0
+2018,Montana St,North Dakota,74,76,0
+2018,Northern Arizona,Northern Colorado,59,82,0
+2018,Idaho St,Southern Utah,68,76,0
+2018,Sacramento St,Portland St,67,71,0
+2018,AR-Pine Bluff,Miss Valley St,77,73,1
+2018,Southern U,Jackson St,62,60,1
+2018,TX-Southern,Alabama St,90,76,1
+2018,Prairie View A&M,Alcorn St,87,71,1
+2018,Vermont,Stony Brook,70,51,1
+2018,UMBC,Hartford,75,60,1
+2018,Wagner,LIU-Brooklyn,61,71,1
+2018,Florida St,Louisville,74,82,0
+2018,Virginia Tech,Notre Dame,65,71,0
+2018,North Carolina St,Boston College,87,91,0
+2018,Syracuse,North Carolina,59,78,0
+2018,California,Stanford,58,76,0
+2018,Washington,Oregon St,66,69,0
+2018,Washington St,Oregon,62,64,0
+2018,Arizona St,Colorado,85,97,0
+2018,La Salle,UMass,67,69,0
+2018,Fordham,George Washington,72,78,0
+2018,Oklahoma,Oklahoma St,60,71,0
+2018,Iowa St,Texas,64,68,0
+2018,Georgetown,St Johns,77,88,0
+2018,DePaul,Marquette,69,72,0
+2018,Florida Intl,Southern Miss,68,69,0
+2018,UTEP,UTSA,58,71,0
+2018,North Texas,Louisiana Tech,62,68,0
+2018,Florida Atlantic,UAB,72,83,0
+2018,Bucknell,Colgate,83,54,1
+2018,Air Force,UNLV,90,97,0
+2018,Colorado St,Utah St,65,76,0
+2018,San Jose St,Wyoming,61,74,0
+2018,Vanderbilt,Georgia,62,78,0
+2018,Ole Miss,South Carolina,84,85,0
+2018,Florida A&M,Hampton,71,75,0
+2018,Bethune-Cookman,Morgan St,77,78,0
+2018,Coastal Carolina,Texas St,66,73,0
+2018,AR-Little Rock,Appalachian St,64,93,0
+2018,South Alabama,Troy,62,69,0
+2018,Arkansas St,LA-Monroe,54,76,0
+2018,Texas A&M-CC,New Orleans,76,83,0
+2018,Lamar,Central Arkansas,57,67,0
+2018,UConn,SMU,73,80,0
+2018,South Florida,Memphis,77,79,0
+2018,Tulane,Temple,77,82,0
+2018,East Carolina,UCF,52,66,0
+2018,Dayton,VCU,72,77,0
+2018,Duquesne,Richmond,68,81,0
+2018,UMass,George Mason,75,80,0
+2018,George Washington,St Louis,63,70,0
+2018,Louisville,Virginia,58,75,0
+2018,Boston College,Clemson,82,90,0
+2018,Miami-FL,North Carolina,65,82,0
+2018,Notre Dame,Duke,70,88,0
+2018,Middle Tenn St,Southern Miss,68,71,0
+2018,UTSA,Marshall,81,95,0
+2018,Louisiana Tech,Old Dominion,58,62,0
+2018,UAB,Western Kentucky,70,98,0
+2018,Oklahoma St,Kansas,68,82,0
+2018,Texas,Texas Tech,69,73,0
+2018,Baylor,West Virginia,65,78,0
+2018,TCU,Kansas St,64,66,0
+2018,St Johns,Xavier,60,88,0
+2018,Marquette,Villanova,70,94,0
+2018,Seton Hall,Butler,74,75,0
+2018,Creighton,Providence,68,72,0
+2018,Norfolk St,North Carolina A&T,64,70,0
+2018,Savannah St,NC-Central,56,58,0
+2018,UNLV,Nevada,74,79,0
+2018,Boise St,Utah St,75,78,0
+2018,Wyoming,New Mexico,75,85,0
+2018,Fresno St,San Diego St,52,64,0
+2018,North Dakota,Montana,76,84,0
+2018,Weber St,Northern Colorado,55,80,0
+2018,Idaho,Southern Utah,78,92,0
+2018,Portland St,Eastern Washington,72,78,0
+2018,Ball St,Kent St,73,76,0
+2018,Central Michigan,Buffalo,74,89,0
+2018,Miami-OH,Toledo,69,71,0
+2018,Akron,Eastern Michigan,58,67,0
+2018,Colorado,Arizona,67,83,0
+2018,Oregon St,USC,48,61,0
+2018,Utah,Oregon,66,68,0
+2018,Stanford,UCLA,77,88,0
+2018,Chicago St,New Mexico St,70,97,0
+2018,Cal St-Bakersfield,Utah Valley St,74,81,0
+2018,Kansas City,Grand Canyon,74,77,0
+2018,TX-Rio Grande,Seattle,60,77,0
+2018,UC-Riverside,UC-Davis,66,70,0
+2018,Cal Poly,UC-Santa Barbara,53,75,0
+2018,Hawaii,UC-Irvine,67,68,0
+2018,Long Beach St,Cal St-Fullerton,74,76,0
+2018,Texas A&M,Alabama,70,71,0
+2018,LSU,Mississippi St,77,80,0
+2018,Missouri,Georgia,60,62,0
+2018,South Carolina,Arkansas,64,69,0
+2018,Central Arkansas,Stephen F Austin,64,86,0
+2018,New Orleans,Sam Houston St,63,85,0
+2018,Auburn,Alabama,63,81,0
+2018,Mississippi St,Tennessee,59,62,0
+2018,Florida,Arkansas,72,80,0
+2018,Georgia,Kentucky,49,62,0
+2018,UC-Davis,Cal St-Fullerton,52,55,0
+2018,UC-Santa Barbara,UC-Irvine,58,61,0
+2018,Old Dominion,Western Kentucky,49,57,0
+2018,Southern Miss,Marshall,75,85,0
+2018,Seattle,New Mexico St,79,84,0
+2018,Utah Valley St,Grand Canyon,60,75,0
+2018,SMU,Cincinnati,51,61,0
+2018,Temple,Wichita St,81,89,0
+2018,UCF,Houston,56,84,0
+2018,Tulsa,Memphis,64,67,0
+2018,Southern U,AR-Pine Bluff,65,71,0
+2018,Prairie View A&M,TX-Southern,74,88,0
+2018,Texas St,Louisiana,54,80,0
+2018,Troy,Georgia St,51,73,0
+2018,LA-Monroe,GA-Southern,55,63,0
+2018,Appalachian St,TX-Arlington,68,84,0
+2018,Clemson,Virginia,58,64,0
+2018,Duke,North Carolina,69,74,0
+2018,VCU,Rhode Island,67,76,0
+2018,Richmond,St Bonaventure,77,83,0
+2018,St Louis,Davidson,60,78,0
+2018,George Mason,St Josephs,49,68,0
+2018,Xavier,Providence,72,75,0
+2018,Butler,Villanova,68,87,0
+2018,Kansas St,Kansas,67,83,0
+2018,Texas Tech,West Virginia,63,66,0
+2018,Northern Colorado,Montana,89,91,0
+2018,Southern Utah,Eastern Washington,70,82,0
+2018,Kent St,Buffalo,61,78,0
+2018,Eastern Michigan,Toledo,63,64,0
+2018,North Carolina A&T,Hampton,86,96,0
+2018,Morgan St,NC-Central,70,79,0
+2018,Nevada,San Diego St,73,90,0
+2018,Utah St,New Mexico,68,83,0
+2018,UCLA,Arizona,67,78,0
+2018,Oregon,USC,54,74,0
+2018,Sam Houston St,SE Louisiana,79,89,0
+2018,Nicholls St,Stephen F Austin,66,78,0
+2018,New Mexico,San Diego St,75,82,0
+2018,Hampton,NC-Central,63,71,0
+2018,Toledo,Buffalo,66,76,0
+2018,Louisiana,TX-Arlington,68,71,0
+2018,GA-Southern,Georgia St,67,73,0
+2018,Alabama,Kentucky,63,86,0
+2018,Arkansas,Tennessee,66,84,0
+2018,Memphis,Cincinnati,60,70,0
+2018,Wichita St,Houston,74,77,0
+2018,AR-Pine Bluff,TX-Southern,69,84,0
+2018,North Carolina,Virginia,63,71,0
+2018,St Josephs,Rhode Island,87,90,0
+2018,St Bonaventure,Davidson,70,82,0
+2018,Providence,Villanova,66,76,0
+2018,West Virginia,Kansas,70,81,0
+2018,Eastern Washington,Montana,65,82,0
+2018,Western Kentucky,Marshall,66,67,0
+2018,Cornell,Harvard,55,74,0
+2018,Yale,Pennsylvania,57,80,0
+2018,SE Louisiana,Stephen F Austin,55,59,0
+2018,Grand Canyon,New Mexico St,58,72,0
+2018,USC,Arizona,61,75,0
+2018,UC-Irvine,Cal St-Fullerton,55,71,0
+2018,Vermont,UMBC,62,65,1
+2018,Harvard,Pennsylvania,65,68,0
+2018,Rhode Island,Davidson,57,58,0
+2018,Tennessee,Kentucky,72,77,0
+2018,TX-Arlington,Georgia St,61,74,0
+2018,Houston,Cincinnati,55,56,0

@@ -1,0 +1,117 @@
+---
+title: "HW8_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+library(NHANES)
+library(dplyr)
+
+data1<- NHANES %>%
+  select(HardDrugs,Gender,HealthGen,Depressed,SleepHrsNight,AlcoholDay, SmokeNow, Marijuana) %>% 
+  na.omit()
+glimpse(data1)
+```
+
+```{r}
+#1
+attach(data1)
+tbl <- table(Marijuana, HardDrugs) 
+tbl
+
+newtbl <- prop.table(tbl) #creates proportion contingency table from table created from data
+newtbl
+
+```
+
+```{r}
+#2
+set.seed(99)
+train1 <- data1 %>% sample_frac(size = 0.8)
+test1 <- data1 %>% setdiff(train1)
+library(glmnet)
+form2 <- as.formula(HardDrugs~Gender+Depressed+AlcoholDay+Marijuana)
+mod_lr2 <- glm(form2, data=train1,family=binomial) #predictors 
+summary(mod_lr2)
+
+#2 Marijuana
+#3 There is a strong positive relationship between Marijuana and HardDrugs
+#4 Males are more likely to use hard drugs 
+
+
+```
+
+```{r}
+library(rpart)
+library(rpart.plot)
+
+mod_tree <- rpart(form2,data=train1)
+rpart.plot(mod_tree)
+
+#5 Marijuana 
+#6 People who tried Marijuana and more depressed people are likely to do Marijuana 
+
+```
+
+```{r}
+#7 Fit a decision tree model 
+
+library(rpart)
+library(rpart.plot)
+library(glmnet)
+library(tidyr)
+
+data2<- NHANES %>%
+  select(Gender,Age,Race1,Education,MaritalStatus,HHIncomeMid,Poverty,HomeOwn,Weight,Height,
+         BMI,Pulse,BPSysAve,BPDiaAve,Diabetes,HealthGen,DaysPhysHlthBad,DaysMentHlthBad,
+         Depressed,SleepHrsNight,SleepTrouble,AlcoholDay,Smoke100,Marijuana,HardDrugs) %>% 
+  drop_na()
+
+train2 <- data2 %>% sample_frac(size = 0.8, fac=HardDrugs)
+test2 <- data2 %>% setdiff(train2)
+
+form_full<- as.formula(HardDrugs~Gender+Age+Race1+Education+MaritalStatus+HHIncomeMid+Poverty+HomeOwn+Weight+Height+BMI+Pulse+BPSysAve+BPDiaAve+Diabetes+HealthGen+DaysPhysHlthBad+DaysMentHlthBad+Depressed+SleepHrsNight+SleepTrouble+AlcoholDay+Smoke100+Marijuana)
+
+
+mod_tree2 <- rpart(form_full,data=train2)
+rpart.plot(mod_tree2) 
+
+```
+
+```{r}
+#8
+library(glmnet)
+form_full<- as.formula(HardDrugs~Gender+Age+Race1+Education+MaritalStatus+HHIncomeMid+Poverty+HomeOwn+Weight+Height+BMI+Pulse+BPSysAve+BPDiaAve+Diabetes+HealthGen+DaysPhysHlthBad+DaysMentHlthBad+Depressed+SleepHrsNight+SleepTrouble+AlcoholDay+Smoke100+Marijuana)
+predictors <- model.matrix(form_full, data = train2) 
+cv.fit <- cv.glmnet(predictors, train2$HardDrugs, family = "binomial", type = "class")
+cv.fit$lambda.1se
+lambda_opt=cv.fit$lambda.1se
+mod_lr2 <- glmnet(predictors, train2$HardDrugs, family = "binomial", lambda = lambda_opt)
+mod_lr2$beta
+
+confusion_matrix <- function(data,y,mod){
+  confusion_matrix <- data %>% 
+  mutate(pred = predict(mod, newdata = data, type = "class"),
+         y=y) %>%
+  select(y,pred) %>% table()
+}
+misclass <- function(confusion){
+  misclass <- 1- sum(diag(confusion))/sum(confusion)
+  return(misclass)
+}
+
+logistic.misclassrate <- function(dataset, y, fit, form){
+  misclass_lr <- dataset %>% 
+  mutate(pred.logistic = predict(fit, newx = model.matrix(form, data = dataset), 
+         type = "class")) %>% 
+  mutate(misclassify = ifelse(y != pred.logistic, 1,0)) %>%
+  summarize(misclass.rate = mean(misclassify))
+  return(misclass_lr$misclass.rate)
+}
+
+logistic.misclassrate(test2, test2$HardDrugs, mod_lr2, form_full)
+
+
+```

@@ -1,0 +1,190 @@
+---
+title: "HW4_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+library(babynames)
+library(tidyverse)
+library(mdsr)
+library(Hmisc)
+BabynamesDist <- make_babynames_dist()
+head(BabynamesDist)
+```
+
+
+```{r}
+
+#1 
+com_fem <- BabynamesDist %>% #com_fem stands for "common female"
+filter(name == "Margaret") %>%
+group_by(name) %>%
+filter(est_alive_today>0) %>%
+summarise(
+est_num_alive = sum(est_alive_today),
+q1_age = wtd.quantile(age_today, est_alive_today, probs = 0.25),
+median_age = wtd.quantile(age_today, est_alive_today, probs = 0.5),
+q3_age = wtd.quantile(age_today, est_alive_today, probs = 0.75)
+)
+com_fem
+
+
+#Summary Statistics are:
+  # 1. q1_age = 50 
+  # 2. median_age = 63 
+  # 3. q3_age = 74
+```
+```{r}
+#2
+  # Dorthy has the largest by a few months looking closely at the data 
+
+
+com_fem <- BabynamesDist %>% #com_fem stands for "common female"
+filter(name == "Dorthy") %>%
+group_by(name) %>%
+filter(est_alive_today>0) %>%
+summarise(
+est_num_alive = sum(est_alive_today),
+q1_age = wtd.quantile(age_today, est_alive_today, probs = 0.25),
+median_age = wtd.quantile(age_today, est_alive_today, probs = 0.5),
+q3_age = wtd.quantile(age_today, est_alive_today, probs = 0.75)
+)
+
+com_fem[1:1,]
+
+
+
+
+```
+```{r}
+#3
+
+  #By the median_age
+```
+
+```{r}
+#4 
+  # 1.Position, 2.Color, 3.Shape, 4.Length
+```
+
+```{r}
+#5
+babynames1 <- babynames %>%
+  filter(name == "Taylor") %>%
+  group_by(year) %>%
+  summarise(
+    N = n(), # N is the number of rows for each name and each year
+    total = sum(n), # Note that n is a variable in the babynames data frame
+    boys = sum(ifelse(sex == "M", n, 0)),
+    girls = sum(ifelse(sex == "F", n, 0))
+
+    ) %>%
+  mutate(new_variable = abs(0.5 - boys/total)) %>%
+  arrange(new_variable) %>%
+  head(10)
+
+
+babynames1
+```
+
+
+```{r}
+#6 
+
+com_fem <- BabynamesDist %>% #com_fem stands for "common female"
+filter(sex == "M", year > 1900) %>%
+group_by(name) %>%
+filter(est_alive_today>0) %>%
+summarise(
+est_num_alive = sum(est_alive_today),
+q1_age = wtd.quantile(age_today, est_alive_today, probs = 0.25),
+median_age = wtd.quantile(age_today, est_alive_today, probs = 0.5),
+q3_age = wtd.quantile(age_today, est_alive_today, probs = 0.75)
+) %>%
+arrange(desc(est_num_alive)) %>%
+head(25)
+com_fem
+
+w_plot <- ggplot(
+data = com_fem,
+aes(x = reorder(name, -median_age), y = median_age)) +
+xlab(NULL) +
+ylab("Age (in years)") +
+ggtitle("Youngest Male Names")
+
+w_plot +
+geom_linerange(
+aes(ymin = q1_age, ymax = q3_age),
+color = "#f3d478",
+size = 5,
+alpha = 0.8
+) +
+coord_flip()
+
+
+w_plot +
+geom_linerange(aes(ymin = q1_age, ymax = q3_age),color = "#f3d478",
+size = 5, alpha = 0.8) +
+geom_point(fill = "#ed3324", colour = "white", size = 3, shape = 21) +
+geom_point(aes(y=53,x=24),fill = "#ed3324", colour = "white", size = 3, shape = 21) +
+geom_text(aes(y=58,x=24),label="median",cex=3.8)+
+coord_flip()
+
+
+
+w_plot +
+geom_linerange(aes(ymin = q1_age, ymax = q3_age),color = "#f3d478",
+size = 5, alpha = 0.8) +
+geom_point(fill = "#ed3324", colour = "white", size = 3, shape = 21) +
+geom_point(aes(y=53,x=24),fill = "#ed3324", colour = "white", size = 3, shape = 21) +
+geom_text(aes(y=58,x=24),label="median",cex=3.8)+
+geom_text(aes(y=27,x=16),label="25th",cex=3.8)+
+geom_text(aes(y=49,x=16),label="75th percentile",cex=3.8)+
+geom_point(aes(y=24,x=16),shape=17)+
+geom_point(aes(y=56,x=16),shape=17)+
+coord_flip()
+
+```
+
+```{r}
+#7
+babynames2 <- babynames %>%
+filter(sex == "M") %>%
+group_by(year) %>%
+summarise(
+N = n(), # N is the number of rows for each name and each year
+total = sum(n), # Note that n is a variable in the babynames data frame
+boys = sum(ifelse(sex == "M", n, 0))
+
+) %>%
+
+  top_n(-1) #1881
+
+
+babynames2
+
+```
+
+```{r}
+#8
+babynames2 <- babynames %>%
+filter(sex == "M",  year >= 2000,  year <= 2010) %>%
+group_by(name) %>%
+  summarise(
+    N = n(), # N is the number of rows for each name and each year
+total = sum(n), # Note that n is a variable in the babynames data frame
+boys = sum(ifelse(sex == "M", n, 0))
+
+) %>%
+    
+
+    top_n(10) 
+
+
+babynames2
+
+
+```
+

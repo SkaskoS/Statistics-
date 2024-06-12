@@ -1,0 +1,43 @@
+---
+title: "Homework 9"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+concete = read.csv("concrete.csv")
+```
+
+Problem 1a
+
+```{r}
+reduce = lm(strength ~ cement + water + superplasticizer, data = concete)
+anova(reduce)
+
+model = lm(strength ~ cement + water + superplasticizer + coarse + fine, data = concete)
+anova(model)
+```
+
+Problem 1c
+
+```{r}
+reduce2 = lm(strength ~ cement + water, data = concete)
+anova(reduce2)
+
+model2 = lm(strength ~ cement + water + superplasticizer + coarse + fine , data = concete)
+anova(model2)
+```
+
+Problem 1f
+
+```{r}
+modelf = lm(strength ~ cement + water + superplasticizer, data = concete)
+new_data = as.data.frame(t(c(260, 180, 7)))
+colnames(new_data) = c("cement", "water", "superplasticizer")
+conf_int = predict(modelf, new_data, se.fit = TRUE, interval = "confidence")
+pred_int = predict(modelf, new_data, se.fit = TRUE, interval = "prediction")
+print(conf_int$fit)
+print(pred_int$fit)
+anova(modelf)
+```

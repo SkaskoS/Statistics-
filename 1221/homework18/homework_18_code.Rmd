@@ -1,0 +1,59 @@
+---
+title: "Homework 18"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+library(EnvStats)
+df <- read.csv("charges.csv")
+
+```
+
+Part 1a
+
+```{r}
+
+plot(df$temperature, df$charges, xlab = "Temperature", ylab = "Number of charges", pch = 19)
+
+```
+
+Part 1b
+
+```{r}
+model <- lm(charges ~ temperature, data = df)
+
+summary(model)
+anova(model)
+anovaPE(model)
+
+```
+
+
+Part 1e
+
+```{r}
+df$temperature_sq <- df$temperature^2
+model_quad <- lm(charges ~ temperature + temperature_sq, data = df)
+
+summary(model_quad)
+anova(model_quad)
+anovaPE(model_quad)
+
+
+
+```
+
+Part 1h
+
+```{r}
+df$temperature_cu <- df$temperature^3
+model_cu <- lm(charges ~ temperature + temperature_sq + temperature_cu, data = df)
+
+summary(model_quad)
+anova(model_cu)
+anovaPE(model_cu)
+
+```
+

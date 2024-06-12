@@ -1,0 +1,137 @@
+---
+title: "STAT 1261/2260 Homework 3"
+author: "Stephen Skasko"
+output: 
+  html_document:
+    toc: TRUE
+
+---
+
+```{r}
+library(tidyverse)
+library(mdsr)
+library(babynames)
+library(Hmisc) 
+library(MASS)
+library(ggplot2)
+
+```
+```{r}
+BabynamesDist <- make_babynames_dist()
+head(BabynamesDist, 2)
+joseph <- BabynamesDist %>% filter(name == "Joseph",  sex == "M") 
+name_plot <- ggplot(data = joseph, aes(x = year))
+name_plot <- name_plot +
+  geom_bar(aes(y = count_thousands * alive_prob),
+           stat = "identity", 
+           fill = "#b2d7e9", colour = "white")
+name_plot <- name_plot + geom_line(aes(y = count_thousands), size = 2) 
+name_plot <- name_plot +
+  ylab("Number of People (thousands)") + xlab(NULL)
+name_plot
+median_yob <-
+  with(joseph, wtd.quantile(year, est_alive_today, probs = 0.5))
+median_yob
+name_plot <- name_plot +
+  geom_bar(stat = "identity", colour = "white", fill = "#008fd5",
+           aes(y = ifelse(year == median_yob, est_alive_today / 1000, 0)))
+name_plot +
+  ggtitle("Age Distribution of American Boys Named Joseph") +
+  geom_text(x = 1935, y = 40, label = "Number of Josephs \n born each year") +
+  geom_text(x = 1915, y = 13, label =
+              "Number of Josephs \n born each year \n estimated to be alive \n on 1/1/2014",
+            colour = "#b2d7e9") +
+  geom_text(x = 2003, y = 40,
+            label = "The median \n living Joseph \n is 37 years old",
+            colour = "darkgray") +
+  geom_curve(x = 1995, xend = 1974, y = 40, yend = 24,
+             arrow = arrow(length = unit(0.3,"cm")), curvature = 0.5) + ylim(0, 42)
+```
+
+
+```{r}
+BabynamesDist <- make_babynames_dist()
+head(BabynamesDist, 15)
+Lillian <- filter(BabynamesDist, name == "Lillian" &  sex == "F")
+name_plot %+% Lillian 
+name_plot <- ggplot(data = Lillian, aes(x = year))
+name_plot <- name_plot +
+  geom_bar(aes(y = count_thousands * alive_prob),
+           stat = "identity", 
+           fill = "#b2d7e9", colour = "white")
+name_plot <- name_plot + geom_line(aes(y = count_thousands), size = 2) 
+name_plot <- name_plot +
+  ylab("Number of People (thousands)") + xlab(NULL)
+name_plot
+median_yob <-
+  with(Lillian, wtd.quantile(year, est_alive_today, probs = 0.5))
+median_yob
+name_plot <- name_plot +
+  geom_bar(stat = "identity", colour = "white", fill = "#008fd5",
+           aes(y = ifelse(year == median_yob, est_alive_today / 1000, 0)))
+name_plot +
+  ggtitle("Age Distribution of American Girls Named Lillian") +
+  geom_text(x = 1935, y = 19, label = "Number of Lillians \n born each year") +
+  geom_text(x = 1915, y = 14, label =
+              "Number of Lillians \n born each year \n estimated to be alive \n on 1/1/2014",
+            colour = "#b2d7e9") +
+  geom_text(x = 1995, y = 12,
+            label = "The median \n living Lillian \n is 46 years old",
+            colour = "darkgray") +
+  geom_curve(x = 1995, xend = 1966, y = 10, yend = 2,
+             arrow = arrow(length = unit(0.3,"cm")), curvature = 0.2) + ylim(0, 20)
+
+```
+
+```{r}
+df <- data.frame(Boston)
+
+head(df)
+dim(df)
+names(df)
+
+```
+
+```{r}
+hist(Boston$medv) 
+ggplot(df, aes(x = medv)) + 
+  geom_histogram(aes(y = ..density..), bins = 30,
+                 colour = "dark blue", fill = "light blue") +
+  geom_density(lwd = 1.2,
+               linetype = 1,
+               colour = "black") +
+  ggtitle("Histogram of Median House Values") +
+  xlab("Median House Value (in $1000)") +
+  ylab("Density")
+```
+
+```{r}
+hist(Boston$rm) 
+ggplot(df, aes(x = rm)) + 
+  geom_histogram(aes(y = ..density..), bins = 30,
+                 colour = "dark blue", fill = "light blue") +
+  geom_density(lwd = 1.2,
+               linetype = 1,
+               colour = "black") +
+  ggtitle("Histogram of Average Number of Rooms Per Drelling") +
+  xlab("Median Number of Rooms Per Drelling") +
+  ylab("Density")
+```
+
+```{r}
+plot(Boston)
+ggplot(df, aes(x = medv, y = rm)) + 
+  geom_point() + 
+  geom_smooth(formula = y ~ x, method = "loess") 
+```
+
+```{r}
+
+rm_cat = as.factor(round(Boston$rm))
+Boston2 <- data.frame(Boston$medv, rm_cat)
+head(Boston2)
+ggplot(Boston2, aes(rm_cat, Boston$medv)) +
+  geom_boxplot() 
+
+```
+

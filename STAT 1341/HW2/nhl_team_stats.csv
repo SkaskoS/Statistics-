@@ -1,0 +1,65 @@
+Season,Team,playoff_status,playoffs,age,GF,GA
+2022-23,Boston Bruins,Playoffs,1,29.5,301,174
+2022-23,Carolina Hurricanes,Playoffs,1,29.3,262,210
+2022-23,New Jersey Devils,Playoffs,1,26.7,289,222
+2022-23,Vegas Golden Knights,Playoffs,1,29.1,267,225
+2022-23,Toronto Maple Leafs,Playoffs,1,28.6,278,220
+2022-23,Colorado Avalanche,Playoffs,1,28.1,274,223
+2022-23,Edmonton Oilers,Playoffs,1,27.9,325,256
+2022-23,Dallas Stars,Playoffs,1,28.4,281,215
+2022-23,New York Rangers,Playoffs,1,27.7,273,216
+2022-23,Los Angeles Kings,Playoffs,1,28.7,274,254
+2022-23,Minnesota Wild,Playoffs,1,29.3,239,219
+2022-23,Seattle Kraken,Playoffs,1,29,289,252
+2022-23,Tampa Bay Lightning,Playoffs,1,29.9,280,252
+2022-23,Winnipeg Jets,Playoffs,1,28.7,246,224
+2022-23,Calgary Flames,No Playoffs,0,29.8,258,247
+2022-23,New York Islanders,Playoffs,1,29.3,242,217
+2022-23,Florida Panthers,Playoffs,1,28.7,288,272
+2022-23,Nashville Predators,No Playoffs,0,28.3,223,236
+2022-23,Buffalo Sabres,No Playoffs,0,26.1,293,297
+2022-23,Pittsburgh Penguins,No Playoffs,0,31,261,263
+2022-23,Ottawa Senators,No Playoffs,0,27.3,259,270
+2022-23,Vancouver Canucks,No Playoffs,0,27.3,270,296
+2022-23,St. Louis Blues,No Playoffs,0,29.3,260,298
+2022-23,Washington Capitals,No Playoffs,0,30.9,253,261
+2022-23,Detroit Red Wings,No Playoffs,0,27.3,237,275
+2022-23,Philadelphia Flyers,No Playoffs,0,26.8,220,276
+2022-23,Arizona Coyotes,No Playoffs,0,26.4,225,295
+2022-23,Montreal Canadiens,No Playoffs,0,27.3,227,305
+2022-23,San Jose Sharks,No Playoffs,0,29.4,233,315
+2022-23,Chicago Blackhawks,No Playoffs,0,28.7,202,299
+2022-23,Columbus Blue Jackets,No Playoffs,0,26.7,213,329
+2022-23,Anaheim Ducks,No Playoffs,0,28.2,206,335
+2021-22,Florida Panthers,Playoffs,1,27.8,337,242
+2021-22,Colorado Avalanche,Playoffs,1,28.2,308,232
+2021-22,Carolina Hurricanes,Playoffs,1,28.3,277,200
+2021-22,Toronto Maple Leafs,Playoffs,1,28.4,312,252
+2021-22,Minnesota Wild,Playoffs,1,29.4,305,249
+2021-22,Calgary Flames,Playoffs,1,28.8,291,206
+2021-22,Tampa Bay Lightning,Playoffs,1,29.6,285,228
+2021-22,New York Rangers,Playoffs,1,26.7,250,204
+2021-22,St. Louis Blues,Playoffs,1,28.8,309,239
+2021-22,Boston Bruins,Playoffs,1,28.5,253,218
+2021-22,Edmonton Oilers,Playoffs,1,29.1,285,251
+2021-22,Pittsburgh Penguins,Playoffs,1,29.7,269,222
+2021-22,Washington Capitals,Playoffs,1,29.5,270,242
+2021-22,Los Angeles Kings,Playoffs,1,28,235,232
+2021-22,Dallas Stars,Playoffs,1,29.4,233,244
+2021-22,Nashville Predators,Playoffs,1,27.7,262,250
+2021-22,Vegas Golden Knights,No Playoffs,0,28.5,262,244
+2021-22,Vancouver Canucks,No Playoffs,0,27.7,246,231
+2021-22,Winnipeg Jets,No Playoffs,0,28.2,250,253
+2021-22,New York Islanders,No Playoffs,0,30.1,229,231
+2021-22,Columbus Blue Jackets,No Playoffs,0,26.6,258,297
+2021-22,San Jose Sharks,No Playoffs,0,29,211,261
+2021-22,Anaheim Ducks,No Playoffs,0,27.9,228,266
+2021-22,Buffalo Sabres,No Playoffs,0,27.5,229,287
+2021-22,Detroit Red Wings,No Playoffs,0,26.9,227,310
+2021-22,Ottawa Senators,No Playoffs,0,26.6,224,264
+2021-22,Chicago Blackhawks,No Playoffs,0,28,213,289
+2021-22,New Jersey Devils,No Playoffs,0,25.8,245,302
+2021-22,Philadelphia Flyers,No Playoffs,0,28.3,210,294
+2021-22,Seattle Kraken,No Playoffs,0,28.7,213,284
+2021-22,Arizona Coyotes,No Playoffs,0,28,206,309
+2021-22,Montreal Canadiens,No Playoffs,0,27.8,218,317

@@ -1,0 +1,33 @@
+---
+title: "Homework 14"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+diet = read.csv("diet.csv")
+
+diet$exercise == ifelse(diet$method == "exercise", 1, 0)
+diet$both = ifelse(diet$method == "both", 1, 0)
+```
+
+Problem 1a
+
+```{r}
+model = lm(weight_lost ~ calories, data = diet)
+summary(model)
+```
+
+Problem 1c
+
+```{r}
+model1 = lm(weight_lost ~ calories + method, data = diet)
+summary(model1)
+
+model2 = lm(weight_lost ~ calories + age, data = diet)
+summary(model2)
+
+model3 = lm(weight_lost ~ calories + method + age, data = diet)
+summary(model3)
+```

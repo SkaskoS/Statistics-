@@ -1,0 +1,196 @@
+---
+title: "Homework 6"
+output:
+  html_document:
+    df_print: paged
+---
+
+Read in data
+
+```{r}
+nba_scores <- read.csv("nba_scores.csv")
+epl_scores <- read.csv("epl_scores.csv")
+nfl_scoring <- read.csv("nfl_scoring.csv")
+
+```
+
+Problem 1a
+
+```{r}
+hist(nba_scores$home_score, main = "Home Score")
+mean(nba_scores$home_score)
+sd(nba_scores$home_score)
+
+hist(nba_scores$away_score, main = "Away Score")
+mean(nba_scores$away_score)
+sd(nba_scores$away_score)
+
+```
+
+Problem 1c
+
+```{r}
+plot(nba_scores$home_score, nba_scores$away_score, main = "Scatter Plot of Home Scores vs. Away Scores", xlab = "Home Score", ylab = "Away Score",  pch = 16)
+
+cor(nba_scores$home_score, nba_scores$away_score)
+```
+
+Problem 1f
+
+```{r}
+score_differential <- nba_scores$home_score - nba_scores$away_score
+hist(score_differential, main = "Histogram of Score Differential")
+mean(score_differential)
+sd(score_differential)
+```
+
+Problem 1g
+
+```{r}
+qqnorm(score_differential, main = "Normal Probability Plot of Score Differential")
+qqline(score_differential)
+shapiro.test(score_differential)
+
+```
+
+Problem 1i
+
+```{r}
+mean(nba_scores$home_score > 110 & nba_scores$away_score < 105)
+```
+
+Problem 2a
+
+```{r}
+table(epl_scores$home_score)
+table(epl_scores$away_score)
+
+mean(epl_scores$home_score)
+sd(epl_scores$home_score)
+
+mean(epl_scores$away_score)
+sd(epl_scores$away_score)
+```
+
+Problem 2b
+
+```{r}
+mean_home <- mean(epl_scores$home_score)
+
+# error fix length is not a multiple of shorter object length
+scores <- length(epl_scores$home_score) 
+
+exp_home = dpois(c(0:5), mean_home) * scores
+exp_home
+
+```
+
+Problem 2c
+
+```{r}
+truncated <- table(epl_scores$home_score)[1:7]
+mean_home <- mean(epl_scores$home_score)
+scores <- length(epl_scores$home_score) 
+exp_home <- dpois(c(1:7), mean_home) * scores
+chi <- sum((truncated - exp_home)^2 / exp_home)
+chi
+
+# degrees of number of degrees − 1
+p_val <- pchisq(chi, length(truncated)-1, lower.tail = FALSE)
+p_val
+
+
+```
+
+Problem 2d
+
+```{r}
+truncated <- table(epl_scores$away_score)[1:5]
+mean_home <- mean(epl_scores$away_score)
+scores <- length(epl_scores$away_score) 
+exp_home <- dpois(c(1:5), mean_home) * scores
+chi <- sum((truncated - exp_home)^2 / exp_home)
+chi
+
+# degrees of number of degrees − 1
+p_val <- pchisq(chi, length(truncated)-1, lower.tail = FALSE)
+p_val
+
+
+```
+
+Problem 2f
+
+```{r}
+scoreline_distribution <- table(epl_scores$home_score, epl_scores$away_score) / nrow(epl_scores)
+scoreline_distribution
+```
+
+Problem 2g
+
+```{r}
+proportion <- sum(epl_scores$home_score == 2 & epl_scores$away_score == 1) / nrow(epl_scores)
+proportion
+```
+
+Problem 3a
+
+```{r}
+
+
+first_season = 2018
+last_season = 2022
+
+season <- nfl_scoring[which(nfl_scoring$season >= first_season & nfl_scoring$season <= last_season & nfl_scoring$wins > 0 & nfl_scoring$losses > 0), ]
+
+
+model <- lm(log(wins/games) ~ 0 + log(scored - allowed), data = season)
+summary(model)
+
+```
+
+Problem 3b
+
+```{r}
+nfl_scoring$wpct <- nfl_scoring$wins / (nfl_scoring$wins + nfl_scoring$losses)
+nfl_scoring$pyth_wpct <- nfl_scoring$scored^2 / (nfl_scoring$scored^2 + nfl_scoring$allowed^2)
+nfl_scoring$error1 <- nfl_scoring$wpct - nfl_scoring$pyth_wpct
+
+hist(nfl_scoring$wpct, xlab = "Winning Percentage", main = "Histogram of Winning Percentages")
+hist(nfl_scoring$pyth_wpct, xlab = "Pythagorean Winning Percentage", main = "Histogram of Pythagorean Winning Percentages")
+hist(nfl_scoring$error1, xlab = "Error", main = "Histogram of Errors")
+```
+
+Problem 3c
+
+```{r}
+plot(nfl_scoring$pyth_wpct, nfl_scoring$wpct, xlab = "Pythagorean Winning Percentage", ylab = "Actual Winning Percentage", pch = 19)
+abline(a = 0, b = 1)
+
+cor(nfl_scoring$pyth_wpct, nfl_scoring$wpct)
+```
+
+Problem 3g
+
+```{r}
+nfl_scoring$close_pyth_wpct <- (nfl_scoring$scored^2 + nfl_scoring$close_wins) / ((nfl_scoring$scored^2 + nfl_scoring$allowed^2) + nfl_scoring$close_games)
+nfl_scoring$error_close <- nfl_scoring$wpct - nfl_scoring$close_pyth_wpct
+
+hist(nfl_scoring$close_pyth_wpct, xlab = "Close Pythagorean Winning Percentage", main = "Histogram of Close Pythagorean Winning Percentages")
+hist(nfl_scoring$error_close, xlab = "Error", main = "Histogram of Errors for Close Pythagorean Winning Percentages")
+
+plot(nfl_scoring$close_pyth_wpct, nfl_scoring$wpct, xlab = "Close Pythagorean Win Percentage", ylab = "Actual Winning Percentage",  pch = 19)
+
+cor(nfl_scoring$close_pyth_wpct, nfl_scoring$wpct)
+```
+
+Problem 3h
+
+```{r}
+library(Metrics)
+
+mae(nfl_scoring$pyth_wpct, nfl_scoring$wpct)
+mae(nfl_scoring$close_pyth_wpct, nfl_scoring$wpct)
+```
+
+

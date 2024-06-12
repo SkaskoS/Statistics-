@@ -1,0 +1,45 @@
+---
+title: "Homework 4"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+election <- read.csv("election.csv")
+```
+
+Problem 1c
+
+```{r}
+plot(election$growth, election$vote_pct, pch = 19,  xlab ="GDP Growth", ylab = "Incumbent Vote Percentage")
+```
+
+Problem 1d
+
+```{r}
+model <- lm(vote_pct ~ growth, data = election)
+summary(model)
+model$coefficients #lets you find the Linear Regression Equation model easier to look at
+
+```
+
+Problem 1e
+
+```{r}
+library(ggpubr)
+
+election$residuals = residuals(model)
+hist(election$residuals, xlab = "Residual", main = "Election Residual")
+ggdensity(election$residuals) #show normality easier 
+```
+
+Problem 1f
+
+```{r}
+election$predicted = predict(model)
+plot(election$predicted, election$residuals, pch = 19,
+        xlab = "Predicted Value", ylab = "Residual")
+abline(a=0, b=0)
+
+```

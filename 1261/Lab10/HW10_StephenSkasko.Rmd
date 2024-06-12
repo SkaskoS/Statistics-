@@ -1,0 +1,179 @@
+---
+title: "HW10_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+library(tidyverse)
+library(factoextra)
+library(cluster)
+
+
+
+
+country = read_csv("Country-data.csv",show_col_types = FALSE)
+
+dim(country)
+sum(is.na(country))
+glimpse(country)
+
+
+country_pc = country %>% 
+  select(-country) %>% 
+  prcomp(scale=TRUE)
+
+country_pc = country %>% 
+  select(-country) %>% 
+  prcomp(scale=TRUE)
+
+country_pc$x %>% 
+  as_tibble() %>%
+  select(PC1, PC2) %>% 
+  ggplot(aes(x= PC1, y=PC2)) +
+  geom_point()
+
+country
+
+```
+
+```{r}
+#1
+
+
+country_pc = country %>% 
+  select(-country) %>% 
+  prcomp(scale=TRUE) 
+country_pc
+
+# Calculate proportions of variance explained for all of the 9 principal components. Shows the vector of proportions
+pr.var <- country_pc$sdev^2
+pve <- pr.var[1:9]/sum(pr.var)
+pve
+
+
+```
+```{r}
+#2
+
+# Create the scree plot. Where is the elbow? 
+PC=1:9
+data=data.frame(PC, pve)
+
+ggplot(data=data, aes(x=PC, y=pve))+
+  geom_line(color="navy")+
+  geom_point(aes(x=6,y=0.023127004),cex=5,color="orange",alpha=0.3)+
+  geom_point(color="red",cex=2)+
+  labs(title="Proportion of Variance Explained", x="Principal Component",y="pve")+
+  scale_x_continuous(breaks = 1:9)
+
+#The drop is known as the elbow of the scree plot, which is 6
+```
+```{r}
+#3 Create the plot for the cumulative proportions of variance explained
+ggplot(data=data, aes(x=PC, y=cumsum(pve)))+
+  geom_hline(aes(yintercept=0.9),lty=2,color="purple",linewidth=1, alpha=0.5)+
+  geom_line(color="navy")+
+  geom_point(color="red",cex=2)+
+  labs(title="Cumulative Proportion of Variance Explained", 
+       x="Principal Component",
+       y="cumulative pve")+
+  scale_x_continuous(breaks = 1:9)
+
+print(round(cumsum(pve),9))
+
+```
+```{r}
+country_s = scale(country[,-1])
+head(country_s, 3)
+
+fviz_nbclust(country_s, kmeans, method="gap_stat")
+
+```
+```{r}
+#4 Extract the first 4 principal components from country_pc$x and use them to find the optimal number of k.
+n <- country_pc$x[, 1:4]
+n
+
+fviz_nbclust(n, kmeans, method="gap_stat")
+
+
+
+```
+```{r}
+#5 The clustered green and red show that the difference was 99 and 134 to the red from the green 
+
+# PAM Methods
+km_mod = kmeans(country_s, centers=3)
+
+fviz_cluster(km_mod, data = country_s)
+
+pam_mod = pam(country_s, 3)
+fviz_cluster(pam_mod, data = country_s)
+
+```
+```{r}
+country_pam = country %>% mutate(cluster=factor(pam_mod$cluster))
+
+boxplot(income~cluster,data=country_pam, horizontal=T)
+
+```
+
+
+```{r}
+#6 Create a boxplot to compare the GDP per capita (gdpp) for the three clusters:
+country_pam = country %>% mutate(cluster=factor(pam_mod$cluster))
+
+boxplot(income~cluster,data=country_pam, horizontal=T)
+
+
+boxplot(gdpp~cluster, data=country_pam, horizontal=T) #three clusters vs four
+
+
+```
+```{r}
+boxplot(child_mort~cluster,data=country_pam, horizontal=T)
+```
+
+
+```{r}
+#7 Calculate the median life expectancy for the three clusters.
+
+
+
+tapply(country_pam$life_expec, country_pam$cluster, median)
+
+
+          
+```
+
+```{r}
+country_pam[country_pam$cluster==1,]$country
+
+country_dend = country_s %>% dist(method="euclidean") %>% 
+  hclust(method="ward.D2")
+plot(country_dend, axes=F, xlab=NULL, ylab=NULL, cex=0.5)
+
+row.names(country_s) <- country$country
+country_dend = country_s %>% dist(method="euclidean") %>% 
+  hclust(method="ward.D2")
+
+library(ggdendro)
+ggdendrogram(country_dend, rotate = TRUE)+
+  labs(x="", y="")
+
+library(ape)
+colors = c("#1f77b4", "#ff7f0e", "#2ca02c")
+clus3 = cutree(country_dend, 3)
+plot(as.phylo(country_dend), type="fan", cex=0.5, no.margin=TRUE, tip.color = colors[clus3])
+
+
+```
+
+```{r, fig.height=24}
+#8, making the figure height bigger always us to make the plot longer and the labels will be visible to us 
+plot(as.phylo(country_dend), type = "cladogram", cex = 0.5, 
+     label.offset = 0.2)
+```
+

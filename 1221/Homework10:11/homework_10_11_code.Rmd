@@ -1,0 +1,78 @@
+---
+title: "Homework 10-11 Code"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+concrete = read.csv("concrete.csv")
+```
+
+Problem 1a
+
+```{r}
+model <- lm(strength ~ cement + water + superplasticizer, data = concrete)
+summary(model)
+```
+
+Problem 1c
+
+```{r}
+lev = read.table("concrete.csv", header = TRUE, sep = ',')
+modelc = lm(strength ~ cement + water + superplasticizer, data = concrete)
+lev$leverage = hatvalues(model)
+plot(lev$leverage, type = "h", xlab = "Strength", ylab = "Leverage")
+abline(a = 8/44, b = 0)
+```
+
+Problem 1e
+
+```{r}
+require(MASS)
+
+modele = lm(strength ~ cement + water + superplasticizer, data = concrete)
+
+concrete$pred = predict(modele)
+concrete$residual = residuals(modele)
+concrete$stand_res = residuals(modele)/sigma(modele)
+concrete$stud_res = stdres(modele)
+concrete$jackknife = rstudent(modele)
+
+plot(concrete$pred, concrete$jackknife, pch = 19, xlab = "Predicted Strength", 
+     ylab = "Jackknife Residual")
+abline(a = 0, b = 0)
+
+```
+
+Problem 1f
+
+```{r}
+qqnorm(concrete$jackknife, pch = 19)
+qqline(concrete$jackknife)
+```
+
+Problem 1g
+
+```{r}
+shapiro.test(concrete$jackknife)
+```
+
+Problem 1m
+
+```{r}
+concrete$cook = cooks.distance(model)
+cookob <- data.frame(concrete$cook)
+
+plot(concrete$cook, xlab = "Observation", ylab = "Cook's Distance", type = "h")
+abline( a = 4/44, b = 0)
+```
+
+Problem 1o
+
+```{r}
+concrete$inf_pt = ifelse(concrete$cook > 4/44, 1, 0)
+s = concrete[which(concrete$inf_pt == 0), ]
+mode12 = lm(strength ~ cement + water + superplasticizer, data = s)
+summary(mode12)
+```

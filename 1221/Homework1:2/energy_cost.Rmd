@@ -1,0 +1,53 @@
+---
+title: "Homework 1-2"
+author: "Stephen Skasko"
+---
+
+Read in data for energy cost
+
+```{r}
+energy = read.csv("energy_cost.csv", header=TRUE, sep=",")
+
+
+```
+
+Problem 3g
+
+```{r}
+hist(energy$cost, xlab = "Monthly Energy Bills")
+```
+
+Problem 3h
+
+```{r}
+boxplot(energy$cost, xlab = "Monthly Energy Bills")
+
+```
+
+Problem 3i
+
+```{r}
+mean(energy$cost)
+sd(energy$cost)
+summary(energy$cost)
+nrow(energy)
+
+```
+
+Problem 3n
+
+```{r}
+qt(0.025, 29)
+```
+
+Problem 3q: Critical value
+
+```{r}
+qt(0.95, 29)
+```
+
+Problem 3q: P-value
+
+```{r}
+pt(-2.87, 29)
+```

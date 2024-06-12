@@ -1,0 +1,137 @@
+---
+title: "HW7_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+#1
+library(tidyr)
+library(ggplot2)
+library(dplyr)
+
+#install.packages("OpenMx")
+library(OpenMx)
+data(twinData)
+twinData <- as_tibble(twinData)
+twinData
+ggplot(twinData, aes(ht1, ht2)) +
+  geom_point() 
+#The impression shows us that the ht1 and ht2 are very closely related in the scatter plot with close points
+
+```
+```{r}
+#2
+data(twinData)
+twinData <- as_tibble(twinData)
+twinData
+ggplot(twinData, aes(ht1, ht2)) +
+  geom_point() +
+  facet_grid(cohort ~ zygosity)
+#3
+#Looking closely at these with facet, we can see that the data is indeed very close in relation to one another between the cohort and zygosity.  
+```
+
+```{r}
+#4
+library(broom)
+twinData %>%
+group_by(cohort,zygosity) %>%
+do(tidy( cor.test(~ ht1 + ht2, alternative = "greater" , data = . ))) %>%
+    arrange(desc(estimate)) 
+
+cor_result <- cor.test(~ ht1 + ht2, data = twinData)
+tidy_cor_result <- tidy(cor_result)
+tidy_cor_result
+
+
+```
+```{r}
+#5
+library(broom)
+sig_twin_cor <- twinData %>%
+  group_by(cohort,zygosity) %>%
+  do(tidy( cor.test(~ ht1 + ht2, alternative = "greater" , data = . )))  %>%
+  mutate(sig = ifelse(conf.low > 0.5, 1, 0))
+sig_twin_cor
+
+
+```
+
+
+
+```{r}
+#6
+sig_twin_cor <- twinData %>%
+  group_by(cohort,zygosity) %>%
+  do(tidy( cor.test(~ ht1 + ht2, alternative = "greater" , data = . )))  %>%
+  mutate(sig = ifelse(conf.low > 0.5, 1, 0)) %>%
+  filter(sig == 1) %>%
+  select(cohort, zygosity)
+sig_twin_cor
+
+```
+```{r}
+#7
+
+
+new <- full_join(twinData, sig_twin_cor) %>%
+  group_by(cohort, zygosity)
+new
+
+new$var <- ifelse((new$cohort == 'younger' & new$zygosity == 'MZMM') |   
+                  (new$cohort == 'older' & new$zygosity == 'MZFF') |   
+                  (new$cohort == 'younger' & new$zygosity == 'DZFF') |   
+                  (new$cohort == 'older' & new$zygosity == 'MZMM'), 1, 0)
+
+
+ggplot(new, aes(ht1, ht2)) +
+  geom_point(aes(color = var)) +
+  facet_grid(cohort ~ zygosity)
+
+```
+
+```{r}
+#8
+library(tidyverse)
+data(twinData)
+  
+  twinData %>%
+    gather(order, height, ht1, ht2) %>%
+    ggplot(aes(x = order, y = height)) +
+    geom_boxplot() +
+    facet_grid(cohort ~ zygosity)
+
+```
+
+
+```{r}
+#9
+library(tidyverse)
+data(twinData)
+
+twin_t <- 
+  twinData %>% 
+  select(cohort, zygosity, ht1, ht2) %>% 
+  group_by(cohort,zygosity) %>%
+  do(tidy(t.test(.$ht1, .$ht2, paired = TRUE))) 
+twin_t
+
+
+new <- full_join(twinData, twin_t) %>%
+  group_by(cohort, zygosity)
+new
+
+new$var <- ifelse((new$cohort == 'younger' & new$zygosity == 'MZMM') |   
+                  (new$cohort == 'older' & new$zygosity == 'MZFF') |   
+                  (new$cohort == 'younger' & new$zygosity == 'DZFF') |   
+                  (new$cohort == 'older' & new$zygosity == 'MZMM'), 1, 0)
+  new %>%
+    mutate(sig = ifelse(conf.low > 0.5, 1, 0)) %>%
+    gather(order, height, ht1, ht2) %>%
+    ggplot(aes(x = order, y = height)) +
+    geom_boxplot(aes(color = var)) +
+    facet_grid(cohort ~ zygosity)
+```
+

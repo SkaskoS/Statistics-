@@ -1,0 +1,26 @@
+---
+title: "Homework 8"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+concete = read.csv("concrete.csv")
+concete
+```
+
+Problem 2a
+
+```{r}
+model = lm(strength ~ cement, data = concete)
+anova(model)
+```
+
+Problem 2c
+
+```{r}
+model2 = lm(strength ~ cement + water, data = concete)
+anova(model2)
+
+```

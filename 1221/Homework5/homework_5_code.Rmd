@@ -1,0 +1,22 @@
+---
+title: "Homework 5"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+election <- read.csv("election.csv")
+```
+
+Problem 1a
+
+```{r}
+model <- lm(vote_pct ~ growth, data = election)
+summary(model)
+anova(model)
+
+
+2*pt(-43.752, 22)
+
+```

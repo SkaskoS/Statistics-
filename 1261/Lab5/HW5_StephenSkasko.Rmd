@@ -1,0 +1,82 @@
+---
+title: "HW5_StephenSkasko"
+output: 
+  html_document:
+    toc: TRUE
+---
+
+```{r}
+library(tidyverse)
+
+pew <- tbl_df(read.csv("pew.csv", stringsAsFactors = FALSE,
+                       check.names = FALSE)) 
+gather(pew,  income, frequency, -religion) # - moves to first column
+
+```
+
+
+```{r}
+table1
+table2
+table3
+table4a
+table4b
+table5
+```
+
+
+```{r}
+#2
+tidy4b <- table4b %>%
+  gather(key="year", value="population", -country)
+tidy4b
+  
+```
+
+```{r}
+#3
+tidy4a <- table4a %>%
+  gather(key="year", value="cases", -country)
+tidy4a
+
+
+table1 <- left_join(tidy4a, tidy4b) %>%
+arrange(table1, country)
+table1
+
+
+```
+```{r}
+#4 
+stocks <- tibble(
+  year   = c(2015, 2015, 2016, 2016),
+  half  = c(   1,    2,     1,    2),
+  return = c(1.88, 0.59, 0.92, 0.17)
+)
+stocks
+
+spread(stocks, year, return)
+
+```
+```{r}
+pregnant <- tribble(
+  ~pregnant, ~male, ~female,
+  "yes",     NA,    10,
+  "no",      20,    12
+)
+pregnant %>%
+  gather(key='gender', value='value', -pregnant)
+pregnant
+#variables are values in the gender columns
+```
+```{r}
+#6
+table5 %>% 
+  unite(new, century, year, sep = "") %>%
+
+  separate(rate,  into=c('cases','population')) %>%
+  separate(new, into = c('year'))
+
+
+```
+

@@ -1,0 +1,66 @@
+---
+title: "Homework 13"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+marijuana <- read.csv("marijuana.csv")
+marijuana
+```
+
+Problem 1a
+
+```{r}
+colors = c("blue", "red")
+
+plot(marijuana$alcohol, marijuana$marijuana, 
+     main="Marijuana Recreationally vs. Alcohol Consumed Per Year ", 
+     xlab="Alcohol Consumed Per Year", 
+     ylab="Adults Using Marijuana Recreationally", 
+     pch=19, 
+     col = colors[factor(marijuana$recreational)])
+legend("topleft", 
+       legend = c("Not Legal", "Legal"), 
+       pch = 19, 
+       col = colors)
+
+```
+
+Problem 1c
+
+```{r}
+marijuana$legal = ifelse(marijuana$recreational == "No", 0, 1)
+table <- table(marijuana$legal)
+print(table)
+
+```
+
+Problem 1d
+
+```{r}
+full_model <- lm(marijuana ~ alcohol + legal + alcohol*legal, data = marijuana)
+reduced_model <- lm(marijuana ~ alcohol, data = marijuana)
+
+anova(full_model)
+anova(reduced_model)
+
+```
+
+Problem 1f
+
+```{r}
+full_model <- lm(marijuana ~ alcohol + legal + alcohol*legal, data = marijuana)
+reduced_model <- lm(marijuana ~ alcohol + legal, data = marijuana)
+
+anova(full_model)
+anova(reduced_model)
+```
+
+Problem 1i
+
+```{r}
+model <- lm(marijuana ~ alcohol + legal + alcohol*legal, data = marijuana)
+summary(model)
+```

@@ -1,0 +1,18 @@
+---
+title: "Homework 7"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+concrete <- read.csv("concrete.csv")
+concrete
+```
+
+Problem 2a
+```{r}
+model <- lm(strength ~ cement + water + superplasticizer + coarse + fine, data = concrete)
+anova(model)
+```
+

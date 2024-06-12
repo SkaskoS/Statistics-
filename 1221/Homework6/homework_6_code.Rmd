@@ -1,0 +1,24 @@
+---
+title: "Homework 6"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+election <- read.csv("election.csv")
+```
+
+Problem 1e
+
+```{r}
+model <- lm(vote_pct ~ growth, data = election)
+summary(model)
+```
+
+Problem 1f
+
+```{r}
+mean(election$growth)
+sd(election$growth)
+```

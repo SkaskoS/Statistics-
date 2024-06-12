@@ -1,0 +1,74 @@
+---
+title: "Homework 16 Solutions"
+author: 'Stephen Skasko'
+---
+
+Read in data
+
+```{r}
+library(ggplot2)
+snails <- read.csv("snails.csv")
+snails
+```
+
+Part 1a
+
+```{r}
+ggplot(snails, aes(x = length, y = weight)) +
+  geom_point()
+```
+
+Part 1b
+
+```{r}
+model <- lm(weight ~ length, data = snails)
+summary(model)
+
+```
+
+Part 1c
+
+```{r}
+snails$predicted <- predict(model)
+snails$residuals <- rstudent(model)
+
+ggplot(snails, aes(x = predicted, y = residuals)) +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "blue")
+
+ggplot(snails, aes(sample = residuals)) +
+  stat_qq() +
+  stat_qq_line()
+```
+
+Part 1f
+
+```{r}
+snails$log_weight <- log(snails$weight)
+ggplot(snails, aes(x = length, y = log_weight)) +
+  geom_point()
+
+```
+
+Part 1g
+
+```{r}
+model2 <- lm(log_weight ~ length, data = snails)
+summary(model2)
+```
+
+Part 1h
+
+```{r}
+snails$predicted_log <- predict(model2)
+snails$residuals_log <- rstudent(model2)
+
+ggplot(snails, aes(x = predicted_log, y = residuals_log)) +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "blue")
+
+ggplot(snails, aes(sample = residuals_log)) +
+  stat_qq() +
+  stat_qq_line()
+
+```

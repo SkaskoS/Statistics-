@@ -1,0 +1,45 @@
+---
+title: "Homework 3"
+author: "Stephen Skasko"
+---
+
+Read in data
+
+```{r}
+election = read.csv("election.csv")
+election
+
+```
+
+Problem 2a
+
+```{r}
+cor(election$growth, election$vote_pct)
+```
+
+Problem 2b
+
+```{r}
+model = lm(vote_pct ~ growth, data = election)
+summary(model)
+```
+
+Problem 2c
+
+```{r}
+plot(election$growth, election$vote_pct, pch = 19,  xlab ="GDP Growth", ylab = "Incumbent Vote Percentage")
+abline(model, col="steelblue")
+```
+
+Problem 2d
+
+```{r}
+df = as.data.frame(c(1,2,3,4,5))
+
+colnames(df) = "growth"
+
+df$vote_pct = predict(model, df)
+print(df)
+
+```
+
